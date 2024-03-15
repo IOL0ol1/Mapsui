@@ -36304,6 +36304,19 @@ references:
   commentId: T:Mapsui.UI.Wpf.MapControl
   fullName: Mapsui.UI.Wpf.MapControl
   nameWithType: MapControl
+- uid: Mapsui.UI.Wpf.MapControl.#ctor
+  name: MapControl()
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor
+  commentId: M:Mapsui.UI.Wpf.MapControl.#ctor
+  fullName: Mapsui.UI.Wpf.MapControl.MapControl()
+  nameWithType: MapControl.MapControl()
+- uid: Mapsui.UI.Wpf.MapControl.#ctor*
+  name: MapControl
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.#ctor
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.MapControl
+  nameWithType: MapControl.MapControl
 - uid: Mapsui.UI.Wpf.MapControl.CallHomeIfNeeded
   name: CallHomeIfNeeded()
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_CallHomeIfNeeded
@@ -36317,6 +36330,37 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.CallHomeIfNeeded
   nameWithType: MapControl.CallHomeIfNeeded
+- uid: Mapsui.UI.Wpf.MapControl.Dispose
+  name: Dispose()
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose
+  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose()
+  nameWithType: MapControl.Dispose()
+- uid: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_System_Boolean_
+  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  nameWithType: MapControl.Dispose(Boolean)
+- uid: Mapsui.UI.Wpf.MapControl.Dispose*
+  name: Dispose
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.Dispose
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose
+  nameWithType: MapControl.Dispose
+- uid: Mapsui.UI.Wpf.MapControl.FeatureInfo
+  name: FeatureInfo
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_FeatureInfo
+  commentId: E:Mapsui.UI.Wpf.MapControl.FeatureInfo
+  fullName: Mapsui.UI.Wpf.MapControl.FeatureInfo
+  nameWithType: MapControl.FeatureInfo
+- uid: Mapsui.UI.Wpf.MapControl.Fling
+  name: Fling
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Fling
+  commentId: E:Mapsui.UI.Wpf.MapControl.Fling
+  fullName: Mapsui.UI.Wpf.MapControl.Fling
+  nameWithType: MapControl.Fling
 - uid: Mapsui.UI.Wpf.MapControl.ForceUpdate
   name: ForceUpdate()
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ForceUpdate
@@ -36391,6 +36435,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.OnPropertyChanged
   nameWithType: MapControl.OnPropertyChanged
+- uid: Mapsui.UI.Wpf.MapControl.OpenBrowser(System.String)
+  name: OpenBrowser(String)
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenBrowser_System_String_
+  commentId: M:Mapsui.UI.Wpf.MapControl.OpenBrowser(System.String)
+  fullName: Mapsui.UI.Wpf.MapControl.OpenBrowser(System.String)
+  nameWithType: MapControl.OpenBrowser(String)
+- uid: Mapsui.UI.Wpf.MapControl.OpenBrowser*
+  name: OpenBrowser
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenBrowser_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.OpenBrowser
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.OpenBrowser
+  nameWithType: MapControl.OpenBrowser
 - uid: Mapsui.UI.Wpf.MapControl.Performance
   name: Performance
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Performance
@@ -36488,6 +36545,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.ReSnapRotationDegrees
   nameWithType: MapControl.ReSnapRotationDegrees
+- uid: Mapsui.UI.Wpf.MapControl.ShiftPressed
+  name: ShiftPressed
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ShiftPressed
+  commentId: P:Mapsui.UI.Wpf.MapControl.ShiftPressed
+  fullName: Mapsui.UI.Wpf.MapControl.ShiftPressed
+  nameWithType: MapControl.ShiftPressed
+- uid: Mapsui.UI.Wpf.MapControl.ShiftPressed*
+  name: ShiftPressed
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ShiftPressed_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.ShiftPressed
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.ShiftPressed
+  nameWithType: MapControl.ShiftPressed
 - uid: Mapsui.UI.Wpf.MapControl.StartUpdates(System.Boolean)
   name: StartUpdates(Boolean)
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_StartUpdates_System_Boolean_
@@ -36579,6 +36649,32 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.UpdateInterval
   nameWithType: MapControl.UpdateInterval
+- uid: Mapsui.UI.Wpf.MapControl.WpfCanvas
+  name: WpfCanvas
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_WpfCanvas
+  commentId: P:Mapsui.UI.Wpf.MapControl.WpfCanvas
+  fullName: Mapsui.UI.Wpf.MapControl.WpfCanvas
+  nameWithType: MapControl.WpfCanvas
+- uid: Mapsui.UI.Wpf.MapControl.WpfCanvas*
+  name: WpfCanvas
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_WpfCanvas_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.WpfCanvas
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.WpfCanvas
+  nameWithType: MapControl.WpfCanvas
+- uid: Mapsui.UI.Wpf.MapControl.ZoomToBox(Mapsui.MPoint,Mapsui.MPoint)
+  name: ZoomToBox(MPoint, MPoint)
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ZoomToBox_Mapsui_MPoint_Mapsui_MPoint_
+  commentId: M:Mapsui.UI.Wpf.MapControl.ZoomToBox(Mapsui.MPoint,Mapsui.MPoint)
+  fullName: Mapsui.UI.Wpf.MapControl.ZoomToBox(Mapsui.MPoint, Mapsui.MPoint)
+  nameWithType: MapControl.ZoomToBox(MPoint, MPoint)
+- uid: Mapsui.UI.Wpf.MapControl.ZoomToBox*
+  name: ZoomToBox
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ZoomToBox_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.ZoomToBox
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.ZoomToBox
+  nameWithType: MapControl.ZoomToBox
 - uid: Mapsui.UI.ZoomDirection
   name: ZoomDirection
   href: api/Mapsui.UI.ZoomDirection.html
