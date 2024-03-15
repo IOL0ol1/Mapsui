@@ -31246,11 +31246,11 @@ references:
   commentId: T:Mapsui.UI.HoveredEventArgs
   fullName: Mapsui.UI.HoveredEventArgs
   nameWithType: HoveredEventArgs
-- uid: Mapsui.UI.HoveredEventArgs.#ctor(MPoint)
+- uid: Mapsui.UI.HoveredEventArgs.#ctor(Mapsui.MPoint)
   name: HoveredEventArgs(MPoint)
-  href: api/Mapsui.UI.HoveredEventArgs.html#Mapsui_UI_HoveredEventArgs__ctor_MPoint_
-  commentId: M:Mapsui.UI.HoveredEventArgs.#ctor(MPoint)
-  fullName: Mapsui.UI.HoveredEventArgs.HoveredEventArgs(MPoint)
+  href: api/Mapsui.UI.HoveredEventArgs.html#Mapsui_UI_HoveredEventArgs__ctor_Mapsui_MPoint_
+  commentId: M:Mapsui.UI.HoveredEventArgs.#ctor(Mapsui.MPoint)
+  fullName: Mapsui.UI.HoveredEventArgs.HoveredEventArgs(Mapsui.MPoint)
   nameWithType: HoveredEventArgs.HoveredEventArgs(MPoint)
 - uid: Mapsui.UI.HoveredEventArgs.#ctor*
   name: HoveredEventArgs
@@ -35080,17 +35080,17 @@ references:
   commentId: T:Mapsui.UI.Objects.MyLocationLayer
   fullName: Mapsui.UI.Objects.MyLocationLayer
   nameWithType: MyLocationLayer
-- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView,Mapsui.UI.Forms.Position)
+- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView,Mapsui.UI.Maui.Position)
   name: MyLocationLayer(MapView, Position)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Forms_MapView_Mapsui_UI_Forms_Position_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView,Mapsui.UI.Forms.Position)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Forms.MapView, Mapsui.UI.Forms.Position)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Maui_MapView_Mapsui_UI_Maui_Position_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView,Mapsui.UI.Maui.Position)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Maui.MapView, Mapsui.UI.Maui.Position)
   nameWithType: MyLocationLayer.MyLocationLayer(MapView, Position)
-- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView)
+- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView)
   name: MyLocationLayer(MapView)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Forms_MapView_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Forms.MapView)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Maui_MapView_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Maui.MapView)
   nameWithType: MyLocationLayer.MyLocationLayer(MapView)
 - uid: Mapsui.UI.Objects.MyLocationLayer.#ctor*
   name: MyLocationLayer
@@ -35235,11 +35235,11 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyDirection
   nameWithType: MyLocationLayer.UpdateMyDirection
-- uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position,System.Boolean)
+- uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position,System.Boolean)
   name: UpdateMyLocation(Position, Boolean)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer_UpdateMyLocation_Mapsui_UI_Forms_Position_System_Boolean_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position,System.Boolean)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position, System.Boolean)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer_UpdateMyLocation_Mapsui_UI_Maui_Position_System_Boolean_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position,System.Boolean)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position, System.Boolean)
   nameWithType: MyLocationLayer.UpdateMyLocation(Position, Boolean)
 - uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation*
   name: UpdateMyLocation
@@ -35351,11 +35351,11 @@ references:
   commentId: T:Mapsui.UI.TappedEventArgs
   fullName: Mapsui.UI.TappedEventArgs
   nameWithType: TappedEventArgs
-- uid: Mapsui.UI.TappedEventArgs.#ctor(MPoint,System.Int32)
+- uid: Mapsui.UI.TappedEventArgs.#ctor(Mapsui.MPoint,System.Int32)
   name: TappedEventArgs(MPoint, Int32)
-  href: api/Mapsui.UI.TappedEventArgs.html#Mapsui_UI_TappedEventArgs__ctor_MPoint_System_Int32_
-  commentId: M:Mapsui.UI.TappedEventArgs.#ctor(MPoint,System.Int32)
-  fullName: Mapsui.UI.TappedEventArgs.TappedEventArgs(MPoint, System.Int32)
+  href: api/Mapsui.UI.TappedEventArgs.html#Mapsui_UI_TappedEventArgs__ctor_Mapsui_MPoint_System_Int32_
+  commentId: M:Mapsui.UI.TappedEventArgs.#ctor(Mapsui.MPoint,System.Int32)
+  fullName: Mapsui.UI.TappedEventArgs.TappedEventArgs(Mapsui.MPoint, System.Int32)
   nameWithType: TappedEventArgs.TappedEventArgs(MPoint, Int32)
 - uid: Mapsui.UI.TappedEventArgs.#ctor*
   name: TappedEventArgs
@@ -35409,13 +35409,13 @@ references:
   commentId: T:Mapsui.UI.TouchedEventArgs
   fullName: Mapsui.UI.TouchedEventArgs
   nameWithType: TouchedEventArgs
-- uid: Mapsui.UI.TouchedEventArgs.#ctor(List{MPoint})
+- uid: Mapsui.UI.TouchedEventArgs.#ctor(List{Mapsui.MPoint})
   name: TouchedEventArgs(List<MPoint>)
-  href: api/Mapsui.UI.TouchedEventArgs.html#Mapsui_UI_TouchedEventArgs__ctor_List_MPoint__
-  commentId: M:Mapsui.UI.TouchedEventArgs.#ctor(List{MPoint})
+  href: api/Mapsui.UI.TouchedEventArgs.html#Mapsui_UI_TouchedEventArgs__ctor_List_Mapsui_MPoint__
+  commentId: M:Mapsui.UI.TouchedEventArgs.#ctor(List{Mapsui.MPoint})
   name.vb: TouchedEventArgs(List(Of MPoint))
-  fullName: Mapsui.UI.TouchedEventArgs.TouchedEventArgs(List<MPoint>)
-  fullName.vb: Mapsui.UI.TouchedEventArgs.TouchedEventArgs(List(Of MPoint))
+  fullName: Mapsui.UI.TouchedEventArgs.TouchedEventArgs(List<Mapsui.MPoint>)
+  fullName.vb: Mapsui.UI.TouchedEventArgs.TouchedEventArgs(List(Of Mapsui.MPoint))
   nameWithType: TouchedEventArgs.TouchedEventArgs(List<MPoint>)
   nameWithType.vb: TouchedEventArgs.TouchedEventArgs(List(Of MPoint))
 - uid: Mapsui.UI.TouchedEventArgs.#ctor*
@@ -35500,11 +35500,11 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Utils.FlingTracker.FlingTracker
   nameWithType: FlingTracker.FlingTracker
-- uid: Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64,MPoint,System.Int64)
+- uid: Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64,Mapsui.MPoint,System.Int64)
   name: AddEvent(Int64, MPoint, Int64)
-  href: api/Mapsui.UI.Utils.FlingTracker.html#Mapsui_UI_Utils_FlingTracker_AddEvent_System_Int64_MPoint_System_Int64_
-  commentId: M:Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64,MPoint,System.Int64)
-  fullName: Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64, MPoint, System.Int64)
+  href: api/Mapsui.UI.Utils.FlingTracker.html#Mapsui_UI_Utils_FlingTracker_AddEvent_System_Int64_Mapsui_MPoint_System_Int64_
+  commentId: M:Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64,Mapsui.MPoint,System.Int64)
+  fullName: Mapsui.UI.Utils.FlingTracker.AddEvent(System.Int64, Mapsui.MPoint, System.Int64)
   nameWithType: FlingTracker.AddEvent(Int64, MPoint, Int64)
 - uid: Mapsui.UI.Utils.FlingTracker.AddEvent*
   name: AddEvent
@@ -36603,11 +36603,11 @@ references:
   commentId: T:Mapsui.UI.ZoomedEventArgs
   fullName: Mapsui.UI.ZoomedEventArgs
   nameWithType: ZoomedEventArgs
-- uid: Mapsui.UI.ZoomedEventArgs.#ctor(MPoint,Mapsui.UI.ZoomDirection)
+- uid: Mapsui.UI.ZoomedEventArgs.#ctor(Mapsui.MPoint,Mapsui.UI.ZoomDirection)
   name: ZoomedEventArgs(MPoint, ZoomDirection)
-  href: api/Mapsui.UI.ZoomedEventArgs.html#Mapsui_UI_ZoomedEventArgs__ctor_MPoint_Mapsui_UI_ZoomDirection_
-  commentId: M:Mapsui.UI.ZoomedEventArgs.#ctor(MPoint,Mapsui.UI.ZoomDirection)
-  fullName: Mapsui.UI.ZoomedEventArgs.ZoomedEventArgs(MPoint, Mapsui.UI.ZoomDirection)
+  href: api/Mapsui.UI.ZoomedEventArgs.html#Mapsui_UI_ZoomedEventArgs__ctor_Mapsui_MPoint_Mapsui_UI_ZoomDirection_
+  commentId: M:Mapsui.UI.ZoomedEventArgs.#ctor(Mapsui.MPoint,Mapsui.UI.ZoomDirection)
+  fullName: Mapsui.UI.ZoomedEventArgs.ZoomedEventArgs(Mapsui.MPoint, Mapsui.UI.ZoomDirection)
   nameWithType: ZoomedEventArgs.ZoomedEventArgs(MPoint, ZoomDirection)
 - uid: Mapsui.UI.ZoomedEventArgs.#ctor*
   name: ZoomedEventArgs
