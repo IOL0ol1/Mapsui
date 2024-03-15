@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" ">
+  
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<pre><code class="lang-csharp" name="Main" title="CustomSvgColorSample">using Mapsui.Layers;
+using Mapsui.Samples.Common.DataBuilders;
+using Mapsui.Styles.Thematics;
+using Mapsui.Tiling;
+using Mapsui.Utilities;
+using Svg.Model;
+using Svg.Skia;
+using Svg;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using SkiaSharp;
+using Mapsui.Styles;
+using System.Diagnostics.CodeAnalysis;
+using Mapsui.Samples.Common.Maps.Styles;
+using Mapsui.Widgets.BoxWidgets;
+using Mapsui.Extensions;
+
+namespace Mapsui.Samples.Common.Maps.Demo;
+
+[SuppressMessage(&quot;IDisposableAnalyzers.Correctness&quot;, &quot;IDISP001:Dispose created&quot;)]
+public class CustomSvgStyleSample : ISample
+{
+    public string Name =&gt; &quot;Custom Svg Color&quot;;
+    public string Category =&gt; &quot;Styles&quot;;
+    private static string Description =&gt; &quot;This samples applies custom colors for a specific element of an SVG.&quot; +
+        &quot;This allows users to change the fill and outline of an SVG with different colors.&quot;;
+
+    private const double _circumferenceOfTheEarth = 40075017;
+    private readonly Random _random = new(1337);
+
+    public Task&lt;Map&gt; CreateMapAsync()
+    {
+        var map = new Map();
+        map.Layers.Add(OpenStreetMap.CreateTileLayer());
+        map.Layers.Add(new MemoryLayer(&quot;Custom Svg Style&quot;)
+        {
+            Features = RandomPointsBuilder.CreateRandomFeatures(map.Extent, 100).Select(f =&gt;
+            {
+                // Add four random types to use in the style
+                f[&quot;type&quot;] = _random.Next(4);
+                return f;
+            }).ToList(),
+
+            Style = CreateDynamicSvgStyle()
+        });
+        map.Widgets.Add(CreateTextBox(Description));
+
+        return Task.FromResult(map);
+    }
+
+    private static TextBoxWidget CreateTextBox(string description) =&gt; new()
+    {
+        Text = description,
+        VerticalAlignment = Mapsui.Widgets.VerticalAlignment.Top,
+        HorizontalAlignment = Mapsui.Widgets.HorizontalAlignment.Left,
+        Margin = new MRect(10),
+    };
+
+    private static ThemeStyle CreateDynamicSvgStyle() // Use Func to make it get the latest clicked position
+    {
+        var bitmapIds = new[] {
+            LoadBitmap(0),
+            LoadBitmap(1),
+            LoadBitmap(2),
+            LoadBitmap(3),
+        };
+
+        return new ThemeStyle((f) =&gt;
+        {
+            var featurePosition = ((PointFeature)f).Point;
+            var distance = Algorithms.Distance(new MPoint(0, 0), featurePosition);
+            var distanceBetweenZeroAndOne = Math.Min(distance / _circumferenceOfTheEarth, 1);
+            var bitmapId = bitmapIds[(int)f[&quot;type&quot;]!];
+
+            return new SymbolStyle
+            {
+                BitmapId = bitmapId,
+                SymbolOffset = new RelativeOffset(0.0, 0.0),
+                SymbolScale = 0.5,
+                // Let them point to the center of hte map
+                SymbolRotation = -CalculateAngle(new MPoint(0, 0), featurePosition) - 90,
+                RotateWithMap = true,
+            };
+        });
+    }
+
+    private static int LoadBitmap(int type)
+    {
+        var bitmapPath = &quot;Images.arrow.svg&quot;;
+        using var bitmapData = EmbeddedResourceLoader.Load(bitmapPath, typeof(SvgSample));
+        var skPicture = SvgLoader.ToSKPicture(bitmapData, ToSystemDrawingColor(GetTypeColor(type)))
+            ?? throw new Exception($&quot;Failed to load bitmap: {bitmapPath}&quot;);
+        return BitmapRegistry.Instance.Register(skPicture);
+    }
+
+    private static Color GetTypeColor(int type) =&gt; type switch
+    {
+        0 =&gt; Color.FromString(&quot;#D8737F&quot;),
+        1 =&gt; Color.FromString(&quot;#AB6C82&quot;),
+        2 =&gt; Color.FromString(&quot;#685D79&quot;),
+        3 =&gt; Color.FromString(&quot;#475C7A&quot;),
+        _ =&gt; throw new Exception(&quot;Unknown type&quot;),
+    };
+
+    public static System.Drawing.Color ToSystemDrawingColor(Color color) =&gt;
+        System.Drawing.Color.FromArgb(color.A, color.R, color.G, color.B);
+
+    private static double CalculateAngle(MPoint point1, MPoint point2)
+    {
+        var angleInRadians = Math.Atan2(point2.Y - point1.Y, point2.X - point1.X);
+
+        // Radians into degrees
+        return angleInRadians * (180 / Math.PI);
+    }
+
+    public class SvgLoader
+    {
+        public static SKPicture? ToSKPicture(Stream stream, System.Drawing.Color? fillColor = null, System.Drawing.Color? strokeColor = null)
+        {
+            var svgDocument = SvgExtensions.Open(stream);
+            if (svgDocument is null) return null;
+
+            var elements = GetAllElements(svgDocument.Children);
+            foreach (var element in elements)
+            {
+                if (element.Fill is not null &amp;&amp; fillColor is not null)
+                    element.Fill = new SvgColourServer(fillColor.Value);
+                if (element.Stroke is not null &amp;&amp; strokeColor is not null)
+                    element.Stroke = new SvgColourServer(strokeColor.Value);
+            }
+
+            return ToSKPicture(svgDocument);
+        }
+
+        private static SKPicture? ToSKPicture(SvgDocument svgDocument)
+        {
+            var skiaModel = new SkiaModel(new SKSvgSettings());
+            var assetLoader = new SkiaAssetLoader(skiaModel);
+            var model = SvgExtensions.ToModel(svgDocument, assetLoader, out var _, out _);
+            return skiaModel.ToSKPicture(model);
+        }
+
+        public static ReadOnlySpan&lt;SvgElement&gt; GetAllElements(SvgElementCollection elements)
+        {
+            var result = new List&lt;SvgElement&gt;();
+            foreach (var element in elements)
+            {
+                result.Add(element);
+
+                if (element.Children.Count &gt; 0)
+                    result.AddRange(GetAllElements(element.Children));
+            }
+            return result.ToArray();
+        }
+    }
+}
+</code></pre></article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/CustomSvgColorSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
