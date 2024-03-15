@@ -81,11 +81,10 @@ public class EmptyMapSample : ISample
 
     public Task&lt;Map&gt; CreateMapAsync()
     {
-        var map = new Map();
-
-        map.Navigator.ZoomToBox(new MRect(-180, -90, 180, 90));
-
-        return Task.FromResult(map);
+        return Task.FromResult(new Map
+        {
+            Home = n =&gt; n.ZoomToBox(new MRect(-180, -90, 180, 90))
+        });
     }
 }
 </code></pre></article>
@@ -96,7 +95,7 @@ public class EmptyMapSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/EmptyMapSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/EmptyMapSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

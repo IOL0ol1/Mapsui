@@ -111,28 +111,13 @@
       <a class="xref" href="Mapsui.Styles.Style.html#Mapsui_Styles_Style_Opacity">Style.Opacity</a>
     </div>
     <div>
-      <a class="xref" href="Mapsui.Styles.Style.html#Mapsui_Styles_Style_Equals_System_Object_">Style.Equals(Object)</a>
+      <a class="xref" href="Mapsui.Styles.Style.html#Mapsui_Styles_Style_Equals_System_Nullable_System_Object__">Style.Equals(Nullable&lt;Object&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Mapsui.Styles.Style.html#Mapsui_Styles_Style_Equals_Mapsui_Styles_Style_">Style.Equals(Style)</a>
     </div>
     <div>
       <a class="xref" href="Mapsui.Styles.Style.html#Mapsui_Styles_Style_GetHashCode">Style.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.Styles.Thematics.html">Mapsui.Styles.Thematics</a></h6>
@@ -145,10 +130,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme__ctor_System_String_System_Double_System_Double_Mapsui_Styles_IStyle_Mapsui_Styles_IStyle_.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.%23ctor(System.String%2CSystem.Double%2CSystem.Double%2CMapsui.Styles.IStyle%2CMapsui.Styles.IStyle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme__ctor_System_String_System_Double_System_Double_Mapsui_Styles_IStyle_Mapsui_Styles_IStyle_.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.%23ctor(System.String%2CSystem.Double%2CSystem.Double%2CMapsui.Styles.IStyle%2CMapsui.Styles.IStyle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L64">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L98">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme__ctor_" data-uid="Mapsui.Styles.Thematics.GradientTheme.#ctor*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme__ctor_System_String_System_Double_System_Double_Mapsui_Styles_IStyle_Mapsui_Styles_IStyle_" data-uid="Mapsui.Styles.Thematics.GradientTheme.#ctor(System.String,System.Double,System.Double,Mapsui.Styles.IStyle,Mapsui.Styles.IStyle)">GradientTheme(String, Double, Double, IStyle, IStyle)</h4>
@@ -176,13 +161,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
         <td><span class="parametername">minValue</span></td>
         <td><p>Minimum value</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
         <td><span class="parametername">maxValue</span></td>
         <td><p>Maximum value</p>
 </td>
@@ -201,14 +186,39 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Mapsui_Styles_Thematics_GradientTheme__ctor_System_String_System_Double_System_Double_Mapsui_Styles_IStyle_Mapsui_Styles_IStyle__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The gradient theme interpolates linearly between two styles based on a numerical attribute in the data source.
+This is useful for scaling symbols, line widths, line and fill colors from numerical attributes.</p>
+<p>Colors are interpolated between two colors, but if you want to interpolate through more colors (fx. a rainbow),
+set the <a class="xref" href="Mapsui.Styles.Thematics.GradientTheme.html#Mapsui_Styles_Thematics_GradientTheme_TextColorBlend">TextColorBlend</a>, <a class="xref" href="Mapsui.Styles.Thematics.GradientTheme.html#Mapsui_Styles_Thematics_GradientTheme_LineColorBlend">LineColorBlend</a> and <a class="xref" href="Mapsui.Styles.Thematics.GradientTheme.html#Mapsui_Styles_Thematics_GradientTheme_FillColorBlend">FillColorBlend</a> properties
+to a custom <a class="xref" href="Mapsui.Styles.Thematics.ColorBlend.html">ColorBlend</a>.
+</p>
+<p>The following properties are scaled (properties not mentioned here are not interpolated):
+<table><thead><tr><th>Property</th><th>Remarks</th></tr></thead><tbody><tr><td><a class="xref" href="Mapsui.Styles.Color.html">Color</a></td><td>Red, Green, Blue and Alpha values are linearly interpolated.</td></tr><tr><td><a class="xref" href="Mapsui.Styles.Pen.html">Pen</a></td><td>The color, width, color of pens are interpolated. MiterLimit,StartCap,EndCap,LineJoin,DashStyle,DashPattern,DashOffset,DashCap,CompoundArray, and Alignment are switched in the middle of the min/max values.</td></tr><tr><td><a class="xref" href="Mapsui.Styles.Brush.html">Brush</a></td><td>Brush color are interpolated. Other brushes are not supported.</td></tr><tr><td><a class="xref" href="Mapsui.Styles.VectorStyle.html">VectorStyle</a></td><td>MaxVisible, MinVisible, Line, Outline, Fill and SymbolScale are scaled linearly. Symbol, EnableOutline and Enabled switch in the middle of the min/max values.</td></tr><tr><td><a class="xref" href="Mapsui.Styles.LabelStyle.html">LabelStyle</a></td><td>FontSize, BackColor, ForeColor, MaxVisible, MinVisible, Offset are scaled linearly. All other properties use min-style.</td></tr></tbody></table>
+
+<example>
+Creating a rainbow color blend showing colors from red, through yellow, green and blue depicting 
+the population density of a country.
+<pre><code>//Create two vector styles to interpolate between
+Mapsui.Styles.VectorStyle min = new Mapsui.Styles.VectorStyle();
+Mapsui.Styles.VectorStyle max = new Mapsui.Styles.VectorStyle();
+min.Outline.Width = 1f; //Outline width of the minimum value
+max.Outline.Width = 3f; //Outline width of the maximum value
+//Create a theme interpolating population density between 0 and 400
+Mapsui.Rendering.Thematics.GradientTheme popdens = new Mapsui.Rendering.Thematics.GradientTheme(&quot;POPDENS&quot;, 0, 400, min, max);
+//Set the fill-style colors to be a rainbow blend from red to blue.
+popdens.FillColorBlend = Mapsui.Rendering.Thematics.ColorBlend.Rainbow5;
+myVectorLayer.Styles.Add(popdens);</code></pre>
+</example>
+</div>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_ColumnName.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.ColumnName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_ColumnName.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.ColumnName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L19">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L19">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_ColumnName_" data-uid="Mapsui.Styles.Thematics.GradientTheme.ColumnName*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_ColumnName" data-uid="Mapsui.Styles.Thematics.GradientTheme.ColumnName">ColumnName</h4>
@@ -236,10 +246,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_FillColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.FillColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_FillColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.FillColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L54">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L54">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_FillColorBlend_" data-uid="Mapsui.Styles.Thematics.GradientTheme.FillColorBlend*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_FillColorBlend" data-uid="Mapsui.Styles.Thematics.GradientTheme.FillColorBlend">FillColorBlend</h4>
@@ -267,10 +277,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_LineColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.LineColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_LineColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.LineColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L49">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L49">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_LineColorBlend_" data-uid="Mapsui.Styles.Thematics.GradientTheme.LineColorBlend*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_LineColorBlend" data-uid="Mapsui.Styles.Thematics.GradientTheme.LineColorBlend">LineColorBlend</h4>
@@ -298,10 +308,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_Max.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.Max%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_Max.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.Max%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L29">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L29">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_Max_" data-uid="Mapsui.Styles.Thematics.GradientTheme.Max*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_Max" data-uid="Mapsui.Styles.Thematics.GradientTheme.Max">Max</h4>
@@ -322,17 +332,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_MaxStyle.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.MaxStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_MaxStyle.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.MaxStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L39">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L39">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_MaxStyle_" data-uid="Mapsui.Styles.Thematics.GradientTheme.MaxStyle*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_MaxStyle" data-uid="Mapsui.Styles.Thematics.GradientTheme.MaxStyle">MaxStyle</h4>
@@ -360,10 +370,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_Min.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.Min%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_Min.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.Min%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L24">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L24">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_Min_" data-uid="Mapsui.Styles.Thematics.GradientTheme.Min*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_Min" data-uid="Mapsui.Styles.Thematics.GradientTheme.Min">Min</h4>
@@ -384,17 +394,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_MinStyle.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.MinStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_MinStyle.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.MinStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L34">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L34">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_MinStyle_" data-uid="Mapsui.Styles.Thematics.GradientTheme.MinStyle*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_MinStyle" data-uid="Mapsui.Styles.Thematics.GradientTheme.MinStyle">MinStyle</h4>
@@ -422,10 +432,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_TextColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.TextColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_TextColorBlend.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.TextColorBlend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L44">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L44">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_TextColorBlend_" data-uid="Mapsui.Styles.Thematics.GradientTheme.TextColorBlend*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_TextColorBlend" data-uid="Mapsui.Styles.Thematics.GradientTheme.TextColorBlend">TextColorBlend</h4>
@@ -455,10 +465,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_GetStyle_Mapsui_IFeature_.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.GetStyle(Mapsui.IFeature)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme_GetStyle_Mapsui_IFeature_.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme.GetStyle(Mapsui.IFeature)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L79">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L114">View Source</a>
   </span>
   <a id="Mapsui_Styles_Thematics_GradientTheme_GetStyle_" data-uid="Mapsui.Styles.Thematics.GradientTheme.GetStyle*"></a>
   <h4 id="Mapsui_Styles_Thematics_GradientTheme_GetStyle_Mapsui_IFeature_" data-uid="Mapsui.Styles.Thematics.GradientTheme.GetStyle(Mapsui.IFeature)">GetStyle(IFeature)</h4>
@@ -499,7 +509,7 @@ properties are linearly interpolated between max and min values.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Mapsui.Styles.IStyle.html">IStyle</a></td>
-        <td><p>A <a class="xref" href="Mapsui.Styles.IStyle.html">Style</a> calculated by a linear interpolation between the min/max styles</p>
+        <td><p><a class="xref" href="Mapsui.Styles.IStyle.html">Style</a> calculated by a linear interpolation between the min/max styles</p>
 </td>
       </tr>
     </tbody>
@@ -511,16 +521,6 @@ properties are linearly interpolated between max and min values.</p>
   <div>
       <a class="xref" href="Mapsui.Styles.IStyle.html">IStyle</a>
   </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Mapsui.Extensions.StyleExtensions.html#Mapsui_Extensions_StyleExtensions_GetStylesToApply_Mapsui_Styles_IStyle_System_Double_">StyleExtensions.GetStylesToApply(IStyle, Double)</a>
-  </div>
-  <div>
-      <a class="xref" href="Mapsui.Extensions.StyleExtensions.html#Mapsui_Extensions_StyleExtensions_ShouldBeApplied_Mapsui_Styles_IStyle_System_Double_">StyleExtensions.ShouldBeApplied(IStyle, Double)</a>
-  </div>
-  <div>
-      <a class="xref" href="Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeIfDisposable_System_Object_">DisposableExtension.DisposeIfDisposable(Object)</a>
-  </div>
 </article>
           </div>
 
@@ -529,10 +529,10 @@ properties are linearly interpolated between max and min values.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Styles_Thematics_GradientTheme.md&amp;value=---%0Auid%3A%20Mapsui.Styles.Thematics.GradientTheme%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Styles/Thematics/GradientTheme.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Styles/Thematics/GradientTheme.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

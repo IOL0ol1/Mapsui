@@ -86,7 +86,7 @@ public class ArcGISImageServiceSample : ISample
     private const string LandsatGlsImageServer = @&quot;https://landsat2.arcgis.com/arcgis/rest/services/LandsatGLS/MS/ImageServer&quot;;
     private ArcGISImageCapabilities? _capabilities;
 
-    public string Name =&gt; &quot;ArcGIS image&quot;;
+    public string Name =&gt; &quot;11 ArcGIS image&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     public static IUrlPersistentCache? DefaultCache { get; set; }
@@ -110,12 +110,11 @@ public class ArcGISImageServiceSample : ISample
 
     public async Task&lt;Map&gt; CreateMapAsync()
     {
-        var map = new Map();
-
-        map.Navigator.CenterOnAndZoomTo(new MPoint(1270000.0, 5880000.0), 10000);
-
+        var map = new Map
+        {
+            Home = n =&gt; n.CenterOnAndZoomTo(new MPoint(1270000.0, 5880000.0), 10000)
+        };
         map.Layers.Add(await CreateLayerAsync());
-
         return map;
     }
 
@@ -153,7 +152,7 @@ public class ArcGISImageServiceSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/ArcGISImageServiceSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/ArcGISImageServiceSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

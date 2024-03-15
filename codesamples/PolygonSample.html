@@ -71,12 +71,22 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <pre><code class="lang-csharp" name="Main" title="PolygonSample">using System;
+using Mapsui.Samples.Common.Maps;
 using Mapsui.Samples.Common.Maps.Demo;
 using Mapsui.UI;
+#if __MAUI__
 using Mapsui.UI.Maui;
 using Microsoft.Maui.Graphics;
+#else
+using Mapsui.UI.Forms;
+using Xamarin.Forms;
+#endif
 
+#if __MAUI__
 namespace Mapsui.Samples.Maui;
+#else
+namespace Mapsui.Samples.Forms;
+#endif
 
 public class PolygonSample : IMapViewSample
 {
@@ -88,9 +98,9 @@ public class PolygonSample : IMapViewSample
 
     public bool UpdateLocation =&gt; true;
 
-    public bool OnTap(object? sender, EventArgs args)
+    public bool OnClick(object? sender, EventArgs args)
     {
-        var mapView = sender as UI.Maui.MapView;
+        var mapView = sender as MapView;
         var e = args as MapClickedEventArgs;
 
         if (e == null)
@@ -147,7 +157,7 @@ public class PolygonSample : IMapViewSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/PolygonSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/PolygonSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

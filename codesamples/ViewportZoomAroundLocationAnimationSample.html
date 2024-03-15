@@ -74,10 +74,9 @@
 using Mapsui.Extensions;
 using Mapsui.Tiling;
 using Mapsui.Widgets;
-using Mapsui.Widgets.ButtonWidgets;
+using Mapsui.Widgets.Zoom;
 using System.Threading.Tasks;
 using Mapsui.Styles;
-using Mapsui.Widgets.BoxWidgets;
 
 namespace Mapsui.Samples.Common.Maps.Animations;
 
@@ -94,7 +93,7 @@ public class ViewportZoomAroundLocationAnimationSample : ISample
     {
         var map = new Map { CRS = &quot;EPSG:3857&quot; };
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
-        map.Widgets.Add(new ZoomInOutWidget { Margin = new MRect(20, 40) });
+        map.Widgets.Add(new ZoomInOutWidget { MarginX = 20, MarginY = 40 });
 
         map.Widgets.Add(CreateTextBox(&quot;Tap on the map to zoom in the location where you tapped. &quot; +
             &quot;The map will stay centered on the place where you tap.&quot;));
@@ -111,13 +110,15 @@ public class ViewportZoomAroundLocationAnimationSample : ISample
         return map;
     }
 
-    private static IWidget CreateTextBox(string text) =&gt; new TextBoxWidget()
+    private static IWidget CreateTextBox(string text) =&gt; new TextBox()
     {
         Text = text,
         VerticalAlignment = VerticalAlignment.Top,
         HorizontalAlignment = HorizontalAlignment.Left,
-        Margin = new MRect(10),
-        Padding = new MRect(8),
+        MarginX = 10,
+        MarginY = 10,
+        PaddingX = 8,
+        PaddingY = 8,
         CornerRadius = 4,
         BackColor = new Color(108, 117, 125, 128),
         TextColor = Color.White,
@@ -131,7 +132,7 @@ public class ViewportZoomAroundLocationAnimationSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/ViewportZoomAroundLocationAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/ViewportZoomAroundLocationAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

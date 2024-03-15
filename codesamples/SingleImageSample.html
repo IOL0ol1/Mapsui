@@ -83,7 +83,7 @@ namespace Mapsui.Samples.Common.Maps.Demo;
 
 public class SingleImageSample : ISample
 {
-    public string Name =&gt; &quot;Single Image&quot;;
+    public string Name =&gt; &quot;14 Single Image&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     static SingleImageSample()
@@ -105,7 +105,7 @@ public class SingleImageSample : ISample
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
         var extentOfImage = new MRect(8766409.899970189, 626172.1357121579, 9392582.035682343, 1252344.2714243121);
         map.Layers.Add(CreateLayerWithRasterFeature(extentOfImage));
-        map.Navigator.ZoomToBox(extentOfImage.Grow(extentOfImage.Width * 0.5));
+        map.Home = (n) =&gt; n.ZoomToBox(extentOfImage.Grow(extentOfImage.Width * 0.5));
         return map;
     }
 
@@ -117,13 +117,7 @@ public class SingleImageSample : ISample
         var bytes = fileStream.ToBytes();
         // Note that currently a RasterStyle is necessary for the feature to show up.
         var rasterFeature = new RasterFeature(new MRaster(bytes, extent)) { Styles = { new RasterStyle() } };
-        return new MemoryLayer()
-        {
-            Features = new List&lt;RasterFeature&gt; { rasterFeature },
-            Name = &quot;Raster Image&quot;,
-            Opacity = 0.9,
-            Style = null,
-        };
+        return new MemoryLayer() { Features = new List&lt;RasterFeature&gt; { rasterFeature }, Name = &quot;Raster Image&quot;, Opacity = 0.9 };
     }
 }
 </code></pre></article>
@@ -134,7 +128,7 @@ public class SingleImageSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/SingleImageSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/SingleImageSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

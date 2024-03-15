@@ -89,7 +89,7 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
     public string Name =&gt; &quot;Mutating triangle&quot;;
     public string Category =&gt; &quot;Special&quot;;
 
-    private static readonly Random _random = new(0);
+    private static readonly Random Random = new(0);
     private static CancellationTokenSource? _cancelationTokenSource;
 
     [SuppressMessage(&quot;IDisposableAnalyzers.Correctness&quot;, &quot;IDISP007:Don\'t dispose injected&quot;)]
@@ -103,7 +103,7 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
         return Task.FromResult(map);
     }
 
-    private static MemoryLayer CreateMutatingTriangleLayer(MRect? envelope)
+    private static ILayer CreateMutatingTriangleLayer(MRect? envelope)
     {
         var layer = new MemoryLayer();
 
@@ -115,7 +115,7 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
         {
             feature.Geometry = new Polygon(new LinearRing(GenerateRandomPoints(envelope, 3).ToArray()));
             // Clear cache for change to show
-            feature.Modified();
+            feature.RenderedGeometry.Clear();
             // Trigger DataChanged notification
             layer.DataHasChanged();
         },
@@ -133,8 +133,8 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
         for (var i = 0; i &lt; count; i++)
         {
             result.Add(new Coordinate(
-                _random.NextDouble() * envelope.Width + envelope.Left,
-                _random.NextDouble() * envelope.Height + envelope.Bottom));
+                Random.NextDouble() * envelope.Width + envelope.Left,
+                Random.NextDouble() * envelope.Height + envelope.Bottom));
         }
 
         result.Add(result[0].Copy()); // close polygon by adding start point.
@@ -168,11 +168,10 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
         }
     }
 
-    public async Task InitializeTestAsync(IMapControl mapControl)
+    public Task InitializeTestAsync(IMapControl mapControl)
     {
-        var localCancelationTokenSource = _cancelationTokenSource;
-        if (localCancelationTokenSource is null) return;
-        await localCancelationTokenSource.CancelAsync();
+        _cancelationTokenSource?.Cancel();
+        return Task.CompletedTask;
     }
 
     [SuppressMessage(&quot;IDisposableAnalyzers.Correctness&quot;, &quot;IDISP007:Don\'t dispose injected&quot;)]
@@ -190,7 +189,7 @@ public sealed class MutatingTriangleSample : ISample, ISampleTest, IDisposable
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/MutatingTriangleSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/MutatingTriangleSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

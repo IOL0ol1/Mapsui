@@ -76,7 +76,7 @@ using Mapsui.Nts;
 using Mapsui.Styles;
 using Mapsui.Tiling;
 using Mapsui.UI;
-using Mapsui.Widgets.InfoWidgets;
+using Mapsui.Widgets;
 using NetTopologySuite.Geometries;
 using System.Collections.Generic;
 
@@ -103,7 +103,7 @@ public class RasterizingLayerWithLineStringSample : IMapControlSample
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
         map.Layers.Add(new RasterizingLayer(CreateLineStringLayer(), pixelDensity: pixelDensity));
         var extent = map.Layers[1].Extent!.Grow(map.Layers[1].Extent!.Width * 0.25);
-        map.Navigator.ZoomToBox(extent);
+        map.Home = n =&gt; n.ZoomToBox(extent);
 
         map.Widgets.Add(new MapInfoWidget(map));
 
@@ -172,7 +172,7 @@ public class RasterizingLayerWithLineStringSample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/RasterizingLayerWithLineStringSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/RasterizingLayerWithLineStringSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

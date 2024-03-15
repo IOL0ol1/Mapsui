@@ -71,10 +71,15 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <pre><code class="lang-csharp" name="Main" title="WidgetsSample">using Mapsui.Extensions;
+using Mapsui.Layers;
 using Mapsui.Samples.Common;
 using Mapsui.Styles;
+using Mapsui.UI;
 using Mapsui.Widgets;
 using Mapsui.Widgets.ScaleBar;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Mapsui.Tests.Common.Maps;
@@ -113,7 +118,8 @@ public class WidgetsSample : ISample
         {
             ScaleBarMode = ScaleBarMode.Both,
             SecondaryUnitConverter = ImperialUnitConverter.Instance,
-            Margin = new MRect(10, 30),
+            MarginX = 10,
+            MarginY = 30,
             MaxWidth = 200,
             Halo = Color.White,
             HorizontalAlignment = horizontalAlignment,
@@ -130,7 +136,7 @@ public class WidgetsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WidgetsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WidgetsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

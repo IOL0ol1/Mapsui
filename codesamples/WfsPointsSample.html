@@ -70,14 +70,19 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="WfsPointsSample">using Mapsui.Extensions;
+<pre><code class="lang-csharp" name="Main" title="WfsPointsSample">using System;
+using System.Collections.Generic;
+using Mapsui.Cache;
 using Mapsui.Layers;
 using Mapsui.Logging;
 using Mapsui.Providers.Wfs;
 using Mapsui.Styles;
-using Mapsui.Widgets.InfoWidgets;
 using System.Net;
 using System.Threading.Tasks;
+using Mapsui.Limiting;
+using Mapsui.Nts;
+using Mapsui.Widgets;
+using Mapsui.Extensions;
 
 #pragma warning disable IDISP001 // Dispose created
 
@@ -85,7 +90,7 @@ namespace Mapsui.Samples.Common.Maps.DataFormats;
 
 public class WfsPointsSample : ISample
 {
-    public string Name =&gt; &quot;WFS Points&quot;;
+    public string Name =&gt; &quot; 7 WFS Points&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     private const string crs = &quot;EPSG:31254&quot;;
@@ -109,7 +114,7 @@ public class WfsPointsSample : ISample
 
             map.Navigator.OverridePanBounds = bbox;
             map.Navigator.PanLock = true;
-            map.Navigator.ZoomToPanBounds();
+            map.Navigator.ZoomToPanBounds(); 
 
             return map;
 
@@ -136,11 +141,11 @@ public class WfsPointsSample : ISample
         var provider = await WFSProvider.CreateAsync(
             &quot;https://vogis.cnv.at/geoserver/vogis/laser_2002_04_punkte/ows&quot;,
             &quot;vogis&quot;,
-            &quot;laser_2002_04_punkte&quot;,
+            &quot;laser_2002_04_punkte&quot;, 
             WFSProvider.WFSVersionEnum.WFS_1_1_0);
 
         provider.CRS = crs;
-        provider.AxisOrder = new[] { 0, 1 };
+        provider.AxisOrder = new []{0,1};
 
         await provider.InitAsync();
 
@@ -155,7 +160,7 @@ public class WfsPointsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WfsPointsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WfsPointsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

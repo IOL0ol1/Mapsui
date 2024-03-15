@@ -92,9 +92,8 @@ public class TilesSample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
+            Home = n =&gt; n.ZoomToPanBounds()
         };
-
-        map.Navigator.ZoomToPanBounds();
 
         map.Layers.Add(layer);
 
@@ -149,7 +148,7 @@ public class TilesSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/TilesSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/TilesSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

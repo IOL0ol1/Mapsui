@@ -132,7 +132,7 @@ public class ShapefileTileSample : ISample
         map.Layers.Add(new RasterizingTileLayer(CreateCountryLabelLayer(projectedCountrySource)));
         map.Layers.Add(new RasterizingTileLayer(CreateCityLabelLayer(projectedCitySource)));
         var home = Mercator.FromLonLat(15, 54);
-        map.Navigator.CenterOnAndZoomTo(home, map.Navigator.Resolutions[5]);
+        map.Home = n =&gt; n.CenterOnAndZoomTo(home, n.Resolutions[5]);
 
         return map;
     }
@@ -252,7 +252,7 @@ public class ShapefileTileSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/RasterizingTileLayerWithShapefileSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/RasterizingTileLayerWithShapefileSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -73,6 +73,8 @@
 <pre><code class="lang-csharp" name="Main" title="EditingModifySample">using Mapsui.Nts.Editing;
 using Mapsui.UI;
 
+#pragma warning disable IDISP001 // Dispose created
+
 namespace Mapsui.Samples.Common.Maps.Editing;
 
 public class EditingModifySample : IMapControlSample
@@ -81,8 +83,7 @@ public class EditingModifySample : IMapControlSample
     public string Category =&gt; &quot;Editing&quot;;
     public void Setup(IMapControl mapControl)
     {
-        var editManager = EditingSample.InitEditMode(mapControl, EditMode.Modify);
-        mapControl.Map.Navigator.ZoomToBox(editManager.GetGrownExtent());
+        EditingSample.InitEditMode(mapControl, EditMode.Modify);
     }
 }
 </code></pre></article>
@@ -93,7 +94,7 @@ public class EditingModifySample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/EditingModifySample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/EditingModifySample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

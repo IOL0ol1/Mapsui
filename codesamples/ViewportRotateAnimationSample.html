@@ -74,7 +74,7 @@
 using Mapsui.Extensions;
 using Mapsui.Tiling;
 using Mapsui.Widgets;
-using Mapsui.Widgets.ButtonWidgets;
+using Mapsui.Widgets.ButtonWidget;
 using System.Threading.Tasks;
 using Mapsui.Styles;
 
@@ -95,29 +95,23 @@ public class ViewportRotateAnimationSample : ISample
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
 
         var rotateButton = CreateButton(&quot;Click to rotate clockwise&quot;, VerticalAlignment.Top);
-        rotateButton.Tapped = (s, e) =&gt;
-        {
-            map.Navigator.RotateTo(map.Navigator.Viewport.Rotation + 45, 500, Easing.CubicIn);
-            return false;
-        };
+        rotateButton.WidgetTouched += (s, e) =&gt; map.Navigator.RotateTo(map.Navigator.Viewport.Rotation + 45, 500, Easing.CubicIn);
         map.Widgets.Add(rotateButton);
 
         var rotateBackButton = CreateButton(&quot;Click to rotate counterclockwise&quot;, VerticalAlignment.Bottom);
-        rotateBackButton.Tapped = (s, e) =&gt;
-        {
-            map.Navigator.RotateTo(map.Navigator.Viewport.Rotation - 45, 500, Easing.CubicIn);
-            return false;
-        };
+        rotateBackButton.WidgetTouched += (s, e) =&gt; map.Navigator.RotateTo(map.Navigator.Viewport.Rotation - 45, 500, Easing.CubicIn);
         map.Widgets.Add(rotateBackButton);
 
         return map;
     }
 
-    private static ButtonWidget CreateButton(string text, VerticalAlignment verticalAlignment) =&gt; new()
+    private static ButtonWidget CreateButton(string text, VerticalAlignment verticalAlignment) =&gt; new ButtonWidget
     {
         Text = text,
-        Margin = new MRect(20),
-        Padding = new MRect(10),
+        MarginX = 20,
+        MarginY = 20,
+        PaddingX = 10,
+        PaddingY = 10,
         HorizontalAlignment = HorizontalAlignment.Left,
         VerticalAlignment = verticalAlignment,
         BackColor = new Color(0, 123, 255),
@@ -132,7 +126,7 @@ public class ViewportRotateAnimationSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/ViewportRotateAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/ViewportRotateAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

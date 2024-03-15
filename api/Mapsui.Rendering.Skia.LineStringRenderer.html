@@ -89,52 +89,28 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">LineStringRenderer</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.Rendering.Skia.html">Mapsui.Rendering.Skia</a></h6>
   <h6><strong>Assembly</strong>: Mapsui.Rendering.Skia.dll</h6>
   <h5 id="Mapsui_Rendering_Skia_LineStringRenderer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class LineStringRenderer</code></pre>
+    <pre><code class="lang-csharp hljs">public static class LineStringRenderer : object</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Rendering_Skia_LineStringRenderer_Draw_SKCanvas_Mapsui_Viewport_Mapsui_Styles_VectorStyle_Mapsui_IFeature_LineString_System_Single_Mapsui_Rendering_IRenderCache_.md&amp;value=---%0Auid%3A%20Mapsui.Rendering.Skia.LineStringRenderer.Draw(SKCanvas%2CMapsui.Viewport%2CMapsui.Styles.VectorStyle%2CMapsui.IFeature%2CLineString%2CSystem.Single%2CMapsui.Rendering.IRenderCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Rendering_Skia_LineStringRenderer_Draw_SKCanvas_Mapsui_Viewport_Mapsui_Layers_ILayer_Mapsui_Styles_VectorStyle_LineString_System_Single_Mapsui_Rendering_IVectorCache_.md&amp;value=---%0Auid%3A%20Mapsui.Rendering.Skia.LineStringRenderer.Draw(SKCanvas%2CMapsui.Viewport%2CMapsui.Layers.ILayer%2CMapsui.Styles.VectorStyle%2CLineString%2CSystem.Single%2CMapsui.Rendering.IVectorCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.Rendering.Skia/SkiaStyles/LineStringRenderer.cs/#L11">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.Rendering.Skia/SkiaStyles/LineStringRenderer.cs/#L14">View Source</a>
   </span>
   <a id="Mapsui_Rendering_Skia_LineStringRenderer_Draw_" data-uid="Mapsui.Rendering.Skia.LineStringRenderer.Draw*"></a>
-  <h4 id="Mapsui_Rendering_Skia_LineStringRenderer_Draw_SKCanvas_Mapsui_Viewport_Mapsui_Styles_VectorStyle_Mapsui_IFeature_LineString_System_Single_Mapsui_Rendering_IRenderCache_" data-uid="Mapsui.Rendering.Skia.LineStringRenderer.Draw(SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,LineString,System.Single,Mapsui.Rendering.IRenderCache)">Draw(SKCanvas, Viewport, VectorStyle, IFeature, LineString, Single, IRenderCache)</h4>
+  <h4 id="Mapsui_Rendering_Skia_LineStringRenderer_Draw_SKCanvas_Mapsui_Viewport_Mapsui_Layers_ILayer_Mapsui_Styles_VectorStyle_LineString_System_Single_Mapsui_Rendering_IVectorCache_" data-uid="Mapsui.Rendering.Skia.LineStringRenderer.Draw(SKCanvas,Mapsui.Viewport,Mapsui.Layers.ILayer,Mapsui.Styles.VectorStyle,LineString,System.Single,Mapsui.Rendering.IVectorCache)">Draw(SKCanvas, Viewport, ILayer, VectorStyle, LineString, Single, IVectorCache)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Draw(SKCanvas canvas, Viewport viewport, VectorStyle vectorStyle, IFeature feature, LineString lineString, float opacity, IRenderCache renderCache)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Draw(SKCanvas canvas, Viewport viewport, ILayer layer, VectorStyle vectorStyle, LineString lineString, float opacity, IVectorCache vectorCache = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,13 +133,13 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mapsui.Styles.VectorStyle.html">VectorStyle</a></td>
-        <td><span class="parametername">vectorStyle</span></td>
+        <td><a class="xref" href="Mapsui.Layers.ILayer.html">ILayer</a></td>
+        <td><span class="parametername">layer</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mapsui.IFeature.html">IFeature</a></td>
-        <td><span class="parametername">feature</span></td>
+        <td><a class="xref" href="Mapsui.Styles.VectorStyle.html">VectorStyle</a></td>
+        <td><span class="parametername">vectorStyle</span></td>
         <td></td>
       </tr>
       <tr>
@@ -177,8 +153,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mapsui.Rendering.IRenderCache.html">IRenderCache</a></td>
-        <td><span class="parametername">renderCache</span></td>
+        <td><a class="xref" href="Mapsui.Rendering.IVectorCache.html">IVectorCache</a></td>
+        <td><span class="parametername">vectorCache</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -191,10 +167,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Rendering_Skia_LineStringRenderer.md&amp;value=---%0Auid%3A%20Mapsui.Rendering.Skia.LineStringRenderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Rendering_Skia_LineStringRenderer.md&amp;value=---%0Auid%3A%20Mapsui.Rendering.Skia.LineStringRenderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.Rendering.Skia/SkiaStyles/LineStringRenderer.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.Rendering.Skia/SkiaStyles/LineStringRenderer.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

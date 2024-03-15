@@ -75,7 +75,7 @@ using Mapsui.Layers;
 using Mapsui.Projections;
 using Mapsui.Styles;
 using Mapsui.Tiling;
-using Mapsui.Widgets.InfoWidgets;
+using Mapsui.Widgets;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -90,7 +90,7 @@ namespace Mapsui.Samples.Common.Maps.Geometries;
 
 public class PointsSample : ISample
 {
-    public string Name =&gt; &quot;Points&quot;;
+    public string Name =&gt; &quot;1 Points&quot;;
     public string Category =&gt; &quot;Geometries&quot;;
 
     public Task&lt;Map&gt; CreateMapAsync()
@@ -99,7 +99,7 @@ public class PointsSample : ISample
 
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
         map.Layers.Add(CreatePointLayer());
-        map.Navigator.CenterOnAndZoomTo(map.Layers[1].Extent!.Centroid, map.Navigator.Resolutions[5]);
+        map.Home = n =&gt; n.CenterOnAndZoomTo(map.Layers[1].Extent!.Centroid, n.Resolutions[5]);
 
         map.Widgets.Add(new MapInfoWidget(map));
 
@@ -168,7 +168,7 @@ public class PointsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/PointsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/PointsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

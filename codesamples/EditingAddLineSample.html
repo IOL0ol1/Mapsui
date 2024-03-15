@@ -83,8 +83,7 @@ public class EditingAddLineSample : IMapControlSample
     public string Category =&gt; &quot;Editing&quot;;
     public void Setup(IMapControl mapControl)
     {
-        var editManager = EditingSample.InitEditMode(mapControl, EditMode.AddLine);
-        mapControl.Map.Navigator.ZoomToBox(editManager.GetGrownExtent());
+        EditingSample.InitEditMode(mapControl, EditMode.AddLine);
     }
 }
 </code></pre></article>
@@ -95,7 +94,7 @@ public class EditingAddLineSample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/EditingAddLineSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/EditingAddLineSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -82,7 +82,7 @@ namespace Mapsui.Samples.Common.Maps.Demo;
 
 public class BingSample : ISample
 {
-    public string Name =&gt; &quot;Virtual Earth&quot;;
+    public string Name =&gt; &quot;3 Virtual Earth&quot;;
     public string Category =&gt; &quot;Demo&quot;;
     public Task&lt;Map&gt; CreateMapAsync()
     {
@@ -99,7 +99,7 @@ public class BingSample : ISample
         {
             Name = &quot;Bing Aerial&quot;,
         });
-        map.Navigator.CenterOnAndZoomTo(new MPoint(1059114.80157058, 5179580.75916194), map.Navigator.Resolutions[14]);
+        map.Home = n =&gt; n.CenterOnAndZoomTo(new MPoint(1059114.80157058, 5179580.75916194), n.Resolutions[14]);
         map.BackColor = Color.FromString(&quot;#000613&quot;);
 
         return map;
@@ -113,7 +113,7 @@ public class BingSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/BingSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/BingSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

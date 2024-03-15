@@ -74,8 +74,9 @@
 using Mapsui.Extensions;
 using Mapsui.Tiling;
 using Mapsui.Widgets;
-using Mapsui.Widgets.ButtonWidgets;
+using Mapsui.Widgets.ButtonWidget;
 using Mapsui.Widgets.ScaleBar;
+using Mapsui.Widgets.Zoom;
 using System.Threading.Tasks;
 using Mapsui.Styles;
 
@@ -96,22 +97,14 @@ public class ViewportZoomToResolutionAnimationSample : ISample
 
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
         map.Widgets.Add(CreateScaleBar(map));
-        map.Widgets.Add(new ZoomInOutWidget { Margin = new MRect(20, 40) });
+        map.Widgets.Add(new ZoomInOutWidget { MarginX = 20, MarginY = 40 });
 
         var rotateButton = CreateButton(&quot;Zoom in&quot;, VerticalAlignment.Top);
-        rotateButton.Tapped = (s, e) =&gt;
-        {
-            map.Navigator.ZoomTo(map.Navigator.Viewport.Resolution * 0.5, 500, Easing.CubicOut);
-            return false;
-        };
+        rotateButton.WidgetTouched += (s, e) =&gt; map.Navigator.ZoomTo(map.Navigator.Viewport.Resolution * 0.5, 500, Easing.CubicOut);
         map.Widgets.Add(rotateButton);
 
         var rotateBackButton = CreateButton(&quot;Zoom out&quot;, VerticalAlignment.Bottom);
-        rotateBackButton.Tapped = (s, e) =&gt;
-        {
-            map.Navigator.ZoomTo(map.Navigator.Viewport.Resolution * 2, 500, Easing.CubicOut);
-            return false;
-        };
+        rotateBackButton.WidgetTouched += (s, e) =&gt; map.Navigator.ZoomTo(map.Navigator.Viewport.Resolution * 2, 500, Easing.CubicOut);
         map.Widgets.Add(rotateBackButton);
 
         return map;
@@ -124,11 +117,13 @@ public class ViewportZoomToResolutionAnimationSample : ISample
         VerticalAlignment = VerticalAlignment.Top
     };
 
-    private static ButtonWidget CreateButton(string text, VerticalAlignment verticalAlignment) =&gt; new()
+    private static ButtonWidget CreateButton(string text, VerticalAlignment verticalAlignment) =&gt; new ButtonWidget
     {
         Text = text,
-        Margin = new MRect(20),
-        Padding = new MRect(10),
+        MarginX = 20,
+        MarginY = 20,
+        PaddingX = 10,
+        PaddingY = 10,
         HorizontalAlignment = HorizontalAlignment.Left,
         VerticalAlignment = verticalAlignment,
         BackColor = new Color(0, 123, 255),
@@ -143,7 +138,7 @@ public class ViewportZoomToResolutionAnimationSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/ViewportZoomToResolutionAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/ViewportZoomToResolutionAnimationSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -94,52 +94,28 @@
     <div><a class="xref" href="Mapsui.Providers.IProjectingProvider.html">IProjectingProvider</a></div>
     <div><a class="xref" href="Mapsui.Providers.IProvider.html">IProvider</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.ArcGIS.ImageServiceProvider.html">Mapsui.ArcGIS.ImageServiceProvider</a></h6>
   <h6><strong>Assembly</strong>: Mapsui.ArcGIS.dll</h6>
   <h5 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ArcGISImageServiceProvider : IProjectingProvider, IProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public class ArcGISImageServiceProvider : object, IProjectingProvider, IProvider</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageCapabilities_System_Boolean_System_String_Mapsui_Cache_IUrlPersistentCache_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.%23ctor(Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageCapabilities%2CSystem.Boolean%2CSystem.String%2CMapsui.Cache.IUrlPersistentCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageCapabilities_System_Boolean_System_Nullable_System_String__Mapsui_Cache_IUrlPersistentCache_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.%23ctor(Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageCapabilities%2CSystem.Boolean%2CSystem.Nullable%7BSystem.String%7D%2CMapsui.Cache.IUrlPersistentCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L26">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L28">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor*"></a>
-  <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageCapabilities_System_Boolean_System_String_Mapsui_Cache_IUrlPersistentCache_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor(Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageCapabilities,System.Boolean,System.String,Mapsui.Cache.IUrlPersistentCache)">ArcGISImageServiceProvider(ArcGISImageCapabilities, Boolean, String, IUrlPersistentCache)</h4>
+  <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageCapabilities_System_Boolean_System_Nullable_System_String__Mapsui_Cache_IUrlPersistentCache_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor(Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageCapabilities,System.Boolean,System.Nullable{System.String},Mapsui.Cache.IUrlPersistentCache)">ArcGISImageServiceProvider(ArcGISImageCapabilities, Boolean, Nullable&lt;String&gt;, IUrlPersistentCache)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ArcGISImageServiceProvider(ArcGISImageCapabilities capabilities, bool continueOnError = true, string token = null, IUrlPersistentCache persistentCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ArcGISImageServiceProvider(ArcGISImageCapabilities capabilities, bool continueOnError = true, string? token = null, IUrlPersistentCache persistentCache = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,12 +133,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">continueOnError</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">token</span></td>
         <td></td>
       </tr>
@@ -175,18 +151,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_System_String_System_Boolean_System_String_Mapsui_ArcGIS_ImageServiceProvider_InterpolationType_System_Int64_System_Int64_System_String_Mapsui_Cache_IUrlPersistentCache_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.%23ctor(System.String%2CSystem.Boolean%2CSystem.String%2CMapsui.ArcGIS.ImageServiceProvider.InterpolationType%2CSystem.Int64%2CSystem.Int64%2CSystem.String%2CMapsui.Cache.IUrlPersistentCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_System_String_System_Boolean_System_String_Mapsui_ArcGIS_ImageServiceProvider_InterpolationType_System_Int64_System_Int64_System_Nullable_System_String__Mapsui_Cache_IUrlPersistentCache_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.%23ctor(System.String%2CSystem.Boolean%2CSystem.String%2CMapsui.ArcGIS.ImageServiceProvider.InterpolationType%2CSystem.Int64%2CSystem.Int64%2CSystem.Nullable%7BSystem.String%7D%2CMapsui.Cache.IUrlPersistentCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L37">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L39">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor*"></a>
-  <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_System_String_System_Boolean_System_String_Mapsui_ArcGIS_ImageServiceProvider_InterpolationType_System_Int64_System_Int64_System_String_Mapsui_Cache_IUrlPersistentCache_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor(System.String,System.Boolean,System.String,Mapsui.ArcGIS.ImageServiceProvider.InterpolationType,System.Int64,System.Int64,System.String,Mapsui.Cache.IUrlPersistentCache)">ArcGISImageServiceProvider(String, Boolean, String, InterpolationType, Int64, Int64, String, IUrlPersistentCache)</h4>
+  <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider__ctor_System_String_System_Boolean_System_String_Mapsui_ArcGIS_ImageServiceProvider_InterpolationType_System_Int64_System_Int64_System_Nullable_System_String__Mapsui_Cache_IUrlPersistentCache_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.#ctor(System.String,System.Boolean,System.String,Mapsui.ArcGIS.ImageServiceProvider.InterpolationType,System.Int64,System.Int64,System.Nullable{System.String},Mapsui.Cache.IUrlPersistentCache)">ArcGISImageServiceProvider(String, Boolean, String, InterpolationType, Int64, Int64, Nullable&lt;String&gt;, IUrlPersistentCache)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ArcGISImageServiceProvider(string url, bool continueOnError = false, string format = &quot;jpgpng&quot;, InterpolationType interpolation = InterpolationType.RSP_NearestNeighbor, long startTime = -1L, long endTime = -1L, string token = null, IUrlPersistentCache persistentCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ArcGISImageServiceProvider(string url, bool continueOnError = false, string format = &quot;jpgpng&quot;, InterpolationType interpolation = InterpolationType.RSP_NearestNeighbor, long startTime = null, long endTime = null, string? token = null, IUrlPersistentCache persistentCache = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,7 +180,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">continueOnError</span></td>
         <td></td>
       </tr>
@@ -229,7 +205,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">token</span></td>
         <td></td>
       </tr>
@@ -244,10 +220,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ArcGisImageCapabilities.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ArcGisImageCapabilities%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ArcGisImageCapabilities.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ArcGisImageCapabilities%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L24">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L26">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ArcGisImageCapabilities_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ArcGisImageCapabilities*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ArcGisImageCapabilities" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ArcGisImageCapabilities">ArcGisImageCapabilities</h4>
@@ -274,10 +250,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ContinueOnError.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ContinueOnError%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ContinueOnError.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ContinueOnError%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L228">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L233">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ContinueOnError_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ContinueOnError*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_ContinueOnError" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.ContinueOnError">ContinueOnError</h4>
@@ -297,17 +273,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Credentials.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Credentials%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Credentials.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Credentials%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L83">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L88">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Credentials_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Credentials*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Credentials" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Credentials">Credentials</h4>
@@ -315,7 +291,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICredentials Credentials { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICredentials? Credentials { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,17 +303,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.icredentials">ICredentials</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">ICredentials</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_CRS.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.CRS%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_CRS.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.CRS%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L85">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L90">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_CRS_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.CRS*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_CRS" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.CRS">CRS</h4>
@@ -345,7 +321,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CRS { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? CRS { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,17 +333,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TimeOut.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TimeOut%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TimeOut.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TimeOut%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L90">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L95">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TimeOut_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TimeOut*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TimeOut" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TimeOut">TimeOut</h4>
@@ -395,10 +371,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Token.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Token%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Token.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Token%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L23">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L25">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Token_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Token*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Token" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Token">Token</h4>
@@ -406,7 +382,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Token { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Token { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -418,17 +394,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Url.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Url%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Url.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Url%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L58">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L60">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Url_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Url*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_Url" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.Url">Url</h4>
@@ -457,10 +433,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetExtent.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetExtent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetExtent.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetExtent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L223">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L228">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetExtent_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetExtent*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetExtent" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetExtent">GetExtent()</h4>
@@ -487,10 +463,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetFeaturesAsync_Mapsui_Layers_FetchInfo_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetFeaturesAsync(Mapsui.Layers.FetchInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetFeaturesAsync_Mapsui_Layers_FetchInfo_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetFeaturesAsync(Mapsui.Layers.FetchInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L96">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L101">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetFeaturesAsync_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetFeaturesAsync*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_GetFeaturesAsync_Mapsui_Layers_FetchInfo_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.GetFeaturesAsync(Mapsui.Layers.FetchInfo)">GetFeaturesAsync(FetchInfo)</h4>
@@ -527,17 +503,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Mapsui.IFeature.html">IFeature</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Mapsui.IFeature.html">IFeature</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_IsCrsSupported_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.IsCrsSupported(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_IsCrsSupported_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.IsCrsSupported(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L230">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L235">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_IsCrsSupported_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.IsCrsSupported*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_IsCrsSupported_System_String_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.IsCrsSupported(System.String)">IsCrsSupported(String)</h4>
@@ -574,17 +550,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TryGetMapAsync_Mapsui_MSection_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TryGetMapAsync(Mapsui.MSection)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TryGetMapAsync_Mapsui_MSection_.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TryGetMapAsync(Mapsui.MSection)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L106">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L111">View Source</a>
   </span>
   <a id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TryGetMapAsync_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TryGetMapAsync*"></a>
   <h4 id="Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider_TryGetMapAsync_Mapsui_MSection_" data-uid="Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider.TryGetMapAsync(Mapsui.MSection)">TryGetMapAsync(MSection)</h4>
@@ -621,7 +597,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Boolean</span>, <a class="xref" href="Mapsui.MRaster.html">MRaster</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2">(, )</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <a class="xref" href="Mapsui.MRaster.html">MRaster</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -633,10 +609,6 @@
   <div>
       <a class="xref" href="Mapsui.Providers.IProvider.html">IProvider</a>
   </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeIfDisposable_System_Object_">DisposableExtension.DisposeIfDisposable(Object)</a>
-  </div>
 </article>
           </div>
 
@@ -645,10 +617,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_ArcGIS_ImageServiceProvider_ArcGISImageServiceProvider.md&amp;value=---%0Auid%3A%20Mapsui.ArcGIS.ImageServiceProvider.ArcGISImageServiceProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L17" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.ArcGIS/ImageServiceProvider/ArcGISImageServiceProvider.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

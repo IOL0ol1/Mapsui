@@ -74,10 +74,10 @@
 using Mapsui.Rendering.Skia.SkiaWidgets;
 using Mapsui.Samples.Common.Maps.Demo;
 using Mapsui.Samples.Common.PersistentCaches;
-using Mapsui.Styles;
 using Mapsui.UI;
 using Mapsui.Widgets;
-using Mapsui.Widgets.InfoWidgets;
+using Mapsui.Widgets.PerformanceWidget;
+using SkiaSharp;
 
 namespace Mapsui.Samples.Common.Maps.Widgets;
 
@@ -90,34 +90,29 @@ public class PerformanceWidgetSample : IMapControlSample
 
     public string Category =&gt; &quot;Widgets&quot;;
 
+    public void OnClick(object? sender, WidgetTouchedEventArgs args)
+    {
+        _mapControl?.Performance?.Clear();
+        _mapControl?.RefreshGraphics();
+
+        args.Handled = true;
+    }
+
     public void Setup(IMapControl mapControl)
     {
         _mapControl = mapControl;
 
+        //I like bing Hybrid
         mapControl.Map = BingSample.CreateMap(BingHybrid.DefaultCache, BruTile.Predefined.KnownTileSource.BingHybrid);
 
-        var widget = CreatePerformanceWidget();
+        var widget = new PerformanceWidget(_performance);
+
+        widget.WidgetTouched += OnClick;
 
         mapControl.Map.Widgets.Add(widget);
         mapControl.Performance = _performance;
-        mapControl.Renderer.WidgetRenders[typeof(PerformanceWidget)] = new PerformanceWidgetRenderer();
+        mapControl.Renderer.WidgetRenders[typeof(PerformanceWidget)] = new PerformanceWidgetRenderer(10, 10, 12, SKColors.Black, SKColors.White);
     }
-
-    private PerformanceWidget CreatePerformanceWidget() =&gt; new(_performance)
-    {
-        HorizontalAlignment = HorizontalAlignment.Left,
-        VerticalAlignment = VerticalAlignment.Top,
-        Margin = new MRect(10),
-        TextSize = 12,
-        TextColor = Color.Black,
-        BackColor = Color.White,
-        Tapped = (s, e) =&gt;
-        {
-            _mapControl?.Performance?.Clear();
-            _mapControl?.RefreshGraphics();
-            return true;
-        }
-    };
 }
 </code></pre></article>
           </div>
@@ -127,7 +122,7 @@ public class PerformanceWidgetSample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/PerformanceWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/PerformanceWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

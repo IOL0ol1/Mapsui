@@ -71,8 +71,6 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <pre><code class="lang-csharp" name="Main" title="KeepCenterInMapSample">using Mapsui.Layers;
-using Mapsui.Nts;
-using Mapsui.Nts.Extensions;
 using Mapsui.Projections;
 using Mapsui.Styles;
 using Mapsui.Tiling;
@@ -101,11 +99,11 @@ public class KeepCenterInMapSample : ISample
 
         map.Navigator.OverridePanBounds = panBounds;
         map.Navigator.OverrideZoomBounds = new MMinMax(0.15, 2500);
-        map.Navigator.ZoomToBox(panBounds);
+        map.Home = n =&gt; n.ZoomToBox(panBounds);
 
         return Task.FromResult(map);
     }
-
+        
     private static MRect GetLimitsOfMadagaskar()
     {
         var (minX, minY) = SphericalMercator.FromLonLat(41.8, -27.2);
@@ -118,7 +116,7 @@ public class KeepCenterInMapSample : ISample
         // This layer is only for visualizing the pan bounds. It is not needed for the limiter.
         return new MemoryLayer(&quot;PanBounds&quot;)
         {
-            Features = new[] { new GeometryFeature(panBounds.ToPolygon()) },
+            Features = new[] { new RectFeature(panBounds) },
             Style = new VectorStyle() { Fill = null, Outline = new Pen(Color.Red, 3) { PenStyle = PenStyle.Dot } }
         };
     }
@@ -132,7 +130,7 @@ public class KeepCenterInMapSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/KeepCenterInMapSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/KeepCenterInMapSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -79,6 +79,7 @@ using Mapsui.Samples.Common;
 using Mapsui.Samples.Common.DataBuilders;
 using Mapsui.Styles;
 using Mapsui.Tests.Common.TestTools;
+using Mapsui.UI;
 
 namespace Mapsui.Tests.Common.Maps;
 
@@ -90,6 +91,7 @@ public class StackedLabelsTestSample : ISample
 
     public Task&lt;Map&gt; CreateMapAsync() =&gt; Task.FromResult(CreateMap());
 
+
     public static Map CreateMap()
     {
         var random = new Random(6);
@@ -100,9 +102,8 @@ public class StackedLabelsTestSample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
+            Home = n =&gt; n.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 0.3))
         };
-
-        map.Navigator.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 0.3));
 
         map.Layers.Add(stackedLabelLayer);
         map.Layers.Add(layer);
@@ -136,7 +137,7 @@ public class StackedLabelsTestSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/StackedLabelsTestSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/StackedLabelsTestSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

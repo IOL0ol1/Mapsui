@@ -70,24 +70,37 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="ManyPinsSample">using Mapsui.Extensions;
-using Mapsui.Manipulations;
-using Mapsui.Samples.Common;
-using Mapsui.Samples.Common.Maps.Demo;
-using Mapsui.Styles;
+<pre><code class="lang-csharp" name="Main" title="ManyPinsSample">using Mapsui.Samples.Common;
+using Mapsui.Samples.Common.Maps;
 using Mapsui.UI;
-using Mapsui.UI.Maui;
-using Mapsui.Utilities;
-using Mapsui.Widgets.InfoWidgets;
-using Microsoft.Maui.Graphics;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using Mapsui.Extensions;
+using Mapsui.Samples.Common.Maps.Demo;
+using Mapsui.Styles;
+using Mapsui.Utilities;
+using Mapsui.Widgets.PerformanceWidget;
+#if __MAUI__
+using Mapsui.UI.Maui;
+using Microsoft.Maui.Graphics;
+using Mapsui.UI.Maui.Utils;
 using Color = Microsoft.Maui.Graphics.Color;
 using KnownColor = Mapsui.UI.Maui.KnownColor;
+#else
+using Mapsui.UI.Forms;
+using Xamarin.Forms;
+using Mapsui.UI.Forms.Utils;
+using Color = Xamarin.Forms.Color;
+using KnownColor = Xamarin.Forms.Color;
+#endif
 
+#if __MAUI__
 namespace Mapsui.Samples.Maui;
+#else
+namespace Mapsui.Samples.Forms;
+#endif
 
 public class ManyPinsSample : IMapViewSample
 {
@@ -100,9 +113,9 @@ public class ManyPinsSample : IMapViewSample
 
     public bool UpdateLocation =&gt; true;
 
-    public bool OnTap(object? sender, EventArgs args)
+    public bool OnClick(object? sender, EventArgs args)
     {
-        var mapView = sender as UI.Maui.MapView;
+        var mapView = sender as MapView;
         var e = args as MapClickedEventArgs;
 
         if (mapView == null)
@@ -112,9 +125,9 @@ public class ManyPinsSample : IMapViewSample
         foreach (var str in assembly.GetManifestResourceNames())
             System.Diagnostics.Debug.WriteLine(str);
 
-        switch (e?.TapType)
+        switch (e?.NumOfTaps)
         {
-            case TapType.Single:
+            case 1:
                 var pin = new Pin(mapView)
                 {
                     Label = $&quot;PinType.Pin {markerNum++}&quot;,
@@ -149,7 +162,7 @@ public class ManyPinsSample : IMapViewSample
                 mapView.Pins.Add(pin);
                 pin.ShowCallout();
                 break;
-            case TapType.Double:
+            case 2:
                 foreach (var r in assembly.GetManifestResourceNames())
                     System.Diagnostics.Debug.WriteLine(r);
 
@@ -168,8 +181,17 @@ public class ManyPinsSample : IMapViewSample
                 }
 
                 break;
-            default:
-                throw new Exception(&quot;Unknown TapType. This is bug in Mapsui.&quot;);
+            case 3:
+                var icon = assembly.GetManifestResourceStream(&quot;Mapsui.Samples.Common.Images.loc.png&quot;)!.ToBytes();
+                mapView?.Pins.Add(new Pin(mapView)
+                {
+                    Label = $&quot;PinType.Icon {markerNum++}&quot;,
+                    Position = e.Point,
+                    Type = PinType.Icon,
+                    Scale = 0.5f,
+                    Icon = icon
+                });
+                break;
         }
 
         return true;
@@ -180,12 +202,23 @@ public class ManyPinsSample : IMapViewSample
         mapControl.Map = OsmSample.CreateMap();
 
         if (mapControl.Performance == null)
-            mapControl.Performance = new Performance();
+            mapControl.Performance = new Utilities.Performance();
 
-        mapControl.Map.Widgets.Add(CreatePerformanceWidget(mapControl));
-        mapControl.Renderer.WidgetRenders[typeof(PerformanceWidget)] = new Rendering.Skia.SkiaWidgets.PerformanceWidgetRenderer();
+        var widget = new PerformanceWidget(mapControl.Performance);
 
-        ((UI.Maui.MapView)mapControl).UniqueCallout = true;
+        widget.WidgetTouched += (sender, args) =&gt;
+        {
+            mapControl?.Performance.Clear();
+            mapControl?.RefreshGraphics();
+
+            args.Handled = true;
+        };
+
+        mapControl.Map.Widgets.Add(widget);
+        mapControl.Renderer.WidgetRenders[typeof(PerformanceWidget)] = new Rendering.Skia.SkiaWidgets.PerformanceWidgetRenderer(10, 10, 12, SkiaSharp.SKColors.Black, SkiaSharp.SKColors.White);
+
+        ((MapView)mapControl).UseDoubleTap = true;
+        ((MapView)mapControl).UniqueCallout = true;
 
         var sw = new Stopwatch();
         sw.Start();
@@ -197,27 +230,13 @@ public class ManyPinsSample : IMapViewSample
             list.Add(CreatePin(i));
         }
 
-        _ = sw.Elapsed;
+        var timePart1 = sw.Elapsed;
 
-        ((ObservableRangeCollection&lt;Pin&gt;)((UI.Maui.MapView)mapControl).Pins).AddRange(list);
+        ((ObservableRangeCollection&lt;Pin&gt;)((MapView)mapControl).Pins).AddRange(list);
 
-        _ = sw.Elapsed;
+        var timePart2 = sw.Elapsed;
 
         sw.Stop();
-    }
-
-    private static PerformanceWidget CreatePerformanceWidget(IMapControl mapControl)
-    {
-        ArgumentNullException.ThrowIfNull(mapControl.Performance);
-        return new PerformanceWidget(mapControl.Performance)
-        {
-            Tapped = (sender, args) =&gt;
-            {
-                mapControl?.Performance.Clear();
-                mapControl?.RefreshGraphics();
-                return true;
-            }
-        };
     }
 
     private Pin CreatePin(int num)
@@ -267,7 +286,7 @@ public class ManyPinsSample : IMapViewSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/ManyPinsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/ManyPinsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

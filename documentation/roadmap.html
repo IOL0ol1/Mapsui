@@ -78,64 +78,39 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="roadmap">Roadmap</h1>
 
-<p><em>Updated November 2023</em></p>
+<p><em>Updated June 2023</em></p>
 <h2 id="mapsui-4">Mapsui 4</h2>
-<p>Branch: <a href="https://github.com/Mapsui/Mapsui/tree/develop/4.1">develop/4.1</a>. Milestone: <a href="https://github.com/Mapsui/Mapsui/milestone/9">v4.1</a>. Mapsui v4.1.x is the stable version you should use.</p>
 <ul>
-<li>[x] Use NTS for geometries</li>
-<li>[x] License to MIT</li>
-<li>[x] Improve Viewport logic</li>
-<li>[x] Improve MVVM support <a href="https://github.com/Mapsui/Mapsui/issues/1731">#1731</a></li>
-<li>[x] Improve samples</li>
-<li>[x] Add MAUI MapControl</li>
-<li>[x] Add Blazor MapControl</li>
-<li>[x] Add Uno Platform MapControl</li>
-<li>[x] Add Avalonia MapControl</li>
-<li>[x] Add Eto MapControl</li>
-<li>[x] Add 'getting started' tutorials for all platforms</li>
-<li>[ ] Keep fixing bugs</li>
+<li>Use NTS for geometries</li>
+<li>License to MIT</li>
+<li>Improve Viewport logic</li>
+<li>Improve MVVM support <a href="https://github.com/Mapsui/Mapsui/issues/1731">#1731</a></li>
+<li>Improve samples</li>
+<li>Add MAUI MapControl</li>
+<li>Add Blazor MapControl</li>
+<li>Add Uno Platform MapControl</li>
+<li>Add Avalonia MapControl</li>
+<li>Add Eto MapControl</li>
+<li>Add 'getting started' tutorials for all platforms</li>
 </ul>
 <h2 id="mapsui-5">Mapsui 5</h2>
-<p>Focus: More shared code in platforms. This will affect MapControls, Widgets and manipulation (touch and mouse).</p>
-<p>Branch: <a href="https://github.com/Mapsui/Mapsui/tree/main">main</a>. Milestone: <a href="https://github.com/Mapsui/Mapsui/milestone/10">v5.0</a>. We are working on a series of preview releases.</p>
 <ul>
-<li>[x] To .NET 6 for everything we release</li>
-<li>[x] All samples and tests to .NET 8.</li>
-<li>[ ] Cleanup:
+<li>Everything to .NET 6</li>
+<li>Remove:
 <ul>
-<li>[ ] Use <code>&lt;Nullable&gt;enable&lt;/Nullable&gt;</code> everywhere (Add to Directory.Build.props) and go through the current suppressions to see if there is a better way.</li>
-<li>[ ] Fix the remaining warnings wrt IDispose.</li>
-<li>[ ] Run dotnet format (whitespace, style and analyzers) on the entire solution.</li>
-<li>[x] Always propagate async back to the caller.</li>
-<li>[x] Remove nuget packages that we previously needed for things now supported in .NET 6.</li>
-<li>[ ] Remove code copies of things now in .NET 6 (in the past we copied some .NET Core things which were not in .NET standard).</li>
-<li>[ ] Remove the #if defines we do not need anymore.</li>
-<li>[ ] Remove all scripts and configurations we do not use anymore.</li>
-<li>[ ] Simplify the build scripts now that we do not need the workarounds.</li>
-<li>[x] Rename master to main.</li>
+<li>Xamarin.Forms</li>
+<li>Uno UWP (but not Uno WinUI)</li>
+<li>Mapsui.Avalonia.V0</li>
 </ul>
 </li>
-<li>[x] Remove older frameworks:
-<ul>
-<li>[x] Remove Xamarin.Forms (but not Mapsui.MAUI, Mapsui.iOS and Mapsui.Android).</li>
-<li>[x] Remove Uno UWP (but not Mapsui.Uno.WinUI)</li>
-<li>[x] Remove Avalonia.V0 (but not Avalonia)</li>
+<li>Merge MapView functionality into MapControl.</li>
 </ul>
-</li>
-<li>[ ] Merge MapView functionality into MapControl. We need to work this out in more detail.</li>
-</ul>
-<h2 id="mapsui-6-and-later">Mapsui 6 and later</h2>
-<p>Focus: Rendering.</p>
+<h2 id="mapsui-6">Mapsui 6</h2>
 <ul>
-<li>[ ] Two step rendering. In the draw loop only draw skia object, create skia object in an earlier step <a href="https://github.com/Mapsui/Mapsui/issues/1448">https://github.com/Mapsui/Mapsui/issues/1448</a></li>
-<li>[ ] All redering through a single pipeline <a href="https://github.com/Mapsui/Mapsui/issues/2269">https://github.com/Mapsui/Mapsui/issues/2269</a></li>
-<li>[ ] World wrap <a href="https://github.com/Mapsui/Mapsui/issues/518">https://github.com/Mapsui/Mapsui/issues/518</a></li>
-<li>[ ] Add vector tiles <a href="https://github.com/Mapsui/Mapsui/issues/1478">https://github.com/Mapsui/Mapsui/issues/1478</a></li>
-</ul>
-<p>Other options:</p>
-<ul>
-<li>[ ] Add support for GeoParquet <a href="https://github.com/Mapsui/Mapsui/issues/2282">https://github.com/Mapsui/Mapsui/issues/2282</a></li>
-<li>[ ] For possible other options you could  browse through the <a href="https://github.com/Mapsui/Mapsui/labels/design%20discussion">'design discussion' tags</a> .</li>
+<li>In render loop only draw skia object (do not create them) <a href="https://github.com/Mapsui/Mapsui/issues/1448">#1448</a></li>
+<li>Further improve performance</li>
+<li>World wrap</li>
+<li>Add vector tiles</li>
 </ul>
 </article>
           </div>
@@ -145,7 +120,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/roadmap.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/documentation/roadmap.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
