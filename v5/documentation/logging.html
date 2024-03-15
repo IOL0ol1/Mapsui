@@ -85,8 +85,8 @@
     // todo: Forward to your own logger
 };
 </code></pre>
-<h3 id="forward-mapsui-logging-to-the-often-used-microsoftextensionsloggingilogger">Forward Mapsui logging to the often used Microsoft.Extensions.Logging.ILogger</h3>
-<p>This is an example of how to forward it to <code>Microsoft.Extensions.Logging.ILogger</code>. If you have configured a logger in your app, like serilog for instance, you would get Mapsui log messages in that log file.</p>
+<h3 id="forward-mapsui-logging-to-ilogger">Forward Mapsui logging to ILogger</h3>
+<p>This is an example of how to forward Mapsui logging to the de facto standard <code>Microsoft.Extensions.Logging.ILogger</code>. If you have configured a logger in your app, like serilog for instance, you would get Mapsui log messages in that log file.</p>
 <pre><code class="lang-csharp">    public static void AttachMapsuiLogging(this IServiceProvider serviceProvider)
     {
         var logger = serviceProvider.GetRequiredService&lt;ILogger&lt;MyLoggerCategory&gt;&gt;();
@@ -115,7 +115,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/logging.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/feature/docs/docfx/documentation/logging.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
