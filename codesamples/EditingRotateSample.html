@@ -83,7 +83,8 @@ public class EditingScaleSample : IMapControlSample
     public string Category =&gt; &quot;Editing&quot;;
     public void Setup(IMapControl mapControl)
     {
-        EditingSample.InitEditMode(mapControl, EditMode.Scale);
+        var editManager = EditingSample.InitEditMode(mapControl, EditMode.Scale);
+        mapControl.Map.Navigator.ZoomToBox(editManager.GetGrownExtent());
     }
 }
 </code></pre></article>
@@ -94,7 +95,7 @@ public class EditingScaleSample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/EditingRotateSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/EditingRotateSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -70,23 +70,18 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="WmsProjectionTilingSample">using Mapsui.Cache;
-using Mapsui.Layers;
-using Mapsui.Providers.Wms;
-using System.Threading.Tasks;
-using Mapsui.Extensions.Cache;
-using Mapsui.Nts.Extensions;
-using Mapsui.Providers;
-using Mapsui.Styles;
-using NetTopologySuite.Geometries;
+<pre><code class="lang-csharp" name="Main" title="WmsProjectionTilingSample">using Mapsui.Extensions.Cache;
 using Mapsui.Extensions.Projections;
+using Mapsui.Layers;
+using Mapsui.Providers;
+using Mapsui.Providers.Wms;
+using Mapsui.Samples.Common.Utilities;
+using Mapsui.Styles;
 using Mapsui.Tiling.Layers;
 using Mapsui.Widgets;
-using NetTopologySuite.Utilities;
-using static System.Net.Mime.MediaTypeNames;
-using System.Resources;
-using Mapsui.Samples.Common.Utilities;
+using Mapsui.Widgets.ButtonWidgets;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Mapsui.Samples.Common.Maps.DataFormats;
 
@@ -97,7 +92,7 @@ public class WmsProjectionTilingSample : ISample
         CacheDeployer.CopyEmbeddedResourceToFile(&quot;WmsSample.sqlite&quot;);
     }
 
-    public string Name =&gt; &quot; 6 WMS Projection Tiling&quot;;
+    public string Name =&gt; &quot;WMS Projection Tiling&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     public async Task&lt;Map&gt; CreateMapAsync()
@@ -124,20 +119,18 @@ public class WmsProjectionTilingSample : ISample
         {
             CRS = &quot;EPSG:3857&quot;
         };
-        
+
         var imageLayer = new ImageLayer(&quot;mainmap&quot;)
         {
             DataSource = dataSource,
             Style = new RasterStyle(),
-            Attribution = new Hyperlink()
+            Attribution = new HyperlinkWidget()
             {
                 Text = &quot;@Agenzia delle Entrate 2023&quot;,
                 VerticalAlignment = VerticalAlignment.Bottom,
                 HorizontalAlignment = HorizontalAlignment.Left,
-                MarginX = 10,
-                MarginY = 10,
-                PaddingX = 4,
-                PaddingY = 4,
+                Margin = new MRect(10),
+                Padding = new MRect(4),
                 BackColor = Color.LightGray,
             }
         };
@@ -169,7 +162,7 @@ public class WmsProjectionTilingSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WmsProjectionTilingSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WmsProjectionTilingSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

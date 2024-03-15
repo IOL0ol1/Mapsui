@@ -70,14 +70,13 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="WfsSample">using Mapsui.Cache;
-using Mapsui.Extensions;
+<pre><code class="lang-csharp" name="Main" title="WfsSample">using Mapsui.Extensions;
 using Mapsui.Layers;
 using Mapsui.Logging;
 using Mapsui.Providers.Wfs;
 using Mapsui.Styles;
 using Mapsui.Tiling;
-using Mapsui.Widgets;
+using Mapsui.Widgets.InfoWidgets;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
@@ -86,7 +85,7 @@ namespace Mapsui.Samples.Common.Maps.DataFormats;
 
 public class WfsSample : ISample
 {
-    public string Name =&gt; &quot; 7 WFS&quot;;
+    public string Name =&gt; &quot;WFS&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     private const string wfsUri = &quot;https://geoservices1.civis.bz.it/geoserver/p_bz-AdministrativeUnits/ows&quot;;
@@ -107,7 +106,7 @@ public class WfsSample : ISample
 
             map.Widgets.Add(new MapInfoWidget(map));
 
-            map.Home = n =&gt; n.CenterOnAndZoomTo(new MPoint(1270000.0, 5880000.0), n.Resolutions[9]);
+            map.Navigator.CenterOnAndZoomTo(new MPoint(1270000.0, 5880000.0), map.Navigator.Resolutions[9]);
 
             return map;
 
@@ -189,7 +188,7 @@ public class WfsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WfsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WfsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

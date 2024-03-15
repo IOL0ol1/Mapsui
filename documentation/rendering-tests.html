@@ -95,6 +95,7 @@
 <pre><code>{test project folder}\Resources\Images\Original\
 </code></pre>
 <p>This can be done with a script: <code>scripts\test-image-copier.cmd</code>.</p>
+<p>Note, only commit changes to git if the file that is modified relates to a failed test. There are many tiny changes in the files which are ignored by the tests. In that case we do not want to alter the file to avoid too many changes and avoid growth in size of the repository.</p>
 <h2 id="2-visual-inspection">2. Visual inspection</h2>
 <p>There tests can be inspected in two ways.</p>
 <ol>
@@ -110,7 +111,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/documentation/rendering-tests.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/rendering-tests.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

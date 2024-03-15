@@ -73,7 +73,7 @@
 <pre><code class="lang-csharp" name="Main" title="MouseCoordinatesWidgetSample">using Mapsui.Extensions;
 using Mapsui.Tiling;
 using Mapsui.Widgets;
-using Mapsui.Widgets.MouseCoordinatesWidget;
+using Mapsui.Widgets.InfoWidgets;
 using System.Threading.Tasks;
 
 namespace Mapsui.Samples.Common.Maps.Widgets;
@@ -99,12 +99,11 @@ public class MouseCoordinatesWidgetSample : ISample
     private static MouseCoordinatesWidget CreateMouseCoordinatesWidget(Map map,
         VerticalAlignment verticalAlignment, HorizontalAlignment horizontalAlignment)
     {
-        return new MouseCoordinatesWidget(map)
+        return new MouseCoordinatesWidget()
         {
             VerticalAlignment = verticalAlignment,
             HorizontalAlignment = horizontalAlignment,
-            MarginX = 20,
-            MarginY = 20,
+            Margin = new MRect(20),
         };
     }
 }
@@ -116,7 +115,7 @@ public class MouseCoordinatesWidgetSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/MouseCoordinatesWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/MouseCoordinatesWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

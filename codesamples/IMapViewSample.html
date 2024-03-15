@@ -73,15 +73,11 @@
 <pre><code class="lang-csharp" name="Main" title="IMapViewSample">using Mapsui.Samples.Common;
 using System;
 
-#if __MAUI__
 namespace Mapsui.Samples.Maui;
-#else
-namespace Mapsui.Samples.Forms;
-#endif
 
 public interface IMapViewSample : IMapControlSample
 {
-    bool OnClick(object? sender, EventArgs args);
+    bool OnTap(object? sender, EventArgs args);
 
     bool UpdateLocation { get; }
 }
@@ -93,7 +89,7 @@ public interface IMapViewSample : IMapControlSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/IMapViewSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/IMapViewSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

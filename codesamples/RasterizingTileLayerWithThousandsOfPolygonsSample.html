@@ -72,14 +72,19 @@
 
 <pre><code class="lang-csharp" name="Main" title="RasterizingTileLayerWithThousandsOfPolygonsSample">using System;
 using System.Collections.Generic;
+using System.Linq;
 using Mapsui.Layers;
 using Mapsui.Nts.Extensions;
 using Mapsui.Nts.Providers;
 using Mapsui.Projections;
-using Mapsui.Providers;
+using Mapsui.Rendering;
+using Mapsui.Rendering.Skia;
+using Mapsui.Rendering.Skia.Cache;
 using Mapsui.Styles;
 using Mapsui.Tiling.Layers;
 using Mapsui.UI;
+using Mapsui.Widgets;
+using Mapsui.Widgets.ButtonWidgets;
 using NetTopologySuite.Geometries;
 
 #pragma warning disable IDISP001 // Dispose created
@@ -87,8 +92,9 @@ using NetTopologySuite.Geometries;
 
 namespace Mapsui.Samples.Common.Maps.Performance;
 
-public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSample
+public sealed class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSample, IDisposable
 {
+    private Map? _map;
     public string Name =&gt; &quot;RasterizingTileLayer with Thousands of Polygons&quot;;
     public string Category =&gt; &quot;Performance&quot;;
 
@@ -97,30 +103,41 @@ public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSamp
         mapControl.Map = CreateMap();
     }
 
-    public static Map CreateMap()
+    public Map CreateMap()
     {
-        var map = new Map();
-
-        map.Layers.Add(Tiling.OpenStreetMap.CreateTileLayer());
-        map.Layers.Add(new RasterizingTileLayer(CreatePolygonLayer()));
+        DefaultRendererFactory.Create = () =&gt; new MapRenderer(new RenderCache(900000));
+        _map?.Dispose();
+        _map = new Map();
+        _map.Layers.Add(Tiling.OpenStreetMap.CreateTileLayer());
+        _map.Layers.Add(new RasterizingTileLayer(CreatePolygonLayer()));
         var home = Mercator.FromLonLat(0, 0);
-        map.Home = n =&gt; n.CenterOnAndZoomTo(home, map.Navigator.Resolutions[9]);
-
-        return map;
-    }
-    public static ILayer CreatePolygonLayer()
-    {
-        return new Layer(&quot;Polygons&quot;)
+        _map.Navigator.CenterOnAndZoomTo(home, _map.Navigator.Resolutions[9]);
+        _map.Widgets.Enqueue(new ButtonWidget
         {
-            DataSource = new Mapsui.Nts.Providers.GeometrySimplifyProvider(new MemoryProvider(CreatePolygon().ToFeatures())),
-            Style = new VectorStyle
-            {
-                Fill = new Brush(Color.Red),
-            }
-        };
+            Text = &quot;Change Color&quot;,
+            HorizontalAlignment = HorizontalAlignment.Left,
+            VerticalAlignment = VerticalAlignment.Top,
+            Tapped = ChangeColor
+        });
+
+        return _map;
     }
 
-    public static ILayer CreateLayer()
+    private bool ChangeColor(object? sender, WidgetEventArgs e)
+    {
+        var layer = (_map?.Layers)?.First(f =&gt; f is RasterizingTileLayer) as RasterizingTileLayer;
+        var random = new Random();
+        // random color
+        Color color = new Color(random.Next(255), random.Next(255), random.Next(255));
+        layer!.SourceLayer.Style = new VectorStyle
+        {
+            Fill = new Brush(color),
+        };
+        layer.ClearCache();
+        return false;
+    }
+
+    public static ILayer CreatePolygonLayer()
     {
         return new Layer(&quot;Polygons&quot;)
         {
@@ -131,6 +148,7 @@ public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSamp
             }
         };
     }
+
     private static List&lt;Polygon&gt; CreatePolygon()
     {
         var result = new List&lt;Polygon&gt;();
@@ -140,7 +158,7 @@ public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSamp
 
         for (int i = 0; i &lt; 900000; i++)
         {
-            factor = i - 100*(int)Math.Round((double)(i / 100));
+            factor = i - 100 * (int)Math.Round((double)(i / 100));
             polygon1 = new Polygon(
                 new LinearRing(new[] {
                     new Coordinate(1000*(factor-1), 1000*(factor-1)-(Math.Round((double)(i/100))*1000)),
@@ -149,10 +167,15 @@ public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSamp
                     new Coordinate(1000*(factor), 1000*(factor-1)-(Math.Round((double)(i/100))*1000)),
                     new Coordinate(1000*(factor-1), 1000*(factor-1)-(Math.Round((double)(i/100))*1000))
                 }));
-            
+
             result.Add(polygon1);
         }
         return result;
+    }
+
+    public void Dispose()
+    {
+        _map?.Dispose();
     }
 }
 </code></pre></article>
@@ -163,7 +186,7 @@ public class RasterizingTileLayerWithThousandsOfPolygonsSample : IMapControlSamp
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/RasterizingTileLayerWithThousandsOfPolygonsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/RasterizingTileLayerWithThousandsOfPolygonsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

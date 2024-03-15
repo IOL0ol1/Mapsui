@@ -76,10 +76,8 @@ using System.Threading.Tasks;
 using Mapsui.Extensions;
 using Mapsui.Layers;
 using Mapsui.Nts;
-using Mapsui.Providers;
 using Mapsui.Samples.Common;
 using Mapsui.Styles;
-using Mapsui.UI;
 using NetTopologySuite.IO;
 
 namespace Mapsui.Tests.Common.Maps;
@@ -102,8 +100,9 @@ public class PolygonTestSample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
-            Home = n =&gt; n.ZoomToPanBounds(MBoxFit.Fit)
         };
+
+        map.Navigator.ZoomToPanBounds(MBoxFit.Fit);
 
         map.Layers.Add(layer);
 
@@ -283,7 +282,7 @@ public class PolygonTestSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/PolygonTestSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/PolygonTestSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

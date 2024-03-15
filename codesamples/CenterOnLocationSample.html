@@ -94,7 +94,7 @@ public class CenterOnLocationSample : ISample
         var sphericalMercatorCoordinate = SphericalMercator.FromLonLat(centerOfLondonOntario.X, centerOfLondonOntario.Y).ToMPoint();
         // Set the center of the viewport to the coordinate. The UI will refresh automatically
         // Additionally you might want to set the resolution, this could depend on your specific purpose
-        map.Home = n =&gt; n.CenterOnAndZoomTo(sphericalMercatorCoordinate, n.Resolutions[9]);
+        map.Navigator.CenterOnAndZoomTo(sphericalMercatorCoordinate, map.Navigator.Resolutions[9]);
 
         return Task.FromResult(map);
     }
@@ -107,7 +107,7 @@ public class CenterOnLocationSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/CenterOnLocationSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/CenterOnLocationSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

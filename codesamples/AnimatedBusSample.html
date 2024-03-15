@@ -75,8 +75,6 @@ using Mapsui.Styles;
 using System.Threading.Tasks;
 using Mapsui.Tiling;
 
-#if NET6_0_OR_GREATER
-
 #pragma warning disable IDISP004 // Don't ignore created IDisposable
 
 namespace Mapsui.Samples.Common.Maps.Animations;
@@ -103,12 +101,11 @@ public class AnimatedBusSample : ISample
         });
 
         map.CRS = &quot;EPSG:3857&quot;;
-        map.Home = n =&gt; n.CenterOnAndZoomTo(new MPoint(2776952, 8442653), n.Resolutions[18]);
+        map.Navigator.CenterOnAndZoomTo(new MPoint(2776952, 8442653), map.Navigator.Resolutions[18]);
 
         return Task.FromResult(map);
     }
 }
-#endif
 </code></pre></article>
           </div>
 
@@ -117,7 +114,7 @@ public class AnimatedBusSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/AnimatedBusSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/AnimatedBusSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

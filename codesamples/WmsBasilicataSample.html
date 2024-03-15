@@ -70,18 +70,12 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="WmsBasilicataSample">using System.Collections.Generic;
-using System.Threading.Tasks;
-using BruTile;
-using Mapsui.Extensions;
+<pre><code class="lang-csharp" name="Main" title="WmsBasilicataSample">using System.Threading.Tasks;
 using Mapsui.Layers;
 using Mapsui.Limiting;
-using Mapsui.Projections;
 using Mapsui.Providers.Wms;
 using Mapsui.Samples.Common;
-using Mapsui.Samples.Common.Maps.Navigation;
 using Mapsui.Styles;
-using Mapsui.Tiling.Extensions;
 
 namespace Mapsui.Tests.Common.Maps;
 
@@ -99,7 +93,8 @@ public class WmsBasilicataSample : ISample
         map.Navigator.Limiter = new ViewportLimiterKeepWithinExtent();
         map.Navigator.RotationLock = true;
         map.Navigator.OverridePanBounds = panBounds;
-        map.Home = n =&gt; n.ZoomToBox(panBounds);        
+        map.Navigator.ZoomToBox(panBounds);
+
         return map;
     }
 
@@ -141,7 +136,7 @@ public class WmsBasilicataSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WmsBasilicataSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WmsBasilicataSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

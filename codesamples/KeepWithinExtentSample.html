@@ -92,7 +92,7 @@ public class KeepWithinExtentSample : ISample
         map.Navigator.Limiter = new ViewportLimiterKeepWithinExtent();
         map.Navigator.RotationLock = true;
         map.Navigator.OverridePanBounds = panBounds;
-        map.Home = n =&gt; n.ZoomToBox(panBounds);
+        map.Navigator.ZoomToBox(panBounds);
         return Task.FromResult(map);
     }
 
@@ -111,7 +111,7 @@ public class KeepWithinExtentSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/KeepWithinExtentSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/KeepWithinExtentSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

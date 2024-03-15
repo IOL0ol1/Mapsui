@@ -72,7 +72,6 @@
 
 <pre><code class="lang-csharp" name="Main" title="EmptySample">using Mapsui.Samples.Common;
 using Mapsui.Styles;
-using Mapsui.UI;
 using System.Threading.Tasks;
 
 namespace Mapsui.Tests.Common.Maps;
@@ -90,8 +89,10 @@ public class EmptySample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
-            Home = n =&gt; n.CenterOnAndZoomTo(new MPoint(0, 0), 1)
         };
+
+        map.Navigator.CenterOnAndZoomTo(new MPoint(0, 0), 1);
+
         return map;
     }
 }
@@ -103,7 +104,7 @@ public class EmptySample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/EmptySample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/EmptySample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

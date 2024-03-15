@@ -70,8 +70,7 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<pre><code class="lang-csharp" name="Main" title="WmsSample">using Mapsui.Cache;
-using Mapsui.Layers;
+<pre><code class="lang-csharp" name="Main" title="WmsSample">using Mapsui.Layers;
 using Mapsui.Providers.Wms;
 using System.Threading.Tasks;
 using Mapsui.Styles;
@@ -80,7 +79,7 @@ namespace Mapsui.Samples.Common.Maps.DataFormats;
 
 public class WmsSample : ISample
 {
-    public string Name =&gt; &quot; 6 WMS&quot;;
+    public string Name =&gt; &quot;WMS&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
 
     public async Task&lt;Map&gt; CreateMapAsync()
@@ -88,7 +87,7 @@ public class WmsSample : ISample
         var map = new Map { CRS = &quot;EPSG:28992&quot; };
         // The WMS request needs a CRS
         map.Layers.Add(await CreateLayerAsync());
-        map.Home = (n) =&gt; n.CenterOnAndZoomTo(new MPoint(155000, 463000), 500);
+        map.Navigator.CenterOnAndZoomTo(new MPoint(155000, 463000), 500);
         return map;
     }
 
@@ -123,7 +122,7 @@ public class WmsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WmsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WmsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

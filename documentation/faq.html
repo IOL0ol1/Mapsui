@@ -94,6 +94,10 @@ the NavigateTo arguments to SphericalMercator.
 Note: There can be many other forms of mixing up coordinate systems, but this is the most common.</p>
 <h3 id="how-can-i-get-rid-of-the-white-dots-or-black-lines">How can I get rid of the white dots? (or black lines)</h3>
 <p>Set <code>Layer.Style = null</code>. In Mapsui a Style can be assigned to a ILayer and a Feature. A Layer is created with a default style which is rendered as a white dot for a <code>Point</code>, a black line for a <code>LineString</code> and a black outline for a <code>Polygon</code>. The <code>Layer.Style</code> applies to all features in the layer. If you work with a style on a feature the layer style is still drawn underneath.</p>
+<h3 id="navigation-does-not-work-when-assigning-maphome">Navigation does not work when assigning Map.Home</h3>
+<p>Map.Home is meant to define the default extent. The Map.Home method is called when the canvas is initialzed. If you want to navigate after the app is started then call the methods on Map.Navigator.</p>
+<h3 id="navigation-does-not-work-during-startup">Navigation does not work during startup</h3>
+<p>To set the startup viewport you need to assign Map.Home. Map.Navigator does not work during startup because the canvas size is not known.</p>
 </article>
           </div>
 
@@ -102,7 +106,7 @@ Note: There can be many other forms of mixing up coordinate systems, but this is
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/documentation/faq.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/faq.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

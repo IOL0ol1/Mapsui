@@ -128,7 +128,7 @@ public Task&lt;Map&gt; CreateMapAsync()
     };
     map.Layers.Add(OpenStreetMap.CreateTileLayer());
     map.Layers.Add(geometryLayer);
-    map.Home = n =&gt; n.ZoomToBox(extent);
+    map.Navigator.ZoomToBox(extent);
 
     map.Widgets.Add(new MapInfoWidget(map));
 
@@ -180,7 +180,7 @@ private static SymbolStyle CreateCityStyle()
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/documentation/projections.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/projections.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

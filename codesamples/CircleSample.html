@@ -71,24 +71,12 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <pre><code class="lang-csharp" name="Main" title="CircleSample">using System;
-using Mapsui.Samples.Common.Maps;
 using Mapsui.Samples.Common.Maps.Demo;
 using Mapsui.UI;
-#if __MAUI__
 using Mapsui.UI.Maui;
-using Microsoft.Maui;
-
 using Color = Microsoft.Maui.Graphics.Color;
-#else
-using Mapsui.UI.Forms;
-using Xamarin.Forms;
-#endif
 
-#if __MAUI__
 namespace Mapsui.Samples.Maui;
-#else
-namespace Mapsui.Samples.Forms;
-#endif
 
 public class CircleSample : IMapViewSample
 {
@@ -100,9 +88,9 @@ public class CircleSample : IMapViewSample
 
     public bool UpdateLocation =&gt; true;
 
-    public bool OnClick(object? sender, EventArgs args)
+    public bool OnTap(object? sender, EventArgs args)
     {
-        var mapView = sender as MapView;
+        var mapView = sender as UI.Maui.MapView;
         var e = args as MapClickedEventArgs;
 
         if (e == null)
@@ -139,7 +127,7 @@ public class CircleSample : IMapViewSample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/CircleSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/CircleSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

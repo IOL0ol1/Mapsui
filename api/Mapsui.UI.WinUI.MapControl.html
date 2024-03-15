@@ -92,23 +92,23 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Mapsui.UI.IMapControl.html">IMapControl</a></div>
-    <div><span class="xref">IDisposable</span></div>
-    <div><span class="xref">Grid</span></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.UI.WinUI.html">Mapsui.UI.WinUI</a></h6>
-  <h6><strong>Assembly</strong>: Mapsui.UI.WinUI.dll</h6>
+  <h6><strong>Assembly</strong>: Mapsui.UI.Uno.WinUI.dll</h6>
   <h5 id="Mapsui_UI_WinUI_MapControl_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapControl : INotifyPropertyChanged, IMapControl</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapControl : Grid, IMapControl, IDisposable, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl__ctor.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl__ctor.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.WinUI/MapControl.cs/#L64">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.WinUI/MapControl.cs/#L32">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl__ctor_" data-uid="Mapsui.UI.WinUI.MapControl.#ctor*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl__ctor" data-uid="Mapsui.UI.WinUI.MapControl.#ctor">MapControl()</h4>
@@ -122,10 +122,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Map.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Map%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Map.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Map%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L474">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L431">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Map_" data-uid="Mapsui.UI.WinUI.MapControl.Map*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Map" data-uid="Mapsui.UI.WinUI.MapControl.Map">Map</h4>
@@ -153,10 +153,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Performance.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Performance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_MaxTapGestureMovement.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.MaxTapGestureMovement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L222">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L70">View Source</a>
+  </span>
+  <a id="Mapsui_UI_WinUI_MapControl_MaxTapGestureMovement_" data-uid="Mapsui.UI.WinUI.MapControl.MaxTapGestureMovement*"></a>
+  <h4 id="Mapsui_UI_WinUI_MapControl_MaxTapGestureMovement" data-uid="Mapsui.UI.WinUI.MapControl.MaxTapGestureMovement">MaxTapGestureMovement</h4>
+  <div class="markdown level1 summary"><p>The movement allowed between a touch down and touch up in a touch gestures in device independent pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxTapGestureMovement { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Performance.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Performance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L228">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Performance_" data-uid="Mapsui.UI.WinUI.MapControl.Performance*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Performance" data-uid="Mapsui.UI.WinUI.MapControl.Performance">Performance</h4>
@@ -187,10 +218,10 @@
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_PixelDensity.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.PixelDensity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_PixelDensity.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.PixelDensity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L269">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L241">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_PixelDensity_" data-uid="Mapsui.UI.WinUI.MapControl.PixelDensity*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_PixelDensity" data-uid="Mapsui.UI.WinUI.MapControl.PixelDensity">PixelDensity</h4>
@@ -217,10 +248,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Renderer.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Renderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Renderer.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Renderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L276">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L246">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Renderer_" data-uid="Mapsui.UI.WinUI.MapControl.Renderer*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Renderer" data-uid="Mapsui.UI.WinUI.MapControl.Renderer">Renderer</h4>
@@ -229,7 +260,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRenderer Renderer { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRenderer Renderer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -248,102 +279,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ReSnapRotationDegrees.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ReSnapRotationDegrees%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_UpdateInterval.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.UpdateInterval%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L256">View Source</a>
-  </span>
-  <a id="Mapsui_UI_WinUI_MapControl_ReSnapRotationDegrees_" data-uid="Mapsui.UI.WinUI.MapControl.ReSnapRotationDegrees*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_ReSnapRotationDegrees" data-uid="Mapsui.UI.WinUI.MapControl.ReSnapRotationDegrees">ReSnapRotationDegrees</h4>
-  <div class="markdown level1 summary"><p>With how many degrees from 0 should map snap to 0 degrees</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double ReSnapRotationDegrees { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ShiftPressed.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ShiftPressed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.WinUI/MapControl.cs/#L163">View Source</a>
-  </span>
-  <a id="Mapsui_UI_WinUI_MapControl_ShiftPressed_" data-uid="Mapsui.UI.WinUI.MapControl.ShiftPressed*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_ShiftPressed" data-uid="Mapsui.UI.WinUI.MapControl.ShiftPressed">ShiftPressed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ShiftPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_UnSnapRotationDegrees.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.UnSnapRotationDegrees%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L238">View Source</a>
-  </span>
-  <a id="Mapsui_UI_WinUI_MapControl_UnSnapRotationDegrees_" data-uid="Mapsui.UI.WinUI.MapControl.UnSnapRotationDegrees*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_UnSnapRotationDegrees" data-uid="Mapsui.UI.WinUI.MapControl.UnSnapRotationDegrees">UnSnapRotationDegrees</h4>
-  <div class="markdown level1 summary"><p>After how many degrees start rotation to take place</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double UnSnapRotationDegrees { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_UpdateInterval.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.UpdateInterval%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L198">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L204">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_UpdateInterval_" data-uid="Mapsui.UI.WinUI.MapControl.UpdateInterval*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_UpdateInterval" data-uid="Mapsui.UI.WinUI.MapControl.UpdateInterval">UpdateInterval</h4>
@@ -369,29 +308,46 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_UseFling.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.UseFling%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L76">View Source</a>
+  </span>
+  <a id="Mapsui_UI_WinUI_MapControl_UseFling_" data-uid="Mapsui.UI.WinUI.MapControl.UseFling*"></a>
+  <h4 id="Mapsui_UI_WinUI_MapControl_UseFling" data-uid="Mapsui.UI.WinUI.MapControl.UseFling">UseFling</h4>
+  <div class="markdown level1 summary"><p>Use fling gesture to move the map. Default is true. Fling means that the map will continue to move for a
+short time after the user has lifted the finger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseFling { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_CallHomeIfNeeded.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.CallHomeIfNeeded%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Dispose.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L427">View Source</a>
-  </span>
-  <a id="Mapsui_UI_WinUI_MapControl_CallHomeIfNeeded_" data-uid="Mapsui.UI.WinUI.MapControl.CallHomeIfNeeded*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_CallHomeIfNeeded" data-uid="Mapsui.UI.WinUI.MapControl.CallHomeIfNeeded">CallHomeIfNeeded()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CallHomeIfNeeded()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Dispose.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.WinUI/MapControl.cs/#L346">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.WinUI/MapControl.cs/#L277">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Dispose_" data-uid="Mapsui.UI.WinUI.MapControl.Dispose*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Dispose" data-uid="Mapsui.UI.WinUI.MapControl.Dispose">Dispose()</h4>
@@ -403,10 +359,10 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Dispose(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Dispose(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.WinUI/MapControl.cs/#L322">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.WinUI/MapControl.cs/#L247">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Dispose_" data-uid="Mapsui.UI.WinUI.MapControl.Dispose*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Dispose_System_Boolean_" data-uid="Mapsui.UI.WinUI.MapControl.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -435,10 +391,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ForceUpdate.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ForceUpdate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ForceUpdate.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ForceUpdate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L189">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L195">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_ForceUpdate_" data-uid="Mapsui.UI.WinUI.MapControl.ForceUpdate*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_ForceUpdate" data-uid="Mapsui.UI.WinUI.MapControl.ForceUpdate">ForceUpdate()</h4>
@@ -454,18 +410,19 @@
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_GetMapInfo_Mapsui_MPoint_System_Int32_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.GetMapInfo(Mapsui.MPoint%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_GetMapInfo_Mapsui_Manipulations_ScreenPosition_System_Int32_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.GetMapInfo(Mapsui.Manipulations.ScreenPosition%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L537">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L496">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_GetMapInfo_" data-uid="Mapsui.UI.WinUI.MapControl.GetMapInfo*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_GetMapInfo_Mapsui_MPoint_System_Int32_" data-uid="Mapsui.UI.WinUI.MapControl.GetMapInfo(Mapsui.MPoint,System.Int32)">GetMapInfo(MPoint, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Mapsui_UI_WinUI_MapControl_GetMapInfo_Mapsui_Manipulations_ScreenPosition_System_Int32_" data-uid="Mapsui.UI.WinUI.MapControl.GetMapInfo(Mapsui.Manipulations.ScreenPosition,System.Int32)">GetMapInfo(ScreenPosition, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check, if a feature at a given screen position is hit</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapInfo GetMapInfo(MPoint screenPosition, int margin = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public MapInfo GetMapInfo(ScreenPosition screenPosition, int margin = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -478,14 +435,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mapsui.MPoint.html">MPoint</a></td>
+        <td><a class="xref" href="Mapsui.Manipulations.ScreenPosition.html">ScreenPosition</a></td>
         <td><span class="parametername">screenPosition</span></td>
-        <td></td>
+        <td><p>Screen position to check for widgets and features</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">margin</span></td>
-        <td></td>
+        <td><p>An optional extra margin around the feature to enlarge the hit area.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -506,18 +465,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Nullable_IEnumerable_Mapsui_Layers_ILayer___.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Nullable%7BIEnumerable%7BMapsui.Layers.ILayer%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable%7BMapsui.Layers.ILayer%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L546">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L502">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_GetSnapshot_" data-uid="Mapsui.UI.WinUI.MapControl.GetSnapshot*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Nullable_IEnumerable_Mapsui_Layers_ILayer___" data-uid="Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Nullable{IEnumerable{Mapsui.Layers.ILayer}})">GetSnapshot(Nullable&lt;IEnumerable&lt;ILayer&gt;&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__" data-uid="Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})">GetSnapshot(IEnumerable&lt;ILayer&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a snapshot form map as PNG image</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] GetSnapshot(IEnumerable&lt;ILayer&gt;? layers = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] GetSnapshot(IEnumerable&lt;ILayer&gt; layers = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -530,9 +490,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Mapsui.Layers.ILayer.html">ILayer</a>&gt;&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Mapsui.Layers.ILayer.html">ILayer</a>&gt;</td>
         <td><span class="parametername">layers</span></td>
-        <td></td>
+        <td><p>Layers that should be included in snapshot</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -546,17 +507,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Byte array with snapshot in png format. If there are any problems than returns null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_OnMapInfo_Mapsui_MapInfoEventArgs_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.OnMapInfo(Mapsui.MapInfoEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L489">View Source</a>
+  </span>
+  <a id="Mapsui_UI_WinUI_MapControl_OnMapInfo_" data-uid="Mapsui.UI.WinUI.MapControl.OnMapInfo*"></a>
+  <h4 id="Mapsui_UI_WinUI_MapControl_OnMapInfo_Mapsui_MapInfoEventArgs_" data-uid="Mapsui.UI.WinUI.MapControl.OnMapInfo(Mapsui.MapInfoEventArgs)">OnMapInfo(MapInfoEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnMapInfo(MapInfoEventArgs mapInfoEventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mapsui.MapInfoEventArgs.html">MapInfoEventArgs</a></td>
+        <td><span class="parametername">mapInfoEventArgs</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.OnPropertyChanged(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.OnPropertyChanged(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L311">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L269">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_OnPropertyChanged_" data-uid="Mapsui.UI.WinUI.MapControl.OnPropertyChanged*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_OnPropertyChanged_System_String_" data-uid="Mapsui.UI.WinUI.MapControl.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
@@ -577,7 +571,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">propertyName</span></td>
         <td></td>
       </tr>
@@ -585,18 +579,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_OpenBrowser_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.OpenBrowser(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_OpenInBrowser_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.OpenInBrowser(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.WinUI/MapControl.cs/#L299">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.WinUI/MapControl.cs/#L230">View Source</a>
   </span>
-  <a id="Mapsui_UI_WinUI_MapControl_OpenBrowser_" data-uid="Mapsui.UI.WinUI.MapControl.OpenBrowser*"></a>
-  <h4 id="Mapsui_UI_WinUI_MapControl_OpenBrowser_System_String_" data-uid="Mapsui.UI.WinUI.MapControl.OpenBrowser(System.String)">OpenBrowser(String)</h4>
+  <a id="Mapsui_UI_WinUI_MapControl_OpenInBrowser_" data-uid="Mapsui.UI.WinUI.MapControl.OpenInBrowser*"></a>
+  <h4 id="Mapsui_UI_WinUI_MapControl_OpenInBrowser_System_String_" data-uid="Mapsui.UI.WinUI.MapControl.OpenInBrowser(System.String)">OpenInBrowser(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OpenBrowser(string url)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OpenInBrowser(string url)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -609,7 +603,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">url</span></td>
         <td></td>
       </tr>
@@ -617,10 +611,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Refresh_Mapsui_ChangeType_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Refresh(Mapsui.ChangeType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Refresh_Mapsui_ChangeType_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Refresh(Mapsui.ChangeType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L354">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L313">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Refresh_" data-uid="Mapsui.UI.WinUI.MapControl.Refresh*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Refresh_Mapsui_ChangeType_" data-uid="Mapsui.UI.WinUI.MapControl.Refresh(Mapsui.ChangeType)">Refresh(ChangeType)</h4>
@@ -649,10 +643,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_RefreshData_Mapsui_ChangeType_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.RefreshData(Mapsui.ChangeType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_RefreshData_Mapsui_ChangeType_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.RefreshData(Mapsui.ChangeType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L523">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L484">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_RefreshData_" data-uid="Mapsui.UI.WinUI.MapControl.RefreshData*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_RefreshData_Mapsui_ChangeType_" data-uid="Mapsui.UI.WinUI.MapControl.RefreshData(Mapsui.ChangeType)">RefreshData(ChangeType)</h4>
@@ -682,10 +676,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_RefreshGraphics.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.RefreshGraphics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_RefreshGraphics.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.RefreshGraphics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L359">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L318">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_RefreshGraphics_" data-uid="Mapsui.UI.WinUI.MapControl.RefreshGraphics*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_RefreshGraphics" data-uid="Mapsui.UI.WinUI.MapControl.RefreshGraphics">RefreshGraphics()</h4>
@@ -697,10 +691,10 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_StartUpdates_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.StartUpdates(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_StartUpdates_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.StartUpdates(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L165">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L171">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_StartUpdates_" data-uid="Mapsui.UI.WinUI.MapControl.StartUpdates*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_StartUpdates_System_Boolean_" data-uid="Mapsui.UI.WinUI.MapControl.StartUpdates(System.Boolean)">StartUpdates(Boolean)</h4>
@@ -733,10 +727,10 @@
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_StopUpdates.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.StopUpdates%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_StopUpdates.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.StopUpdates%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L178">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L184">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_StopUpdates_" data-uid="Mapsui.UI.WinUI.MapControl.StopUpdates*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_StopUpdates" data-uid="Mapsui.UI.WinUI.MapControl.StopUpdates">StopUpdates()</h4>
@@ -753,10 +747,10 @@ even if it is needed</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ToDeviceIndependentUnits_Mapsui_MPoint_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ToDeviceIndependentUnits(Mapsui.MPoint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ToDeviceIndependentUnits_Mapsui_MPoint_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ToDeviceIndependentUnits(Mapsui.MPoint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L515">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L476">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_ToDeviceIndependentUnits_" data-uid="Mapsui.UI.WinUI.MapControl.ToDeviceIndependentUnits*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_ToDeviceIndependentUnits_Mapsui_MPoint_" data-uid="Mapsui.UI.WinUI.MapControl.ToDeviceIndependentUnits(Mapsui.MPoint)">ToDeviceIndependentUnits(MPoint)</h4>
@@ -803,10 +797,10 @@ even if it is needed</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ToPixels_Mapsui_MPoint_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ToPixels(Mapsui.MPoint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_ToPixels_Mapsui_MPoint_.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.ToPixels(Mapsui.MPoint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L507">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L468">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_ToPixels_" data-uid="Mapsui.UI.WinUI.MapControl.ToPixels*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_ToPixels_Mapsui_MPoint_" data-uid="Mapsui.UI.WinUI.MapControl.ToPixels(Mapsui.MPoint)">ToPixels(MPoint)</h4>
@@ -853,10 +847,10 @@ even if it is needed</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Unsubscribe.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Unsubscribe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Unsubscribe.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Unsubscribe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L320">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L278">View Source</a>
   </span>
   <a id="Mapsui_UI_WinUI_MapControl_Unsubscribe_" data-uid="Mapsui.UI.WinUI.MapControl.Unsubscribe*"></a>
   <h4 id="Mapsui_UI_WinUI_MapControl_Unsubscribe" data-uid="Mapsui.UI.WinUI.MapControl.Unsubscribe">Unsubscribe()</h4>
@@ -871,10 +865,10 @@ even if it is needed</p>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Info.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Info%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_Info.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.Info%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L294">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L252">View Source</a>
   </span>
   <h4 id="Mapsui_UI_WinUI_MapControl_Info" data-uid="Mapsui.UI.WinUI.MapControl.Info">Info</h4>
   <div class="markdown level1 summary"><p>Called whenever the map is clicked. The MapInfoEventArgs contain the features that were hit in
@@ -883,7 +877,7 @@ the layers that have IsMapInfoLayer set to true.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MapInfoEventArgs&gt;? Info</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MapInfoEventArgs&gt; Info</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -895,17 +889,17 @@ the layers that have IsMapInfoLayer set to true.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">EventHandler</span>&lt;<a class="xref" href="Mapsui.MapInfoEventArgs.html">MapInfoEventArgs</a>&gt;&gt;</td>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Mapsui.MapInfoEventArgs.html">MapInfoEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_PropertyChanged.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.PropertyChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl_PropertyChanged.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl.PropertyChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L302">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L260">View Source</a>
   </span>
   <h4 id="Mapsui_UI_WinUI_MapControl_PropertyChanged" data-uid="Mapsui.UI.WinUI.MapControl.PropertyChanged">PropertyChanged</h4>
   <div class="markdown level1 summary"><p>Called whenever a property is changed</p>
@@ -913,7 +907,7 @@ the layers that have IsMapInfoLayer set to true.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -925,7 +919,7 @@ the layers that have IsMapInfoLayer set to true.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -935,10 +929,14 @@ the layers that have IsMapInfoLayer set to true.</p>
       <a class="xref" href="Mapsui.UI.IMapControl.html">IMapControl</a>
   </div>
   <div>
-      <span class="xref">IDisposable</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
   </div>
   <div>
-      <span class="xref">Grid</span>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeIfDisposable_System_Object_">DisposableExtension.DisposeIfDisposable(Object)</a>
   </div>
 </article>
           </div>
@@ -948,10 +946,10 @@ the layers that have IsMapInfoLayer set to true.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_UI_WinUI_MapControl.md&amp;value=---%0Auid%3A%20Mapsui.UI.WinUI.MapControl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Shared/MapControl.cs/#L49" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui.UI.Shared/MapControl.cs/#L47" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

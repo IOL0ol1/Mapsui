@@ -94,8 +94,9 @@ public class CalloutSample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
-            Home = n =&gt; n.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 2))
         };
+
+        map.Navigator.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 2));
 
         map.Layers.Add(layer);
 
@@ -149,7 +150,7 @@ public class CalloutSample : ISample
             Title = title,
             TitleFont = { FontFamily = null, Size = 15, Italic = false, Bold = true },
             TitleFontColor = Color.Black,
-            
+
             Subtitle = subtitle,
             SubtitleFont = { FontFamily = null, Size = 12, Italic = false, Bold = true },
             SubtitleFontColor = Color.Gray,
@@ -171,7 +172,7 @@ public class CalloutSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/CalloutSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/CalloutSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -83,6 +83,10 @@
 <p><a href="https://cla-assistant.io/Mapsui/Mapsui"><img src="https://cla-assistant.io/readme/badge/Mapsui/Mapsui" alt="CLA assistant"></a></p>
 <h2 id="issues-first">Issues first</h2>
 <p>Submit an issue before a pull request so we can discuss the possible solutions to the problem.</p>
+<h2 id="create-small-prs-that-are-about-one-topic">Create small PRs that are about one topic</h2>
+<p>To be able to review a PR it helps if it is a small change which covers only one topic. For the reviewer it is important to understand the purpose. Take the reviewer along in your own thinking steps. There was a problem, you considered solutions, and there was a reason why you came to this solution. The diff shows what has changed. What should be clear from the PR desciption, commits and code comments is the 'why'.</p>
+<h3 id="for-bigger-changes-work-with-pr-dependencies">For bigger changes work with PR dependencies</h3>
+<p>If you create a PR and want to make additional changes based on the earlier changes you should create a new PR that depends and the previous PR. Mention in the description that it depends on the other PR. Once the previous PR was merged you can update the next one with <code>git pull origin main</code> on the commend line. If you do not really need PR dependencies (because the changes are not really related) then it is preferred to create independent PRs.</p>
 <h2 id="formatting">Formatting</h2>
 <p>We use <a href="https://editorconfig.org">.editorconfig</a> in our repository and the code should comply to this. To apply specifc rules in Visual Studio you can select a project | context menu | Analyze and Code Cleanup | Run Code Cleanup (Profile 1 of 2). You can configure which rules to apply in these profiles. Alternatively you can use the <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format">dotnet format</a> command.</p>
 <h2 id="all-checks-should-be-green-all-the-time">All checks should be green all the time</h2>
@@ -92,6 +96,16 @@
 <li>The unit tests should succeed</li>
 <li>All samples should run properly</li>
 </ul>
+<h2 id="keep-the-core-code-reliable-and-deal-with-potential-problems-on-the-surface">Keep the core code reliable and deal with potential problems on the surface</h2>
+<p>Code depends on other code. In a hierarchy it is better to have the most reliable code in the core. You don't want potential problems to be propagated from the core to all other code because everything would becomee problematic. Potential problems are:</p>
+<ul>
+<li>IDisposable objects. You don't want callers to have to deal that. You don't want other code to have to decide about disposing or not.</li>
+<li>Code that is async/await. Synchronous code is simpler. Calls are async/await because of long lasting calls which is often because of calls to external services. Those depend on network which could be slow or missing and the size of the data which could be bigger than expected.</li>
+<li>Code that could throw an exception, so the caller has to catch it, or perhaps it should not need to catch it (it is better if you do not have to decide).</li>
+<li>Fields that are nullable. Check for null early on the surface before passing it along to the core.</li>
+</ul>
+<p>An examples of the kind thing we want to avoid is the layering in: DataSource &lt;- Fetcher &lt;- Layer &lt;- Map &lt;- MapControl. In our current code all those objects become IDisposable because of the design.</p>
+<p>This may come down to this simple general advice: <strong>Prefer pure functions</strong>. Perhaps this seems like a very local thing to do but sometimes you need to reorganize your global architecture to make it possible to have more pure functions.</p>
 <h2 id="extension-methods">Extension methods</h2>
 <ul>
 <li>Extension methods should always be in an 'Extensions' folder.</li>
@@ -162,7 +176,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/documentation/contributors-guidelines.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/contributors-guidelines.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -84,7 +84,7 @@ namespace Mapsui.Samples.Common.Maps.DataFormats;
 
 public class WmtsSample : ISample
 {
-    public string Name =&gt; &quot; 3 WMTS&quot;;
+    public string Name =&gt; &quot;WMTS&quot;;
     public string Category =&gt; &quot;Data Formats&quot;;
     public static IPersistentCache&lt;byte[]&gt;? DefaultCache { get; set; }
 
@@ -96,7 +96,7 @@ public class WmtsSample : ISample
         };
         map.Layers.Add(await CreateLayerAsync());
         map.Layers.Add(GeodanOfficesLayerBuilder.Create());
-        map.Home = (n) =&gt; n.CenterOnAndZoomTo(new MPoint(155000, 463000), 500);
+        map.Navigator.CenterOnAndZoomTo(new MPoint(155000, 463000), 500);
         return map;
     }
 
@@ -124,7 +124,7 @@ public class WmtsSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/WmtsSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/WmtsSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

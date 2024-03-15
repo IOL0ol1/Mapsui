@@ -71,10 +71,8 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <pre><code class="lang-csharp" name="Main" title="SvgSymbolSample">using Mapsui.Layers;
-using Mapsui.Providers;
 using Mapsui.Samples.Common;
 using Mapsui.Styles;
-using Mapsui.UI;
 using Mapsui.Utilities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -103,8 +101,9 @@ public class SvgSymbolSample : ISample
         var map = new Map
         {
             BackColor = Color.FromString(&quot;WhiteSmoke&quot;),
-            Home = n =&gt; n.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 2))
         };
+
+        map.Navigator.ZoomToBox(layer.Extent!.Grow(layer.Extent.Width * 2));
 
         map.Layers.Add(layer);
 
@@ -140,7 +139,7 @@ public class SvgSymbolSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/SvgSymbolSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/SvgSymbolSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -90,11 +90,10 @@ public class CustomWidgetSample : ISample
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
         map.Widgets.Add(new CustomWidget.CustomWidget
         {
-            MarginX = 20,
-            MarginY = 20,
+            Margin = new MRect(20),
             Width = 100,
             Height = 20,
-            Color = Color.GoldenRod
+            Color = new Color(218, 165, 32, 127)
         });
 
         return Task.FromResult(map);
@@ -108,7 +107,7 @@ public class CustomWidgetSample : ISample
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/docfx/codesamples/CustomWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/codesamples/CustomWidgetSample.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
