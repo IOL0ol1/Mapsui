@@ -107,7 +107,6 @@
     SetContentView(Resource.Layout.Main);
 
     var mapControl = FindViewById&lt;MapControl&gt;(Resource.Id.mapcontrol);
-
     var map = new Map();
     map.Layers.Add(OpenStreetMap.CreateTileLayer());
     mapControl.Map = map;

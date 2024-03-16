@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Introduction </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Introduction ">
+  
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<p>Mapsui is a .NET map component that supports all main .NET UI frameworks. Try the quick-start for your specific platform below.</p>
+<p>!!! Quickstart guides</p>
+<pre><code>=== &quot;MAUI&quot;
+
+    **Step 1:** Create a new .NET 7.0 MAUI application in Visual Studio.
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Maui
+    ```
+
+    **Step 3:** IMPORTANT: In MauiProgram.cs add **.UseSkiaSharp()** to the builder like this:
+
+    ```csharp
+    builder
+        .UseMauiApp&lt;App&gt;()
+        .UseSkiaSharp(true)
+        .ConfigureFonts(fonts =&gt;  
+    ```
+
+    and add namespace 'SkiaSharp.Views.Maui.Controls.Hosting':
+
+    ```csharp
+    using SkiaSharp.Views.Maui.Controls.Hosting;
+    ```
+
+    This is because Mapsui depends on SkiaSharp which needs this call. We hope that this will not be necessary in a future version of Mapsui.Maui. Without this line the app will crash with this exception: `Catastrophic failure (0x8000FFFF (E_UNEXPECTED))` on Windows and with `Microsoft.Mapsui.Platform.HandlerNotFoundException has been thrown` on Mac.
+
+    **Step 4:**
+    In MainPage.xaml.cs replace the constuctor with this code:
+
+    ```csharp
+    public MainPage()
+    {
+        InitializeComponent();
+        
+        var mapControl = new Mapsui.UI.Maui.MapControl();
+        mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+        Content = mapControl;
+    }
+    ```
+
+    **Step 5:**
+    Run it and you should see a map of the world.
+
+=== &quot;Uno&quot;
+
+    **Preparation:** [See Uno Platform getting started](https://platform.uno/docs/articles/get-started-vs.html)
+
+    **Step 1:** Create new 'Uno Platform App' in Visual Studio
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Uno.WinUI
+    ```
+
+    Repeat this for all the targets you are using (Change the default Project in the Package Manager Console)
+
+    **Step 3:** Open MainPage.xaml and add namespace:
+
+    ```xml
+    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.WinUI;assembly=Mapsui.UI.Uno.WinUI&quot;
+    ```
+
+    Add MapControl to the Grid:
+
+    ```xml
+    &lt;Grid&gt;
+        &lt;mapsui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
+    &lt;/Grid&gt;
+    ```
+
+    In MainPage.xaml.cs, add namespace:
+
+    ```csharp
+    using Mapsui.Utilities;
+    ```
+
+    Add code to the constructor:
+
+    ```csharp
+    public MainPage()
+    {
+        this.InitializeComponent();
+        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
+    }
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+    **Troubleshooting:**
+
+    - Unable to resolve the .NET SDK version as specified in the global.json.
+    global.json (change the version to &quot;6.0.400&quot; or what is installed on the Computer)
+
+    - Duplicate Attribute errors:
+    Add following line to the ...Wpf.csproj.
+
+    ```xml
+        &lt;!-- Work around https://github.com/dotnet/wpf/issues/6792 --&gt;
+        &lt;ItemGroup&gt;
+        &lt;FilteredAnalyzer Include=&quot;@(Analyzer-&gt;Distinct())&quot; /&gt;
+        &lt;Analyzer Remove=&quot;@(Analyzer)&quot; /&gt;
+        &lt;Analyzer Include=&quot;@(FilteredAnalyzer)&quot; /&gt;
+        &lt;/ItemGroup&gt;
+    &lt;/Target&gt;
+    ```
+    
+    - System.MissingMethodException: Method not found:
+    See for solution here
+    https://github.com/unoplatform/uno/issues/9297
+    
+    Upgrading to the latest Uno.UI Dev Version should help too.
+
+=== &quot;Avalonia&quot;
+    
+    **Preperation:** Install the Avalonia templates:
+
+    ```console
+    dotnet new install Avalonia.Templates
+    ```
+
+    **Step 1:** Create a new Avalonia project:
+
+    ```console
+    dotnet new avalonia.app -o MyApp
+    ```
+
+    **Step 2:** Add the Mapsui.Avalonia nuget package:
+
+    ```console
+    dotnet add MyApp package Mapsui.Avalonia
+    ```
+
+    **Step 3:** In MainWindow.axaml.cs add this to the constructor **after** InitializeComponent():
+
+    ```csharp
+    var mapControl = new Mapsui.UI.Avalonia.MapControl();
+    mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+    Content = mapControl;
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+    ```console
+    cd MyApp
+    dotnet run
+    ```
+
+=== &quot;Blazor&quot;
+
+    **Step 1:** Create a new Blazor WebAssembly Application in your IDE and select .NET 7.0 (Standard Term Support) as Framework.
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Blazor
+    ```
+
+    **Step 3:** In Index.razor add this to the to Page.
+
+    ```csharp
+    @using Mapsui.UI.Blazor
+    ```
+
+    ```html
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col border rounded p-2 canvas-container&quot;&gt;
+                &lt;MapControlComponent @ref=&quot;_mapControl&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;style&gt;
+        .canvas-container canvas {
+            width: 100%;
+            height: 80vh;
+        }
+    &lt;/style&gt;
+    ```
+
+    ```csharp
+    @code 
+    {
+        private MapControl? _mapControl;
+
+        protected override void OnAfterRender(bool firstRender)
+        {
+            base.OnAfterRender(firstRender);
+            if (firstRender)
+            {
+                if (_mapControl != null)
+                    _mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+            }
+        }
+    }
+    ```
+
+    **Step 6:** Run it and you should see a map of the world.
+
+    **Troubleshooting:**
+
+    - Text is not displayed
+    Add Follwing to the Blazor project, is a workaround that text is rendered.
+
+    ```xml
+    &lt;ItemGroup&gt;
+        &lt;PackageReference Include=&quot;HarfBuzzSharp.NativeAssets.WebAssembly&quot; Version=&quot;2.8.2.3&quot; GeneratePathProperty=&quot;true&quot; /&gt;
+        &lt;NativeFileReference Include=&quot;$(PKGHarfBuzzSharp_NativeAssets_WebAssembly)\build\netstandard1.0\libHarfBuzzSharp.a\3.1.12\libHarfBuzzSharp.a&quot; /&gt;
+    &lt;/ItemGroup&gt;
+    ```	
+
+=== &quot;WPF&quot;
+    
+    **Step 1**: Start a new WPF application in Visual Studio.
+
+    **Step 2**: In the package manager console type:
+    ```console
+    PM&gt; Install-Package Mapsui.Wpf
+    ```
+
+    **Step 3**: In MainWindow.xaml.cs add in the constructor **after** InitializeComponent():
+
+    ```csharp
+    var mapControl = new Mapsui.UI.Wpf.MapControl();
+    mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+    Content = mapControl;
+    ```
+
+    **Step 4**: Run it and you should see a map of the world.
+
+=== &quot;WinUI&quot;
+
+    **Step 1:** Create new 'Blank App. Packaged (WinUI 3 in Desktop)' in Visual Studio
+
+    **Step 2:** In the package manager console type:
+    
+    ```console
+    PM&gt; Install-Package Mapsui.WinUI
+    ```
+
+    **Step 3:** Open MainPage.xaml and add namespace:
+
+    ```xml
+    xmlns:winui=&quot;using:Mapsui.UI.WinUI&quot;
+    ```
+
+    Add MapControl to the Grid:
+
+    ```xml
+    &lt;Grid&gt;
+        &lt;winui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
+    &lt;/Grid&gt;
+    ```
+
+    In MainPage.xaml.cs, add namespace:
+
+    ```csharp
+    using Mapsui.Utilities;
+    ```
+
+    Add code to the constructor:
+
+    ```csharp
+    public MainPage()
+    {
+        this.InitializeComponent();
+        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
+    }
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+=== &quot;Xamarin&quot;
+
+    **Step 1:** Create a normal Xamarin.Forms project
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Forms
+    ```
+
+    **Step 3:** Add this line to the xaml file: 
+    ```xml
+    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Forms;assembly=Mapsui.UI.Forms&quot;
+    ```
+
+    **Step 4:** Add the Mapsui.Forms view with
+
+    ```xml
+    &lt;mapsui:MapView x:Name=&quot;mapView&quot;
+        VerticalOptions=&quot;FillAndExpand&quot;
+        HorizontalOptions=&quot;Fill&quot;
+        BackgroundColor=&quot;Gray&quot; /&gt;
+    ```
+    to the Xaml &lt;ContentPage&gt; part file.
+        
+    Nest the MapView element inside a container, this child element needs to be placed inside a parent Layout 
+    for the view to be correctly setup and attached to the code behind, for instance,
+
+    ```xml
+    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+    &lt;ContentPage xmlns=&quot;http://xamarin.com/schemas/2014/forms&quot;
+                xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;
+                xmlns:d=&quot;http://xamarin.com/schemas/2014/forms/design&quot;
+                xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; 
+                xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Forms;assembly=Mapsui.UI.Forms&quot;
+                mc:Ignorable=&quot;d&quot;&gt;
+
+        &lt;StackLayout&gt;
+            &lt;mapsui:MapView x:Name=&quot;mapView&quot;
+            VerticalOptions=&quot;FillAndExpand&quot;
+            HorizontalOptions=&quot;Fill&quot;
+            BackgroundColor=&quot;Gray&quot; /&gt;
+        &lt;/StackLayout&gt;
+
+    &lt;/ContentPage&gt;
+    ```
+    the Xaml file should look similar to this after this step.
+
+    **Step 5:** Add in the code behind the following
+
+    ```csharp
+    var map = new Map
+    {
+        CRS = &quot;EPSG:3857&quot;,
+        Transformation = new MinimalTransformation()
+    };
+
+    var tileLayer = OpenStreetMap.CreateTileLayer();
+    map.Layers.Add(tileLayer);
+    map.Widgets.Add(new Widgets.ScaleBar.ScaleBarWidget(map) { 
+        TextAlignment = Widgets.Alignment.Center, 
+        HorizontalAlignment = Widgets.HorizontalAlignment.Left, 
+        VerticalAlignment = Widgets.VerticalAlignment.Bottom 
+    });
+    mapView.Map = map;
+    ```
+
+    **Step 6:** Run it and you should see a map of the world.
+
+=== &quot;.NET for iOS&quot;
+
+    **Step 1:** Create new 'Single View App' in Visual Studio
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.iOS
+    ```
+
+    **Step 3:** Open ViewController.cs and add namespaces:
+
+    ```csharp
+    using Mapsui;
+    using Mapsui.UI.iOS;
+    using Mapsui.Utilities;
+    ```
+
+    add code to ViewDidLoad() method:
+
+    ```csharp
+    public override void ViewDidLoad()
+    {
+        base.ViewDidLoad();
+
+        var mapControl = new MapControl(View.Bounds);
+        var map = new Map();
+        map.Layers.Add(OpenStreetMap.CreateTileLayer());
+        mapControl.Map = map;
+        View = mapControl;
+    }
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+=== &quot;.NET for Android&quot;
+
+    **Step 1:** Create 'Blank App (Android)' in Visual Studio
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Android
+    ```
+
+    **Step 3:** In Resources/layout/Main.axml add Mapsui.UI.Android.MapControl:
+
+    ```xml
+    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+    &lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+        android:orientation=&quot;vertical&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;&gt;
+        &lt;Mapsui.UI.Android.MapControl
+            android:id=&quot;@+id/mapcontrol&quot;
+            android:layout_width=&quot;match_parent&quot;
+            android:layout_height=&quot;match_parent&quot; /&gt;
+    &lt;/LinearLayout&gt;
+    ```
+
+    **Step 4:** In MainActivity.cs add MapControl after SetContentView(Resource.Layout.Main):
+
+    ```csharp
+    protected override void OnCreate(Bundle savedInstanceState)
+    {
+        base.OnCreate(savedInstanceState);
+
+        // Set our view from the &quot;main&quot; layout resource
+        SetContentView(Resource.Layout.Main);
+
+        var mapControl = FindViewById&lt;MapControl&gt;(Resource.Id.mapcontrol);
+        var map = new Map();
+        map.Layers.Add(OpenStreetMap.CreateTileLayer());
+        mapControl.Map = map;
+    }
+    ```
+
+    Add the following using statements:
+
+    ```csharp
+    using Mapsui;
+    using Mapsui.Utilities;
+    using Mapsui.UI.Android;
+    ```
+
+    **Step 5:** Run it and you should see a map of the world.
+
+=== &quot;Eto Forms&quot;
+
+    **Step 1:** Start a new [Eto.Forms](https://github.com/picoe/Eto/wiki/Quick-Start) application in Visual Studio.
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Eto
+    ```
+
+    **Step 3:** In MainForm.cs add this to the class constructor:
+
+    ```csharp
+    var mapControl = new Mapsui.UI.Eto.MapControl();
+    mapControl.Map.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+    Content = mapControl;
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+=== &quot;Uno UWP&quot;
+
+    **Preparation:** [See the Uno Platform getting started](https://platform.uno/docs/articles/get-started-vs.html)
+
+    **Step 1:** Create new 'Uno App (Xamarin,UWP)' in Visual Studio
+
+    **Step 2:** In the package manager console type:
+
+    ```console
+    PM&gt; Install-Package Mapsui.Uno
+    ```
+
+    Repeat this for all the targets you are using (Change the default Project in the Package Manager Console)
+
+    **Step 3:** Open MainPage.xaml and add namespace:
+
+    ```xml
+    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Uwp;assembly=Mapsui.UI.Uno&quot;
+    ```
+
+    Add MapControl to the Grid:
+
+    ```xml
+    &lt;Grid&gt;
+    &lt;mapsui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
+    &lt;/Grid&gt;
+    ```
+
+    In MainPage.xaml.cs, add namespace:
+
+    ```csharp
+    using Mapsui.Utilities;
+    ```
+
+    Add code to the constructor:
+
+    ```csharp
+    public MainPage()
+    {
+        this.InitializeComponent();
+        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
+    }
+    ```
+
+    **Step 4:** Run it and you should see a map of the world.
+
+    **Troubleshooting:**
+
+    - Unable to resolve the .NET SDK version as specified in the global.json.
+    global.json (change the version to &quot;6.0.400&quot; or what is installed on the Computer)
+
+    - Duplicate Attribute errors:
+    Add following line to the ...Wpf.csproj.
+
+    ```xml
+        &lt;!-- Work around https://github.com/dotnet/wpf/issues/6792 --&gt;
+        &lt;ItemGroup&gt;
+        &lt;FilteredAnalyzer Include=&quot;@(Analyzer-&gt;Distinct())&quot; /&gt;
+        &lt;Analyzer Remove=&quot;@(Analyzer)&quot; /&gt;
+        &lt;Analyzer Include=&quot;@(FilteredAnalyzer)&quot; /&gt;
+        &lt;/ItemGroup&gt;
+    &lt;/Target&gt;
+    ```
+    
+    - System.MissingMethodException: Method not found:
+    See for solution [here](https://github.com/unoplatform/uno/issues/9297).
+    
+    Upgrading to the latest Uno.UI Dev Version should help too.
+</code></pre>
+<h2 id="functionality">Functionality</h2>
+<ul>
+<li>Points, Lines and Polygons using <a href="https://github.com/NetTopologySuite/NetTopologySuite">NTS</a>, a mature library which support all kinds of geometric operations.</li>
+<li>OpenStreetMap tiles based on <a href="https://github.com/BruTile/BruTile">BruTile library</a> and almost all other tile sources.</li>
+<li>OGC standards with data providers for WMS, WFS and WMTS.</li>
+<li>Offline maps are possible using MBTiles implemented with <a href="https://www.nuget.org/packages/BruTile.MbTiles">BruTile.MBTiles</a>. This stores map tiles in a sqlite file.</li>
+<li>Generates static map images to could be embedded in PDFs.</li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

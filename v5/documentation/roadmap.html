@@ -78,7 +78,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="roadmap">Roadmap</h1>
 
-<p><em>Updated November 2023</em></p>
+<p><em>Updated Januari 2024</em></p>
 <h2 id="mapsui-4">Mapsui 4</h2>
 <p>Branch: <a href="https://github.com/Mapsui/Mapsui/tree/develop/4.1">develop/4.1</a>. Milestone: <a href="https://github.com/Mapsui/Mapsui/milestone/9">v4.1</a>. Mapsui v4.1.x is the stable version you should use.</p>
 <ul>
@@ -96,35 +96,50 @@
 <li>[ ] Keep fixing bugs</li>
 </ul>
 <h2 id="mapsui-5">Mapsui 5</h2>
-<p>Focus: More shared code in platforms. This will affect MapControls, Widgets and manipulation (touch and mouse).</p>
 <p>Branch: <a href="https://github.com/Mapsui/Mapsui/tree/main">main</a>. Milestone: <a href="https://github.com/Mapsui/Mapsui/milestone/10">v5.0</a>. We are working on a series of preview releases.</p>
+<p>Focus: More shared code in platforms. This will affect MapControls, Widgets and manipulation (touch and mouse). The underlying objective is to make the development process faster by removing everything that slows us down.</p>
 <ul>
-<li>[x] To .NET 6 for everything we release</li>
+<li>[x] Lowest supported version to .NET 6 (remove .netstandard)</li>
 <li>[x] All samples and tests to .NET 8.</li>
 <li>[ ] Cleanup:
 <ul>
-<li>[ ] Use <code>&lt;Nullable&gt;enable&lt;/Nullable&gt;</code> everywhere (Add to Directory.Build.props) and go through the current suppressions to see if there is a better way.</li>
-<li>[ ] Fix the remaining warnings wrt IDispose.</li>
-<li>[ ] Run dotnet format (whitespace, style and analyzers) on the entire solution.</li>
+<li>[x] Rename master to main.</li>
+<li>[x] Run dotnet format on the entire solution.</li>
+<li>[x] Run dotnet style on the entire solution.</li>
+<li>[x] Run dotnet analyze on the entire solution.</li>
 <li>[x] Always propagate async back to the caller.</li>
 <li>[x] Remove nuget packages that we previously needed for things now supported in .NET 6.</li>
 <li>[ ] Remove code copies of things now in .NET 6 (in the past we copied some .NET Core things which were not in .NET standard).</li>
 <li>[ ] Remove the #if defines we do not need anymore.</li>
 <li>[ ] Remove all scripts and configurations we do not use anymore.</li>
 <li>[ ] Simplify the build scripts now that we do not need the workarounds.</li>
-<li>[x] Rename master to main.</li>
+<li>[ ] Use <code>&lt;Nullable&gt;enable&lt;/Nullable&gt;</code> everywhere (Add to Directory.Build.props) and revisit all current suppressions.</li>
+<li>[ ] Fix the remaining warnings wrt IDispose.</li>
 </ul>
 </li>
-<li>[x] Remove older frameworks:
+<li>[ ] Remove older frameworks:
 <ul>
 <li>[x] Remove Xamarin.Forms (but not Mapsui.MAUI, Mapsui.iOS and Mapsui.Android).</li>
 <li>[x] Remove Uno UWP (but not Mapsui.Uno.WinUI)</li>
 <li>[x] Remove Avalonia.V0 (but not Avalonia)</li>
 </ul>
 </li>
-<li>[ ] Merge MapView functionality into MapControl. We need to work this out in more detail.</li>
+<li>[ ] Merge MapView functionality into MapControl. We need to work this out in more detail.
+<ul>
+<li>[ ] Add extension methods for Map to make it easy to add MapView functionality to the MapControl. A few:
+<ul>
+<li>[ ] AddMarkerLayer() extension which adds a layer with symbols and a callout style, which is toggled on click.</li>
+<li>[ ] AddOpenStreetMapBackgroundLayer() which adds to a specific layer group and sets the Map CRS and perhaps more.</li>
 </ul>
-<h2 id="mapsui-6-and-later">Mapsui 6 and later</h2>
+</li>
+<li>[ ] Make MyLocationLayer function property in Mapcontrol.</li>
+<li>[ ] Add mechanism for layer grouping. <a href="https://github.com/Mapsui/Mapsui/issues/1491">Here</a> is a proposal but perhaps we need something simpler.</li>
+</ul>
+</li>
+<li>[ ] Make Map dispose a layer when create function is used <a href="https://github.com/Mapsui/Mapsui/issues/2284">https://github.com/Mapsui/Mapsui/issues/2284</a>.</li>
+<li>[ ] Dispose the samples if needed.</li>
+</ul>
+<h2 id="mapsui-6">Mapsui 6</h2>
 <p>Focus: Rendering.</p>
 <ul>
 <li>[ ] Two step rendering. In the draw loop only draw skia object, create skia object in an earlier step <a href="https://github.com/Mapsui/Mapsui/issues/1448">https://github.com/Mapsui/Mapsui/issues/1448</a></li>
