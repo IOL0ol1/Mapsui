@@ -32374,6 +32374,38 @@ references:
   commentId: T:Mapsui.UI.Wpf.MapControl
   fullName: Mapsui.UI.Wpf.MapControl
   nameWithType: MapControl
+- uid: Mapsui.UI.Wpf.MapControl.#ctor
+  name: MapControl()
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor
+  commentId: M:Mapsui.UI.Wpf.MapControl.#ctor
+  fullName: Mapsui.UI.Wpf.MapControl.MapControl()
+  nameWithType: MapControl.MapControl()
+- uid: Mapsui.UI.Wpf.MapControl.#ctor*
+  name: MapControl
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.#ctor
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.MapControl
+  nameWithType: MapControl.MapControl
+- uid: Mapsui.UI.Wpf.MapControl.Dispose
+  name: Dispose()
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose
+  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose()
+  nameWithType: MapControl.Dispose()
+- uid: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_System_Boolean_
+  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
+  nameWithType: MapControl.Dispose(Boolean)
+- uid: Mapsui.UI.Wpf.MapControl.Dispose*
+  name: Dispose
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.Dispose
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.Dispose
+  nameWithType: MapControl.Dispose
 - uid: Mapsui.UI.Wpf.MapControl.ForceUpdate
   name: ForceUpdate()
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ForceUpdate
@@ -32474,6 +32506,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.OnPropertyChanged
   nameWithType: MapControl.OnPropertyChanged
+- uid: Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
+  name: OpenInBrowser(String)
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenInBrowser_System_String_
+  commentId: M:Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
+  fullName: Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
+  nameWithType: MapControl.OpenInBrowser(String)
+- uid: Mapsui.UI.Wpf.MapControl.OpenInBrowser*
+  name: OpenInBrowser
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenInBrowser_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.OpenInBrowser
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.OpenInBrowser
+  nameWithType: MapControl.OpenInBrowser
 - uid: Mapsui.UI.Wpf.MapControl.Performance
   name: Performance
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Performance
