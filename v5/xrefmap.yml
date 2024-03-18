@@ -26920,32 +26920,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Blazor.MapControl.OnInitialized
   nameWithType: MapControl.OnInitialized
-- uid: Mapsui.UI.Blazor.MapControl.OnKeyDown(KeyboardEventArgs)
-  name: OnKeyDown(KeyboardEventArgs)
-  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_OnKeyDown_KeyboardEventArgs_
-  commentId: M:Mapsui.UI.Blazor.MapControl.OnKeyDown(KeyboardEventArgs)
-  fullName: Mapsui.UI.Blazor.MapControl.OnKeyDown(KeyboardEventArgs)
-  nameWithType: MapControl.OnKeyDown(KeyboardEventArgs)
-- uid: Mapsui.UI.Blazor.MapControl.OnKeyDown*
-  name: OnKeyDown
-  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_OnKeyDown_
-  commentId: Overload:Mapsui.UI.Blazor.MapControl.OnKeyDown
-  isSpec: "True"
-  fullName: Mapsui.UI.Blazor.MapControl.OnKeyDown
-  nameWithType: MapControl.OnKeyDown
-- uid: Mapsui.UI.Blazor.MapControl.OnKeyUp(KeyboardEventArgs)
-  name: OnKeyUp(KeyboardEventArgs)
-  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_OnKeyUp_KeyboardEventArgs_
-  commentId: M:Mapsui.UI.Blazor.MapControl.OnKeyUp(KeyboardEventArgs)
-  fullName: Mapsui.UI.Blazor.MapControl.OnKeyUp(KeyboardEventArgs)
-  nameWithType: MapControl.OnKeyUp(KeyboardEventArgs)
-- uid: Mapsui.UI.Blazor.MapControl.OnKeyUp*
-  name: OnKeyUp
-  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_OnKeyUp_
-  commentId: Overload:Mapsui.UI.Blazor.MapControl.OnKeyUp
-  isSpec: "True"
-  fullName: Mapsui.UI.Blazor.MapControl.OnKeyUp
-  nameWithType: MapControl.OnKeyUp
 - uid: Mapsui.UI.Blazor.MapControl.OnMapInfo(MapInfoEventArgs)
   name: OnMapInfo(MapInfoEventArgs)
   href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_OnMapInfo_MapInfoEventArgs_
@@ -27465,6 +27439,32 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Eto.MapControl.MoveModifier
   nameWithType: MapControl.MoveModifier
+- uid: Mapsui.UI.Eto.MapControl.OnKeyDown(KeyEventArgs)
+  name: OnKeyDown(KeyEventArgs)
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_OnKeyDown_KeyEventArgs_
+  commentId: M:Mapsui.UI.Eto.MapControl.OnKeyDown(KeyEventArgs)
+  fullName: Mapsui.UI.Eto.MapControl.OnKeyDown(KeyEventArgs)
+  nameWithType: MapControl.OnKeyDown(KeyEventArgs)
+- uid: Mapsui.UI.Eto.MapControl.OnKeyDown*
+  name: OnKeyDown
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_OnKeyDown_
+  commentId: Overload:Mapsui.UI.Eto.MapControl.OnKeyDown
+  isSpec: "True"
+  fullName: Mapsui.UI.Eto.MapControl.OnKeyDown
+  nameWithType: MapControl.OnKeyDown
+- uid: Mapsui.UI.Eto.MapControl.OnKeyUp(KeyEventArgs)
+  name: OnKeyUp(KeyEventArgs)
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_OnKeyUp_KeyEventArgs_
+  commentId: M:Mapsui.UI.Eto.MapControl.OnKeyUp(KeyEventArgs)
+  fullName: Mapsui.UI.Eto.MapControl.OnKeyUp(KeyEventArgs)
+  nameWithType: MapControl.OnKeyUp(KeyEventArgs)
+- uid: Mapsui.UI.Eto.MapControl.OnKeyUp*
+  name: OnKeyUp
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_OnKeyUp_
+  commentId: Overload:Mapsui.UI.Eto.MapControl.OnKeyUp
+  isSpec: "True"
+  fullName: Mapsui.UI.Eto.MapControl.OnKeyUp
+  nameWithType: MapControl.OnKeyUp
 - uid: Mapsui.UI.Eto.MapControl.OnLoadComplete(System.EventArgs)
   name: OnLoadComplete(EventArgs)
   href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_OnLoadComplete_System_EventArgs_
