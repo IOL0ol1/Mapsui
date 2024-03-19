@@ -35080,17 +35080,17 @@ references:
   commentId: T:Mapsui.UI.Objects.MyLocationLayer
   fullName: Mapsui.UI.Objects.MyLocationLayer
   nameWithType: MyLocationLayer
-- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView,Mapsui.UI.Maui.Position)
+- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView,Mapsui.UI.Forms.Position)
   name: MyLocationLayer(MapView, Position)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Maui_MapView_Mapsui_UI_Maui_Position_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView,Mapsui.UI.Maui.Position)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Maui.MapView, Mapsui.UI.Maui.Position)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Forms_MapView_Mapsui_UI_Forms_Position_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView,Mapsui.UI.Forms.Position)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Forms.MapView, Mapsui.UI.Forms.Position)
   nameWithType: MyLocationLayer.MyLocationLayer(MapView, Position)
-- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView)
+- uid: Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView)
   name: MyLocationLayer(MapView)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Maui_MapView_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Maui.MapView)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Maui.MapView)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer__ctor_Mapsui_UI_Forms_MapView_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.#ctor(Mapsui.UI.Forms.MapView)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.MyLocationLayer(Mapsui.UI.Forms.MapView)
   nameWithType: MyLocationLayer.MyLocationLayer(MapView)
 - uid: Mapsui.UI.Objects.MyLocationLayer.#ctor*
   name: MyLocationLayer
@@ -35235,11 +35235,11 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyDirection
   nameWithType: MyLocationLayer.UpdateMyDirection
-- uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position,System.Boolean)
+- uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position,System.Boolean)
   name: UpdateMyLocation(Position, Boolean)
-  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer_UpdateMyLocation_Mapsui_UI_Maui_Position_System_Boolean_
-  commentId: M:Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position,System.Boolean)
-  fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Maui.Position, System.Boolean)
+  href: api/Mapsui.UI.Objects.MyLocationLayer.html#Mapsui_UI_Objects_MyLocationLayer_UpdateMyLocation_Mapsui_UI_Forms_Position_System_Boolean_
+  commentId: M:Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position,System.Boolean)
+  fullName: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation(Mapsui.UI.Forms.Position, System.Boolean)
   nameWithType: MyLocationLayer.UpdateMyLocation(Position, Boolean)
 - uid: Mapsui.UI.Objects.MyLocationLayer.UpdateMyLocation*
   name: UpdateMyLocation
