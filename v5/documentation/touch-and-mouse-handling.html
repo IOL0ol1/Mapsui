@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Touch and mouse handling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Touch and mouse handling ">
+  
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="touch-and-mouse-handling">Touch and mouse handling</h1>
+
+<p>In Mapsui v5 (at the moment of writing this is beta.1) most of the touch and mouse handling code is now shared over UI frameworks. There are a lot of differences between the frameworks so we need some non-shared code but we try to map it early to shared methods and components.</p>
+<h2 id="widget-event-types">Widget Event types</h2>
+<p>In v5 beta.1 we have four new event types:</p>
+<ul>
+<li>PointerPressed (down)</li>
+<li>PointerMoved (can be hover for mouse)</li>
+<li>PointerReleased (up)</li>
+<li>Tapped. This can be single tap, double tap or long press.</li>
+</ul>
+<p>The names were taken from Uno/WinUI and Avalonia. Perhaps we will need other pointer event types in the future. We still have the Info event type, but this could now be replaced by the other event types because they also can be used to get the MapInfo throught a WidgetEventArgs.GetMapInfo() call.</p>
+<h2 id="components">Components</h2>
+<ul>
+<li>ManipulationTracker: This component is called from the MapControl with an array of pointer positions (could be mouse or touch, or multitouch) and based on that calculates a new manipulation state (translate, scale, rotate). It is used for both drag and pinch, the difference being that while dragging the scale and rotate fields will have neutral values. The ManipulationTracker is also responsible for rotation snapping (snap out of rotation lock only when the rotation is bigger than some theshold, and snap back in when rotation is close to zero). Rotation snap was previously implemented on only a few platforms.</li>
+<li>TapTracker: This component detects a tap, a double tap and a long press. Prevously there were many differences in how this was implemented.</li>
+<li>FlingTracker: This is an old component that was previously used on just two UI frameworks and is now used on all.</li>
+</ul>
+<h2 id="testing-touch-and-mouse-handling">Testing touch and mouse handling</h2>
+<p>Testing is hard. In v5 we support nine different UI frameworks and a single framework can run on different devices/platforms, like Windows, Mac, Linux, Android, iOS and WASM. With hard work you could test those once, but we are continuously making changes, and it is impossible to test all those UI frameworks on every change. You could help us by testing your own favorite UI framework. Below is checklist we used on some occasions. We are open to suggestions to expand the list:</p>
+<h3 id="touch-test-checklist-for-our-samples">Touch test checklist for our samples:</h3>
+<ul>
+<li>[ ] In Widgets|Button: Tap on 'Tap me' button goes up by one.</li>
+<li>[ ] In Widgets|Button: Pressed next to widget, move above the widget and release there. The widget should not change the tap count.</li>
+<li>[ ] In Widgets|Button: Pressed on the widget, move next to the widget and release there. The widget should not change the tap count.</li>
+<li>[ ] In Widgets|Button: Double Tap should increase the tap count by one.</li>
+<li>[ ] In Widgets|Hyperlink: Tap on hyperlink should open een browser page.</li>
+<li>[ ] In Demo|MapInfo: MapInfo should show on the bottom left in the map.</li>
+<li>[ ] In Info|SingleCallout: Callout should show on tap on symbol, should disappear on a second tap on either symbol or callout.</li>
+<li>[ ] In Info|CustomCallout: Callout should not toggle the callout but only show info bottom left.</li>
+<li>[ ] In Widgets|PerformanceWidget: Tap on widget should reset the values in the widget.</li>
+<li>[ ] In Widgets|MouseCoordinatesWidget: The mouse coordinates should change while hovering.</li>
+<li>[ ] In Widgets|ZoomInOutWidget: Tap on the plus and min buttons should zoom in and out.</li>
+<li>[ ] In Widgets|TextBox: A mouse down or up should trigger nothing.</li>
+<li>[ ] In Editing|Modify: Dragging on the polygon should move the polygon not the map.</li>
+<li>[ ] In Editing|Rotate: Dragging on the polygon should rotate the polygon not the map.</li>
+<li>[ ] In Editing|Scale: Dragging on the polygon should scale the polygon not the map.</li>
+<li>[ ] In Editing|Modify: Add vertices to the polygon by tapping inside the polygon near the line.</li>
+<li>[ ] In Editing|Modify: Delete vertices by a double tap or long press on that vertex. Shift can also be used but is only implemented on a few UI frameworks.</li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/touch-and-mouse-handling.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
