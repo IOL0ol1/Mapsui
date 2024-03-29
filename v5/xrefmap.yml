@@ -4414,28 +4414,12 @@ references:
   isSpec: "True"
   fullName: Mapsui.Extensions.Projections.DotSpatialProjection.CrsFromEsri
   nameWithType: DotSpatialProjection.CrsFromEsri
-- uid: Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs(System.String)
-  name: GetIdFromCrs(String)
-  href: api/Mapsui.Extensions.Projections.DotSpatialProjection.html#Mapsui_Extensions_Projections_DotSpatialProjection_GetIdFromCrs_System_String_
-  commentId: M:Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs(System.String)
-  fullName: Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs(System.String)
-  nameWithType: DotSpatialProjection.GetIdFromCrs(String)
-- uid: Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs*
-  name: GetIdFromCrs
-  href: api/Mapsui.Extensions.Projections.DotSpatialProjection.html#Mapsui_Extensions_Projections_DotSpatialProjection_GetIdFromCrs_
-  commentId: Overload:Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs
-  isSpec: "True"
-  fullName: Mapsui.Extensions.Projections.DotSpatialProjection.GetIdFromCrs
-  nameWithType: DotSpatialProjection.GetIdFromCrs
-- uid: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Nullable{System.Int32},System.Nullable{System.Int32})
-  name: GetTransformation(Nullable<Int32>, Nullable<Int32>)
-  href: api/Mapsui.Extensions.Projections.DotSpatialProjection.html#Mapsui_Extensions_Projections_DotSpatialProjection_GetTransformation_System_Nullable_System_Int32__System_Nullable_System_Int32__
-  commentId: M:Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Nullable{System.Int32},System.Nullable{System.Int32})
-  name.vb: GetTransformation(Nullable(Of Int32), Nullable(Of Int32))
-  fullName: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Nullable<System.Int32>, System.Nullable<System.Int32>)
-  fullName.vb: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Nullable(Of System.Int32), System.Nullable(Of System.Int32))
-  nameWithType: DotSpatialProjection.GetTransformation(Nullable<Int32>, Nullable<Int32>)
-  nameWithType.vb: DotSpatialProjection.GetTransformation(Nullable(Of Int32), Nullable(Of Int32))
+- uid: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Int32,System.Int32)
+  name: GetTransformation(Int32, Int32)
+  href: api/Mapsui.Extensions.Projections.DotSpatialProjection.html#Mapsui_Extensions_Projections_DotSpatialProjection_GetTransformation_System_Int32_System_Int32_
+  commentId: M:Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Int32,System.Int32)
+  fullName: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation(System.Int32, System.Int32)
+  nameWithType: DotSpatialProjection.GetTransformation(Int32, Int32)
 - uid: Mapsui.Extensions.Projections.DotSpatialProjection.GetTransformation*
   name: GetTransformation
   href: api/Mapsui.Extensions.Projections.DotSpatialProjection.html#Mapsui_Extensions_Projections_DotSpatialProjection_GetTransformation_
@@ -32322,38 +32306,6 @@ references:
   commentId: T:Mapsui.UI.Wpf.MapControl
   fullName: Mapsui.UI.Wpf.MapControl
   nameWithType: MapControl
-- uid: Mapsui.UI.Wpf.MapControl.#ctor
-  name: MapControl()
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor
-  commentId: M:Mapsui.UI.Wpf.MapControl.#ctor
-  fullName: Mapsui.UI.Wpf.MapControl.MapControl()
-  nameWithType: MapControl.MapControl()
-- uid: Mapsui.UI.Wpf.MapControl.#ctor*
-  name: MapControl
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl__ctor_
-  commentId: Overload:Mapsui.UI.Wpf.MapControl.#ctor
-  isSpec: "True"
-  fullName: Mapsui.UI.Wpf.MapControl.MapControl
-  nameWithType: MapControl.MapControl
-- uid: Mapsui.UI.Wpf.MapControl.Dispose
-  name: Dispose()
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose
-  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose
-  fullName: Mapsui.UI.Wpf.MapControl.Dispose()
-  nameWithType: MapControl.Dispose()
-- uid: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_System_Boolean_
-  commentId: M:Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
-  fullName: Mapsui.UI.Wpf.MapControl.Dispose(System.Boolean)
-  nameWithType: MapControl.Dispose(Boolean)
-- uid: Mapsui.UI.Wpf.MapControl.Dispose*
-  name: Dispose
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Dispose_
-  commentId: Overload:Mapsui.UI.Wpf.MapControl.Dispose
-  isSpec: "True"
-  fullName: Mapsui.UI.Wpf.MapControl.Dispose
-  nameWithType: MapControl.Dispose
 - uid: Mapsui.UI.Wpf.MapControl.ForceUpdate
   name: ForceUpdate()
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ForceUpdate
@@ -32454,19 +32406,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.OnPropertyChanged
   nameWithType: MapControl.OnPropertyChanged
-- uid: Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
-  name: OpenInBrowser(String)
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenInBrowser_System_String_
-  commentId: M:Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
-  fullName: Mapsui.UI.Wpf.MapControl.OpenInBrowser(System.String)
-  nameWithType: MapControl.OpenInBrowser(String)
-- uid: Mapsui.UI.Wpf.MapControl.OpenInBrowser*
-  name: OpenInBrowser
-  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_OpenInBrowser_
-  commentId: Overload:Mapsui.UI.Wpf.MapControl.OpenInBrowser
-  isSpec: "True"
-  fullName: Mapsui.UI.Wpf.MapControl.OpenInBrowser
-  nameWithType: MapControl.OpenInBrowser
 - uid: Mapsui.UI.Wpf.MapControl.Performance
   name: Performance
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_Performance
