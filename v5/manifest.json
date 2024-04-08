@@ -1594,9 +1594,6 @@
       "type": "Toc",
       "source_relative_path": "documentation/toc.md",
       "output": {
-        ".html": {
-          "relative_path": "documentation/toc.html"
-        },
         ".json": {
           "relative_path": "documentation/toc.json"
         }
@@ -1707,9 +1704,6 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
         }
