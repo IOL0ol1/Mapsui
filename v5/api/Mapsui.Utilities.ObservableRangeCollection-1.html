@@ -4,22 +4,21 @@
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ObservableRangeCollection&lt;T&gt;
- </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ObservableRangeCollection&lt;T&gt;
- ">
-  
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ObservableRangeCollection&lt;T&gt; </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ObservableRangeCollection&lt;T&gt; ">
+    
+    <meta name="description" content="Implementation of a dynamic data collection based on generic Collection&amp;lt;T&amp;gt;, implementing INotifyCollectionChanged to notify listeners when items get added, removed or the whole list is refreshed.">
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
@@ -80,8 +79,8 @@
             <article class="content wrap" id="_content" data-uid="Mapsui.Utilities.ObservableRangeCollection`1">
 
 
-  <h1 id="Mapsui_Utilities_ObservableRangeCollection_1" data-uid="Mapsui.Utilities.ObservableRangeCollection`1" class="text-break">Class ObservableRangeCollection&lt;T&gt;
-</h1>
+
+  <h1 id="Mapsui_Utilities_ObservableRangeCollection_1" data-uid="Mapsui.Utilities.ObservableRangeCollection`1" class="text-break">Class ObservableRangeCollection&lt;T&gt;</h1>
   <div class="markdown level0 summary"><p>Implementation of a dynamic data collection based on generic Collection&lt;T&gt;,
 implementing INotifyCollectionChanged to notify listeners
 when items get added, removed or the whole list is refreshed.</p>
@@ -89,16 +88,16 @@ when items get added, removed or the whole list is refreshed.</p>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1">Collection</a>&lt;T&gt;</div>
-    <div class="level2"><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</div>
+    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;T&gt;</div>
     <div class="level3"><span class="xref">ObservableRangeCollection&lt;T&gt;</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;T&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
@@ -110,146 +109,98 @@ when items get added, removed or the whole list is refreshed.</p>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.blockreentrancy#system-collections-objectmodel-observablecollection-1-blockreentrancy">ObservableCollection&lt;T&gt;.BlockReentrancy()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.blockreentrancy">ObservableCollection&lt;T&gt;.BlockReentrancy()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.checkreentrancy#system-collections-objectmodel-observablecollection-1-checkreentrancy">ObservableCollection&lt;T&gt;.CheckReentrancy()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.checkreentrancy">ObservableCollection&lt;T&gt;.CheckReentrancy()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.insertitem#system-collections-objectmodel-observablecollection-1-insertitem(system-int32-0)">ObservableCollection&lt;T&gt;.InsertItem(Int32, T)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.insertitem">ObservableCollection&lt;T&gt;.InsertItem(int, T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.move#system-collections-objectmodel-observablecollection-1-move(system-int32-system-int32)">ObservableCollection&lt;T&gt;.Move(Int32, Int32)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.move">ObservableCollection&lt;T&gt;.Move(int, int)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.MoveItem(System.Int32, System.Int32)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.moveitem">ObservableCollection&lt;T&gt;.MoveItem(int, int)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.onpropertychanged#system-collections-objectmodel-observablecollection-1-onpropertychanged(system-componentmodel-propertychangedeventargs)">ObservableCollection&lt;T&gt;.OnPropertyChanged(PropertyChangedEventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.onpropertychanged">ObservableCollection&lt;T&gt;.OnPropertyChanged(PropertyChangedEventArgs)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.RemoveItem(System.Int32)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.removeitem">ObservableCollection&lt;T&gt;.RemoveItem(int)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.collectionchanged#system-collections-objectmodel-observablecollection-1-collectionchanged">ObservableCollection&lt;T&gt;.CollectionChanged</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.collectionchanged">ObservableCollection&lt;T&gt;.CollectionChanged</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.propertychanged#system-collections-objectmodel-observablecollection-1-propertychanged">ObservableCollection&lt;T&gt;.PropertyChanged</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.propertychanged">ObservableCollection&lt;T&gt;.PropertyChanged</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.add">Collection&lt;T&gt;.Add(T)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.get_Item(System.Int32)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.clear">Collection&lt;T&gt;.Clear()</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.set_Item(System.Int32, System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.contains">Collection&lt;T&gt;.Contains(T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.add#system-collections-objectmodel-collection-1-add(-0)">Collection&lt;T&gt;.Add(T)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.copyto">Collection&lt;T&gt;.CopyTo(T[], int)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.clear#system-collections-objectmodel-collection-1-clear">Collection&lt;T&gt;.Clear()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.getenumerator">Collection&lt;T&gt;.GetEnumerator()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.contains#system-collections-objectmodel-collection-1-contains(-0)">Collection&lt;T&gt;.Contains(T)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.indexof">Collection&lt;T&gt;.IndexOf(T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.copyto#system-collections-objectmodel-collection-1-copyto(-0()-system-int32)">Collection&lt;T&gt;.CopyTo(T[], Int32)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.insert">Collection&lt;T&gt;.Insert(int, T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.getenumerator#system-collections-objectmodel-collection-1-getenumerator">Collection&lt;T&gt;.GetEnumerator()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.remove">Collection&lt;T&gt;.Remove(T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.indexof#system-collections-objectmodel-collection-1-indexof(-0)">Collection&lt;T&gt;.IndexOf(T)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.removeat">Collection&lt;T&gt;.RemoveAt(int)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.Insert(System.Int32, T)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.count">Collection&lt;T&gt;.Count</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.remove#system-collections-objectmodel-collection-1-remove(-0)">Collection&lt;T&gt;.Remove(T)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Collection&lt;T&gt;.this[int]</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.removeat#system-collections-objectmodel-collection-1-removeat(system-int32)">Collection&lt;T&gt;.RemoveAt(Int32)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.items">Collection&lt;T&gt;.Items</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.system-collections-ienumerable-getenumerator#system-collections-objectmodel-collection-1-system-collections-ienumerable-getenumerator">Collection&lt;T&gt;.IEnumerable.GetEnumerator()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.Add(System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.Contains(System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.IndexOf(System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.Remove(System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.count#system-collections-objectmodel-collection-1-count">Collection&lt;T&gt;.Count</a>
-    </div>
-    <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.Item[System.Int32]</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.items#system-collections-objectmodel-collection-1-items">Collection&lt;T&gt;.Items</a>
-    </div>
-    <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.ICollection.IsSynchronized</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.system-collections-icollection-syncroot#system-collections-objectmodel-collection-1-system-collections-icollection-syncroot">Collection&lt;T&gt;.ICollection.SyncRoot</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.system-collections-ilist-isfixedsize#system-collections-objectmodel-collection-1-system-collections-ilist-isfixedsize">Collection&lt;T&gt;.IList.IsFixedSize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.system-collections-ilist-isreadonly#system-collections-objectmodel-collection-1-system-collections-ilist-isreadonly">Collection&lt;T&gt;.IList.IsReadOnly</a>
-    </div>
-    <div>
-      <span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;.System.Collections.IList.Item[System.Int32]</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.Utilities.html">Mapsui.Utilities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.html">Mapsui</a>.<a class="xref" href="Mapsui.Utilities.html">Utilities</a></h6>
   <h6><strong>Assembly</strong>: Mapsui.dll</h6>
   <h5 id="Mapsui_Utilities_ObservableRangeCollection_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ObservableRangeCollection&lt;T&gt; : ObservableCollection&lt;T&gt;, IList&lt;T&gt;, ICollection&lt;T&gt;, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IList, ICollection, IEnumerable, INotifyCollectionChanged, INotifyPropertyChanged</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -259,7 +210,7 @@ when items get added, removed or the whole list is refreshed.</p>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td>Implementation of a dynamic data collection based on generic Collection&lt;T&gt;, implementing INotifyCollectionChanged to notify listeners when items get added, removed or the whole list is refreshed.</td>
       </tr>
     </tbody>
   </table>
@@ -267,7 +218,7 @@ when items get added, removed or the whole list is refreshed.</p>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L40">View Source</a>
@@ -283,7 +234,7 @@ when items get added, removed or the whole list is refreshed.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L53">View Source</a>
@@ -300,7 +251,7 @@ to accommodate the number of elements copied.</p>
     <pre><code class="lang-csharp hljs">public ObservableRangeCollection(IEnumerable&lt;T&gt; collection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -322,7 +273,7 @@ to accommodate the number of elements copied.</p>
 same order they are read by the enumerator of the collection.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -331,7 +282,7 @@ same order they are read by the enumerator of the collection.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td><p>collection is a null reference</p>
 </td>
       </tr>
@@ -339,7 +290,7 @@ same order they are read by the enumerator of the collection.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor_System_Collections_Generic_List__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor(System.Collections.Generic.List%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1__ctor_System_Collections_Generic_List__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.%23ctor(System.Collections.Generic.List%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L65">View Source</a>
@@ -355,7 +306,7 @@ that contains elements copied from the specified list</p>
     <pre><code class="lang-csharp hljs">public ObservableRangeCollection(List&lt;T&gt; list)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -377,7 +328,7 @@ that contains elements copied from the specified list</p>
 same order they are read by the enumerator of the list.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -386,7 +337,7 @@ same order they are read by the enumerator of the list.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td><p>list is a null reference</p>
 </td>
       </tr>
@@ -396,14 +347,14 @@ same order they are read by the enumerator of the list.</p>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_AddRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.AddRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_AddRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.AddRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L85">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_AddRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.AddRange*"></a>
   <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_AddRange_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0})">AddRange(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Adds the elements of the specified collection to the end of the <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span>.</p>
+  <div class="markdown level1 summary"><p>Adds the elements of the specified collection to the end of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -411,7 +362,7 @@ same order they are read by the enumerator of the list.</p>
     <pre><code class="lang-csharp hljs">public void AddRange(IEnumerable&lt;T&gt; collection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -423,14 +374,14 @@ same order they are read by the enumerator of the list.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
         <td><span class="parametername">collection</span></td>
-        <td><p>The collection whose elements should be added to the end of the <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span>.
+        <td><p>The collection whose elements should be added to the end of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection&lt;T&gt;</a>.
 The collection itself cannot be null, but it can contain elements that are null, if type T is a reference type.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -439,15 +390,15 @@ The collection itself cannot be null, but it can contain elements that are null,
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ClearItems.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ClearItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ClearItems.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ClearItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L491">View Source</a>
@@ -463,27 +414,24 @@ raises a CollectionChanged event to any listeners.</p>
     <pre><code class="lang-csharp hljs">protected override void ClearItems()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.ClearItems()</span></div>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.clearitems">ObservableCollection&lt;T&gt;.ClearItems()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_DeferEvents.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.DeferEvents%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_DeferEvents.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.DeferEvents%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L538">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_DeferEvents_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.DeferEvents*"></a>
   <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_DeferEvents" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.DeferEvents">DeferEvents()</h4>
-  <div class="markdown level1 summary"><p>Implementation of a dynamic data collection based on generic Collection&lt;T&gt;,
-implementing INotifyCollectionChanged to notify listeners
-when items get added, removed or the whole list is refreshed.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual IDisposable DeferEvents()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -499,14 +447,14 @@ when items get added, removed or the whole list is refreshed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.InsertRange(System.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.InsertRange(System.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L98">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_InsertRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.InsertRange*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">InsertRange(Int32, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Inserts the elements of a collection into the <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span> at the specified index.</p>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">InsertRange(int, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts the elements of a collection into the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection&lt;T&gt;</a> at the specified index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -514,7 +462,7 @@ when items get added, removed or the whole list is refreshed.</p>
     <pre><code class="lang-csharp hljs">public void InsertRange(int index, IEnumerable&lt;T&gt; collection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -524,7 +472,7 @@ when items get added, removed or the whole list is refreshed.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">index</span></td>
         <td><p>The zero-based index at which the new elements should be inserted.</p>
 </td>
@@ -539,7 +487,7 @@ The collection itself cannot be null, but it can contain elements that are null,
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -548,20 +496,20 @@ The collection itself cannot be null, but it can contain elements that are null,
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> is not in the collection range.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">index</code> is not in the collection range.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_OnCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventArgs_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_OnCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventArgs_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L528">View Source</a>
@@ -578,7 +526,7 @@ a collection changed event through this virtual method.</p>
     <pre><code class="lang-csharp hljs">protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -595,20 +543,20 @@ a collection changed event through this virtual method.</p>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)</span></div>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.oncollectionchanged">ObservableCollection&lt;T&gt;.OnCollectionChanged(NotifyCollectionChangedEventArgs)</a></div>
   <h5 id="Mapsui_Utilities_ObservableRangeCollection_1_OnCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventArgs__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>When overriding this method, either call its base implementation
-or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.blockreentrancy#system-collections-objectmodel-observablecollection-1-blockreentrancy">BlockReentrancy()</a> to guard against reentrant collection changes.</p>
+or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.blockreentrancy">BlockReentrancy()</a> to guard against reentrant collection changes.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Int32_System_Int32_System_Predicate__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveAll(System.Int32%2CSystem.Int32%2CSystem.Predicate%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Int32_System_Int32_System_Predicate__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveAll(System.Int32%2CSystem.Int32%2CSystem.Predicate%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L219">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveAll*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Int32_System_Int32_System_Predicate__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveAll(System.Int32,System.Int32,System.Predicate{`0})">RemoveAll(Int32, Int32, Predicate&lt;T&gt;)</h4>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Int32_System_Int32_System_Predicate__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveAll(System.Int32,System.Int32,System.Predicate{`0})">RemoveAll(int, int, Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Iterates over the specified range within the collection and removes all items that satisfy the specified match.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -617,7 +565,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     <pre><code class="lang-csharp hljs">public int RemoveAll(int index, int count, Predicate&lt;T&gt; match)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -627,13 +575,13 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of where to start performing the search.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">count</span></td>
         <td><p>The number of items to iterate on.</p>
 </td>
@@ -646,7 +594,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -655,7 +603,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><p>Returns the number of elements that where</p>
 </td>
       </tr>
@@ -665,7 +613,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
   <div class="markdown level1 remarks"><p>The complexity is O(n).</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -674,25 +622,25 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> is out of range.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">index</code> is out of range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is out of range.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">count</code> is out of range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">match</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">match</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Predicate__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveAll(System.Predicate%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveAll_System_Predicate__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveAll(System.Predicate%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L203">View Source</a>
@@ -707,7 +655,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     <pre><code class="lang-csharp hljs">public int RemoveAll(Predicate&lt;T&gt; match)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -724,7 +672,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -733,7 +681,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><p>Returns the number of elements that where</p>
 </td>
       </tr>
@@ -743,7 +691,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
   <div class="markdown level1 remarks"><p>The complexity is O(n).</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -752,22 +700,22 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">match</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">match</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L136">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveRange*"></a>
   <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveRange(System.Collections.Generic.IEnumerable{`0})">RemoveRange(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Removes the first occurrence of each item in the specified collection from the <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span>.</p>
+  <div class="markdown level1 summary"><p>Removes the first occurrence of each item in the specified collection from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -775,7 +723,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     <pre><code class="lang-csharp hljs">public void RemoveRange(IEnumerable&lt;T&gt; collection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -793,7 +741,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -802,22 +750,22 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveRange(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.RemoveRange(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L281">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveRange*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Int32_System_Int32_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveRange(System.Int32,System.Int32)">RemoveRange(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Removes a range of elements from the <span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span>&gt;.</p>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_RemoveRange_System_Int32_System_Int32_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.RemoveRange(System.Int32,System.Int32)">RemoveRange(int, int)</h4>
+  <div class="markdown level1 summary"><p>Removes a range of elements from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection&lt;T&gt;</a>&gt;.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -825,7 +773,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     <pre><code class="lang-csharp hljs">public void RemoveRange(int index, int count)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -835,13 +783,13 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">index</span></td>
         <td><p>The zero-based starting index of the range of elements to remove.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">count</span></td>
         <td><p>The number of elements to remove.</p>
 </td>
@@ -849,7 +797,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -858,7 +806,7 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
         <td><p>The specified range is exceeding the collection.</p>
 </td>
       </tr>
@@ -866,7 +814,58 @@ or call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.coll
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L321">View Source</a>
+  </span>
+  <a id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange*"></a>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Collections.Generic.IEnumerable{`0})">ReplaceRange(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Clears the current collection and replaces it with the specified collection,
+using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1">EqualityComparer&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceRange(IEnumerable&lt;T&gt; collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>The items to fill the collection with, after clearing it.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L336">View Source</a>
@@ -882,7 +881,7 @@ using the specified comparer to skip equal items.</p>
     <pre><code class="lang-csharp hljs">public void ReplaceRange(IEnumerable&lt;T&gt; collection, IEqualityComparer&lt;T&gt; comparer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -908,7 +907,7 @@ which in case it would not be added to the collection, and no event will be rais
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -917,36 +916,36 @@ which in case it would not be added to the collection, and no event will be rais
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">comparer</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Int32%2CSystem.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L321">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L351">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Collections.Generic.IEnumerable{`0})">ReplaceRange(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Clears the current collection and replaces it with the specified collection,
-using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1">EqualityComparer&lt;T&gt;</a>.</p>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{`0})">ReplaceRange(int, int, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Removes the specified range and inserts the specified collection,
+ignoring equal items (using <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1.default">Default</a>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReplaceRange(IEnumerable&lt;T&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReplaceRange(int index, int count, IEnumerable&lt;T&gt; collection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -956,15 +955,27 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of where to start the replacement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of items to be replaced.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
         <td><span class="parametername">collection</span></td>
-        <td><p>The items to fill the collection with, after clearing it.</p>
+        <td><p>The collection to insert in that location.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -973,21 +984,31 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">index</code> is out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">count</code> is out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Int32%2CSystem.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Int32%2CSystem.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L367">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})">ReplaceRange(Int32, Int32, IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)</h4>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})">ReplaceRange(int, int, IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes the specified range and inserts the specified collection in its position, leaving equal items in equal positions intact.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -996,7 +1017,7 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     <pre><code class="lang-csharp hljs">public void ReplaceRange(int index, int count, IEnumerable&lt;T&gt; collection, IEqualityComparer&lt;T&gt; comparer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1006,13 +1027,13 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of where to start the replacement.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">count</span></td>
         <td><p>The number of items to be replaced.</p>
 </td>
@@ -1032,7 +1053,7 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     </tbody>
   </table>
   <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1041,109 +1062,36 @@ using the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> is out of range.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">index</code> is out of range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is out of range.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code class="paramref">count</code> is out of range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">collection</code> is null.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.ReplaceRange(System.Int32%2CSystem.Int32%2CSystem.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L351">View Source</a>
-  </span>
-  <a id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_ReplaceRange_System_Int32_System_Int32_System_Collections_Generic_IEnumerable__0__" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.ReplaceRange(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{`0})">ReplaceRange(Int32, Int32, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Removes the specified range and inserts the specified collection,
-ignoring equal items (using <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1.default#system-collections-generic-equalitycomparer-1-default">Default</a>).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReplaceRange(int index, int count, IEnumerable&lt;T&gt; collection)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>The index of where to start the replacement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>The number of items to be replaced.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
-        <td><span class="parametername">collection</span></td>
-        <td><p>The collection to insert in that location.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> is out of range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is out of range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">collection</code> is null.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">comparer</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_SetItem_System_Int32__0_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.SetItem(System.Int32%2C%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1_SetItem_System_Int32__0_.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601.SetItem(System.Int32%2C%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L506">View Source</a>
   </span>
   <a id="Mapsui_Utilities_ObservableRangeCollection_1_SetItem_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.SetItem*"></a>
-  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_SetItem_System_Int32__0_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.SetItem(System.Int32,`0)">SetItem(Int32, T)</h4>
+  <h4 id="Mapsui_Utilities_ObservableRangeCollection_1_SetItem_System_Int32__0_" data-uid="Mapsui.Utilities.ObservableRangeCollection`1.SetItem(System.Int32,`0)">SetItem(int, T)</h4>
   <div class="markdown level1 summary"><p>Called by base class Collection&lt;T&gt; when an item is set in list;
 raises a CollectionChanged event to any listeners.</p>
 </div>
@@ -1153,7 +1101,7 @@ raises a CollectionChanged event to any listeners.</p>
     <pre><code class="lang-csharp hljs">protected override void SetItem(int index, T item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1163,7 +1111,7 @@ raises a CollectionChanged event to any listeners.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
@@ -1175,42 +1123,43 @@ raises a CollectionChanged event to any listeners.</p>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;.SetItem(System.Int32, T)</span></div>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1.setitem">ObservableCollection&lt;T&gt;.SetItem(int, T)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">System.Collections.Generic.IList&lt;T&gt;</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">System.Collections.Generic.ICollection&lt;T&gt;</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
   </div>
   <div>
-      <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList&lt;T&gt;</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">System.Collections.Generic.IEnumerable&lt;T&gt;</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">System.Collections.IList</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">System.Collections.ICollection</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">System.Collections.IEnumerable</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged">System.Collections.Specialized.INotifyCollectionChanged</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged">INotifyCollectionChanged</a>
   </div>
   <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">System.ComponentModel.INotifyPropertyChanged</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeIfDisposable_System_Object_">DisposableExtension.DisposeIfDisposable(Object)</a>
+      <a class="xref" href="Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeIfDisposable_System_Object_">DisposableExtension.DisposeIfDisposable(object?)</a>
   </div>
+
 </article>
           </div>
 
@@ -1219,7 +1168,7 @@ raises a CollectionChanged event to any listeners.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/main/apiSpec/new?filename=Mapsui_Utilities_ObservableRangeCollection_1.md&amp;value=---%0Auid%3A%20Mapsui.Utilities.ObservableRangeCollection%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
                     <a href="https://github.com/Mapsui/Mapsui/blob/main/Mapsui/Utilities/ObservableRangeCollection.cs/#L16" class="contribution-link">View Source</a>
@@ -1227,7 +1176,7 @@ raises a CollectionChanged event to any listeners.</p>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
@@ -1249,7 +1198,7 @@ raises a CollectionChanged event to any listeners.</p>
       </footer>
     </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>
