@@ -4,22 +4,21 @@
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseLayer
- </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseLayer
- ">
-  
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class BaseLayer </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class BaseLayer ">
+    
+    
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
@@ -80,13 +79,13 @@
             <article class="content wrap" id="_content" data-uid="Mapsui.Layers.BaseLayer">
 
 
-  <h1 id="Mapsui_Layers_BaseLayer" data-uid="Mapsui.Layers.BaseLayer" class="text-break">Class BaseLayer
-</h1>
+
+  <h1 id="Mapsui_Layers_BaseLayer" data-uid="Mapsui.Layers.BaseLayer" class="text-break">Class BaseLayer</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">BaseLayer</span></div>
       <div class="level2"><a class="xref" href="Mapsui.Layers.AnimatedLayers.AnimatedPointLayer.html">AnimatedPointLayer</a></div>
       <div class="level2"><a class="xref" href="Mapsui.Layers.GenericCollectionLayer-1.html">GenericCollectionLayer&lt;T&gt;</a></div>
@@ -104,20 +103,41 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Mapsui.Layers.ILayer.html">ILayer</a></div>
     <div><a class="xref" href="Mapsui.Animations.IAnimatable.html">IAnimatable</a></div>
-    <div><span class="xref">INotifyPropertyChanged</span></div>
-    <div><span class="xref">IDisposable</span></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.Layers.html">Mapsui.Layers</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mapsui.html">Mapsui</a>.<a class="xref" href="Mapsui.Layers.html">Layers</a></h6>
   <h6><strong>Assembly</strong>: Mapsui.dll</h6>
   <h5 id="Mapsui_Layers_BaseLayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseLayer : object, ILayer, IAnimatable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseLayer : ILayer, IAnimatable, INotifyPropertyChanged, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer__ctor.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer__ctor.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L28">View Source</a>
@@ -133,13 +153,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer__ctor_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer__ctor_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L43">View Source</a>
   </span>
   <a id="Mapsui_Layers_BaseLayer__ctor_" data-uid="Mapsui.Layers.BaseLayer.#ctor*"></a>
-  <h4 id="Mapsui_Layers_BaseLayer__ctor_System_String_" data-uid="Mapsui.Layers.BaseLayer.#ctor(System.String)">BaseLayer(String)</h4>
+  <h4 id="Mapsui_Layers_BaseLayer__ctor_System_String_" data-uid="Mapsui.Layers.BaseLayer.#ctor(System.String)">BaseLayer(string)</h4>
   <div class="markdown level1 summary"><p>Creates a BaseLayer with a name</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -148,7 +168,7 @@
     <pre><code class="lang-csharp hljs">protected BaseLayer(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -158,7 +178,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">name</span></td>
         <td><p>Name for this layer</p>
 </td>
@@ -169,7 +189,7 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Attribution.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Attribution%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Attribution.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Attribution%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L172">View Source</a>
@@ -184,7 +204,7 @@
     <pre><code class="lang-csharp hljs">public Hyperlink Attribution { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -200,7 +220,7 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Busy.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Busy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Busy.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Busy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L133">View Source</a>
@@ -215,7 +235,7 @@
     <pre><code class="lang-csharp hljs">public virtual bool Busy { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -224,14 +244,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Enabled.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Enabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Enabled.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Enabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L97">View Source</a>
@@ -246,7 +266,7 @@
     <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -255,14 +275,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Extent.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Extent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Extent.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Extent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L159">View Source</a>
@@ -274,10 +294,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual MRect Extent { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual MRect? Extent { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -293,7 +313,7 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Id.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Id.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L58">View Source</a>
@@ -308,7 +328,7 @@
     <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -317,14 +337,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_IsMapInfoLayer.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.IsMapInfoLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_IsMapInfoLayer.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.IsMapInfoLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L178">View Source</a>
@@ -339,7 +359,7 @@
     <pre><code class="lang-csharp hljs">public bool IsMapInfoLayer { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -348,14 +368,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_MaxVisible.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.MaxVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_MaxVisible.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.MaxVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L85">View Source</a>
@@ -370,7 +390,7 @@
     <pre><code class="lang-csharp hljs">public double MaxVisible { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -379,14 +399,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_MinVisible.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.MinVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_MinVisible.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.MinVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L73">View Source</a>
@@ -401,7 +421,7 @@
     <pre><code class="lang-csharp hljs">public double MinVisible { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -410,14 +430,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Name.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Name.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L109">View Source</a>
@@ -432,7 +452,7 @@
     <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -441,14 +461,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Opacity.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Opacity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Opacity.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Opacity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L121">View Source</a>
@@ -463,7 +483,7 @@
     <pre><code class="lang-csharp hljs">public double Opacity { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -472,14 +492,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Resolutions.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Resolutions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Resolutions.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Resolutions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L175">View Source</a>
@@ -494,7 +514,7 @@
     <pre><code class="lang-csharp hljs">public virtual IReadOnlyList&lt;double&gt; Resolutions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -503,14 +523,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Style.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Style%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Style.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Style%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L145">View Source</a>
@@ -522,10 +542,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IStyle Style { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IStyle? Style { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -541,7 +561,7 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Tag.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Tag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Tag.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Tag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L61">View Source</a>
@@ -556,7 +576,7 @@
     <pre><code class="lang-csharp hljs">public object? Tag { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -565,7 +585,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -574,14 +594,17 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_DataHasChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.DataHasChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_DataHasChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.DataHasChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L183">View Source</a>
   </span>
   <a id="Mapsui_Layers_BaseLayer_DataHasChanged_" data-uid="Mapsui.Layers.BaseLayer.DataHasChanged*"></a>
   <h4 id="Mapsui_Layers_BaseLayer_DataHasChanged" data-uid="Mapsui.Layers.BaseLayer.DataHasChanged">DataHasChanged()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>To indicate the data withing the layer has changed. This triggers a DataChanged event.
+This is necessary for situations where the layer can not know about changes to it's data
+as in the case of editing of a geometry.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -589,7 +612,7 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Dispose.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Dispose.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L210">View Source</a>
@@ -604,13 +627,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Dispose(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.Dispose(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L203">View Source</a>
   </span>
   <a id="Mapsui_Layers_BaseLayer_Dispose_" data-uid="Mapsui.Layers.BaseLayer.Dispose*"></a>
-  <h4 id="Mapsui_Layers_BaseLayer_Dispose_System_Boolean_" data-uid="Mapsui.Layers.BaseLayer.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <h4 id="Mapsui_Layers_BaseLayer_Dispose_System_Boolean_" data-uid="Mapsui.Layers.BaseLayer.Dispose(System.Boolean)">Dispose(bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -618,7 +641,7 @@
     <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -628,7 +651,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">disposing</span></td>
         <td></td>
       </tr>
@@ -636,13 +659,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_GetFeatures_Mapsui_MRect_System_Double_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.GetFeatures(Mapsui.MRect%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_GetFeatures_Mapsui_MRect_System_Double_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.GetFeatures(Mapsui.MRect%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L181">View Source</a>
   </span>
   <a id="Mapsui_Layers_BaseLayer_GetFeatures_" data-uid="Mapsui.Layers.BaseLayer.GetFeatures*"></a>
-  <h4 id="Mapsui_Layers_BaseLayer_GetFeatures_Mapsui_MRect_System_Double_" data-uid="Mapsui.Layers.BaseLayer.GetFeatures(Mapsui.MRect,System.Double)">GetFeatures(MRect, Double)</h4>
+  <h4 id="Mapsui_Layers_BaseLayer_GetFeatures_Mapsui_MRect_System_Double_" data-uid="Mapsui.Layers.BaseLayer.GetFeatures(Mapsui.MRect,System.Double)">GetFeatures(MRect, double)</h4>
   <div class="markdown level1 summary"><p>Get all features in a given MRect for a given resolution</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -651,7 +674,7 @@
     <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;IFeature&gt; GetFeatures(MRect box, double resolution)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -666,7 +689,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td><span class="parametername">resolution</span></td>
         <td><p>Resolution of viewport</p>
 </td>
@@ -674,7 +697,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -683,14 +706,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Mapsui.IFeature.html">IFeature</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Mapsui.IFeature.html">IFeature</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_OnDataChanged_Mapsui_Fetcher_DataChangedEventArgs_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.OnDataChanged(Mapsui.Fetcher.DataChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_OnDataChanged_Mapsui_Fetcher_DataChangedEventArgs_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.OnDataChanged(Mapsui.Fetcher.DataChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L198">View Source</a>
@@ -704,7 +727,7 @@
     <pre><code class="lang-csharp hljs">protected void OnDataChanged(DataChangedEventArgs args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -722,13 +745,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.OnPropertyChanged(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.OnPropertyChanged(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L193">View Source</a>
   </span>
   <a id="Mapsui_Layers_BaseLayer_OnPropertyChanged_" data-uid="Mapsui.Layers.BaseLayer.OnPropertyChanged*"></a>
-  <h4 id="Mapsui_Layers_BaseLayer_OnPropertyChanged_System_String_" data-uid="Mapsui.Layers.BaseLayer.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <h4 id="Mapsui_Layers_BaseLayer_OnPropertyChanged_System_String_" data-uid="Mapsui.Layers.BaseLayer.OnPropertyChanged(System.String)">OnPropertyChanged(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -736,7 +759,7 @@
     <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -746,7 +769,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
@@ -754,7 +777,7 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_ToString.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_ToString.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L188">View Source</a>
@@ -768,7 +791,7 @@
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -777,14 +800,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_UpdateAnimations.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.UpdateAnimations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_UpdateAnimations.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.UpdateAnimations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L216">View Source</a>
@@ -798,7 +823,7 @@
     <pre><code class="lang-csharp hljs">public virtual bool UpdateAnimations()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -807,8 +832,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns true if animations are running and a graphics update is needed.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -816,7 +842,7 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_DataChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.DataChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_DataChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.DataChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L55">View Source</a>
@@ -828,10 +854,10 @@ listeners to react to this.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event DataChangedEventHandler DataChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event DataChangedEventHandler? DataChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -847,7 +873,7 @@ listeners to react to this.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_PropertyChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.PropertyChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer_PropertyChanged.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer.PropertyChanged%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L52">View Source</a>
@@ -861,7 +887,7 @@ listeners to react to this.</p>
     <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -870,7 +896,7 @@ listeners to react to this.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -883,11 +909,16 @@ listeners to react to this.</p>
       <a class="xref" href="Mapsui.Animations.IAnimatable.html">IAnimatable</a>
   </div>
   <div>
-      <span class="xref">INotifyPropertyChanged</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a>
   </div>
   <div>
-      <span class="xref">IDisposable</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Mapsui.Extensions.LayerExtensions.html#Mapsui_Extensions_LayerExtensions_WaitForLoadingAsync_Mapsui_Layers_ILayer_">LayerExtensions.WaitForLoadingAsync(ILayer)</a>
+  </div>
+
 </article>
           </div>
 
@@ -896,7 +927,7 @@ listeners to react to this.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Layers_BaseLayer.md&amp;value=---%0Auid%3A%20Mapsui.Layers.BaseLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
                     <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui/Layers/BaseLayer.cs/#L12" class="contribution-link">View Source</a>
@@ -904,7 +935,7 @@ listeners to react to this.</p>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
@@ -926,7 +957,7 @@ listeners to react to this.</p>
       </footer>
     </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>
