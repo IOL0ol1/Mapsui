@@ -17425,6 +17425,222 @@ references:
   isSpec: "True"
   fullName: Mapsui.Providers.Wfs.Utilities.WFS_1_1_0_XPathTextResources.XPATH_SRS
   nameWithType: WFS_1_1_0_XPathTextResources.XPATH_SRS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources
+  name: WFS_2_0_0_TextResources
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html
+  commentId: T:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources
+  nameWithType: WFS_2_0_0_TextResources
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(System.String)
+  name: DescribeFeatureTypeRequest(string)
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_DescribeFeatureTypeRequest_System_String_
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(System.String)
+  name.vb: DescribeFeatureTypeRequest(String)
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(string)
+  fullName.vb: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(String)
+  nameWithType: WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(string)
+  nameWithType.vb: WFS_2_0_0_TextResources.DescribeFeatureTypeRequest(String)
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest*
+  name: DescribeFeatureTypeRequest
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_DescribeFeatureTypeRequest_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.DescribeFeatureTypeRequest
+  nameWithType: WFS_2_0_0_TextResources.DescribeFeatureTypeRequest
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest
+  name: GetCapabilitiesRequest()
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetCapabilitiesRequest
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest()
+  nameWithType: WFS_2_0_0_TextResources.GetCapabilitiesRequest()
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest*
+  name: GetCapabilitiesRequest
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetCapabilitiesRequest_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetCapabilitiesRequest
+  nameWithType: WFS_2_0_0_TextResources.GetCapabilitiesRequest
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo,System.Collections.Generic.List{System.String},Mapsui.MRect,Mapsui.Providers.Wfs.Utilities.IFilter)
+  name: GetFeatureGETRequest(WfsFeatureTypeInfo, List<string>?, MRect?, IFilter?)
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetFeatureGETRequest_Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo_System_Collections_Generic_List_System_String__Mapsui_MRect_Mapsui_Providers_Wfs_Utilities_IFilter_
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo,System.Collections.Generic.List{System.String},Mapsui.MRect,Mapsui.Providers.Wfs.Utilities.IFilter)
+  name.vb: GetFeatureGETRequest(WfsFeatureTypeInfo, List(Of String), MRect, IFilter)
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo, System.Collections.Generic.List<string>?, Mapsui.MRect?, Mapsui.Providers.Wfs.Utilities.IFilter?)
+  fullName.vb: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo, System.Collections.Generic.List(Of String), Mapsui.MRect, Mapsui.Providers.Wfs.Utilities.IFilter)
+  nameWithType: WFS_2_0_0_TextResources.GetFeatureGETRequest(WfsFeatureTypeInfo, List<string>?, MRect?, IFilter?)
+  nameWithType.vb: WFS_2_0_0_TextResources.GetFeatureGETRequest(WfsFeatureTypeInfo, List(Of String), MRect, IFilter)
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest*
+  name: GetFeatureGETRequest
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetFeatureGETRequest_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeatureGETRequest
+  nameWithType: WFS_2_0_0_TextResources.GetFeatureGETRequest
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo,System.Collections.Generic.List{System.String},Mapsui.MRect,Mapsui.Providers.Wfs.Utilities.IFilter)
+  name: GetFeaturePOSTRequest(WfsFeatureTypeInfo, List<string>?, MRect?, IFilter?)
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetFeaturePOSTRequest_Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo_System_Collections_Generic_List_System_String__Mapsui_MRect_Mapsui_Providers_Wfs_Utilities_IFilter_
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo,System.Collections.Generic.List{System.String},Mapsui.MRect,Mapsui.Providers.Wfs.Utilities.IFilter)
+  name.vb: GetFeaturePOSTRequest(WfsFeatureTypeInfo, List(Of String), MRect, IFilter)
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo, System.Collections.Generic.List<string>?, Mapsui.MRect?, Mapsui.Providers.Wfs.Utilities.IFilter?)
+  fullName.vb: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest(Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo, System.Collections.Generic.List(Of String), Mapsui.MRect, Mapsui.Providers.Wfs.Utilities.IFilter)
+  nameWithType: WFS_2_0_0_TextResources.GetFeaturePOSTRequest(WfsFeatureTypeInfo, List<string>?, MRect?, IFilter?)
+  nameWithType.vb: WFS_2_0_0_TextResources.GetFeaturePOSTRequest(WfsFeatureTypeInfo, List(Of String), MRect, IFilter)
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest*
+  name: GetFeaturePOSTRequest
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_TextResources_GetFeaturePOSTRequest_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_TextResources.GetFeaturePOSTRequest
+  nameWithType: WFS_2_0_0_TextResources.GetFeaturePOSTRequest
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources
+  name: WFS_2_0_0_XPathTextResources
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html
+  commentId: T:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources
+  nameWithType: WFS_2_0_0_XPathTextResources
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML
+  name: NSGML
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSGML
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML
+  nameWithType: WFS_2_0_0_XPathTextResources.NSGML
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML*
+  name: NSGML
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSGML_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSGML
+  nameWithType: WFS_2_0_0_XPathTextResources.NSGML
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS
+  name: NSOWS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSOWS
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS
+  nameWithType: WFS_2_0_0_XPathTextResources.NSOWS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS*
+  name: NSOWS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSOWS_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSOWS
+  nameWithType: WFS_2_0_0_XPathTextResources.NSOWS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS
+  name: NSWFS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSWFS
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS
+  nameWithType: WFS_2_0_0_XPathTextResources.NSWFS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS*
+  name: NSWFS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_NSWFS_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.NSWFS
+  nameWithType: WFS_2_0_0_XPathTextResources.NSWFS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX
+  name: XPATH_BBOX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BBOX
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BBOX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX*
+  name: XPATH_BBOX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BBOX_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BBOX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BBOX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+  name: XPATH_BOUNDINGBOXMAXX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMAXX
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX*
+  name: XPATH_BOUNDINGBOXMAXX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMAXX_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+  name: XPATH_BOUNDINGBOXMAXY
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMAXY
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY*
+  name: XPATH_BOUNDINGBOXMAXY
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMAXY_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMAXY
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+  name: XPATH_BOUNDINGBOXMINX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMINX
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX*
+  name: XPATH_BOUNDINGBOXMINX
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMINX_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINX
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+  name: XPATH_BOUNDINGBOXMINY
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMINY
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY*
+  name: XPATH_BOUNDINGBOXMINY
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_BOUNDINGBOXMINY_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_BOUNDINGBOXMINY
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+  name: XPATH_DESCRIBEFEATURETYPERESOURCE
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_DESCRIBEFEATURETYPERESOURCE
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE*
+  name: XPATH_DESCRIBEFEATURETYPERESOURCE
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_DESCRIBEFEATURETYPERESOURCE_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_DESCRIBEFEATURETYPERESOURCE
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+  name: XPATH_GETFEATURERESOURCE
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_GETFEATURERESOURCE
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE*
+  name: XPATH_GETFEATURERESOURCE
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_GETFEATURERESOURCE_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_GETFEATURERESOURCE
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS
+  name: XPATH_SRS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_SRS
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_SRS
+- uid: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS*
+  name: XPATH_SRS
+  href: api/Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.html#Mapsui_Providers_Wfs_Utilities_WFS_2_0_0_XPathTextResources_XPATH_SRS_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WFS_2_0_0_XPathTextResources.XPATH_SRS
+  nameWithType: WFS_2_0_0_XPathTextResources.XPATH_SRS
 - uid: Mapsui.Providers.Wfs.Utilities.WFS_XPathTextResourcesBase
   name: WFS_XPathTextResourcesBase
   href: api/Mapsui.Providers.Wfs.Utilities.WFS_XPathTextResourcesBase.html
@@ -17719,24 +17935,24 @@ references:
   fullName.vb: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.New()
   nameWithType: WfsFeatureTypeInfo.WfsFeatureTypeInfo()
   nameWithType.vb: WfsFeatureTypeInfo.New()
-- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String)
-  name: WfsFeatureTypeInfo(string, string, string, string, string)
-  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo__ctor_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String)
-  name.vb: New(String, String, String, String, String)
-  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string)
-  fullName.vb: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.New(String, String, String, String, String)
-  nameWithType: WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string)
-  nameWithType.vb: WfsFeatureTypeInfo.New(String, String, String, String, String)
-- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum)
-  name: WfsFeatureTypeInfo(string, string, string, string, string, GeometryTypeEnum)
-  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo__ctor_System_String_System_String_System_String_System_String_System_String_Mapsui_Providers_Wfs_Utilities_GeometryTypeEnum_
-  commentId: M:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum)
-  name.vb: New(String, String, String, String, String, GeometryTypeEnum)
-  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum)
-  fullName.vb: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.New(String, String, String, String, String, Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum)
-  nameWithType: WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, GeometryTypeEnum)
-  nameWithType.vb: WfsFeatureTypeInfo.New(String, String, String, String, String, GeometryTypeEnum)
+- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum,System.String)
+  name: WfsFeatureTypeInfo(string, string, string, string, string, GeometryTypeEnum, string)
+  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo__ctor_System_String_System_String_System_String_System_String_System_String_Mapsui_Providers_Wfs_Utilities_GeometryTypeEnum_System_String_
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum,System.String)
+  name.vb: New(String, String, String, String, String, GeometryTypeEnum, String)
+  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum, string)
+  fullName.vb: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.New(String, String, String, String, String, Mapsui.Providers.Wfs.Utilities.GeometryTypeEnum, String)
+  nameWithType: WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, GeometryTypeEnum, string)
+  nameWithType.vb: WfsFeatureTypeInfo.New(String, String, String, String, String, GeometryTypeEnum, String)
+- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  name: WfsFeatureTypeInfo(string, string, string, string, string, string)
+  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo__ctor_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String, String, String)
+  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, string)
+  fullName.vb: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.New(String, String, String, String, String, String)
+  nameWithType: WfsFeatureTypeInfo.WfsFeatureTypeInfo(string, string, string, string, string, string)
+  nameWithType.vb: WfsFeatureTypeInfo.New(String, String, String, String, String, String)
 - uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.#ctor*
   name: WfsFeatureTypeInfo
   href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo__ctor_
@@ -17924,6 +18140,19 @@ references:
   commentId: F:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GeometryInfo.GeometryType
   fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GeometryInfo.GeometryType
   nameWithType: WfsFeatureTypeInfo.GeometryInfo.GeometryType
+- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs
+  name: GmlNs
+  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo_GmlNs
+  commentId: P:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs
+  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs
+  nameWithType: WfsFeatureTypeInfo.GmlNs
+- uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs*
+  name: GmlNs
+  href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo_GmlNs_
+  commentId: Overload:Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs
+  isSpec: "True"
+  fullName: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.GmlNs
+  nameWithType: WfsFeatureTypeInfo.GmlNs
 - uid: Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.LabelFields
   name: LabelFields
   href: api/Mapsui.Providers.Wfs.Utilities.WfsFeatureTypeInfo.html#Mapsui_Providers_Wfs_Utilities_WfsFeatureTypeInfo_LabelFields
@@ -18330,6 +18559,12 @@ references:
   commentId: F:Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.WFS_1_1_0
   fullName: Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.WFS_1_1_0
   nameWithType: WFSProvider.WFSVersionEnum.WFS_1_1_0
+- uid: Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.WFS_2_0_0
+  name: WFS_2_0_0
+  href: api/Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.html#Mapsui_Providers_Wfs_WFSProvider_WFSVersionEnum_WFS_2_0_0
+  commentId: F:Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.WFS_2_0_0
+  fullName: Mapsui.Providers.Wfs.WFSProvider.WFSVersionEnum.WFS_2_0_0
+  nameWithType: WFSProvider.WFSVersionEnum.WFS_2_0_0
 - uid: Mapsui.Providers.Wfs.Xml
   name: Mapsui.Providers.Wfs.Xml
   href: api/Mapsui.Providers.Wfs.Xml.html
