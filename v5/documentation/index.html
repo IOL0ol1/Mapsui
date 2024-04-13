@@ -1,651 +1,968 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<html>
 
+<!doctype html>
+<html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Introduction </title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Introduction ">
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../rendering-tests/">
+      
+      
+        <link rel="next" href="../touch-and-mouse-handling/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
-      <link rel="shortcut icon" href="../images/favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
+      
+        <title>Documentation - Mapsui Documentation</title>
+      
     
-    <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Mapsui Documentation" class="md-header__button md-logo" aria-label="Mapsui Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mapsui Documentation
+          </span>
         </div>
-      </header>
-      <div class="container body-content">
-
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
-          </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documentation
+            
+          </span>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
           </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="introduction">Introduction</h1>
-
-<p>Mapsui is a .NET map component that supports all main .NET UI frameworks. Try the quick-start for your specific platform below.</p>
-<p>!!! Quickstart guides</p>
-<pre><code>=== &quot;MAUI&quot;
-
-    **Step 1:** Create a new .NET 7.0 MAUI application in Visual Studio.
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Maui
-    ```
-
-    **Step 3:** IMPORTANT: In MauiProgram.cs add **.UseSkiaSharp()** to the builder like this:
-
-    ```csharp
-    builder
-        .UseMauiApp&lt;App&gt;()
-        .UseSkiaSharp(true)
-        .ConfigureFonts(fonts =&gt;  
-    ```
-
-    and add namespace 'SkiaSharp.Views.Maui.Controls.Hosting':
-
-    ```csharp
-    using SkiaSharp.Views.Maui.Controls.Hosting;
-    ```
-
-    This is because Mapsui depends on SkiaSharp which needs this call. We hope that this will not be necessary in a future version of Mapsui.Maui. Without this line the app will crash with this exception: `Catastrophic failure (0x8000FFFF (E_UNEXPECTED))` on Windows and with `Microsoft.Mapsui.Platform.HandlerNotFoundException has been thrown` on Mac.
-
-    **Step 4:**
-    In MainPage.xaml.cs replace the constuctor with this code:
-
-    ```csharp
-    public MainPage()
-    {
-        InitializeComponent();
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mapsui/Mapsui/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
-        var mapControl = new Mapsui.UI.Maui.MapControl();
-        mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
-        Content = mapControl;
-    }
-    ```
-
-    **Step 5:**
-    Run it and you should see a map of the world.
-
-=== &quot;Uno&quot;
-
-    **Preparation:** [See Uno Platform getting started](https://platform.uno/docs/articles/get-started-vs.html)
-
-    **Step 1:** Create new 'Uno Platform App' in Visual Studio
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Uno.WinUI
-    ```
-
-    Repeat this for all the targets you are using (Change the default Project in the Package Manager Console)
-
-    **Step 3:** Open MainPage.xaml and add namespace:
-
-    ```xml
-    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.WinUI;assembly=Mapsui.UI.Uno.WinUI&quot;
-    ```
-
-    Add MapControl to the Grid:
-
-    ```xml
-    &lt;Grid&gt;
-        &lt;mapsui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
-    &lt;/Grid&gt;
-    ```
-
-    In MainPage.xaml.cs, add namespace:
-
-    ```csharp
-    using Mapsui.Utilities;
-    ```
-
-    Add code to the constructor:
-
-    ```csharp
-    public MainPage()
-    {
-        this.InitializeComponent();
-        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
-    }
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-    **Troubleshooting:**
-
-    - Unable to resolve the .NET SDK version as specified in the global.json.
-    global.json (change the version to &quot;6.0.400&quot; or what is installed on the Computer)
-
-    - Duplicate Attribute errors:
-    Add following line to the ...Wpf.csproj.
-
-    ```xml
-        &lt;!-- Work around https://github.com/dotnet/wpf/issues/6792 --&gt;
-        &lt;ItemGroup&gt;
-        &lt;FilteredAnalyzer Include=&quot;@(Analyzer-&gt;Distinct())&quot; /&gt;
-        &lt;Analyzer Remove=&quot;@(Analyzer)&quot; /&gt;
-        &lt;Analyzer Include=&quot;@(FilteredAnalyzer)&quot; /&gt;
-        &lt;/ItemGroup&gt;
-    &lt;/Target&gt;
-    ```
-    
-    - System.MissingMethodException: Method not found:
-    See for solution here
-    https://github.com/unoplatform/uno/issues/9297
-    
-    Upgrading to the latest Uno.UI Dev Version should help too.
-
-=== &quot;Avalonia&quot;
-    
-    **Preperation:** Install the Avalonia templates:
-
-    ```console
-    dotnet new install Avalonia.Templates
-    ```
-
-    **Step 1:** Create a new Avalonia project:
-
-    ```console
-    dotnet new avalonia.app -o MyApp
-    ```
-
-    **Step 2:** Add the Mapsui.Avalonia nuget package:
-
-    ```console
-    dotnet add MyApp package Mapsui.Avalonia
-    ```
-
-    **Step 3:** In MainWindow.axaml.cs add this to the constructor **after** InitializeComponent():
-
-    ```csharp
-    var mapControl = new Mapsui.UI.Avalonia.MapControl();
-    mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
-    Content = mapControl;
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-    ```console
-    cd MyApp
-    dotnet run
-    ```
-
-=== &quot;Blazor&quot;
-
-    **Step 1:** Create a new Blazor WebAssembly Application in your IDE and select .NET 7.0 (Standard Term Support) as Framework.
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Blazor
-    ```
-
-    **Step 3:** In Index.razor add this to the to Page.
-
-    ```csharp
-    @using Mapsui.UI.Blazor
-    ```
-
-    ```html
-    &lt;div class=&quot;container&quot;&gt;
-        &lt;div class=&quot;row&quot;&gt;
-            &lt;div class=&quot;col border rounded p-2 canvas-container&quot;&gt;
-                &lt;MapControlComponent @ref=&quot;_mapControl&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;style&gt;
-        .canvas-container canvas {
-            width: 100%;
-            height: 80vh;
-        }
-    &lt;/style&gt;
-    ```
-
-    ```csharp
-    @code 
-    {
-        private MapControl? _mapControl;
-
-        protected override void OnAfterRender(bool firstRender)
-        {
-            base.OnAfterRender(firstRender);
-            if (firstRender)
-            {
-                if (_mapControl != null)
-                    _mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
-            }
-        }
-    }
-    ```
-
-    **Step 6:** Run it and you should see a map of the world.
-
-    **Troubleshooting:**
-
-    - Text is not displayed
-    Add Follwing to the Blazor project, is a workaround that text is rendered.
-
-    ```xml
-    &lt;ItemGroup&gt;
-        &lt;PackageReference Include=&quot;HarfBuzzSharp.NativeAssets.WebAssembly&quot; Version=&quot;2.8.2.3&quot; GeneratePathProperty=&quot;true&quot; /&gt;
-        &lt;NativeFileReference Include=&quot;$(PKGHarfBuzzSharp_NativeAssets_WebAssembly)\build\netstandard1.0\libHarfBuzzSharp.a\3.1.12\libHarfBuzzSharp.a&quot; /&gt;
-    &lt;/ItemGroup&gt;
-    ```	
-
-=== &quot;WPF&quot;
-    
-    **Step 1**: Start a new WPF application in Visual Studio.
-
-    **Step 2**: In the package manager console type:
-    ```console
-    PM&gt; Install-Package Mapsui.Wpf
-    ```
-
-    **Step 3**: In MainWindow.xaml.cs add in the constructor **after** InitializeComponent():
-
-    ```csharp
-    var mapControl = new Mapsui.UI.Wpf.MapControl();
-    mapControl.Map?.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
-    Content = mapControl;
-    ```
-
-    **Step 4**: Run it and you should see a map of the world.
-
-=== &quot;WinUI&quot;
-
-    **Step 1:** Create new 'Blank App. Packaged (WinUI 3 in Desktop)' in Visual Studio
-
-    **Step 2:** In the package manager console type:
-    
-    ```console
-    PM&gt; Install-Package Mapsui.WinUI
-    ```
-
-    **Step 3:** Open MainPage.xaml and add namespace:
-
-    ```xml
-    xmlns:winui=&quot;using:Mapsui.UI.WinUI&quot;
-    ```
-
-    Add MapControl to the Grid:
-
-    ```xml
-    &lt;Grid&gt;
-        &lt;winui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
-    &lt;/Grid&gt;
-    ```
-
-    In MainPage.xaml.cs, add namespace:
-
-    ```csharp
-    using Mapsui.Utilities;
-    ```
-
-    Add code to the constructor:
-
-    ```csharp
-    public MainPage()
-    {
-        this.InitializeComponent();
-        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
-    }
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-=== &quot;Xamarin&quot;
-
-    **Step 1:** Create a normal Xamarin.Forms project
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Forms
-    ```
-
-    **Step 3:** Add this line to the xaml file: 
-    ```xml
-    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Forms;assembly=Mapsui.UI.Forms&quot;
-    ```
-
-    **Step 4:** Add the Mapsui.Forms view with
-
-    ```xml
-    &lt;mapsui:MapView x:Name=&quot;mapView&quot;
-        VerticalOptions=&quot;FillAndExpand&quot;
-        HorizontalOptions=&quot;Fill&quot;
-        BackgroundColor=&quot;Gray&quot; /&gt;
-    ```
-    to the Xaml &lt;ContentPage&gt; part file.
+          
         
-    Nest the MapView element inside a container, this child element needs to be placed inside a parent Layout 
-    for the view to be correctly setup and attached to the code behind, for instance,
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
-    ```xml
-    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-    &lt;ContentPage xmlns=&quot;http://xamarin.com/schemas/2014/forms&quot;
-                xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;
-                xmlns:d=&quot;http://xamarin.com/schemas/2014/forms/design&quot;
-                xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; 
-                xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Forms;assembly=Mapsui.UI.Forms&quot;
-                mc:Ignorable=&quot;d&quot;&gt;
 
-        &lt;StackLayout&gt;
-            &lt;mapsui:MapView x:Name=&quot;mapView&quot;
-            VerticalOptions=&quot;FillAndExpand&quot;
-            HorizontalOptions=&quot;Fill&quot;
-            BackgroundColor=&quot;Gray&quot; /&gt;
-        &lt;/StackLayout&gt;
 
-    &lt;/ContentPage&gt;
-    ```
-    the Xaml file should look similar to this after this step.
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Mapsui Documentation" class="md-nav__button md-logo" aria-label="Mapsui Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
-    **Step 5:** Add in the code behind the following
-
-    ```csharp
-    var map = new Map
-    {
-        CRS = &quot;EPSG:3857&quot;,
-        Transformation = new MinimalTransformation()
-    };
-
-    var tileLayer = OpenStreetMap.CreateTileLayer();
-    map.Layers.Add(tileLayer);
-    map.Widgets.Add(new Widgets.ScaleBar.ScaleBarWidget(map) { 
-        TextAlignment = Widgets.Alignment.Center, 
-        HorizontalAlignment = Widgets.HorizontalAlignment.Left, 
-        VerticalAlignment = Widgets.VerticalAlignment.Bottom 
-    });
-    mapView.Map = map;
-    ```
-
-    **Step 6:** Run it and you should see a map of the world.
-
-=== &quot;.NET for iOS&quot;
-
-    **Step 1:** Create new 'Single View App' in Visual Studio
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.iOS
-    ```
-
-    **Step 3:** Open ViewController.cs and add namespaces:
-
-    ```csharp
-    using Mapsui;
-    using Mapsui.UI.iOS;
-    using Mapsui.Utilities;
-    ```
-
-    add code to ViewDidLoad() method:
-
-    ```csharp
-    public override void ViewDidLoad()
-    {
-        base.ViewDidLoad();
-
-        var mapControl = new MapControl(View.Bounds);
-        var map = new Map();
-        map.Layers.Add(OpenStreetMap.CreateTileLayer());
-        mapControl.Map = map;
-        View = mapControl;
-    }
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-=== &quot;.NET for Android&quot;
-
-    **Step 1:** Create 'Blank App (Android)' in Visual Studio
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Android
-    ```
-
-    **Step 3:** In Resources/layout/Main.axml add Mapsui.UI.Android.MapControl:
-
-    ```xml
-    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-    &lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
-        android:orientation=&quot;vertical&quot;
-        android:layout_width=&quot;match_parent&quot;
-        android:layout_height=&quot;match_parent&quot;&gt;
-        &lt;Mapsui.UI.Android.MapControl
-            android:id=&quot;@+id/mapcontrol&quot;
-            android:layout_width=&quot;match_parent&quot;
-            android:layout_height=&quot;match_parent&quot; /&gt;
-    &lt;/LinearLayout&gt;
-    ```
-
-    **Step 4:** In MainActivity.cs add MapControl after SetContentView(Resource.Layout.Main):
-
-    ```csharp
-    protected override void OnCreate(Bundle savedInstanceState)
-    {
-        base.OnCreate(savedInstanceState);
-
-        // Set our view from the &quot;main&quot; layout resource
-        SetContentView(Resource.Layout.Main);
-
-        var mapControl = FindViewById&lt;MapControl&gt;(Resource.Id.mapcontrol);
-        var map = new Map();
-        map.Layers.Add(OpenStreetMap.CreateTileLayer());
-        mapControl.Map = map;
-    }
-    ```
-
-    Add the following using statements:
-
-    ```csharp
-    using Mapsui;
-    using Mapsui.Utilities;
-    using Mapsui.UI.Android;
-    ```
-
-    **Step 5:** Run it and you should see a map of the world.
-
-=== &quot;Eto Forms&quot;
-
-    **Step 1:** Start a new [Eto.Forms](https://github.com/picoe/Eto/wiki/Quick-Start) application in Visual Studio.
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Eto
-    ```
-
-    **Step 3:** In MainForm.cs add this to the class constructor:
-
-    ```csharp
-    var mapControl = new Mapsui.UI.Eto.MapControl();
-    mapControl.Map.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
-    Content = mapControl;
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-=== &quot;Uno UWP&quot;
-
-    **Preparation:** [See the Uno Platform getting started](https://platform.uno/docs/articles/get-started-vs.html)
-
-    **Step 1:** Create new 'Uno App (Xamarin,UWP)' in Visual Studio
-
-    **Step 2:** In the package manager console type:
-
-    ```console
-    PM&gt; Install-Package Mapsui.Uno
-    ```
-
-    Repeat this for all the targets you are using (Change the default Project in the Package Manager Console)
-
-    **Step 3:** Open MainPage.xaml and add namespace:
-
-    ```xml
-    xmlns:mapsui=&quot;clr-namespace:Mapsui.UI.Uwp;assembly=Mapsui.UI.Uno&quot;
-    ```
-
-    Add MapControl to the Grid:
-
-    ```xml
-    &lt;Grid&gt;
-    &lt;mapsui:MapControl x:Name=&quot;MyMap&quot; VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot; /&gt;
-    &lt;/Grid&gt;
-    ```
-
-    In MainPage.xaml.cs, add namespace:
-
-    ```csharp
-    using Mapsui.Utilities;
-    ```
-
-    Add code to the constructor:
-
-    ```csharp
-    public MainPage()
-    {
-        this.InitializeComponent();
-        MyMap.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
-    }
-    ```
-
-    **Step 4:** Run it and you should see a map of the world.
-
-    **Troubleshooting:**
-
-    - Unable to resolve the .NET SDK version as specified in the global.json.
-    global.json (change the version to &quot;6.0.400&quot; or what is installed on the Computer)
-
-    - Duplicate Attribute errors:
-    Add following line to the ...Wpf.csproj.
-
-    ```xml
-        &lt;!-- Work around https://github.com/dotnet/wpf/issues/6792 --&gt;
-        &lt;ItemGroup&gt;
-        &lt;FilteredAnalyzer Include=&quot;@(Analyzer-&gt;Distinct())&quot; /&gt;
-        &lt;Analyzer Remove=&quot;@(Analyzer)&quot; /&gt;
-        &lt;Analyzer Include=&quot;@(FilteredAnalyzer)&quot; /&gt;
-        &lt;/ItemGroup&gt;
-    &lt;/Target&gt;
-    ```
+    </a>
+    Mapsui Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mapsui/Mapsui/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
     
-    - System.MissingMethodException: Method not found:
-    See for solution [here](https://github.com/unoplatform/uno/issues/9297).
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
     
-    Upgrading to the latest Uno.UI Dev Version should help too.
-</code></pre>
-<h2 id="functionality">Functionality</h2>
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../samples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Samples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frequently Asked Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nuget-of-latest-build/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NuGet of Latest Build
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Upgrade guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Upgrade guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../v4.0-upgrade-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v4.0 Upgrade Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../v5.0-upgrade-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v5.0 upgrade guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    How Things Work
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            How Things Work
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapsui-components/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapsui components
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../async-fetching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Asynchronous Data Fetching
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resolution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resolution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../device-independent-units/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Device Independent Units
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projections/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom-style-renders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Style Renderers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-widget/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PerformanceWidget
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contributing to Mapsui
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing to Mapsui
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributors-guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapsui Contributor Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rendering-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rendering Tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation guidelines
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../touch-and-mouse-handling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Touch and mouse handling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation guidelines
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/Mapsui/Mapsui/blob/master/docs/general/documentation.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="documentation">Documentation</h1>
+<h2 id="documentation-setup">Documentation setup</h2>
 <ul>
-<li>Points, Lines and Polygons using <a href="https://github.com/NetTopologySuite/NetTopologySuite">NTS</a>, a mature library which support all kinds of geometric operations.</li>
-<li>OpenStreetMap tiles based on <a href="https://github.com/BruTile/BruTile">BruTile library</a> and almost all other tile sources.</li>
-<li>OGC standards with data providers for WMS, WFS and WMTS.</li>
-<li>Offline maps are possible using MBTiles implemented with <a href="https://www.nuget.org/packages/BruTile.MbTiles">BruTile.MBTiles</a>. This stores map tiles in a sqlite file.</li>
-<li>Generates static map images to could be embedded in PDFs.</li>
+<li>We use mkdocs to generate the general documentation.</li>
+<li>This 'docs/general' folder contains all the md files used to generate the documenation website. This is the source of those files, they should be edited there.</li>
+<li>We use docfx to generate the api documentation. </li>
+<li>The './docs/api/docfx.json' file defines how the api docs are built. You can test it locally by running <code>dockfx docfx.json --serve</code></li>
+<li>In the powershell script ./Scripts/BuildDocumentationWebSite.ps1 generates the documentation web site, which is generated in the /docfx/mapsui/_site folder, and copies it to the /docs folder.</li>
+<li>The Mapsui project on github is configured to automatically publish this docs folder to https://mapsui.github.io/Mapsui</li>
+<li>A commit of an md file should trigger the build server. This should run the build-site.cmd. This should commit the generated site to the repo. It will when then show up on the website. We should have two separate build configurations one for the docs which ignores the project and one for the project which ignores the docs.</li>
+</ul>
+<h2 id="documentation-guidelines">Documentation guidelines</h2>
+<ul>
+<li>All md files should be in lower case.</li>
+<li>All md files should be directly in the root of folder. Hierachy is created by indenting page references in the toc.md in the documenation folder. By keeping the files itself in the root it is easier to change the hierarchy later on - you do not need to move the files as well - and easier to get contributers to follow the guidelines.</li>
+<li>All md files should start with a header one (#) and should have no other header one in that file.</li>
+<li>All the headers in the toc should be equal to the header one in the file it points to.</li>
+<li>Mapsui is cased as Mapsui not MapsUI.</li>
+<li>We should iteratively improve the documentation. If questions are asked in the issues we should search for the answer in the documentation. Update the documentation when it is missing and answer the issue with a url to the documentation.</li>
+<li>Writing documentation is not only useful to inform the user but also as a sanity check for the developer. If what you have to tell becomes complicated and hard to grasp this could mean the software is not well designed. Writing documentation early should be used as a part of the software development process.</li>
 </ul>
 
-</article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Mapsui/Mapsui/blob/main/docfx/documentation/index.md/#L1" class="contribution-link">Edit this page</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In this article</h5>
-                <div></div>
-              </nav>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
             </div>
-          </div>
-        </div>
-      </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
       
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
     </div>
-
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
-  </body>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.tabs.link", "navigation.expand", "navigation.sections", "search.highlight", "search.share", "search.suggest", "content.code.copy", "content.code.select"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
