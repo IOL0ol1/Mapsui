@@ -777,6 +777,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#documentation-setup-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation setup guidelines
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#documentation-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
       Documentation guidelines
@@ -858,6 +867,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#documentation-setup-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation setup guidelines
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#documentation-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
       Documentation guidelines
@@ -881,7 +899,7 @@
                   
 
   
-    <a href="https://github.com/Mapsui/Mapsui/blob/master/docs/general/documentation.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/Mapsui/Mapsui/blob/master/docs/general/markdown/documentation.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -892,22 +910,23 @@
 <h1 id="documentation">Documentation</h1>
 <h2 id="documentation-setup">Documentation setup</h2>
 <ul>
-<li>We use mkdocs to generate the general documentation.</li>
-<li>This 'docs/general' folder contains all the md files used to generate the documenation website. This is the source of those files, they should be edited there.</li>
-<li>We use docfx to generate the api documentation. </li>
-<li>The './docs/api/docfx.json' file defines how the api docs are built. You can test it locally by running <code>dockfx docfx.json --serve</code></li>
-<li>In the powershell script ./Scripts/BuildDocumentationWebSite.ps1 generates the documentation web site, which is generated in the /docfx/mapsui/_site folder, and copies it to the /docs folder.</li>
-<li>The Mapsui project on github is configured to automatically publish this docs folder to https://mapsui.github.io/Mapsui</li>
-<li>A commit of an md file should trigger the build server. This should run the build-site.cmd. This should commit the generated site to the repo. It will when then show up on the website. We should have two separate build configurations one for the docs which ignores the project and one for the project which ignores the docs.</li>
+<li>We use <em>mkdocs</em> to generate the <strong>general documentation</strong>. The main configuration is in <code>./docs/general/mkdocs.yml</code>. You can test it locally by running <code>mkdocs serve</code> in that folder. The content is in the .md files in the <code>./docs/general/markdown</code> folder. To update the documentation those files need to be edited. The documentation web site has a link back to these files on github to make it easy to update them.</li>
+<li>We use <em>docfx</em> to generate the <strong>api documentation</strong>. The main configuration is in <code>./docs/api/docfx.json</code>. You can test it locally by running <code>docfx --serve</code> in that folder. The api docs are created in <code>./docs/api/_site</code> folder.</li>
+<li>The powershell script <code>./Scripts/BuildDocumentationWebSite.ps1</code> runs both mkdocs and docfx and copies both to the <code>./website</code> folder.</li>
+<li>The Mapsui project on github is configured to automatically publish the <code>./website</code> folder to github pages: https://mapsui.github.io/Mapsui, configured for the mapsui.com domain: https://mapsui.com.</li>
+<li>A pushed commit of a markdown file triggers the <code>dotnet-docs.yml</code> github action. It will run the scripts and automatically publish the new version to the website. </li>
+</ul>
+<h2 id="documentation-setup-guidelines">Documentation setup guidelines</h2>
+<ul>
+<li>All md files should be in lower case.</li>
+<li>All md files should be directly in the <code>./docs/general/markdown</code> folder, not in a subdirectory. Hierachy is created by indenting page references in the toc.md in the documenation folder. By keeping the files in the root it is easier to change the hierarchy later on - you do not need to move the files as well - and it is easier to stick to the guidelines.</li>
+<li>All md files should start with a header one (#) and should have no other header one in the file.</li>
+<li>All the headers in the toc should be equal to the header one in the file it points to.</li>
 </ul>
 <h2 id="documentation-guidelines">Documentation guidelines</h2>
 <ul>
-<li>All md files should be in lower case.</li>
-<li>All md files should be directly in the root of folder. Hierachy is created by indenting page references in the toc.md in the documenation folder. By keeping the files itself in the root it is easier to change the hierarchy later on - you do not need to move the files as well - and easier to get contributers to follow the guidelines.</li>
-<li>All md files should start with a header one (#) and should have no other header one in that file.</li>
-<li>All the headers in the toc should be equal to the header one in the file it points to.</li>
 <li>Mapsui is cased as Mapsui not MapsUI.</li>
-<li>We should iteratively improve the documentation. If questions are asked in the issues we should search for the answer in the documentation. Update the documentation when it is missing and answer the issue with a url to the documentation.</li>
+<li>We should iteratively improve the documentation. If questions are asked in the issues we should search for the answer in the documentation. When something is missing in the documentation update the documentation and answer the question with a url to the documentation.</li>
 <li>Writing documentation is not only useful to inform the user but also as a sanity check for the developer. If what you have to tell becomes complicated and hard to grasp this could mean the software is not well designed. Writing documentation early should be used as a part of the software development process.</li>
 </ul>
 
