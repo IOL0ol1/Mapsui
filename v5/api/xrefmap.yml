@@ -21243,15 +21243,15 @@ references:
   commentId: T:Mapsui.Rendering.IRenderer
   fullName: Mapsui.Rendering.IRenderer
   nameWithType: IRenderer
-- uid: Mapsui.Rendering.IRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Styles.Color)
+- uid: Mapsui.Rendering.IRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Nullable{Mapsui.Styles.Color})
   name: Render(object, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Color?)
-  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_Render_System_Object_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Styles_Color_
-  commentId: M:Mapsui.Rendering.IRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Styles.Color)
-  name.vb: Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color)
+  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_Render_System_Object_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__System_Nullable_Mapsui_Styles_Color__
+  commentId: M:Mapsui.Rendering.IRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Nullable{Mapsui.Styles.Color})
+  name.vb: Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color?)
   fullName: Mapsui.Rendering.IRenderer.Render(object, Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>, Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Rendering.IRenderer.Render(Object, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Styles.Color)
+  fullName.vb: Mapsui.Rendering.IRenderer.Render(Object, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Styles.Color?)
   nameWithType: IRenderer.Render(object, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Color?)
-  nameWithType.vb: IRenderer.Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color)
+  nameWithType.vb: IRenderer.Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color?)
 - uid: Mapsui.Rendering.IRenderer.Render*
   name: Render
   href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_Render_
@@ -21272,15 +21272,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.IRenderer.RenderCache
   nameWithType: IRenderer.RenderCache
-- uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Styles.Color,System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
+- uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
   name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Styles_Color_System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
-  commentId: M:Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Styles.Color,System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color, Single, IEnumerable(Of IWidget), RenderFormat)
+  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
+  commentId: M:Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
+  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
   fullName: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat)
-  fullName.vb: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
+  fullName.vb: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
   nameWithType: IRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  nameWithType.vb: IRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color, Single, IEnumerable(Of IWidget), RenderFormat)
+  nameWithType.vb: IRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
 - uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream*
   name: RenderToBitmapStream
   href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_
@@ -22413,22 +22413,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.CalloutStyleRenderer.RenderCallout
   nameWithType: CalloutStyleRenderer.RenderCallout
-- uid: Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia(Mapsui.Styles.Color)
-  name: ToSkia(Color?)
-  href: pages/Mapsui.Rendering.Skia.CalloutStyleRenderer.html#Mapsui_Rendering_Skia_CalloutStyleRenderer_ToSkia_Mapsui_Styles_Color_
-  commentId: M:Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia(Mapsui.Styles.Color)
-  name.vb: ToSkia(Color)
-  fullName: Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia(Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia(Mapsui.Styles.Color)
-  nameWithType: CalloutStyleRenderer.ToSkia(Color?)
-  nameWithType.vb: CalloutStyleRenderer.ToSkia(Color)
-- uid: Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia*
-  name: ToSkia
-  href: pages/Mapsui.Rendering.Skia.CalloutStyleRenderer.html#Mapsui_Rendering_Skia_CalloutStyleRenderer_ToSkia_
-  commentId: Overload:Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.CalloutStyleRenderer.ToSkia
-  nameWithType: CalloutStyleRenderer.ToSkia
 - uid: Mapsui.Rendering.Skia.CalloutStyleRenderer.UpdateContent(Mapsui.Styles.CalloutStyle)
   name: UpdateContent(CalloutStyle)
   href: pages/Mapsui.Rendering.Skia.CalloutStyleRenderer.html#Mapsui_Rendering_Skia_CalloutStyleRenderer_UpdateContent_Mapsui_Styles_CalloutStyle_
@@ -22474,14 +22458,23 @@ references:
   fullName: Mapsui.Rendering.Skia.Extensions.ColorExtensions
   nameWithType: ColorExtensions
 - uid: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color,System.Single)
-  name: ToSkia(Color?, float)
+  name: ToSkia(Color, float)
   href: pages/Mapsui.Rendering.Skia.Extensions.ColorExtensions.html#Mapsui_Rendering_Skia_Extensions_ColorExtensions_ToSkia_Mapsui_Styles_Color_System_Single_
   commentId: M:Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color,System.Single)
   name.vb: ToSkia(Color, Single)
-  fullName: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color?, float)
+  fullName: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color, float)
   fullName.vb: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color, Single)
-  nameWithType: ColorExtensions.ToSkia(Color?, float)
+  nameWithType: ColorExtensions.ToSkia(Color, float)
   nameWithType.vb: ColorExtensions.ToSkia(Color, Single)
+- uid: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(System.Nullable{Mapsui.Styles.Color},System.Single)
+  name: ToSkia(Color?, float)
+  href: pages/Mapsui.Rendering.Skia.Extensions.ColorExtensions.html#Mapsui_Rendering_Skia_Extensions_ColorExtensions_ToSkia_System_Nullable_Mapsui_Styles_Color__System_Single_
+  commentId: M:Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(System.Nullable{Mapsui.Styles.Color},System.Single)
+  name.vb: ToSkia(Color?, Single)
+  fullName: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color?, float)
+  fullName.vb: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia(Mapsui.Styles.Color?, Single)
+  nameWithType: ColorExtensions.ToSkia(Color?, float)
+  nameWithType.vb: ColorExtensions.ToSkia(Color?, Single)
 - uid: Mapsui.Rendering.Skia.Extensions.ColorExtensions.ToSkia*
   name: ToSkia
   href: pages/Mapsui.Rendering.Skia.Extensions.ColorExtensions.html#Mapsui_Rendering_Skia_Extensions_ColorExtensions_ToSkia_
@@ -22999,15 +22992,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.MapRenderer.GetMapInfo
   nameWithType: MapRenderer.GetMapInfo
-- uid: Mapsui.Rendering.Skia.MapRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Styles.Color)
+- uid: Mapsui.Rendering.Skia.MapRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Nullable{Mapsui.Styles.Color})
   name: Render(object, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Color?)
-  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_Render_System_Object_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Styles_Color_
-  commentId: M:Mapsui.Rendering.Skia.MapRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Styles.Color)
-  name.vb: Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color)
+  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_Render_System_Object_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__System_Nullable_Mapsui_Styles_Color__
+  commentId: M:Mapsui.Rendering.Skia.MapRenderer.Render(System.Object,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Nullable{Mapsui.Styles.Color})
+  name.vb: Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color?)
   fullName: Mapsui.Rendering.Skia.MapRenderer.Render(object, Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>, Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.Render(Object, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Styles.Color)
+  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.Render(Object, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Styles.Color?)
   nameWithType: MapRenderer.Render(object, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Color?)
-  nameWithType.vb: MapRenderer.Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color)
+  nameWithType.vb: MapRenderer.Render(Object, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Color?)
 - uid: Mapsui.Rendering.Skia.MapRenderer.Render*
   name: Render
   href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_Render_
@@ -23028,15 +23021,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.MapRenderer.RenderCache
   nameWithType: MapRenderer.RenderCache
-- uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Styles.Color,System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
+- uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
   name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Styles_Color_System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
-  commentId: M:Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Styles.Color,System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color, Single, IEnumerable(Of IWidget), RenderFormat)
+  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
+  commentId: M:Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
+  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
   fullName: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat)
-  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
+  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
   nameWithType: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  nameWithType.vb: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color, Single, IEnumerable(Of IWidget), RenderFormat)
+  nameWithType.vb: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
 - uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream*
   name: RenderToBitmapStream
   href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_
@@ -24381,31 +24374,66 @@ references:
 - uid: Mapsui.Styles.Color.AliceBlue
   name: AliceBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_AliceBlue
-  commentId: F:Mapsui.Styles.Color.AliceBlue
+  commentId: P:Mapsui.Styles.Color.AliceBlue
+  fullName: Mapsui.Styles.Color.AliceBlue
+  nameWithType: Color.AliceBlue
+- uid: Mapsui.Styles.Color.AliceBlue*
+  name: AliceBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_AliceBlue_
+  commentId: Overload:Mapsui.Styles.Color.AliceBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.AliceBlue
   nameWithType: Color.AliceBlue
 - uid: Mapsui.Styles.Color.AntiqueWhite
   name: AntiqueWhite
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_AntiqueWhite
-  commentId: F:Mapsui.Styles.Color.AntiqueWhite
+  commentId: P:Mapsui.Styles.Color.AntiqueWhite
+  fullName: Mapsui.Styles.Color.AntiqueWhite
+  nameWithType: Color.AntiqueWhite
+- uid: Mapsui.Styles.Color.AntiqueWhite*
+  name: AntiqueWhite
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_AntiqueWhite_
+  commentId: Overload:Mapsui.Styles.Color.AntiqueWhite
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.AntiqueWhite
   nameWithType: Color.AntiqueWhite
 - uid: Mapsui.Styles.Color.Aqua
   name: Aqua
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Aqua
-  commentId: F:Mapsui.Styles.Color.Aqua
+  commentId: P:Mapsui.Styles.Color.Aqua
+  fullName: Mapsui.Styles.Color.Aqua
+  nameWithType: Color.Aqua
+- uid: Mapsui.Styles.Color.Aqua*
+  name: Aqua
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Aqua_
+  commentId: Overload:Mapsui.Styles.Color.Aqua
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Aqua
   nameWithType: Color.Aqua
 - uid: Mapsui.Styles.Color.Aquamarine
   name: Aquamarine
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Aquamarine
-  commentId: F:Mapsui.Styles.Color.Aquamarine
+  commentId: P:Mapsui.Styles.Color.Aquamarine
+  fullName: Mapsui.Styles.Color.Aquamarine
+  nameWithType: Color.Aquamarine
+- uid: Mapsui.Styles.Color.Aquamarine*
+  name: Aquamarine
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Aquamarine_
+  commentId: Overload:Mapsui.Styles.Color.Aquamarine
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Aquamarine
   nameWithType: Color.Aquamarine
 - uid: Mapsui.Styles.Color.Azure
   name: Azure
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Azure
-  commentId: F:Mapsui.Styles.Color.Azure
+  commentId: P:Mapsui.Styles.Color.Azure
+  fullName: Mapsui.Styles.Color.Azure
+  nameWithType: Color.Azure
+- uid: Mapsui.Styles.Color.Azure*
+  name: Azure
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Azure_
+  commentId: Overload:Mapsui.Styles.Color.Azure
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Azure
   nameWithType: Color.Azure
 - uid: Mapsui.Styles.Color.B
@@ -24424,284 +24452,560 @@ references:
 - uid: Mapsui.Styles.Color.Beige
   name: Beige
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Beige
-  commentId: F:Mapsui.Styles.Color.Beige
+  commentId: P:Mapsui.Styles.Color.Beige
+  fullName: Mapsui.Styles.Color.Beige
+  nameWithType: Color.Beige
+- uid: Mapsui.Styles.Color.Beige*
+  name: Beige
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Beige_
+  commentId: Overload:Mapsui.Styles.Color.Beige
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Beige
   nameWithType: Color.Beige
 - uid: Mapsui.Styles.Color.Bisque
   name: Bisque
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Bisque
-  commentId: F:Mapsui.Styles.Color.Bisque
+  commentId: P:Mapsui.Styles.Color.Bisque
+  fullName: Mapsui.Styles.Color.Bisque
+  nameWithType: Color.Bisque
+- uid: Mapsui.Styles.Color.Bisque*
+  name: Bisque
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Bisque_
+  commentId: Overload:Mapsui.Styles.Color.Bisque
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Bisque
   nameWithType: Color.Bisque
 - uid: Mapsui.Styles.Color.Black
   name: Black
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Black
-  commentId: F:Mapsui.Styles.Color.Black
+  commentId: P:Mapsui.Styles.Color.Black
+  fullName: Mapsui.Styles.Color.Black
+  nameWithType: Color.Black
+- uid: Mapsui.Styles.Color.Black*
+  name: Black
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Black_
+  commentId: Overload:Mapsui.Styles.Color.Black
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Black
   nameWithType: Color.Black
 - uid: Mapsui.Styles.Color.BlanchedAlmond
   name: BlanchedAlmond
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BlanchedAlmond
-  commentId: F:Mapsui.Styles.Color.BlanchedAlmond
+  commentId: P:Mapsui.Styles.Color.BlanchedAlmond
+  fullName: Mapsui.Styles.Color.BlanchedAlmond
+  nameWithType: Color.BlanchedAlmond
+- uid: Mapsui.Styles.Color.BlanchedAlmond*
+  name: BlanchedAlmond
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BlanchedAlmond_
+  commentId: Overload:Mapsui.Styles.Color.BlanchedAlmond
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.BlanchedAlmond
   nameWithType: Color.BlanchedAlmond
 - uid: Mapsui.Styles.Color.Blue
   name: Blue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Blue
-  commentId: F:Mapsui.Styles.Color.Blue
+  commentId: P:Mapsui.Styles.Color.Blue
+  fullName: Mapsui.Styles.Color.Blue
+  nameWithType: Color.Blue
+- uid: Mapsui.Styles.Color.Blue*
+  name: Blue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Blue_
+  commentId: Overload:Mapsui.Styles.Color.Blue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Blue
   nameWithType: Color.Blue
 - uid: Mapsui.Styles.Color.BlueViolet
   name: BlueViolet
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BlueViolet
-  commentId: F:Mapsui.Styles.Color.BlueViolet
+  commentId: P:Mapsui.Styles.Color.BlueViolet
+  fullName: Mapsui.Styles.Color.BlueViolet
+  nameWithType: Color.BlueViolet
+- uid: Mapsui.Styles.Color.BlueViolet*
+  name: BlueViolet
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BlueViolet_
+  commentId: Overload:Mapsui.Styles.Color.BlueViolet
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.BlueViolet
   nameWithType: Color.BlueViolet
 - uid: Mapsui.Styles.Color.Brown
   name: Brown
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Brown
-  commentId: F:Mapsui.Styles.Color.Brown
+  commentId: P:Mapsui.Styles.Color.Brown
+  fullName: Mapsui.Styles.Color.Brown
+  nameWithType: Color.Brown
+- uid: Mapsui.Styles.Color.Brown*
+  name: Brown
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Brown_
+  commentId: Overload:Mapsui.Styles.Color.Brown
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Brown
   nameWithType: Color.Brown
 - uid: Mapsui.Styles.Color.BurlyWood
   name: BurlyWood
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BurlyWood
-  commentId: F:Mapsui.Styles.Color.BurlyWood
+  commentId: P:Mapsui.Styles.Color.BurlyWood
+  fullName: Mapsui.Styles.Color.BurlyWood
+  nameWithType: Color.BurlyWood
+- uid: Mapsui.Styles.Color.BurlyWood*
+  name: BurlyWood
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_BurlyWood_
+  commentId: Overload:Mapsui.Styles.Color.BurlyWood
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.BurlyWood
   nameWithType: Color.BurlyWood
 - uid: Mapsui.Styles.Color.CadetBlue
   name: CadetBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_CadetBlue
-  commentId: F:Mapsui.Styles.Color.CadetBlue
+  commentId: P:Mapsui.Styles.Color.CadetBlue
+  fullName: Mapsui.Styles.Color.CadetBlue
+  nameWithType: Color.CadetBlue
+- uid: Mapsui.Styles.Color.CadetBlue*
+  name: CadetBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_CadetBlue_
+  commentId: Overload:Mapsui.Styles.Color.CadetBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.CadetBlue
   nameWithType: Color.CadetBlue
 - uid: Mapsui.Styles.Color.Chartreuse
   name: Chartreuse
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Chartreuse
-  commentId: F:Mapsui.Styles.Color.Chartreuse
+  commentId: P:Mapsui.Styles.Color.Chartreuse
+  fullName: Mapsui.Styles.Color.Chartreuse
+  nameWithType: Color.Chartreuse
+- uid: Mapsui.Styles.Color.Chartreuse*
+  name: Chartreuse
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Chartreuse_
+  commentId: Overload:Mapsui.Styles.Color.Chartreuse
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Chartreuse
   nameWithType: Color.Chartreuse
 - uid: Mapsui.Styles.Color.Chocolate
   name: Chocolate
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Chocolate
-  commentId: F:Mapsui.Styles.Color.Chocolate
+  commentId: P:Mapsui.Styles.Color.Chocolate
+  fullName: Mapsui.Styles.Color.Chocolate
+  nameWithType: Color.Chocolate
+- uid: Mapsui.Styles.Color.Chocolate*
+  name: Chocolate
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Chocolate_
+  commentId: Overload:Mapsui.Styles.Color.Chocolate
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Chocolate
   nameWithType: Color.Chocolate
 - uid: Mapsui.Styles.Color.Coral
   name: Coral
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Coral
-  commentId: F:Mapsui.Styles.Color.Coral
+  commentId: P:Mapsui.Styles.Color.Coral
+  fullName: Mapsui.Styles.Color.Coral
+  nameWithType: Color.Coral
+- uid: Mapsui.Styles.Color.Coral*
+  name: Coral
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Coral_
+  commentId: Overload:Mapsui.Styles.Color.Coral
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Coral
   nameWithType: Color.Coral
 - uid: Mapsui.Styles.Color.CornflowerBlue
   name: CornflowerBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_CornflowerBlue
-  commentId: F:Mapsui.Styles.Color.CornflowerBlue
+  commentId: P:Mapsui.Styles.Color.CornflowerBlue
+  fullName: Mapsui.Styles.Color.CornflowerBlue
+  nameWithType: Color.CornflowerBlue
+- uid: Mapsui.Styles.Color.CornflowerBlue*
+  name: CornflowerBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_CornflowerBlue_
+  commentId: Overload:Mapsui.Styles.Color.CornflowerBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.CornflowerBlue
   nameWithType: Color.CornflowerBlue
 - uid: Mapsui.Styles.Color.Cornsilk
   name: Cornsilk
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Cornsilk
-  commentId: F:Mapsui.Styles.Color.Cornsilk
+  commentId: P:Mapsui.Styles.Color.Cornsilk
+  fullName: Mapsui.Styles.Color.Cornsilk
+  nameWithType: Color.Cornsilk
+- uid: Mapsui.Styles.Color.Cornsilk*
+  name: Cornsilk
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Cornsilk_
+  commentId: Overload:Mapsui.Styles.Color.Cornsilk
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Cornsilk
   nameWithType: Color.Cornsilk
 - uid: Mapsui.Styles.Color.Crimson
   name: Crimson
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Crimson
-  commentId: F:Mapsui.Styles.Color.Crimson
+  commentId: P:Mapsui.Styles.Color.Crimson
+  fullName: Mapsui.Styles.Color.Crimson
+  nameWithType: Color.Crimson
+- uid: Mapsui.Styles.Color.Crimson*
+  name: Crimson
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Crimson_
+  commentId: Overload:Mapsui.Styles.Color.Crimson
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Crimson
   nameWithType: Color.Crimson
 - uid: Mapsui.Styles.Color.Cyan
   name: Cyan
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Cyan
-  commentId: F:Mapsui.Styles.Color.Cyan
+  commentId: P:Mapsui.Styles.Color.Cyan
+  fullName: Mapsui.Styles.Color.Cyan
+  nameWithType: Color.Cyan
+- uid: Mapsui.Styles.Color.Cyan*
+  name: Cyan
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Cyan_
+  commentId: Overload:Mapsui.Styles.Color.Cyan
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Cyan
   nameWithType: Color.Cyan
 - uid: Mapsui.Styles.Color.DarkBlue
   name: DarkBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkBlue
-  commentId: F:Mapsui.Styles.Color.DarkBlue
+  commentId: P:Mapsui.Styles.Color.DarkBlue
+  fullName: Mapsui.Styles.Color.DarkBlue
+  nameWithType: Color.DarkBlue
+- uid: Mapsui.Styles.Color.DarkBlue*
+  name: DarkBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkBlue_
+  commentId: Overload:Mapsui.Styles.Color.DarkBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkBlue
   nameWithType: Color.DarkBlue
 - uid: Mapsui.Styles.Color.DarkCyan
   name: DarkCyan
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkCyan
-  commentId: F:Mapsui.Styles.Color.DarkCyan
+  commentId: P:Mapsui.Styles.Color.DarkCyan
+  fullName: Mapsui.Styles.Color.DarkCyan
+  nameWithType: Color.DarkCyan
+- uid: Mapsui.Styles.Color.DarkCyan*
+  name: DarkCyan
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkCyan_
+  commentId: Overload:Mapsui.Styles.Color.DarkCyan
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkCyan
   nameWithType: Color.DarkCyan
 - uid: Mapsui.Styles.Color.DarkGoldenRod
   name: DarkGoldenRod
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGoldenRod
-  commentId: F:Mapsui.Styles.Color.DarkGoldenRod
+  commentId: P:Mapsui.Styles.Color.DarkGoldenRod
+  fullName: Mapsui.Styles.Color.DarkGoldenRod
+  nameWithType: Color.DarkGoldenRod
+- uid: Mapsui.Styles.Color.DarkGoldenRod*
+  name: DarkGoldenRod
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGoldenRod_
+  commentId: Overload:Mapsui.Styles.Color.DarkGoldenRod
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkGoldenRod
   nameWithType: Color.DarkGoldenRod
 - uid: Mapsui.Styles.Color.DarkGray
   name: DarkGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGray
-  commentId: F:Mapsui.Styles.Color.DarkGray
+  commentId: P:Mapsui.Styles.Color.DarkGray
+  fullName: Mapsui.Styles.Color.DarkGray
+  nameWithType: Color.DarkGray
+- uid: Mapsui.Styles.Color.DarkGray*
+  name: DarkGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGray_
+  commentId: Overload:Mapsui.Styles.Color.DarkGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkGray
   nameWithType: Color.DarkGray
 - uid: Mapsui.Styles.Color.DarkGreen
   name: DarkGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGreen
-  commentId: F:Mapsui.Styles.Color.DarkGreen
+  commentId: P:Mapsui.Styles.Color.DarkGreen
+  fullName: Mapsui.Styles.Color.DarkGreen
+  nameWithType: Color.DarkGreen
+- uid: Mapsui.Styles.Color.DarkGreen*
+  name: DarkGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGreen_
+  commentId: Overload:Mapsui.Styles.Color.DarkGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkGreen
   nameWithType: Color.DarkGreen
 - uid: Mapsui.Styles.Color.DarkGrey
   name: DarkGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGrey
-  commentId: F:Mapsui.Styles.Color.DarkGrey
+  commentId: P:Mapsui.Styles.Color.DarkGrey
+  fullName: Mapsui.Styles.Color.DarkGrey
+  nameWithType: Color.DarkGrey
+- uid: Mapsui.Styles.Color.DarkGrey*
+  name: DarkGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkGrey_
+  commentId: Overload:Mapsui.Styles.Color.DarkGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkGrey
   nameWithType: Color.DarkGrey
 - uid: Mapsui.Styles.Color.DarkKhaki
   name: DarkKhaki
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkKhaki
-  commentId: F:Mapsui.Styles.Color.DarkKhaki
+  commentId: P:Mapsui.Styles.Color.DarkKhaki
+  fullName: Mapsui.Styles.Color.DarkKhaki
+  nameWithType: Color.DarkKhaki
+- uid: Mapsui.Styles.Color.DarkKhaki*
+  name: DarkKhaki
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkKhaki_
+  commentId: Overload:Mapsui.Styles.Color.DarkKhaki
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkKhaki
   nameWithType: Color.DarkKhaki
 - uid: Mapsui.Styles.Color.DarkMagenta
   name: DarkMagenta
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkMagenta
-  commentId: F:Mapsui.Styles.Color.DarkMagenta
+  commentId: P:Mapsui.Styles.Color.DarkMagenta
+  fullName: Mapsui.Styles.Color.DarkMagenta
+  nameWithType: Color.DarkMagenta
+- uid: Mapsui.Styles.Color.DarkMagenta*
+  name: DarkMagenta
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkMagenta_
+  commentId: Overload:Mapsui.Styles.Color.DarkMagenta
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkMagenta
   nameWithType: Color.DarkMagenta
 - uid: Mapsui.Styles.Color.DarkOliveGreen
   name: DarkOliveGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOliveGreen
-  commentId: F:Mapsui.Styles.Color.DarkOliveGreen
+  commentId: P:Mapsui.Styles.Color.DarkOliveGreen
+  fullName: Mapsui.Styles.Color.DarkOliveGreen
+  nameWithType: Color.DarkOliveGreen
+- uid: Mapsui.Styles.Color.DarkOliveGreen*
+  name: DarkOliveGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOliveGreen_
+  commentId: Overload:Mapsui.Styles.Color.DarkOliveGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkOliveGreen
   nameWithType: Color.DarkOliveGreen
 - uid: Mapsui.Styles.Color.DarkOrange
   name: DarkOrange
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOrange
-  commentId: F:Mapsui.Styles.Color.DarkOrange
+  commentId: P:Mapsui.Styles.Color.DarkOrange
+  fullName: Mapsui.Styles.Color.DarkOrange
+  nameWithType: Color.DarkOrange
+- uid: Mapsui.Styles.Color.DarkOrange*
+  name: DarkOrange
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOrange_
+  commentId: Overload:Mapsui.Styles.Color.DarkOrange
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkOrange
   nameWithType: Color.DarkOrange
 - uid: Mapsui.Styles.Color.DarkOrchid
   name: DarkOrchid
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOrchid
-  commentId: F:Mapsui.Styles.Color.DarkOrchid
+  commentId: P:Mapsui.Styles.Color.DarkOrchid
+  fullName: Mapsui.Styles.Color.DarkOrchid
+  nameWithType: Color.DarkOrchid
+- uid: Mapsui.Styles.Color.DarkOrchid*
+  name: DarkOrchid
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkOrchid_
+  commentId: Overload:Mapsui.Styles.Color.DarkOrchid
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkOrchid
   nameWithType: Color.DarkOrchid
 - uid: Mapsui.Styles.Color.DarkRed
   name: DarkRed
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkRed
-  commentId: F:Mapsui.Styles.Color.DarkRed
+  commentId: P:Mapsui.Styles.Color.DarkRed
+  fullName: Mapsui.Styles.Color.DarkRed
+  nameWithType: Color.DarkRed
+- uid: Mapsui.Styles.Color.DarkRed*
+  name: DarkRed
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkRed_
+  commentId: Overload:Mapsui.Styles.Color.DarkRed
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkRed
   nameWithType: Color.DarkRed
 - uid: Mapsui.Styles.Color.DarkSalmon
   name: DarkSalmon
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSalmon
-  commentId: F:Mapsui.Styles.Color.DarkSalmon
+  commentId: P:Mapsui.Styles.Color.DarkSalmon
+  fullName: Mapsui.Styles.Color.DarkSalmon
+  nameWithType: Color.DarkSalmon
+- uid: Mapsui.Styles.Color.DarkSalmon*
+  name: DarkSalmon
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSalmon_
+  commentId: Overload:Mapsui.Styles.Color.DarkSalmon
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkSalmon
   nameWithType: Color.DarkSalmon
 - uid: Mapsui.Styles.Color.DarkSeaGreen
   name: DarkSeaGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSeaGreen
-  commentId: F:Mapsui.Styles.Color.DarkSeaGreen
+  commentId: P:Mapsui.Styles.Color.DarkSeaGreen
+  fullName: Mapsui.Styles.Color.DarkSeaGreen
+  nameWithType: Color.DarkSeaGreen
+- uid: Mapsui.Styles.Color.DarkSeaGreen*
+  name: DarkSeaGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSeaGreen_
+  commentId: Overload:Mapsui.Styles.Color.DarkSeaGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkSeaGreen
   nameWithType: Color.DarkSeaGreen
 - uid: Mapsui.Styles.Color.DarkSlateBlue
   name: DarkSlateBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateBlue
-  commentId: F:Mapsui.Styles.Color.DarkSlateBlue
+  commentId: P:Mapsui.Styles.Color.DarkSlateBlue
+  fullName: Mapsui.Styles.Color.DarkSlateBlue
+  nameWithType: Color.DarkSlateBlue
+- uid: Mapsui.Styles.Color.DarkSlateBlue*
+  name: DarkSlateBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateBlue_
+  commentId: Overload:Mapsui.Styles.Color.DarkSlateBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkSlateBlue
   nameWithType: Color.DarkSlateBlue
 - uid: Mapsui.Styles.Color.DarkSlateGray
   name: DarkSlateGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateGray
-  commentId: F:Mapsui.Styles.Color.DarkSlateGray
+  commentId: P:Mapsui.Styles.Color.DarkSlateGray
+  fullName: Mapsui.Styles.Color.DarkSlateGray
+  nameWithType: Color.DarkSlateGray
+- uid: Mapsui.Styles.Color.DarkSlateGray*
+  name: DarkSlateGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateGray_
+  commentId: Overload:Mapsui.Styles.Color.DarkSlateGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkSlateGray
   nameWithType: Color.DarkSlateGray
 - uid: Mapsui.Styles.Color.DarkSlateGrey
   name: DarkSlateGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateGrey
-  commentId: F:Mapsui.Styles.Color.DarkSlateGrey
+  commentId: P:Mapsui.Styles.Color.DarkSlateGrey
+  fullName: Mapsui.Styles.Color.DarkSlateGrey
+  nameWithType: Color.DarkSlateGrey
+- uid: Mapsui.Styles.Color.DarkSlateGrey*
+  name: DarkSlateGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkSlateGrey_
+  commentId: Overload:Mapsui.Styles.Color.DarkSlateGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkSlateGrey
   nameWithType: Color.DarkSlateGrey
 - uid: Mapsui.Styles.Color.DarkTurquoise
   name: DarkTurquoise
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkTurquoise
-  commentId: F:Mapsui.Styles.Color.DarkTurquoise
+  commentId: P:Mapsui.Styles.Color.DarkTurquoise
+  fullName: Mapsui.Styles.Color.DarkTurquoise
+  nameWithType: Color.DarkTurquoise
+- uid: Mapsui.Styles.Color.DarkTurquoise*
+  name: DarkTurquoise
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkTurquoise_
+  commentId: Overload:Mapsui.Styles.Color.DarkTurquoise
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkTurquoise
   nameWithType: Color.DarkTurquoise
 - uid: Mapsui.Styles.Color.DarkViolet
   name: DarkViolet
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkViolet
-  commentId: F:Mapsui.Styles.Color.DarkViolet
+  commentId: P:Mapsui.Styles.Color.DarkViolet
+  fullName: Mapsui.Styles.Color.DarkViolet
+  nameWithType: Color.DarkViolet
+- uid: Mapsui.Styles.Color.DarkViolet*
+  name: DarkViolet
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DarkViolet_
+  commentId: Overload:Mapsui.Styles.Color.DarkViolet
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DarkViolet
   nameWithType: Color.DarkViolet
 - uid: Mapsui.Styles.Color.DeepPink
   name: DeepPink
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DeepPink
-  commentId: F:Mapsui.Styles.Color.DeepPink
+  commentId: P:Mapsui.Styles.Color.DeepPink
+  fullName: Mapsui.Styles.Color.DeepPink
+  nameWithType: Color.DeepPink
+- uid: Mapsui.Styles.Color.DeepPink*
+  name: DeepPink
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DeepPink_
+  commentId: Overload:Mapsui.Styles.Color.DeepPink
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DeepPink
   nameWithType: Color.DeepPink
 - uid: Mapsui.Styles.Color.DeepSkyBlue
   name: DeepSkyBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DeepSkyBlue
-  commentId: F:Mapsui.Styles.Color.DeepSkyBlue
+  commentId: P:Mapsui.Styles.Color.DeepSkyBlue
+  fullName: Mapsui.Styles.Color.DeepSkyBlue
+  nameWithType: Color.DeepSkyBlue
+- uid: Mapsui.Styles.Color.DeepSkyBlue*
+  name: DeepSkyBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DeepSkyBlue_
+  commentId: Overload:Mapsui.Styles.Color.DeepSkyBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DeepSkyBlue
   nameWithType: Color.DeepSkyBlue
 - uid: Mapsui.Styles.Color.DimGray
   name: DimGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DimGray
-  commentId: F:Mapsui.Styles.Color.DimGray
+  commentId: P:Mapsui.Styles.Color.DimGray
+  fullName: Mapsui.Styles.Color.DimGray
+  nameWithType: Color.DimGray
+- uid: Mapsui.Styles.Color.DimGray*
+  name: DimGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DimGray_
+  commentId: Overload:Mapsui.Styles.Color.DimGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DimGray
   nameWithType: Color.DimGray
 - uid: Mapsui.Styles.Color.DimGrey
   name: DimGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DimGrey
-  commentId: F:Mapsui.Styles.Color.DimGrey
+  commentId: P:Mapsui.Styles.Color.DimGrey
+  fullName: Mapsui.Styles.Color.DimGrey
+  nameWithType: Color.DimGrey
+- uid: Mapsui.Styles.Color.DimGrey*
+  name: DimGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DimGrey_
+  commentId: Overload:Mapsui.Styles.Color.DimGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.DimGrey
   nameWithType: Color.DimGrey
 - uid: Mapsui.Styles.Color.DodgerBlue
   name: DodgerBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DodgerBlue
-  commentId: F:Mapsui.Styles.Color.DodgerBlue
+  commentId: P:Mapsui.Styles.Color.DodgerBlue
   fullName: Mapsui.Styles.Color.DodgerBlue
   nameWithType: Color.DodgerBlue
-- uid: Mapsui.Styles.Color.Equals(Mapsui.Styles.Color)
-  name: Equals(Color?)
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Equals_Mapsui_Styles_Color_
-  commentId: M:Mapsui.Styles.Color.Equals(Mapsui.Styles.Color)
-  name.vb: Equals(Color)
-  fullName: Mapsui.Styles.Color.Equals(Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Styles.Color.Equals(Mapsui.Styles.Color)
-  nameWithType: Color.Equals(Color?)
-  nameWithType.vb: Color.Equals(Color)
-- uid: Mapsui.Styles.Color.Equals(System.Object)
-  name: Equals(object?)
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Equals_System_Object_
-  commentId: M:Mapsui.Styles.Color.Equals(System.Object)
-  name.vb: Equals(Object)
-  fullName: Mapsui.Styles.Color.Equals(object?)
-  fullName.vb: Mapsui.Styles.Color.Equals(Object)
-  nameWithType: Color.Equals(object?)
-  nameWithType.vb: Color.Equals(Object)
-- uid: Mapsui.Styles.Color.Equals*
-  name: Equals
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Equals_
-  commentId: Overload:Mapsui.Styles.Color.Equals
+- uid: Mapsui.Styles.Color.DodgerBlue*
+  name: DodgerBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_DodgerBlue_
+  commentId: Overload:Mapsui.Styles.Color.DodgerBlue
   isSpec: "True"
-  fullName: Mapsui.Styles.Color.Equals
-  nameWithType: Color.Equals
+  fullName: Mapsui.Styles.Color.DodgerBlue
+  nameWithType: Color.DodgerBlue
 - uid: Mapsui.Styles.Color.FireBrick
   name: FireBrick
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FireBrick
-  commentId: F:Mapsui.Styles.Color.FireBrick
+  commentId: P:Mapsui.Styles.Color.FireBrick
+  fullName: Mapsui.Styles.Color.FireBrick
+  nameWithType: Color.FireBrick
+- uid: Mapsui.Styles.Color.FireBrick*
+  name: FireBrick
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FireBrick_
+  commentId: Overload:Mapsui.Styles.Color.FireBrick
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.FireBrick
   nameWithType: Color.FireBrick
 - uid: Mapsui.Styles.Color.FloralWhite
   name: FloralWhite
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FloralWhite
-  commentId: F:Mapsui.Styles.Color.FloralWhite
+  commentId: P:Mapsui.Styles.Color.FloralWhite
+  fullName: Mapsui.Styles.Color.FloralWhite
+  nameWithType: Color.FloralWhite
+- uid: Mapsui.Styles.Color.FloralWhite*
+  name: FloralWhite
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FloralWhite_
+  commentId: Overload:Mapsui.Styles.Color.FloralWhite
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.FloralWhite
   nameWithType: Color.FloralWhite
 - uid: Mapsui.Styles.Color.ForestGreen
   name: ForestGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_ForestGreen
-  commentId: F:Mapsui.Styles.Color.ForestGreen
+  commentId: P:Mapsui.Styles.Color.ForestGreen
+  fullName: Mapsui.Styles.Color.ForestGreen
+  nameWithType: Color.ForestGreen
+- uid: Mapsui.Styles.Color.ForestGreen*
+  name: ForestGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_ForestGreen_
+  commentId: Overload:Mapsui.Styles.Color.ForestGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.ForestGreen
   nameWithType: Color.ForestGreen
 - uid: Mapsui.Styles.Color.FromArgb(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -24736,6 +25040,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.Color.FromHsl
   nameWithType: Color.FromHsl
+- uid: Mapsui.Styles.Color.FromRgba(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: FromRgba(int, int, int, int)
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FromRgba_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:Mapsui.Styles.Color.FromRgba(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: FromRgba(Integer, Integer, Integer, Integer)
+  fullName: Mapsui.Styles.Color.FromRgba(int, int, int, int)
+  fullName.vb: Mapsui.Styles.Color.FromRgba(Integer, Integer, Integer, Integer)
+  nameWithType: Color.FromRgba(int, int, int, int)
+  nameWithType.vb: Color.FromRgba(Integer, Integer, Integer, Integer)
+- uid: Mapsui.Styles.Color.FromRgba*
+  name: FromRgba
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FromRgba_
+  commentId: Overload:Mapsui.Styles.Color.FromRgba
+  isSpec: "True"
+  fullName: Mapsui.Styles.Color.FromRgba
+  nameWithType: Color.FromRgba
 - uid: Mapsui.Styles.Color.FromString(System.String)
   name: FromString(string)
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_FromString_System_String_
@@ -24755,7 +25075,14 @@ references:
 - uid: Mapsui.Styles.Color.Fuchsia
   name: Fuchsia
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Fuchsia
-  commentId: F:Mapsui.Styles.Color.Fuchsia
+  commentId: P:Mapsui.Styles.Color.Fuchsia
+  fullName: Mapsui.Styles.Color.Fuchsia
+  nameWithType: Color.Fuchsia
+- uid: Mapsui.Styles.Color.Fuchsia*
+  name: Fuchsia
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Fuchsia_
+  commentId: Overload:Mapsui.Styles.Color.Fuchsia
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Fuchsia
   nameWithType: Color.Fuchsia
 - uid: Mapsui.Styles.Color.G
@@ -24774,356 +25101,729 @@ references:
 - uid: Mapsui.Styles.Color.Gainsboro
   name: Gainsboro
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gainsboro
-  commentId: F:Mapsui.Styles.Color.Gainsboro
+  commentId: P:Mapsui.Styles.Color.Gainsboro
   fullName: Mapsui.Styles.Color.Gainsboro
   nameWithType: Color.Gainsboro
-- uid: Mapsui.Styles.Color.GetHashCode
-  name: GetHashCode()
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GetHashCode
-  commentId: M:Mapsui.Styles.Color.GetHashCode
-  fullName: Mapsui.Styles.Color.GetHashCode()
-  nameWithType: Color.GetHashCode()
-- uid: Mapsui.Styles.Color.GetHashCode*
-  name: GetHashCode
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GetHashCode_
-  commentId: Overload:Mapsui.Styles.Color.GetHashCode
+- uid: Mapsui.Styles.Color.Gainsboro*
+  name: Gainsboro
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gainsboro_
+  commentId: Overload:Mapsui.Styles.Color.Gainsboro
   isSpec: "True"
-  fullName: Mapsui.Styles.Color.GetHashCode
-  nameWithType: Color.GetHashCode
+  fullName: Mapsui.Styles.Color.Gainsboro
+  nameWithType: Color.Gainsboro
 - uid: Mapsui.Styles.Color.GhostWhite
   name: GhostWhite
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GhostWhite
-  commentId: F:Mapsui.Styles.Color.GhostWhite
+  commentId: P:Mapsui.Styles.Color.GhostWhite
+  fullName: Mapsui.Styles.Color.GhostWhite
+  nameWithType: Color.GhostWhite
+- uid: Mapsui.Styles.Color.GhostWhite*
+  name: GhostWhite
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GhostWhite_
+  commentId: Overload:Mapsui.Styles.Color.GhostWhite
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.GhostWhite
   nameWithType: Color.GhostWhite
 - uid: Mapsui.Styles.Color.Gold
   name: Gold
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gold
-  commentId: F:Mapsui.Styles.Color.Gold
+  commentId: P:Mapsui.Styles.Color.Gold
+  fullName: Mapsui.Styles.Color.Gold
+  nameWithType: Color.Gold
+- uid: Mapsui.Styles.Color.Gold*
+  name: Gold
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gold_
+  commentId: Overload:Mapsui.Styles.Color.Gold
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Gold
   nameWithType: Color.Gold
 - uid: Mapsui.Styles.Color.GoldenRod
   name: GoldenRod
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GoldenRod
-  commentId: F:Mapsui.Styles.Color.GoldenRod
+  commentId: P:Mapsui.Styles.Color.GoldenRod
+  fullName: Mapsui.Styles.Color.GoldenRod
+  nameWithType: Color.GoldenRod
+- uid: Mapsui.Styles.Color.GoldenRod*
+  name: GoldenRod
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GoldenRod_
+  commentId: Overload:Mapsui.Styles.Color.GoldenRod
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.GoldenRod
   nameWithType: Color.GoldenRod
 - uid: Mapsui.Styles.Color.Gray
   name: Gray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gray
-  commentId: F:Mapsui.Styles.Color.Gray
+  commentId: P:Mapsui.Styles.Color.Gray
+  fullName: Mapsui.Styles.Color.Gray
+  nameWithType: Color.Gray
+- uid: Mapsui.Styles.Color.Gray*
+  name: Gray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Gray_
+  commentId: Overload:Mapsui.Styles.Color.Gray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Gray
   nameWithType: Color.Gray
 - uid: Mapsui.Styles.Color.Green
   name: Green
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Green
-  commentId: F:Mapsui.Styles.Color.Green
+  commentId: P:Mapsui.Styles.Color.Green
+  fullName: Mapsui.Styles.Color.Green
+  nameWithType: Color.Green
+- uid: Mapsui.Styles.Color.Green*
+  name: Green
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Green_
+  commentId: Overload:Mapsui.Styles.Color.Green
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Green
   nameWithType: Color.Green
 - uid: Mapsui.Styles.Color.GreenYellow
   name: GreenYellow
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GreenYellow
-  commentId: F:Mapsui.Styles.Color.GreenYellow
+  commentId: P:Mapsui.Styles.Color.GreenYellow
+  fullName: Mapsui.Styles.Color.GreenYellow
+  nameWithType: Color.GreenYellow
+- uid: Mapsui.Styles.Color.GreenYellow*
+  name: GreenYellow
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_GreenYellow_
+  commentId: Overload:Mapsui.Styles.Color.GreenYellow
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.GreenYellow
   nameWithType: Color.GreenYellow
 - uid: Mapsui.Styles.Color.Grey
   name: Grey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Grey
-  commentId: F:Mapsui.Styles.Color.Grey
+  commentId: P:Mapsui.Styles.Color.Grey
+  fullName: Mapsui.Styles.Color.Grey
+  nameWithType: Color.Grey
+- uid: Mapsui.Styles.Color.Grey*
+  name: Grey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Grey_
+  commentId: Overload:Mapsui.Styles.Color.Grey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Grey
   nameWithType: Color.Grey
 - uid: Mapsui.Styles.Color.HoneyDew
   name: HoneyDew
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_HoneyDew
-  commentId: F:Mapsui.Styles.Color.HoneyDew
+  commentId: P:Mapsui.Styles.Color.HoneyDew
+  fullName: Mapsui.Styles.Color.HoneyDew
+  nameWithType: Color.HoneyDew
+- uid: Mapsui.Styles.Color.HoneyDew*
+  name: HoneyDew
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_HoneyDew_
+  commentId: Overload:Mapsui.Styles.Color.HoneyDew
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.HoneyDew
   nameWithType: Color.HoneyDew
 - uid: Mapsui.Styles.Color.HotPink
   name: HotPink
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_HotPink
-  commentId: F:Mapsui.Styles.Color.HotPink
+  commentId: P:Mapsui.Styles.Color.HotPink
+  fullName: Mapsui.Styles.Color.HotPink
+  nameWithType: Color.HotPink
+- uid: Mapsui.Styles.Color.HotPink*
+  name: HotPink
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_HotPink_
+  commentId: Overload:Mapsui.Styles.Color.HotPink
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.HotPink
   nameWithType: Color.HotPink
 - uid: Mapsui.Styles.Color.IndianRed
   name: IndianRed
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_IndianRed
-  commentId: F:Mapsui.Styles.Color.IndianRed
+  commentId: P:Mapsui.Styles.Color.IndianRed
+  fullName: Mapsui.Styles.Color.IndianRed
+  nameWithType: Color.IndianRed
+- uid: Mapsui.Styles.Color.IndianRed*
+  name: IndianRed
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_IndianRed_
+  commentId: Overload:Mapsui.Styles.Color.IndianRed
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.IndianRed
   nameWithType: Color.IndianRed
 - uid: Mapsui.Styles.Color.Indigo
   name: Indigo
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Indigo
-  commentId: F:Mapsui.Styles.Color.Indigo
+  commentId: P:Mapsui.Styles.Color.Indigo
+  fullName: Mapsui.Styles.Color.Indigo
+  nameWithType: Color.Indigo
+- uid: Mapsui.Styles.Color.Indigo*
+  name: Indigo
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Indigo_
+  commentId: Overload:Mapsui.Styles.Color.Indigo
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Indigo
   nameWithType: Color.Indigo
 - uid: Mapsui.Styles.Color.Ivory
   name: Ivory
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Ivory
-  commentId: F:Mapsui.Styles.Color.Ivory
+  commentId: P:Mapsui.Styles.Color.Ivory
+  fullName: Mapsui.Styles.Color.Ivory
+  nameWithType: Color.Ivory
+- uid: Mapsui.Styles.Color.Ivory*
+  name: Ivory
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Ivory_
+  commentId: Overload:Mapsui.Styles.Color.Ivory
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Ivory
   nameWithType: Color.Ivory
 - uid: Mapsui.Styles.Color.Khaki
   name: Khaki
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Khaki
-  commentId: F:Mapsui.Styles.Color.Khaki
+  commentId: P:Mapsui.Styles.Color.Khaki
   fullName: Mapsui.Styles.Color.Khaki
   nameWithType: Color.Khaki
-- uid: Mapsui.Styles.Color.KnownColors
-  name: KnownColors
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_KnownColors
-  commentId: F:Mapsui.Styles.Color.KnownColors
-  fullName: Mapsui.Styles.Color.KnownColors
-  nameWithType: Color.KnownColors
+- uid: Mapsui.Styles.Color.Khaki*
+  name: Khaki
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Khaki_
+  commentId: Overload:Mapsui.Styles.Color.Khaki
+  isSpec: "True"
+  fullName: Mapsui.Styles.Color.Khaki
+  nameWithType: Color.Khaki
 - uid: Mapsui.Styles.Color.Lavender
   name: Lavender
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Lavender
-  commentId: F:Mapsui.Styles.Color.Lavender
+  commentId: P:Mapsui.Styles.Color.Lavender
+  fullName: Mapsui.Styles.Color.Lavender
+  nameWithType: Color.Lavender
+- uid: Mapsui.Styles.Color.Lavender*
+  name: Lavender
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Lavender_
+  commentId: Overload:Mapsui.Styles.Color.Lavender
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Lavender
   nameWithType: Color.Lavender
 - uid: Mapsui.Styles.Color.LavenderBlush
   name: LavenderBlush
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LavenderBlush
-  commentId: F:Mapsui.Styles.Color.LavenderBlush
+  commentId: P:Mapsui.Styles.Color.LavenderBlush
+  fullName: Mapsui.Styles.Color.LavenderBlush
+  nameWithType: Color.LavenderBlush
+- uid: Mapsui.Styles.Color.LavenderBlush*
+  name: LavenderBlush
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LavenderBlush_
+  commentId: Overload:Mapsui.Styles.Color.LavenderBlush
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LavenderBlush
   nameWithType: Color.LavenderBlush
 - uid: Mapsui.Styles.Color.LawnGreen
   name: LawnGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LawnGreen
-  commentId: F:Mapsui.Styles.Color.LawnGreen
+  commentId: P:Mapsui.Styles.Color.LawnGreen
+  fullName: Mapsui.Styles.Color.LawnGreen
+  nameWithType: Color.LawnGreen
+- uid: Mapsui.Styles.Color.LawnGreen*
+  name: LawnGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LawnGreen_
+  commentId: Overload:Mapsui.Styles.Color.LawnGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LawnGreen
   nameWithType: Color.LawnGreen
 - uid: Mapsui.Styles.Color.LemonChiffon
   name: LemonChiffon
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LemonChiffon
-  commentId: F:Mapsui.Styles.Color.LemonChiffon
+  commentId: P:Mapsui.Styles.Color.LemonChiffon
+  fullName: Mapsui.Styles.Color.LemonChiffon
+  nameWithType: Color.LemonChiffon
+- uid: Mapsui.Styles.Color.LemonChiffon*
+  name: LemonChiffon
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LemonChiffon_
+  commentId: Overload:Mapsui.Styles.Color.LemonChiffon
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LemonChiffon
   nameWithType: Color.LemonChiffon
 - uid: Mapsui.Styles.Color.LightBlue
   name: LightBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightBlue
-  commentId: F:Mapsui.Styles.Color.LightBlue
+  commentId: P:Mapsui.Styles.Color.LightBlue
+  fullName: Mapsui.Styles.Color.LightBlue
+  nameWithType: Color.LightBlue
+- uid: Mapsui.Styles.Color.LightBlue*
+  name: LightBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightBlue_
+  commentId: Overload:Mapsui.Styles.Color.LightBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightBlue
   nameWithType: Color.LightBlue
 - uid: Mapsui.Styles.Color.LightCoral
   name: LightCoral
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightCoral
-  commentId: F:Mapsui.Styles.Color.LightCoral
+  commentId: P:Mapsui.Styles.Color.LightCoral
+  fullName: Mapsui.Styles.Color.LightCoral
+  nameWithType: Color.LightCoral
+- uid: Mapsui.Styles.Color.LightCoral*
+  name: LightCoral
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightCoral_
+  commentId: Overload:Mapsui.Styles.Color.LightCoral
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightCoral
   nameWithType: Color.LightCoral
 - uid: Mapsui.Styles.Color.LightCyan
   name: LightCyan
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightCyan
-  commentId: F:Mapsui.Styles.Color.LightCyan
+  commentId: P:Mapsui.Styles.Color.LightCyan
+  fullName: Mapsui.Styles.Color.LightCyan
+  nameWithType: Color.LightCyan
+- uid: Mapsui.Styles.Color.LightCyan*
+  name: LightCyan
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightCyan_
+  commentId: Overload:Mapsui.Styles.Color.LightCyan
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightCyan
   nameWithType: Color.LightCyan
 - uid: Mapsui.Styles.Color.LightGoldenRodYellow
   name: LightGoldenRodYellow
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGoldenRodYellow
-  commentId: F:Mapsui.Styles.Color.LightGoldenRodYellow
+  commentId: P:Mapsui.Styles.Color.LightGoldenRodYellow
+  fullName: Mapsui.Styles.Color.LightGoldenRodYellow
+  nameWithType: Color.LightGoldenRodYellow
+- uid: Mapsui.Styles.Color.LightGoldenRodYellow*
+  name: LightGoldenRodYellow
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGoldenRodYellow_
+  commentId: Overload:Mapsui.Styles.Color.LightGoldenRodYellow
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightGoldenRodYellow
   nameWithType: Color.LightGoldenRodYellow
 - uid: Mapsui.Styles.Color.LightGray
   name: LightGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGray
-  commentId: F:Mapsui.Styles.Color.LightGray
+  commentId: P:Mapsui.Styles.Color.LightGray
+  fullName: Mapsui.Styles.Color.LightGray
+  nameWithType: Color.LightGray
+- uid: Mapsui.Styles.Color.LightGray*
+  name: LightGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGray_
+  commentId: Overload:Mapsui.Styles.Color.LightGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightGray
   nameWithType: Color.LightGray
 - uid: Mapsui.Styles.Color.LightGreen
   name: LightGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGreen
-  commentId: F:Mapsui.Styles.Color.LightGreen
+  commentId: P:Mapsui.Styles.Color.LightGreen
+  fullName: Mapsui.Styles.Color.LightGreen
+  nameWithType: Color.LightGreen
+- uid: Mapsui.Styles.Color.LightGreen*
+  name: LightGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGreen_
+  commentId: Overload:Mapsui.Styles.Color.LightGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightGreen
   nameWithType: Color.LightGreen
 - uid: Mapsui.Styles.Color.LightGrey
   name: LightGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGrey
-  commentId: F:Mapsui.Styles.Color.LightGrey
+  commentId: P:Mapsui.Styles.Color.LightGrey
+  fullName: Mapsui.Styles.Color.LightGrey
+  nameWithType: Color.LightGrey
+- uid: Mapsui.Styles.Color.LightGrey*
+  name: LightGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightGrey_
+  commentId: Overload:Mapsui.Styles.Color.LightGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightGrey
   nameWithType: Color.LightGrey
 - uid: Mapsui.Styles.Color.LightPink
   name: LightPink
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightPink
-  commentId: F:Mapsui.Styles.Color.LightPink
+  commentId: P:Mapsui.Styles.Color.LightPink
+  fullName: Mapsui.Styles.Color.LightPink
+  nameWithType: Color.LightPink
+- uid: Mapsui.Styles.Color.LightPink*
+  name: LightPink
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightPink_
+  commentId: Overload:Mapsui.Styles.Color.LightPink
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightPink
   nameWithType: Color.LightPink
 - uid: Mapsui.Styles.Color.LightSalmon
   name: LightSalmon
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSalmon
-  commentId: F:Mapsui.Styles.Color.LightSalmon
+  commentId: P:Mapsui.Styles.Color.LightSalmon
+  fullName: Mapsui.Styles.Color.LightSalmon
+  nameWithType: Color.LightSalmon
+- uid: Mapsui.Styles.Color.LightSalmon*
+  name: LightSalmon
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSalmon_
+  commentId: Overload:Mapsui.Styles.Color.LightSalmon
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSalmon
   nameWithType: Color.LightSalmon
 - uid: Mapsui.Styles.Color.LightSeaGreen
   name: LightSeaGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSeaGreen
-  commentId: F:Mapsui.Styles.Color.LightSeaGreen
+  commentId: P:Mapsui.Styles.Color.LightSeaGreen
+  fullName: Mapsui.Styles.Color.LightSeaGreen
+  nameWithType: Color.LightSeaGreen
+- uid: Mapsui.Styles.Color.LightSeaGreen*
+  name: LightSeaGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSeaGreen_
+  commentId: Overload:Mapsui.Styles.Color.LightSeaGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSeaGreen
   nameWithType: Color.LightSeaGreen
 - uid: Mapsui.Styles.Color.LightSkyBlue
   name: LightSkyBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSkyBlue
-  commentId: F:Mapsui.Styles.Color.LightSkyBlue
+  commentId: P:Mapsui.Styles.Color.LightSkyBlue
+  fullName: Mapsui.Styles.Color.LightSkyBlue
+  nameWithType: Color.LightSkyBlue
+- uid: Mapsui.Styles.Color.LightSkyBlue*
+  name: LightSkyBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSkyBlue_
+  commentId: Overload:Mapsui.Styles.Color.LightSkyBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSkyBlue
   nameWithType: Color.LightSkyBlue
 - uid: Mapsui.Styles.Color.LightSlateGray
   name: LightSlateGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSlateGray
-  commentId: F:Mapsui.Styles.Color.LightSlateGray
+  commentId: P:Mapsui.Styles.Color.LightSlateGray
+  fullName: Mapsui.Styles.Color.LightSlateGray
+  nameWithType: Color.LightSlateGray
+- uid: Mapsui.Styles.Color.LightSlateGray*
+  name: LightSlateGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSlateGray_
+  commentId: Overload:Mapsui.Styles.Color.LightSlateGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSlateGray
   nameWithType: Color.LightSlateGray
 - uid: Mapsui.Styles.Color.LightSlateGrey
   name: LightSlateGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSlateGrey
-  commentId: F:Mapsui.Styles.Color.LightSlateGrey
+  commentId: P:Mapsui.Styles.Color.LightSlateGrey
+  fullName: Mapsui.Styles.Color.LightSlateGrey
+  nameWithType: Color.LightSlateGrey
+- uid: Mapsui.Styles.Color.LightSlateGrey*
+  name: LightSlateGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSlateGrey_
+  commentId: Overload:Mapsui.Styles.Color.LightSlateGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSlateGrey
   nameWithType: Color.LightSlateGrey
 - uid: Mapsui.Styles.Color.LightSteelBlue
   name: LightSteelBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSteelBlue
-  commentId: F:Mapsui.Styles.Color.LightSteelBlue
+  commentId: P:Mapsui.Styles.Color.LightSteelBlue
+  fullName: Mapsui.Styles.Color.LightSteelBlue
+  nameWithType: Color.LightSteelBlue
+- uid: Mapsui.Styles.Color.LightSteelBlue*
+  name: LightSteelBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightSteelBlue_
+  commentId: Overload:Mapsui.Styles.Color.LightSteelBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightSteelBlue
   nameWithType: Color.LightSteelBlue
 - uid: Mapsui.Styles.Color.LightYellow
   name: LightYellow
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightYellow
-  commentId: F:Mapsui.Styles.Color.LightYellow
+  commentId: P:Mapsui.Styles.Color.LightYellow
+  fullName: Mapsui.Styles.Color.LightYellow
+  nameWithType: Color.LightYellow
+- uid: Mapsui.Styles.Color.LightYellow*
+  name: LightYellow
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LightYellow_
+  commentId: Overload:Mapsui.Styles.Color.LightYellow
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LightYellow
   nameWithType: Color.LightYellow
 - uid: Mapsui.Styles.Color.Lime
   name: Lime
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Lime
-  commentId: F:Mapsui.Styles.Color.Lime
+  commentId: P:Mapsui.Styles.Color.Lime
+  fullName: Mapsui.Styles.Color.Lime
+  nameWithType: Color.Lime
+- uid: Mapsui.Styles.Color.Lime*
+  name: Lime
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Lime_
+  commentId: Overload:Mapsui.Styles.Color.Lime
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Lime
   nameWithType: Color.Lime
 - uid: Mapsui.Styles.Color.LimeGreen
   name: LimeGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LimeGreen
-  commentId: F:Mapsui.Styles.Color.LimeGreen
+  commentId: P:Mapsui.Styles.Color.LimeGreen
+  fullName: Mapsui.Styles.Color.LimeGreen
+  nameWithType: Color.LimeGreen
+- uid: Mapsui.Styles.Color.LimeGreen*
+  name: LimeGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_LimeGreen_
+  commentId: Overload:Mapsui.Styles.Color.LimeGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.LimeGreen
   nameWithType: Color.LimeGreen
 - uid: Mapsui.Styles.Color.Linen
   name: Linen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Linen
-  commentId: F:Mapsui.Styles.Color.Linen
+  commentId: P:Mapsui.Styles.Color.Linen
+  fullName: Mapsui.Styles.Color.Linen
+  nameWithType: Color.Linen
+- uid: Mapsui.Styles.Color.Linen*
+  name: Linen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Linen_
+  commentId: Overload:Mapsui.Styles.Color.Linen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Linen
   nameWithType: Color.Linen
 - uid: Mapsui.Styles.Color.Magenta
   name: Magenta
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Magenta
-  commentId: F:Mapsui.Styles.Color.Magenta
+  commentId: P:Mapsui.Styles.Color.Magenta
+  fullName: Mapsui.Styles.Color.Magenta
+  nameWithType: Color.Magenta
+- uid: Mapsui.Styles.Color.Magenta*
+  name: Magenta
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Magenta_
+  commentId: Overload:Mapsui.Styles.Color.Magenta
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Magenta
   nameWithType: Color.Magenta
 - uid: Mapsui.Styles.Color.Maroon
   name: Maroon
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Maroon
-  commentId: F:Mapsui.Styles.Color.Maroon
+  commentId: P:Mapsui.Styles.Color.Maroon
+  fullName: Mapsui.Styles.Color.Maroon
+  nameWithType: Color.Maroon
+- uid: Mapsui.Styles.Color.Maroon*
+  name: Maroon
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Maroon_
+  commentId: Overload:Mapsui.Styles.Color.Maroon
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Maroon
   nameWithType: Color.Maroon
 - uid: Mapsui.Styles.Color.MediumAquaMarine
   name: MediumAquaMarine
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumAquaMarine
-  commentId: F:Mapsui.Styles.Color.MediumAquaMarine
+  commentId: P:Mapsui.Styles.Color.MediumAquaMarine
+  fullName: Mapsui.Styles.Color.MediumAquaMarine
+  nameWithType: Color.MediumAquaMarine
+- uid: Mapsui.Styles.Color.MediumAquaMarine*
+  name: MediumAquaMarine
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumAquaMarine_
+  commentId: Overload:Mapsui.Styles.Color.MediumAquaMarine
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumAquaMarine
   nameWithType: Color.MediumAquaMarine
 - uid: Mapsui.Styles.Color.MediumBlue
   name: MediumBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumBlue
-  commentId: F:Mapsui.Styles.Color.MediumBlue
+  commentId: P:Mapsui.Styles.Color.MediumBlue
+  fullName: Mapsui.Styles.Color.MediumBlue
+  nameWithType: Color.MediumBlue
+- uid: Mapsui.Styles.Color.MediumBlue*
+  name: MediumBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumBlue_
+  commentId: Overload:Mapsui.Styles.Color.MediumBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumBlue
   nameWithType: Color.MediumBlue
 - uid: Mapsui.Styles.Color.MediumOrchid
   name: MediumOrchid
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumOrchid
-  commentId: F:Mapsui.Styles.Color.MediumOrchid
+  commentId: P:Mapsui.Styles.Color.MediumOrchid
+  fullName: Mapsui.Styles.Color.MediumOrchid
+  nameWithType: Color.MediumOrchid
+- uid: Mapsui.Styles.Color.MediumOrchid*
+  name: MediumOrchid
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumOrchid_
+  commentId: Overload:Mapsui.Styles.Color.MediumOrchid
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumOrchid
   nameWithType: Color.MediumOrchid
 - uid: Mapsui.Styles.Color.MediumPurple
   name: MediumPurple
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumPurple
-  commentId: F:Mapsui.Styles.Color.MediumPurple
+  commentId: P:Mapsui.Styles.Color.MediumPurple
+  fullName: Mapsui.Styles.Color.MediumPurple
+  nameWithType: Color.MediumPurple
+- uid: Mapsui.Styles.Color.MediumPurple*
+  name: MediumPurple
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumPurple_
+  commentId: Overload:Mapsui.Styles.Color.MediumPurple
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumPurple
   nameWithType: Color.MediumPurple
 - uid: Mapsui.Styles.Color.MediumSeaGreen
   name: MediumSeaGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSeaGreen
-  commentId: F:Mapsui.Styles.Color.MediumSeaGreen
+  commentId: P:Mapsui.Styles.Color.MediumSeaGreen
+  fullName: Mapsui.Styles.Color.MediumSeaGreen
+  nameWithType: Color.MediumSeaGreen
+- uid: Mapsui.Styles.Color.MediumSeaGreen*
+  name: MediumSeaGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSeaGreen_
+  commentId: Overload:Mapsui.Styles.Color.MediumSeaGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumSeaGreen
   nameWithType: Color.MediumSeaGreen
 - uid: Mapsui.Styles.Color.MediumSlateBlue
   name: MediumSlateBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSlateBlue
-  commentId: F:Mapsui.Styles.Color.MediumSlateBlue
+  commentId: P:Mapsui.Styles.Color.MediumSlateBlue
+  fullName: Mapsui.Styles.Color.MediumSlateBlue
+  nameWithType: Color.MediumSlateBlue
+- uid: Mapsui.Styles.Color.MediumSlateBlue*
+  name: MediumSlateBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSlateBlue_
+  commentId: Overload:Mapsui.Styles.Color.MediumSlateBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumSlateBlue
   nameWithType: Color.MediumSlateBlue
 - uid: Mapsui.Styles.Color.MediumSpringGreen
   name: MediumSpringGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSpringGreen
-  commentId: F:Mapsui.Styles.Color.MediumSpringGreen
+  commentId: P:Mapsui.Styles.Color.MediumSpringGreen
+  fullName: Mapsui.Styles.Color.MediumSpringGreen
+  nameWithType: Color.MediumSpringGreen
+- uid: Mapsui.Styles.Color.MediumSpringGreen*
+  name: MediumSpringGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumSpringGreen_
+  commentId: Overload:Mapsui.Styles.Color.MediumSpringGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumSpringGreen
   nameWithType: Color.MediumSpringGreen
 - uid: Mapsui.Styles.Color.MediumTurquoise
   name: MediumTurquoise
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumTurquoise
-  commentId: F:Mapsui.Styles.Color.MediumTurquoise
+  commentId: P:Mapsui.Styles.Color.MediumTurquoise
+  fullName: Mapsui.Styles.Color.MediumTurquoise
+  nameWithType: Color.MediumTurquoise
+- uid: Mapsui.Styles.Color.MediumTurquoise*
+  name: MediumTurquoise
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumTurquoise_
+  commentId: Overload:Mapsui.Styles.Color.MediumTurquoise
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumTurquoise
   nameWithType: Color.MediumTurquoise
 - uid: Mapsui.Styles.Color.MediumVioletRed
   name: MediumVioletRed
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumVioletRed
-  commentId: F:Mapsui.Styles.Color.MediumVioletRed
+  commentId: P:Mapsui.Styles.Color.MediumVioletRed
+  fullName: Mapsui.Styles.Color.MediumVioletRed
+  nameWithType: Color.MediumVioletRed
+- uid: Mapsui.Styles.Color.MediumVioletRed*
+  name: MediumVioletRed
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MediumVioletRed_
+  commentId: Overload:Mapsui.Styles.Color.MediumVioletRed
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MediumVioletRed
   nameWithType: Color.MediumVioletRed
 - uid: Mapsui.Styles.Color.MidnightBlue
   name: MidnightBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MidnightBlue
-  commentId: F:Mapsui.Styles.Color.MidnightBlue
+  commentId: P:Mapsui.Styles.Color.MidnightBlue
+  fullName: Mapsui.Styles.Color.MidnightBlue
+  nameWithType: Color.MidnightBlue
+- uid: Mapsui.Styles.Color.MidnightBlue*
+  name: MidnightBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MidnightBlue_
+  commentId: Overload:Mapsui.Styles.Color.MidnightBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MidnightBlue
   nameWithType: Color.MidnightBlue
 - uid: Mapsui.Styles.Color.MintCream
   name: MintCream
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MintCream
-  commentId: F:Mapsui.Styles.Color.MintCream
+  commentId: P:Mapsui.Styles.Color.MintCream
+  fullName: Mapsui.Styles.Color.MintCream
+  nameWithType: Color.MintCream
+- uid: Mapsui.Styles.Color.MintCream*
+  name: MintCream
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MintCream_
+  commentId: Overload:Mapsui.Styles.Color.MintCream
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MintCream
   nameWithType: Color.MintCream
 - uid: Mapsui.Styles.Color.MistyRose
   name: MistyRose
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MistyRose
-  commentId: F:Mapsui.Styles.Color.MistyRose
+  commentId: P:Mapsui.Styles.Color.MistyRose
+  fullName: Mapsui.Styles.Color.MistyRose
+  nameWithType: Color.MistyRose
+- uid: Mapsui.Styles.Color.MistyRose*
+  name: MistyRose
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_MistyRose_
+  commentId: Overload:Mapsui.Styles.Color.MistyRose
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.MistyRose
   nameWithType: Color.MistyRose
 - uid: Mapsui.Styles.Color.Moccasin
   name: Moccasin
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Moccasin
-  commentId: F:Mapsui.Styles.Color.Moccasin
+  commentId: P:Mapsui.Styles.Color.Moccasin
+  fullName: Mapsui.Styles.Color.Moccasin
+  nameWithType: Color.Moccasin
+- uid: Mapsui.Styles.Color.Moccasin*
+  name: Moccasin
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Moccasin_
+  commentId: Overload:Mapsui.Styles.Color.Moccasin
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Moccasin
   nameWithType: Color.Moccasin
 - uid: Mapsui.Styles.Color.NavajoWhite
   name: NavajoWhite
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_NavajoWhite
-  commentId: F:Mapsui.Styles.Color.NavajoWhite
+  commentId: P:Mapsui.Styles.Color.NavajoWhite
+  fullName: Mapsui.Styles.Color.NavajoWhite
+  nameWithType: Color.NavajoWhite
+- uid: Mapsui.Styles.Color.NavajoWhite*
+  name: NavajoWhite
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_NavajoWhite_
+  commentId: Overload:Mapsui.Styles.Color.NavajoWhite
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.NavajoWhite
   nameWithType: Color.NavajoWhite
 - uid: Mapsui.Styles.Color.Navy
   name: Navy
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Navy
-  commentId: F:Mapsui.Styles.Color.Navy
+  commentId: P:Mapsui.Styles.Color.Navy
+  fullName: Mapsui.Styles.Color.Navy
+  nameWithType: Color.Navy
+- uid: Mapsui.Styles.Color.Navy*
+  name: Navy
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Navy_
+  commentId: Overload:Mapsui.Styles.Color.Navy
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Navy
   nameWithType: Color.Navy
 - uid: Mapsui.Styles.Color.OldLace
   name: OldLace
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OldLace
-  commentId: F:Mapsui.Styles.Color.OldLace
+  commentId: P:Mapsui.Styles.Color.OldLace
+  fullName: Mapsui.Styles.Color.OldLace
+  nameWithType: Color.OldLace
+- uid: Mapsui.Styles.Color.OldLace*
+  name: OldLace
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OldLace_
+  commentId: Overload:Mapsui.Styles.Color.OldLace
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.OldLace
   nameWithType: Color.OldLace
 - uid: Mapsui.Styles.Color.Olive
   name: Olive
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Olive
-  commentId: F:Mapsui.Styles.Color.Olive
+  commentId: P:Mapsui.Styles.Color.Olive
+  fullName: Mapsui.Styles.Color.Olive
+  nameWithType: Color.Olive
+- uid: Mapsui.Styles.Color.Olive*
+  name: Olive
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Olive_
+  commentId: Overload:Mapsui.Styles.Color.Olive
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Olive
   nameWithType: Color.Olive
 - uid: Mapsui.Styles.Color.OliveDrab
   name: OliveDrab
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OliveDrab
-  commentId: F:Mapsui.Styles.Color.OliveDrab
+  commentId: P:Mapsui.Styles.Color.OliveDrab
+  fullName: Mapsui.Styles.Color.OliveDrab
+  nameWithType: Color.OliveDrab
+- uid: Mapsui.Styles.Color.OliveDrab*
+  name: OliveDrab
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OliveDrab_
+  commentId: Overload:Mapsui.Styles.Color.OliveDrab
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.OliveDrab
   nameWithType: Color.OliveDrab
 - uid: Mapsui.Styles.Color.Opacity(Mapsui.Styles.Color,System.Nullable{System.Single})
@@ -25145,85 +25845,183 @@ references:
 - uid: Mapsui.Styles.Color.Orange
   name: Orange
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Orange
-  commentId: F:Mapsui.Styles.Color.Orange
+  commentId: P:Mapsui.Styles.Color.Orange
+  fullName: Mapsui.Styles.Color.Orange
+  nameWithType: Color.Orange
+- uid: Mapsui.Styles.Color.Orange*
+  name: Orange
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Orange_
+  commentId: Overload:Mapsui.Styles.Color.Orange
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Orange
   nameWithType: Color.Orange
 - uid: Mapsui.Styles.Color.OrangeRed
   name: OrangeRed
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OrangeRed
-  commentId: F:Mapsui.Styles.Color.OrangeRed
+  commentId: P:Mapsui.Styles.Color.OrangeRed
+  fullName: Mapsui.Styles.Color.OrangeRed
+  nameWithType: Color.OrangeRed
+- uid: Mapsui.Styles.Color.OrangeRed*
+  name: OrangeRed
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_OrangeRed_
+  commentId: Overload:Mapsui.Styles.Color.OrangeRed
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.OrangeRed
   nameWithType: Color.OrangeRed
 - uid: Mapsui.Styles.Color.Orchid
   name: Orchid
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Orchid
-  commentId: F:Mapsui.Styles.Color.Orchid
+  commentId: P:Mapsui.Styles.Color.Orchid
+  fullName: Mapsui.Styles.Color.Orchid
+  nameWithType: Color.Orchid
+- uid: Mapsui.Styles.Color.Orchid*
+  name: Orchid
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Orchid_
+  commentId: Overload:Mapsui.Styles.Color.Orchid
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Orchid
   nameWithType: Color.Orchid
 - uid: Mapsui.Styles.Color.PaleGoldenRod
   name: PaleGoldenRod
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleGoldenRod
-  commentId: F:Mapsui.Styles.Color.PaleGoldenRod
+  commentId: P:Mapsui.Styles.Color.PaleGoldenRod
+  fullName: Mapsui.Styles.Color.PaleGoldenRod
+  nameWithType: Color.PaleGoldenRod
+- uid: Mapsui.Styles.Color.PaleGoldenRod*
+  name: PaleGoldenRod
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleGoldenRod_
+  commentId: Overload:Mapsui.Styles.Color.PaleGoldenRod
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PaleGoldenRod
   nameWithType: Color.PaleGoldenRod
 - uid: Mapsui.Styles.Color.PaleGreen
   name: PaleGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleGreen
-  commentId: F:Mapsui.Styles.Color.PaleGreen
+  commentId: P:Mapsui.Styles.Color.PaleGreen
+  fullName: Mapsui.Styles.Color.PaleGreen
+  nameWithType: Color.PaleGreen
+- uid: Mapsui.Styles.Color.PaleGreen*
+  name: PaleGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleGreen_
+  commentId: Overload:Mapsui.Styles.Color.PaleGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PaleGreen
   nameWithType: Color.PaleGreen
 - uid: Mapsui.Styles.Color.PaleTurquoise
   name: PaleTurquoise
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleTurquoise
-  commentId: F:Mapsui.Styles.Color.PaleTurquoise
+  commentId: P:Mapsui.Styles.Color.PaleTurquoise
+  fullName: Mapsui.Styles.Color.PaleTurquoise
+  nameWithType: Color.PaleTurquoise
+- uid: Mapsui.Styles.Color.PaleTurquoise*
+  name: PaleTurquoise
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleTurquoise_
+  commentId: Overload:Mapsui.Styles.Color.PaleTurquoise
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PaleTurquoise
   nameWithType: Color.PaleTurquoise
 - uid: Mapsui.Styles.Color.PaleVioletRed
   name: PaleVioletRed
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleVioletRed
-  commentId: F:Mapsui.Styles.Color.PaleVioletRed
+  commentId: P:Mapsui.Styles.Color.PaleVioletRed
+  fullName: Mapsui.Styles.Color.PaleVioletRed
+  nameWithType: Color.PaleVioletRed
+- uid: Mapsui.Styles.Color.PaleVioletRed*
+  name: PaleVioletRed
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PaleVioletRed_
+  commentId: Overload:Mapsui.Styles.Color.PaleVioletRed
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PaleVioletRed
   nameWithType: Color.PaleVioletRed
 - uid: Mapsui.Styles.Color.PapayaWhip
   name: PapayaWhip
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PapayaWhip
-  commentId: F:Mapsui.Styles.Color.PapayaWhip
+  commentId: P:Mapsui.Styles.Color.PapayaWhip
+  fullName: Mapsui.Styles.Color.PapayaWhip
+  nameWithType: Color.PapayaWhip
+- uid: Mapsui.Styles.Color.PapayaWhip*
+  name: PapayaWhip
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PapayaWhip_
+  commentId: Overload:Mapsui.Styles.Color.PapayaWhip
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PapayaWhip
   nameWithType: Color.PapayaWhip
 - uid: Mapsui.Styles.Color.PeachPuff
   name: PeachPuff
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PeachPuff
-  commentId: F:Mapsui.Styles.Color.PeachPuff
+  commentId: P:Mapsui.Styles.Color.PeachPuff
+  fullName: Mapsui.Styles.Color.PeachPuff
+  nameWithType: Color.PeachPuff
+- uid: Mapsui.Styles.Color.PeachPuff*
+  name: PeachPuff
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PeachPuff_
+  commentId: Overload:Mapsui.Styles.Color.PeachPuff
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PeachPuff
   nameWithType: Color.PeachPuff
 - uid: Mapsui.Styles.Color.Peru
   name: Peru
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Peru
-  commentId: F:Mapsui.Styles.Color.Peru
+  commentId: P:Mapsui.Styles.Color.Peru
+  fullName: Mapsui.Styles.Color.Peru
+  nameWithType: Color.Peru
+- uid: Mapsui.Styles.Color.Peru*
+  name: Peru
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Peru_
+  commentId: Overload:Mapsui.Styles.Color.Peru
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Peru
   nameWithType: Color.Peru
 - uid: Mapsui.Styles.Color.Pink
   name: Pink
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Pink
-  commentId: F:Mapsui.Styles.Color.Pink
+  commentId: P:Mapsui.Styles.Color.Pink
+  fullName: Mapsui.Styles.Color.Pink
+  nameWithType: Color.Pink
+- uid: Mapsui.Styles.Color.Pink*
+  name: Pink
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Pink_
+  commentId: Overload:Mapsui.Styles.Color.Pink
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Pink
   nameWithType: Color.Pink
 - uid: Mapsui.Styles.Color.Plum
   name: Plum
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Plum
-  commentId: F:Mapsui.Styles.Color.Plum
+  commentId: P:Mapsui.Styles.Color.Plum
+  fullName: Mapsui.Styles.Color.Plum
+  nameWithType: Color.Plum
+- uid: Mapsui.Styles.Color.Plum*
+  name: Plum
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Plum_
+  commentId: Overload:Mapsui.Styles.Color.Plum
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Plum
   nameWithType: Color.Plum
 - uid: Mapsui.Styles.Color.PowderBlue
   name: PowderBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PowderBlue
-  commentId: F:Mapsui.Styles.Color.PowderBlue
+  commentId: P:Mapsui.Styles.Color.PowderBlue
+  fullName: Mapsui.Styles.Color.PowderBlue
+  nameWithType: Color.PowderBlue
+- uid: Mapsui.Styles.Color.PowderBlue*
+  name: PowderBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_PowderBlue_
+  commentId: Overload:Mapsui.Styles.Color.PowderBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.PowderBlue
   nameWithType: Color.PowderBlue
 - uid: Mapsui.Styles.Color.Purple
   name: Purple
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Purple
-  commentId: F:Mapsui.Styles.Color.Purple
+  commentId: P:Mapsui.Styles.Color.Purple
+  fullName: Mapsui.Styles.Color.Purple
+  nameWithType: Color.Purple
+- uid: Mapsui.Styles.Color.Purple*
+  name: Purple
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Purple_
+  commentId: Overload:Mapsui.Styles.Color.Purple
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Purple
   nameWithType: Color.Purple
 - uid: Mapsui.Styles.Color.R
@@ -25242,133 +26040,287 @@ references:
 - uid: Mapsui.Styles.Color.RebeccaPurple
   name: RebeccaPurple
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RebeccaPurple
-  commentId: F:Mapsui.Styles.Color.RebeccaPurple
+  commentId: P:Mapsui.Styles.Color.RebeccaPurple
+  fullName: Mapsui.Styles.Color.RebeccaPurple
+  nameWithType: Color.RebeccaPurple
+- uid: Mapsui.Styles.Color.RebeccaPurple*
+  name: RebeccaPurple
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RebeccaPurple_
+  commentId: Overload:Mapsui.Styles.Color.RebeccaPurple
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.RebeccaPurple
   nameWithType: Color.RebeccaPurple
 - uid: Mapsui.Styles.Color.Red
   name: Red
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Red
-  commentId: F:Mapsui.Styles.Color.Red
+  commentId: P:Mapsui.Styles.Color.Red
+  fullName: Mapsui.Styles.Color.Red
+  nameWithType: Color.Red
+- uid: Mapsui.Styles.Color.Red*
+  name: Red
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Red_
+  commentId: Overload:Mapsui.Styles.Color.Red
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Red
   nameWithType: Color.Red
 - uid: Mapsui.Styles.Color.RosyBrown
   name: RosyBrown
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RosyBrown
-  commentId: F:Mapsui.Styles.Color.RosyBrown
+  commentId: P:Mapsui.Styles.Color.RosyBrown
+  fullName: Mapsui.Styles.Color.RosyBrown
+  nameWithType: Color.RosyBrown
+- uid: Mapsui.Styles.Color.RosyBrown*
+  name: RosyBrown
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RosyBrown_
+  commentId: Overload:Mapsui.Styles.Color.RosyBrown
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.RosyBrown
   nameWithType: Color.RosyBrown
 - uid: Mapsui.Styles.Color.RoyalBlue
   name: RoyalBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RoyalBlue
-  commentId: F:Mapsui.Styles.Color.RoyalBlue
+  commentId: P:Mapsui.Styles.Color.RoyalBlue
+  fullName: Mapsui.Styles.Color.RoyalBlue
+  nameWithType: Color.RoyalBlue
+- uid: Mapsui.Styles.Color.RoyalBlue*
+  name: RoyalBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_RoyalBlue_
+  commentId: Overload:Mapsui.Styles.Color.RoyalBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.RoyalBlue
   nameWithType: Color.RoyalBlue
 - uid: Mapsui.Styles.Color.SaddleBrown
   name: SaddleBrown
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SaddleBrown
-  commentId: F:Mapsui.Styles.Color.SaddleBrown
+  commentId: P:Mapsui.Styles.Color.SaddleBrown
+  fullName: Mapsui.Styles.Color.SaddleBrown
+  nameWithType: Color.SaddleBrown
+- uid: Mapsui.Styles.Color.SaddleBrown*
+  name: SaddleBrown
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SaddleBrown_
+  commentId: Overload:Mapsui.Styles.Color.SaddleBrown
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SaddleBrown
   nameWithType: Color.SaddleBrown
 - uid: Mapsui.Styles.Color.Salmon
   name: Salmon
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Salmon
-  commentId: F:Mapsui.Styles.Color.Salmon
+  commentId: P:Mapsui.Styles.Color.Salmon
+  fullName: Mapsui.Styles.Color.Salmon
+  nameWithType: Color.Salmon
+- uid: Mapsui.Styles.Color.Salmon*
+  name: Salmon
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Salmon_
+  commentId: Overload:Mapsui.Styles.Color.Salmon
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Salmon
   nameWithType: Color.Salmon
 - uid: Mapsui.Styles.Color.SandyBrown
   name: SandyBrown
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SandyBrown
-  commentId: F:Mapsui.Styles.Color.SandyBrown
+  commentId: P:Mapsui.Styles.Color.SandyBrown
+  fullName: Mapsui.Styles.Color.SandyBrown
+  nameWithType: Color.SandyBrown
+- uid: Mapsui.Styles.Color.SandyBrown*
+  name: SandyBrown
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SandyBrown_
+  commentId: Overload:Mapsui.Styles.Color.SandyBrown
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SandyBrown
   nameWithType: Color.SandyBrown
 - uid: Mapsui.Styles.Color.SeaGreen
   name: SeaGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SeaGreen
-  commentId: F:Mapsui.Styles.Color.SeaGreen
+  commentId: P:Mapsui.Styles.Color.SeaGreen
+  fullName: Mapsui.Styles.Color.SeaGreen
+  nameWithType: Color.SeaGreen
+- uid: Mapsui.Styles.Color.SeaGreen*
+  name: SeaGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SeaGreen_
+  commentId: Overload:Mapsui.Styles.Color.SeaGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SeaGreen
   nameWithType: Color.SeaGreen
 - uid: Mapsui.Styles.Color.SeaShell
   name: SeaShell
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SeaShell
-  commentId: F:Mapsui.Styles.Color.SeaShell
+  commentId: P:Mapsui.Styles.Color.SeaShell
+  fullName: Mapsui.Styles.Color.SeaShell
+  nameWithType: Color.SeaShell
+- uid: Mapsui.Styles.Color.SeaShell*
+  name: SeaShell
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SeaShell_
+  commentId: Overload:Mapsui.Styles.Color.SeaShell
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SeaShell
   nameWithType: Color.SeaShell
 - uid: Mapsui.Styles.Color.Sienna
   name: Sienna
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Sienna
-  commentId: F:Mapsui.Styles.Color.Sienna
+  commentId: P:Mapsui.Styles.Color.Sienna
+  fullName: Mapsui.Styles.Color.Sienna
+  nameWithType: Color.Sienna
+- uid: Mapsui.Styles.Color.Sienna*
+  name: Sienna
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Sienna_
+  commentId: Overload:Mapsui.Styles.Color.Sienna
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Sienna
   nameWithType: Color.Sienna
 - uid: Mapsui.Styles.Color.Silver
   name: Silver
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Silver
-  commentId: F:Mapsui.Styles.Color.Silver
+  commentId: P:Mapsui.Styles.Color.Silver
+  fullName: Mapsui.Styles.Color.Silver
+  nameWithType: Color.Silver
+- uid: Mapsui.Styles.Color.Silver*
+  name: Silver
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Silver_
+  commentId: Overload:Mapsui.Styles.Color.Silver
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Silver
   nameWithType: Color.Silver
 - uid: Mapsui.Styles.Color.SkyBlue
   name: SkyBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SkyBlue
-  commentId: F:Mapsui.Styles.Color.SkyBlue
+  commentId: P:Mapsui.Styles.Color.SkyBlue
+  fullName: Mapsui.Styles.Color.SkyBlue
+  nameWithType: Color.SkyBlue
+- uid: Mapsui.Styles.Color.SkyBlue*
+  name: SkyBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SkyBlue_
+  commentId: Overload:Mapsui.Styles.Color.SkyBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SkyBlue
   nameWithType: Color.SkyBlue
 - uid: Mapsui.Styles.Color.SlateBlue
   name: SlateBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateBlue
-  commentId: F:Mapsui.Styles.Color.SlateBlue
+  commentId: P:Mapsui.Styles.Color.SlateBlue
+  fullName: Mapsui.Styles.Color.SlateBlue
+  nameWithType: Color.SlateBlue
+- uid: Mapsui.Styles.Color.SlateBlue*
+  name: SlateBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateBlue_
+  commentId: Overload:Mapsui.Styles.Color.SlateBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SlateBlue
   nameWithType: Color.SlateBlue
 - uid: Mapsui.Styles.Color.SlateGray
   name: SlateGray
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateGray
-  commentId: F:Mapsui.Styles.Color.SlateGray
+  commentId: P:Mapsui.Styles.Color.SlateGray
+  fullName: Mapsui.Styles.Color.SlateGray
+  nameWithType: Color.SlateGray
+- uid: Mapsui.Styles.Color.SlateGray*
+  name: SlateGray
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateGray_
+  commentId: Overload:Mapsui.Styles.Color.SlateGray
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SlateGray
   nameWithType: Color.SlateGray
 - uid: Mapsui.Styles.Color.SlateGrey
   name: SlateGrey
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateGrey
-  commentId: F:Mapsui.Styles.Color.SlateGrey
+  commentId: P:Mapsui.Styles.Color.SlateGrey
+  fullName: Mapsui.Styles.Color.SlateGrey
+  nameWithType: Color.SlateGrey
+- uid: Mapsui.Styles.Color.SlateGrey*
+  name: SlateGrey
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SlateGrey_
+  commentId: Overload:Mapsui.Styles.Color.SlateGrey
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SlateGrey
   nameWithType: Color.SlateGrey
 - uid: Mapsui.Styles.Color.Snow
   name: Snow
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Snow
-  commentId: F:Mapsui.Styles.Color.Snow
+  commentId: P:Mapsui.Styles.Color.Snow
+  fullName: Mapsui.Styles.Color.Snow
+  nameWithType: Color.Snow
+- uid: Mapsui.Styles.Color.Snow*
+  name: Snow
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Snow_
+  commentId: Overload:Mapsui.Styles.Color.Snow
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Snow
   nameWithType: Color.Snow
 - uid: Mapsui.Styles.Color.SpringGreen
   name: SpringGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SpringGreen
-  commentId: F:Mapsui.Styles.Color.SpringGreen
+  commentId: P:Mapsui.Styles.Color.SpringGreen
+  fullName: Mapsui.Styles.Color.SpringGreen
+  nameWithType: Color.SpringGreen
+- uid: Mapsui.Styles.Color.SpringGreen*
+  name: SpringGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SpringGreen_
+  commentId: Overload:Mapsui.Styles.Color.SpringGreen
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SpringGreen
   nameWithType: Color.SpringGreen
 - uid: Mapsui.Styles.Color.SteelBlue
   name: SteelBlue
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SteelBlue
-  commentId: F:Mapsui.Styles.Color.SteelBlue
+  commentId: P:Mapsui.Styles.Color.SteelBlue
+  fullName: Mapsui.Styles.Color.SteelBlue
+  nameWithType: Color.SteelBlue
+- uid: Mapsui.Styles.Color.SteelBlue*
+  name: SteelBlue
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_SteelBlue_
+  commentId: Overload:Mapsui.Styles.Color.SteelBlue
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.SteelBlue
   nameWithType: Color.SteelBlue
 - uid: Mapsui.Styles.Color.Tan
   name: Tan
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Tan
-  commentId: F:Mapsui.Styles.Color.Tan
+  commentId: P:Mapsui.Styles.Color.Tan
+  fullName: Mapsui.Styles.Color.Tan
+  nameWithType: Color.Tan
+- uid: Mapsui.Styles.Color.Tan*
+  name: Tan
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Tan_
+  commentId: Overload:Mapsui.Styles.Color.Tan
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Tan
   nameWithType: Color.Tan
 - uid: Mapsui.Styles.Color.Teal
   name: Teal
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Teal
-  commentId: F:Mapsui.Styles.Color.Teal
+  commentId: P:Mapsui.Styles.Color.Teal
+  fullName: Mapsui.Styles.Color.Teal
+  nameWithType: Color.Teal
+- uid: Mapsui.Styles.Color.Teal*
+  name: Teal
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Teal_
+  commentId: Overload:Mapsui.Styles.Color.Teal
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Teal
   nameWithType: Color.Teal
 - uid: Mapsui.Styles.Color.Thistle
   name: Thistle
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Thistle
-  commentId: F:Mapsui.Styles.Color.Thistle
+  commentId: P:Mapsui.Styles.Color.Thistle
+  fullName: Mapsui.Styles.Color.Thistle
+  nameWithType: Color.Thistle
+- uid: Mapsui.Styles.Color.Thistle*
+  name: Thistle
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Thistle_
+  commentId: Overload:Mapsui.Styles.Color.Thistle
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Thistle
   nameWithType: Color.Thistle
 - uid: Mapsui.Styles.Color.Tomato
   name: Tomato
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Tomato
-  commentId: F:Mapsui.Styles.Color.Tomato
+  commentId: P:Mapsui.Styles.Color.Tomato
+  fullName: Mapsui.Styles.Color.Tomato
+  nameWithType: Color.Tomato
+- uid: Mapsui.Styles.Color.Tomato*
+  name: Tomato
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Tomato_
+  commentId: Overload:Mapsui.Styles.Color.Tomato
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Tomato
   nameWithType: Color.Tomato
 - uid: Mapsui.Styles.Color.Transparent
@@ -25387,83 +26339,122 @@ references:
 - uid: Mapsui.Styles.Color.Turquoise
   name: Turquoise
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Turquoise
-  commentId: F:Mapsui.Styles.Color.Turquoise
+  commentId: P:Mapsui.Styles.Color.Turquoise
+  fullName: Mapsui.Styles.Color.Turquoise
+  nameWithType: Color.Turquoise
+- uid: Mapsui.Styles.Color.Turquoise*
+  name: Turquoise
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Turquoise_
+  commentId: Overload:Mapsui.Styles.Color.Turquoise
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Turquoise
   nameWithType: Color.Turquoise
 - uid: Mapsui.Styles.Color.Violet
   name: Violet
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Violet
-  commentId: F:Mapsui.Styles.Color.Violet
+  commentId: P:Mapsui.Styles.Color.Violet
+  fullName: Mapsui.Styles.Color.Violet
+  nameWithType: Color.Violet
+- uid: Mapsui.Styles.Color.Violet*
+  name: Violet
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Violet_
+  commentId: Overload:Mapsui.Styles.Color.Violet
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Violet
   nameWithType: Color.Violet
 - uid: Mapsui.Styles.Color.Wheat
   name: Wheat
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Wheat
-  commentId: F:Mapsui.Styles.Color.Wheat
+  commentId: P:Mapsui.Styles.Color.Wheat
+  fullName: Mapsui.Styles.Color.Wheat
+  nameWithType: Color.Wheat
+- uid: Mapsui.Styles.Color.Wheat*
+  name: Wheat
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Wheat_
+  commentId: Overload:Mapsui.Styles.Color.Wheat
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Wheat
   nameWithType: Color.Wheat
 - uid: Mapsui.Styles.Color.White
   name: White
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_White
-  commentId: F:Mapsui.Styles.Color.White
+  commentId: P:Mapsui.Styles.Color.White
+  fullName: Mapsui.Styles.Color.White
+  nameWithType: Color.White
+- uid: Mapsui.Styles.Color.White*
+  name: White
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_White_
+  commentId: Overload:Mapsui.Styles.Color.White
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.White
   nameWithType: Color.White
 - uid: Mapsui.Styles.Color.WhiteSmoke
   name: WhiteSmoke
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_WhiteSmoke
-  commentId: F:Mapsui.Styles.Color.WhiteSmoke
+  commentId: P:Mapsui.Styles.Color.WhiteSmoke
+  fullName: Mapsui.Styles.Color.WhiteSmoke
+  nameWithType: Color.WhiteSmoke
+- uid: Mapsui.Styles.Color.WhiteSmoke*
+  name: WhiteSmoke
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_WhiteSmoke_
+  commentId: Overload:Mapsui.Styles.Color.WhiteSmoke
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.WhiteSmoke
   nameWithType: Color.WhiteSmoke
 - uid: Mapsui.Styles.Color.Yellow
   name: Yellow
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Yellow
-  commentId: F:Mapsui.Styles.Color.Yellow
+  commentId: P:Mapsui.Styles.Color.Yellow
+  fullName: Mapsui.Styles.Color.Yellow
+  nameWithType: Color.Yellow
+- uid: Mapsui.Styles.Color.Yellow*
+  name: Yellow
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_Yellow_
+  commentId: Overload:Mapsui.Styles.Color.Yellow
+  isSpec: "True"
   fullName: Mapsui.Styles.Color.Yellow
   nameWithType: Color.Yellow
 - uid: Mapsui.Styles.Color.YellowGreen
   name: YellowGreen
   href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_YellowGreen
-  commentId: F:Mapsui.Styles.Color.YellowGreen
+  commentId: P:Mapsui.Styles.Color.YellowGreen
   fullName: Mapsui.Styles.Color.YellowGreen
   nameWithType: Color.YellowGreen
-- uid: Mapsui.Styles.Color.op_Equality(Mapsui.Styles.Color,Mapsui.Styles.Color)
-  name: operator ==(Color?, Color?)
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Equality_Mapsui_Styles_Color_Mapsui_Styles_Color_
-  commentId: M:Mapsui.Styles.Color.op_Equality(Mapsui.Styles.Color,Mapsui.Styles.Color)
-  name.vb: =(Color, Color)
-  fullName: Mapsui.Styles.Color.operator ==(Mapsui.Styles.Color?, Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Styles.Color.=(Mapsui.Styles.Color, Mapsui.Styles.Color)
-  nameWithType: Color.operator ==(Color?, Color?)
-  nameWithType.vb: Color.=(Color, Color)
-- uid: Mapsui.Styles.Color.op_Equality*
-  name: operator ==
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Equality_
-  commentId: Overload:Mapsui.Styles.Color.op_Equality
+- uid: Mapsui.Styles.Color.YellowGreen*
+  name: YellowGreen
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_YellowGreen_
+  commentId: Overload:Mapsui.Styles.Color.YellowGreen
   isSpec: "True"
-  name.vb: =
-  fullName: Mapsui.Styles.Color.operator ==
-  fullName.vb: Mapsui.Styles.Color.=
-  nameWithType: Color.operator ==
-  nameWithType.vb: Color.=
-- uid: Mapsui.Styles.Color.op_Inequality(Mapsui.Styles.Color,Mapsui.Styles.Color)
-  name: operator !=(Color?, Color?)
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Inequality_Mapsui_Styles_Color_Mapsui_Styles_Color_
-  commentId: M:Mapsui.Styles.Color.op_Inequality(Mapsui.Styles.Color,Mapsui.Styles.Color)
-  name.vb: <>(Color, Color)
-  fullName: Mapsui.Styles.Color.operator !=(Mapsui.Styles.Color?, Mapsui.Styles.Color?)
-  fullName.vb: Mapsui.Styles.Color.<>(Mapsui.Styles.Color, Mapsui.Styles.Color)
-  nameWithType: Color.operator !=(Color?, Color?)
-  nameWithType.vb: Color.<>(Color, Color)
-- uid: Mapsui.Styles.Color.op_Inequality*
-  name: operator !=
-  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Inequality_
-  commentId: Overload:Mapsui.Styles.Color.op_Inequality
+  fullName: Mapsui.Styles.Color.YellowGreen
+  nameWithType: Color.YellowGreen
+- uid: Mapsui.Styles.Color.op_Explicit(Mapsui.Styles.Color)~System.Drawing.Color
+  name: explicit operator Color(Color)
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Explicit_Mapsui_Styles_Color__System_Drawing_Color
+  commentId: M:Mapsui.Styles.Color.op_Explicit(Mapsui.Styles.Color)~System.Drawing.Color
+  name.vb: CType(Color)
+  fullName: Mapsui.Styles.Color.explicit operator System.Drawing.Color(Mapsui.Styles.Color)
+  fullName.vb: Mapsui.Styles.Color.CType(Mapsui.Styles.Color)
+  nameWithType: Color.explicit operator Color(Color)
+  nameWithType.vb: Color.CType(Color)
+- uid: Mapsui.Styles.Color.op_Explicit(System.Drawing.Color)~Mapsui.Styles.Color
+  name: explicit operator Color(Color)
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Explicit_System_Drawing_Color__Mapsui_Styles_Color
+  commentId: M:Mapsui.Styles.Color.op_Explicit(System.Drawing.Color)~Mapsui.Styles.Color
+  name.vb: CType(Color)
+  fullName: Mapsui.Styles.Color.explicit operator Mapsui.Styles.Color(System.Drawing.Color)
+  fullName.vb: Mapsui.Styles.Color.CType(System.Drawing.Color)
+  nameWithType: Color.explicit operator Color(Color)
+  nameWithType.vb: Color.CType(Color)
+- uid: Mapsui.Styles.Color.op_Explicit*
+  name: explicit operator
+  href: pages/Mapsui.Styles.Color.html#Mapsui_Styles_Color_op_Explicit_
+  commentId: Overload:Mapsui.Styles.Color.op_Explicit
   isSpec: "True"
-  name.vb: <>
-  fullName: Mapsui.Styles.Color.operator !=
-  fullName.vb: Mapsui.Styles.Color.<>
-  nameWithType: Color.operator !=
-  nameWithType.vb: Color.<>
+  name.vb: CType
+  fullName: Mapsui.Styles.Color.explicit operator
+  fullName.vb: Mapsui.Styles.Color.CType
+  nameWithType: Color.explicit operator
+  nameWithType.vb: Color.CType
 - uid: Mapsui.Styles.FillStyle
   name: FillStyle
   href: pages/Mapsui.Styles.FillStyle.html
@@ -27444,15 +28435,15 @@ references:
   commentId: T:Mapsui.Styles.SymbolStyles
   fullName: Mapsui.Styles.SymbolStyles
   nameWithType: SymbolStyles
-- uid: Mapsui.Styles.SymbolStyles.CreatePinStyle(Mapsui.Styles.Color,System.Double)
+- uid: Mapsui.Styles.SymbolStyles.CreatePinStyle(System.Nullable{Mapsui.Styles.Color},System.Double)
   name: CreatePinStyle(Color?, double)
-  href: pages/Mapsui.Styles.SymbolStyles.html#Mapsui_Styles_SymbolStyles_CreatePinStyle_Mapsui_Styles_Color_System_Double_
-  commentId: M:Mapsui.Styles.SymbolStyles.CreatePinStyle(Mapsui.Styles.Color,System.Double)
-  name.vb: CreatePinStyle(Color, Double)
+  href: pages/Mapsui.Styles.SymbolStyles.html#Mapsui_Styles_SymbolStyles_CreatePinStyle_System_Nullable_Mapsui_Styles_Color__System_Double_
+  commentId: M:Mapsui.Styles.SymbolStyles.CreatePinStyle(System.Nullable{Mapsui.Styles.Color},System.Double)
+  name.vb: CreatePinStyle(Color?, Double)
   fullName: Mapsui.Styles.SymbolStyles.CreatePinStyle(Mapsui.Styles.Color?, double)
-  fullName.vb: Mapsui.Styles.SymbolStyles.CreatePinStyle(Mapsui.Styles.Color, Double)
+  fullName.vb: Mapsui.Styles.SymbolStyles.CreatePinStyle(Mapsui.Styles.Color?, Double)
   nameWithType: SymbolStyles.CreatePinStyle(Color?, double)
-  nameWithType.vb: SymbolStyles.CreatePinStyle(Color, Double)
+  nameWithType.vb: SymbolStyles.CreatePinStyle(Color?, Double)
 - uid: Mapsui.Styles.SymbolStyles.CreatePinStyle*
   name: CreatePinStyle
   href: pages/Mapsui.Styles.SymbolStyles.html#Mapsui_Styles_SymbolStyles_CreatePinStyle_
