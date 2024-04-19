@@ -2832,20 +2832,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.IRenderCache.yml",
+      "source_relative_path": "pages/Mapsui.Rendering.IRenderInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/Mapsui.Rendering.IRenderCache.html"
+          "relative_path": "pages/Mapsui.Rendering.IRenderInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.IRenderInfo.yml",
+      "source_relative_path": "pages/Mapsui.Rendering.IRenderService.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/Mapsui.Rendering.IRenderInfo.html"
+          "relative_path": "pages/Mapsui.Rendering.IRenderService.html"
         }
       },
       "version": ""
@@ -2896,16 +2896,6 @@
       "output": {
         ".html": {
           "relative_path": "pages/Mapsui.Rendering.MapInfoRecord.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.NonCachingVectorCache.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/Mapsui.Rendering.NonCachingVectorCache.html"
         }
       },
       "version": ""
@@ -2982,10 +2972,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.Skia.Cache.RenderCache.yml",
+      "source_relative_path": "pages/Mapsui.Rendering.Skia.Cache.RenderService.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/Mapsui.Rendering.Skia.Cache.RenderCache.html"
+          "relative_path": "pages/Mapsui.Rendering.Skia.Cache.RenderService.html"
         }
       },
       "version": ""
