@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Mapsui.Samples.Blazor",
   "resources": {
-    "hash": "sha256-lJPk/dH1Aodbp97OFlNFQetFNklHtJjikpI/bhsfQWA=",
+    "hash": "sha256-WCymDT+9/NjJx3jlmYDjQCaJTQ02bQvTnEc9XqhFlcI=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.phh2h11syo.js": "sha256-9N5suLNN9sA30pUEqFJ/bEQ2vZlnuEVGhu62OogtLpA="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.4.ogva3chynz.js": "sha256-JeVsECOqOie/Pe89n9PJNJaMmb5vJsAAxfXY8INN64A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-1gX6J78ZVNqo5nmHwlwYKSfh0ErFckcPZFvyVe/59Hk="
+      "dotnet.native.wasm": "sha256-7G4NSfQbhiL0M3ONMG8KVyVq38UIeglNPDWIRizpdhQ="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -24,16 +24,16 @@
       "DotSpatial.Projections.wasm": "sha256-0UkX6jJG7WyIVeC6xgx4/x74tplEQTdwgkXwY7jAw24=",
       "ExCSS.wasm": "sha256-UUDdQpFUY9H2fvZxvGhWLfifbi0vztUkLr14L1HLE9U=",
       "HarfBuzzSharp.wasm": "sha256-qZg9HBEJZYf/8hGme0L2dX8nJNG2VxdjQI+PtcQszVY=",
-      "Mapsui.ArcGIS.wasm": "sha256-7Dc+LMbErc2eekLyuM/D8RDpHp//jEnRaxHpMyPdINo=",
-      "Mapsui.Extensions.wasm": "sha256-eyKao/1JqtUhcEeyPD6gqzJiAiTKU0ajgZFBOXoPlCw=",
-      "Mapsui.Nts.wasm": "sha256-PlIrqH8o1U65r7kIRQk6rLHZG6JpapytgF8az44CYEU=",
-      "Mapsui.Rendering.Skia.wasm": "sha256-0sNlY5BvEi/7PKgc8lSjyVtYAMYF+iBNGJklVsUl0U8=",
-      "Mapsui.Samples.Blazor.wasm": "sha256-ZpCFALqJsN+hHU95SmTNWmkCWWByjArmumECqXtQB9U=",
-      "Mapsui.Samples.Common.wasm": "sha256-zgKCEDGHSDg3acn0lv6NJyOMT74XSthLDinrWkUlAX8=",
-      "Mapsui.Tests.Common.wasm": "sha256-oJgQHfAa7uFnrfYpLIURpF8bIYATZEZ8ximpeon/Www=",
-      "Mapsui.Tiling.wasm": "sha256-M0SrxKwFJIXDEaWNUkWPXLugvPvQb2FppAiAFK+cv60=",
-      "Mapsui.UI.Blazor.wasm": "sha256-dOlVKInNKLxx4JlijUp0VxJhdPR2qwqFpSg1YoguEAI=",
-      "Mapsui.wasm": "sha256-A9GyttnIpQz/bO7JABkqcqQlfNqN8nuP8AyJ1eAGvkc=",
+      "Mapsui.ArcGIS.wasm": "sha256-xeJITTn3CU6Qdocg80IkgsHlEcHGVkhHKWjpB6HUCa4=",
+      "Mapsui.Extensions.wasm": "sha256-as0e9uNVU0GQhEyrdDpr44W4i8Zu7EyLrF+VEoFOVOQ=",
+      "Mapsui.Nts.wasm": "sha256-vPiyI1JCtCQJSki9bB9Ga20QxPB5oK8/jSOJfohNW9g=",
+      "Mapsui.Rendering.Skia.wasm": "sha256-DSWyGdEFFl9XR2Ym+vfBw0XE7wwlk9wzYXbjv+xHKE4=",
+      "Mapsui.Samples.Blazor.wasm": "sha256-llVKLK0hBU6OVQ97ObRD/II/gaiLPtzS4FtfjavzWQ4=",
+      "Mapsui.Samples.Common.wasm": "sha256-aGQ8elj7NiL9drd5XH4C60FAPXJiIr6OtMHsczaRSqM=",
+      "Mapsui.Tests.Common.wasm": "sha256-ZLx9d+uFTezfYXRA8HCbuVIFZpV4vuJAmPflSB1Uefs=",
+      "Mapsui.Tiling.wasm": "sha256-p9SHZvwzqzeJB+BsmgCA/ueuotJssCwuVPNawvd8rFU=",
+      "Mapsui.UI.Blazor.wasm": "sha256-uNOnukVLkaU/OfNc5rifC02DJ2a+IRT2qKceUoC2mTY=",
+      "Mapsui.wasm": "sha256-NUBqr46SnxeaoubnmTN9CrzrrHYkdTM4faT7TPwXAi0=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-L3z9gLy453ChDsq4RXjjKDg5IncprVXlOCxwTUv0LPc=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-nXA+w4d9PwJcHyVSaf0smj3woMWM5QdoTpJwzmjjl80=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-2kxC/ANLBGwVmdOu2/T2il8fTnWD+xap5GKIXWKAHz0=",
@@ -89,7 +89,7 @@
       "System.Net.WebHeaderCollection.wasm": "sha256-fQcIGAdzSWZEQ/NKIhIIqpo6TeSPm1colNjr9eDs/0E=",
       "System.Net.WebProxy.wasm": "sha256-5UQcNtvDqOr2ieIgeD+zkriFLS96KOMzftfruPvLN5E=",
       "System.ObjectModel.wasm": "sha256-fz7TOOcCBqNINblRWLDRtYjDSU0lSovaRXD64cixdac=",
-      "System.Private.CoreLib.wasm": "sha256-tM10Q6jwtlWz0WvZiKxS3Fiu+4Tk51iRio8kvb1kP3I=",
+      "System.Private.CoreLib.wasm": "sha256-DNt4axqQQaXBAZyWsUQn9+8oC7sJRFYDNphrDyRjLSQ=",
       "System.Private.Uri.wasm": "sha256-x49sDuTnfFIY3ybFMj2oySM1KwwVj3X08tBq1TI4DJs=",
       "System.Private.Xml.Linq.wasm": "sha256-W3Xur6D3JyufmXBPyb1fc1avy2RipKYm8NC6JvTzowM=",
       "System.Private.Xml.wasm": "sha256-JIwoPbRX3qAcjQNW4wjU1vun52ToMypQUf1SWNM7/d4=",
@@ -105,6 +105,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-CHn2PKBcmlVcHgHUY8LVEABcn6y6QtaD8+Jr5mvSCKA=",
       "System.Text.Json.wasm": "sha256-2DtBES9KO+4JtqjIJwbkyYJp31f2s8PzhnFO7IoBHBw=",
       "System.Text.RegularExpressions.wasm": "sha256-jfasn5QR515Vo/7bda17xA952SynwtXW088w3z/0rDs=",
+      "System.Threading.Channels.wasm": "sha256-IqoLNXYHBDLkNBpWOrvhMoJRDntWjvFTDixbWla0uaQ=",
       "System.Threading.Thread.wasm": "sha256-wS1J7TeNqnc1wLWDQY4GROZHUx++0jN1Ybd4ybSks/o=",
       "System.Threading.wasm": "sha256-m1WD/JZeipnkPPLOE07vZQgOWUw9w7FVbjCDZkDaOfw=",
       "System.wasm": "sha256-j40bDq1kzFWVIkWKSn7zhVhRD7pPJwcCQwpWvGrmz9A=",

@@ -6242,34 +6242,21 @@ references:
   fullName.vb: Mapsui.Fetcher.Delayer.New
   nameWithType: Delayer.Delayer
   nameWithType.vb: Delayer.New
-- uid: Mapsui.Fetcher.Delayer.Dispose
-  name: Dispose()
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_Dispose
-  commentId: M:Mapsui.Fetcher.Delayer.Dispose
-  fullName: Mapsui.Fetcher.Delayer.Dispose()
-  nameWithType: Delayer.Dispose()
-- uid: Mapsui.Fetcher.Delayer.Dispose(System.Boolean)
-  name: Dispose(bool)
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_Dispose_System_Boolean_
-  commentId: M:Mapsui.Fetcher.Delayer.Dispose(System.Boolean)
-  name.vb: Dispose(Boolean)
-  fullName: Mapsui.Fetcher.Delayer.Dispose(bool)
-  fullName.vb: Mapsui.Fetcher.Delayer.Dispose(Boolean)
-  nameWithType: Delayer.Dispose(bool)
-  nameWithType.vb: Delayer.Dispose(Boolean)
-- uid: Mapsui.Fetcher.Delayer.Dispose*
-  name: Dispose
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_Dispose_
-  commentId: Overload:Mapsui.Fetcher.Delayer.Dispose
-  isSpec: "True"
-  fullName: Mapsui.Fetcher.Delayer.Dispose
-  nameWithType: Delayer.Dispose
 - uid: Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Action)
   name: ExecuteDelayed(Action)
   href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_ExecuteDelayed_System_Action_
   commentId: M:Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Action)
   fullName: Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Action)
   nameWithType: Delayer.ExecuteDelayed(Action)
+- uid: Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Func{System.Threading.Tasks.Task})
+  name: ExecuteDelayed(Func<Task>)
+  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_ExecuteDelayed_System_Func_System_Threading_Tasks_Task__
+  commentId: M:Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Func{System.Threading.Tasks.Task})
+  name.vb: ExecuteDelayed(Func(Of Task))
+  fullName: Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: Mapsui.Fetcher.Delayer.ExecuteDelayed(System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: Delayer.ExecuteDelayed(Func<Task>)
+  nameWithType.vb: Delayer.ExecuteDelayed(Func(Of Task))
 - uid: Mapsui.Fetcher.Delayer.ExecuteDelayed*
   name: ExecuteDelayed
   href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_ExecuteDelayed_
@@ -6277,32 +6264,32 @@ references:
   isSpec: "True"
   fullName: Mapsui.Fetcher.Delayer.ExecuteDelayed
   nameWithType: Delayer.ExecuteDelayed
-- uid: Mapsui.Fetcher.Delayer.MillisecondsToWait
-  name: MillisecondsToWait
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsToWait
-  commentId: P:Mapsui.Fetcher.Delayer.MillisecondsToWait
-  fullName: Mapsui.Fetcher.Delayer.MillisecondsToWait
-  nameWithType: Delayer.MillisecondsToWait
-- uid: Mapsui.Fetcher.Delayer.MillisecondsToWait*
-  name: MillisecondsToWait
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsToWait_
-  commentId: Overload:Mapsui.Fetcher.Delayer.MillisecondsToWait
+- uid: Mapsui.Fetcher.Delayer.MillisecondsBeforeCall
+  name: MillisecondsBeforeCall
+  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsBeforeCall
+  commentId: P:Mapsui.Fetcher.Delayer.MillisecondsBeforeCall
+  fullName: Mapsui.Fetcher.Delayer.MillisecondsBeforeCall
+  nameWithType: Delayer.MillisecondsBeforeCall
+- uid: Mapsui.Fetcher.Delayer.MillisecondsBeforeCall*
+  name: MillisecondsBeforeCall
+  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsBeforeCall_
+  commentId: Overload:Mapsui.Fetcher.Delayer.MillisecondsBeforeCall
   isSpec: "True"
-  fullName: Mapsui.Fetcher.Delayer.MillisecondsToWait
-  nameWithType: Delayer.MillisecondsToWait
-- uid: Mapsui.Fetcher.Delayer.StartWithDelay
-  name: StartWithDelay
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_StartWithDelay
-  commentId: P:Mapsui.Fetcher.Delayer.StartWithDelay
-  fullName: Mapsui.Fetcher.Delayer.StartWithDelay
-  nameWithType: Delayer.StartWithDelay
-- uid: Mapsui.Fetcher.Delayer.StartWithDelay*
-  name: StartWithDelay
-  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_StartWithDelay_
-  commentId: Overload:Mapsui.Fetcher.Delayer.StartWithDelay
+  fullName: Mapsui.Fetcher.Delayer.MillisecondsBeforeCall
+  nameWithType: Delayer.MillisecondsBeforeCall
+- uid: Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls
+  name: MillisecondsBetweenCalls
+  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsBetweenCalls
+  commentId: P:Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls
+  fullName: Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls
+  nameWithType: Delayer.MillisecondsBetweenCalls
+- uid: Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls*
+  name: MillisecondsBetweenCalls
+  href: pages/Mapsui.Fetcher.Delayer.html#Mapsui_Fetcher_Delayer_MillisecondsBetweenCalls_
+  commentId: Overload:Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls
   isSpec: "True"
-  fullName: Mapsui.Fetcher.Delayer.StartWithDelay
-  nameWithType: Delayer.StartWithDelay
+  fullName: Mapsui.Fetcher.Delayer.MillisecondsBetweenCalls
+  nameWithType: Delayer.MillisecondsBetweenCalls
 - uid: Mapsui.Fetcher.FetchMachine
   name: FetchMachine
   href: pages/Mapsui.Fetcher.FetchMachine.html
