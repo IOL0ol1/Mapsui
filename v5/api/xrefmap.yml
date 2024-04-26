@@ -5869,6 +5869,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Extensions.TypeExtensions.LoadBitmapId
   nameWithType: TypeExtensions.LoadBitmapId
+- uid: Mapsui.Extensions.TypeExtensions.LoadBitmapPath(System.Type,System.String)
+  name: LoadBitmapPath(Type, string)
+  href: pages/Mapsui.Extensions.TypeExtensions.html#Mapsui_Extensions_TypeExtensions_LoadBitmapPath_System_Type_System_String_
+  commentId: M:Mapsui.Extensions.TypeExtensions.LoadBitmapPath(System.Type,System.String)
+  name.vb: LoadBitmapPath(Type, String)
+  fullName: Mapsui.Extensions.TypeExtensions.LoadBitmapPath(System.Type, string)
+  fullName.vb: Mapsui.Extensions.TypeExtensions.LoadBitmapPath(System.Type, String)
+  nameWithType: TypeExtensions.LoadBitmapPath(Type, string)
+  nameWithType.vb: TypeExtensions.LoadBitmapPath(Type, String)
+- uid: Mapsui.Extensions.TypeExtensions.LoadBitmapPath*
+  name: LoadBitmapPath
+  href: pages/Mapsui.Extensions.TypeExtensions.html#Mapsui_Extensions_TypeExtensions_LoadBitmapPath_
+  commentId: Overload:Mapsui.Extensions.TypeExtensions.LoadBitmapPath
+  isSpec: "True"
+  fullName: Mapsui.Extensions.TypeExtensions.LoadBitmapPath
+  nameWithType: TypeExtensions.LoadBitmapPath
 - uid: Mapsui.Extensions.ViewportExtensions
   name: ViewportExtensions
   href: pages/Mapsui.Extensions.ViewportExtensions.html
@@ -23461,6 +23477,19 @@ references:
   commentId: T:Mapsui.Styles.BitmapRegistry
   fullName: Mapsui.Styles.BitmapRegistry
   nameWithType: BitmapRegistry
+- uid: Mapsui.Styles.BitmapRegistry.Dispose
+  name: Dispose()
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Dispose
+  commentId: M:Mapsui.Styles.BitmapRegistry.Dispose
+  fullName: Mapsui.Styles.BitmapRegistry.Dispose()
+  nameWithType: BitmapRegistry.Dispose()
+- uid: Mapsui.Styles.BitmapRegistry.Dispose*
+  name: Dispose
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Dispose_
+  commentId: Overload:Mapsui.Styles.BitmapRegistry.Dispose
+  isSpec: "True"
+  fullName: Mapsui.Styles.BitmapRegistry.Dispose
+  nameWithType: BitmapRegistry.Dispose
 - uid: Mapsui.Styles.BitmapRegistry.Get(System.Int32)
   name: Get(int)
   href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Get_System_Int32_
@@ -23506,6 +23535,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.BitmapRegistry.Register
   nameWithType: BitmapRegistry.Register
+- uid: Mapsui.Styles.BitmapRegistry.RegisterAsync(System.Uri)
+  name: RegisterAsync(Uri)
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_RegisterAsync_System_Uri_
+  commentId: M:Mapsui.Styles.BitmapRegistry.RegisterAsync(System.Uri)
+  fullName: Mapsui.Styles.BitmapRegistry.RegisterAsync(System.Uri)
+  nameWithType: BitmapRegistry.RegisterAsync(Uri)
+- uid: Mapsui.Styles.BitmapRegistry.RegisterAsync*
+  name: RegisterAsync
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_RegisterAsync_
+  commentId: Overload:Mapsui.Styles.BitmapRegistry.RegisterAsync
+  isSpec: "True"
+  fullName: Mapsui.Styles.BitmapRegistry.RegisterAsync
+  nameWithType: BitmapRegistry.RegisterAsync
 - uid: Mapsui.Styles.BitmapRegistry.Set(System.Int32,System.Object)
   name: Set(int, object)
   href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Set_System_Int32_System_Object_
@@ -26484,6 +26526,105 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.Font.ToString
   nameWithType: Font.ToString
+- uid: Mapsui.Styles.IBitmapRegistry
+  name: IBitmapRegistry
+  href: pages/Mapsui.Styles.IBitmapRegistry.html
+  commentId: T:Mapsui.Styles.IBitmapRegistry
+  fullName: Mapsui.Styles.IBitmapRegistry
+  nameWithType: IBitmapRegistry
+- uid: Mapsui.Styles.IBitmapRegistry.Get(System.Int32)
+  name: Get(int)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Get_System_Int32_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.Get(System.Int32)
+  name.vb: Get(Integer)
+  fullName: Mapsui.Styles.IBitmapRegistry.Get(int)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.Get(Integer)
+  nameWithType: IBitmapRegistry.Get(int)
+  nameWithType.vb: IBitmapRegistry.Get(Integer)
+- uid: Mapsui.Styles.IBitmapRegistry.Get*
+  name: Get
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Get_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Get
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.Get
+  nameWithType: IBitmapRegistry.Get
+- uid: Mapsui.Styles.IBitmapRegistry.Register(System.Object,System.String)
+  name: Register(object, string?)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Register_System_Object_System_String_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.Register(System.Object,System.String)
+  name.vb: Register(Object, String)
+  fullName: Mapsui.Styles.IBitmapRegistry.Register(object, string?)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.Register(Object, String)
+  nameWithType: IBitmapRegistry.Register(object, string?)
+  nameWithType.vb: IBitmapRegistry.Register(Object, String)
+- uid: Mapsui.Styles.IBitmapRegistry.Register*
+  name: Register
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Register_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Register
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.Register
+  nameWithType: IBitmapRegistry.Register
+- uid: Mapsui.Styles.IBitmapRegistry.RegisterAsync(System.Uri)
+  name: RegisterAsync(Uri)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_RegisterAsync_System_Uri_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.RegisterAsync(System.Uri)
+  fullName: Mapsui.Styles.IBitmapRegistry.RegisterAsync(System.Uri)
+  nameWithType: IBitmapRegistry.RegisterAsync(Uri)
+- uid: Mapsui.Styles.IBitmapRegistry.RegisterAsync*
+  name: RegisterAsync
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_RegisterAsync_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.RegisterAsync
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.RegisterAsync
+  nameWithType: IBitmapRegistry.RegisterAsync
+- uid: Mapsui.Styles.IBitmapRegistry.Set(System.Int32,System.Object)
+  name: Set(int, object)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Set_System_Int32_System_Object_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.Set(System.Int32,System.Object)
+  name.vb: Set(Integer, Object)
+  fullName: Mapsui.Styles.IBitmapRegistry.Set(int, object)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.Set(Integer, Object)
+  nameWithType: IBitmapRegistry.Set(int, object)
+  nameWithType.vb: IBitmapRegistry.Set(Integer, Object)
+- uid: Mapsui.Styles.IBitmapRegistry.Set*
+  name: Set
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Set_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Set
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.Set
+  nameWithType: IBitmapRegistry.Set
+- uid: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId(System.String,System.Int32@)
+  name: TryGetBitmapId(string, out int)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_TryGetBitmapId_System_String_System_Int32__
+  commentId: M:Mapsui.Styles.IBitmapRegistry.TryGetBitmapId(System.String,System.Int32@)
+  name.vb: TryGetBitmapId(String, Integer)
+  fullName: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId(string, out int)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId(String, Integer)
+  nameWithType: IBitmapRegistry.TryGetBitmapId(string, out int)
+  nameWithType.vb: IBitmapRegistry.TryGetBitmapId(String, Integer)
+- uid: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId*
+  name: TryGetBitmapId
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_TryGetBitmapId_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.TryGetBitmapId
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId
+  nameWithType: IBitmapRegistry.TryGetBitmapId
+- uid: Mapsui.Styles.IBitmapRegistry.Unregister(System.Int32)
+  name: Unregister(int)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Unregister_System_Int32_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.Unregister(System.Int32)
+  name.vb: Unregister(Integer)
+  fullName: Mapsui.Styles.IBitmapRegistry.Unregister(int)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.Unregister(Integer)
+  nameWithType: IBitmapRegistry.Unregister(int)
+  nameWithType.vb: IBitmapRegistry.Unregister(Integer)
+- uid: Mapsui.Styles.IBitmapRegistry.Unregister*
+  name: Unregister
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Unregister_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Unregister
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.Unregister
+  nameWithType: IBitmapRegistry.Unregister
 - uid: Mapsui.Styles.IFeatureSize
   name: IFeatureSize
   href: pages/Mapsui.Styles.IFeatureSize.html
@@ -38482,6 +38623,22 @@ references:
   commentId: T:Mapsui.Utilities.EmbeddedResourceLoader
   fullName: Mapsui.Utilities.EmbeddedResourceLoader
   nameWithType: EmbeddedResourceLoader
+- uid: Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri(System.Type,System.String)
+  name: GetResourceUri(Type, string)
+  href: pages/Mapsui.Utilities.EmbeddedResourceLoader.html#Mapsui_Utilities_EmbeddedResourceLoader_GetResourceUri_System_Type_System_String_
+  commentId: M:Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri(System.Type,System.String)
+  name.vb: GetResourceUri(Type, String)
+  fullName: Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri(System.Type, string)
+  fullName.vb: Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri(System.Type, String)
+  nameWithType: EmbeddedResourceLoader.GetResourceUri(Type, string)
+  nameWithType.vb: EmbeddedResourceLoader.GetResourceUri(Type, String)
+- uid: Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri*
+  name: GetResourceUri
+  href: pages/Mapsui.Utilities.EmbeddedResourceLoader.html#Mapsui_Utilities_EmbeddedResourceLoader_GetResourceUri_
+  commentId: Overload:Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri
+  isSpec: "True"
+  fullName: Mapsui.Utilities.EmbeddedResourceLoader.GetResourceUri
+  nameWithType: EmbeddedResourceLoader.GetResourceUri
 - uid: Mapsui.Utilities.EmbeddedResourceLoader.Load(System.String,System.Type)
   name: Load(string, Type)
   href: pages/Mapsui.Utilities.EmbeddedResourceLoader.html#Mapsui_Utilities_EmbeddedResourceLoader_Load_System_String_System_Type_
@@ -39064,6 +39221,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Utilities.SvgHelper.LoadSvgId
   nameWithType: SvgHelper.LoadSvgId
+- uid: Mapsui.Utilities.SvgHelper.LoadSvgPath(System.Type,System.String)
+  name: LoadSvgPath(Type, string)
+  href: pages/Mapsui.Utilities.SvgHelper.html#Mapsui_Utilities_SvgHelper_LoadSvgPath_System_Type_System_String_
+  commentId: M:Mapsui.Utilities.SvgHelper.LoadSvgPath(System.Type,System.String)
+  name.vb: LoadSvgPath(Type, String)
+  fullName: Mapsui.Utilities.SvgHelper.LoadSvgPath(System.Type, string)
+  fullName.vb: Mapsui.Utilities.SvgHelper.LoadSvgPath(System.Type, String)
+  nameWithType: SvgHelper.LoadSvgPath(Type, string)
+  nameWithType.vb: SvgHelper.LoadSvgPath(Type, String)
+- uid: Mapsui.Utilities.SvgHelper.LoadSvgPath*
+  name: LoadSvgPath
+  href: pages/Mapsui.Utilities.SvgHelper.html#Mapsui_Utilities_SvgHelper_LoadSvgPath_
+  commentId: Overload:Mapsui.Utilities.SvgHelper.LoadSvgPath
+  isSpec: "True"
+  fullName: Mapsui.Utilities.SvgHelper.LoadSvgPath
+  nameWithType: SvgHelper.LoadSvgPath
 - uid: Mapsui.Utilities.SvgHelper.LoadSvgPicture(System.IO.Stream)
   name: LoadSvgPicture(Stream?)
   href: pages/Mapsui.Utilities.SvgHelper.html#Mapsui_Utilities_SvgHelper_LoadSvgPicture_System_IO_Stream_
