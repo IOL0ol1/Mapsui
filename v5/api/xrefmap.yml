@@ -5723,6 +5723,19 @@ references:
   commentId: T:Mapsui.Extensions.StreamExtensions
   fullName: Mapsui.Extensions.StreamExtensions
   nameWithType: StreamExtensions
+- uid: Mapsui.Extensions.StreamExtensions.CopyToMemoryStream(System.IO.Stream)
+  name: CopyToMemoryStream(Stream)
+  href: pages/Mapsui.Extensions.StreamExtensions.html#Mapsui_Extensions_StreamExtensions_CopyToMemoryStream_System_IO_Stream_
+  commentId: M:Mapsui.Extensions.StreamExtensions.CopyToMemoryStream(System.IO.Stream)
+  fullName: Mapsui.Extensions.StreamExtensions.CopyToMemoryStream(System.IO.Stream)
+  nameWithType: StreamExtensions.CopyToMemoryStream(Stream)
+- uid: Mapsui.Extensions.StreamExtensions.CopyToMemoryStream*
+  name: CopyToMemoryStream
+  href: pages/Mapsui.Extensions.StreamExtensions.html#Mapsui_Extensions_StreamExtensions_CopyToMemoryStream_
+  commentId: Overload:Mapsui.Extensions.StreamExtensions.CopyToMemoryStream
+  isSpec: "True"
+  fullName: Mapsui.Extensions.StreamExtensions.CopyToMemoryStream
+  nameWithType: StreamExtensions.CopyToMemoryStream
 - uid: Mapsui.Extensions.StreamExtensions.IsSvg(System.IO.Stream)
   name: IsSvg(Stream)
   href: pages/Mapsui.Extensions.StreamExtensions.html#Mapsui_Extensions_StreamExtensions_IsSvg_System_IO_Stream_
@@ -23450,22 +23463,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.BitmapRegistry.RegisterAsync
   nameWithType: BitmapRegistry.RegisterAsync
-- uid: Mapsui.Styles.BitmapRegistry.Set(System.Int32,System.Object)
-  name: Set(int, object)
-  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Set_System_Int32_System_Object_
-  commentId: M:Mapsui.Styles.BitmapRegistry.Set(System.Int32,System.Object)
-  name.vb: Set(Integer, Object)
-  fullName: Mapsui.Styles.BitmapRegistry.Set(int, object)
-  fullName.vb: Mapsui.Styles.BitmapRegistry.Set(Integer, Object)
-  nameWithType: BitmapRegistry.Set(int, object)
-  nameWithType.vb: BitmapRegistry.Set(Integer, Object)
-- uid: Mapsui.Styles.BitmapRegistry.Set*
-  name: Set
-  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Set_
-  commentId: Overload:Mapsui.Styles.BitmapRegistry.Set
-  isSpec: "True"
-  fullName: Mapsui.Styles.BitmapRegistry.Set
-  nameWithType: BitmapRegistry.Set
 - uid: Mapsui.Styles.BitmapRegistry.TryGetBitmapId(System.String,System.Int32@)
   name: TryGetBitmapId(string, out int)
   href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_TryGetBitmapId_System_String_System_Int32__
@@ -23498,6 +23495,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.BitmapRegistry.Unregister
   nameWithType: BitmapRegistry.Unregister
+- uid: Mapsui.Styles.BitmapRegistry.Update(System.Int32,System.Object)
+  name: Update(int, object)
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Update_System_Int32_System_Object_
+  commentId: M:Mapsui.Styles.BitmapRegistry.Update(System.Int32,System.Object)
+  name.vb: Update(Integer, Object)
+  fullName: Mapsui.Styles.BitmapRegistry.Update(int, object)
+  fullName.vb: Mapsui.Styles.BitmapRegistry.Update(Integer, Object)
+  nameWithType: BitmapRegistry.Update(int, object)
+  nameWithType.vb: BitmapRegistry.Update(Integer, Object)
+- uid: Mapsui.Styles.BitmapRegistry.Update*
+  name: Update
+  href: pages/Mapsui.Styles.BitmapRegistry.html#Mapsui_Styles_BitmapRegistry_Update_
+  commentId: Overload:Mapsui.Styles.BitmapRegistry.Update
+  isSpec: "True"
+  fullName: Mapsui.Styles.BitmapRegistry.Update
+  nameWithType: BitmapRegistry.Update
 - uid: Mapsui.Styles.Brush
   name: Brush
   href: pages/Mapsui.Styles.Brush.html
@@ -26479,22 +26492,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.IBitmapRegistry.RegisterAsync
   nameWithType: IBitmapRegistry.RegisterAsync
-- uid: Mapsui.Styles.IBitmapRegistry.Set(System.Int32,System.Object)
-  name: Set(int, object)
-  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Set_System_Int32_System_Object_
-  commentId: M:Mapsui.Styles.IBitmapRegistry.Set(System.Int32,System.Object)
-  name.vb: Set(Integer, Object)
-  fullName: Mapsui.Styles.IBitmapRegistry.Set(int, object)
-  fullName.vb: Mapsui.Styles.IBitmapRegistry.Set(Integer, Object)
-  nameWithType: IBitmapRegistry.Set(int, object)
-  nameWithType.vb: IBitmapRegistry.Set(Integer, Object)
-- uid: Mapsui.Styles.IBitmapRegistry.Set*
-  name: Set
-  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Set_
-  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Set
-  isSpec: "True"
-  fullName: Mapsui.Styles.IBitmapRegistry.Set
-  nameWithType: IBitmapRegistry.Set
 - uid: Mapsui.Styles.IBitmapRegistry.TryGetBitmapId(System.String,System.Int32@)
   name: TryGetBitmapId(string, out int)
   href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_TryGetBitmapId_System_String_System_Int32__
@@ -26527,6 +26524,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Styles.IBitmapRegistry.Unregister
   nameWithType: IBitmapRegistry.Unregister
+- uid: Mapsui.Styles.IBitmapRegistry.Update(System.Int32,System.Object)
+  name: Update(int, object)
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Update_System_Int32_System_Object_
+  commentId: M:Mapsui.Styles.IBitmapRegistry.Update(System.Int32,System.Object)
+  name.vb: Update(Integer, Object)
+  fullName: Mapsui.Styles.IBitmapRegistry.Update(int, object)
+  fullName.vb: Mapsui.Styles.IBitmapRegistry.Update(Integer, Object)
+  nameWithType: IBitmapRegistry.Update(int, object)
+  nameWithType.vb: IBitmapRegistry.Update(Integer, Object)
+- uid: Mapsui.Styles.IBitmapRegistry.Update*
+  name: Update
+  href: pages/Mapsui.Styles.IBitmapRegistry.html#Mapsui_Styles_IBitmapRegistry_Update_
+  commentId: Overload:Mapsui.Styles.IBitmapRegistry.Update
+  isSpec: "True"
+  fullName: Mapsui.Styles.IBitmapRegistry.Update
+  nameWithType: IBitmapRegistry.Update
 - uid: Mapsui.Styles.IFeatureSize
   name: IFeatureSize
   href: pages/Mapsui.Styles.IFeatureSize.html
