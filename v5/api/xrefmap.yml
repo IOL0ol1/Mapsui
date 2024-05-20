@@ -37571,6 +37571,12 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.WinUI.MapControl.UseFling
   nameWithType: MapControl.UseFling
+- uid: Mapsui.UI.WinUI.MapControl.UseGPU
+  name: UseGPU
+  href: pages/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_UseGPU
+  commentId: F:Mapsui.UI.WinUI.MapControl.UseGPU
+  fullName: Mapsui.UI.WinUI.MapControl.UseGPU
+  nameWithType: MapControl.UseGPU
 - uid: Mapsui.UI.Wpf
   name: Mapsui.UI.Wpf
   href: pages/Mapsui.UI.Wpf.html
