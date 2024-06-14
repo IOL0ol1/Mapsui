@@ -1489,11 +1489,6 @@
     "title": "Class CoordinateExtensions",
     "keywords": "Class CoordinateExtensions Inheritance object CoordinateExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia.Extensions Assembly: Mapsui.Rendering.Skia.dll Syntax public static class CoordinateExtensions Methods | Edit this page View Source ToSkiaPoint(Coordinate) Declaration public static SKPoint ToSkiaPoint(this Coordinate coordinate) Parameters Type Name Description Coordinate coordinate Returns Type Description SKPoint"
   },
-  "pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html": {
-    "href": "pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html",
-    "title": "Class GeometryCollectionExtensions",
-    "keywords": "Class GeometryCollectionExtensions Inheritance object GeometryCollectionExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia.Extensions Assembly: Mapsui.Rendering.Skia.dll Syntax public static class GeometryCollectionExtensions Methods | Edit this page View Source ToSkiaPath(GeometryCollection, Viewport, SKRect, float) Declaration public static SKPath ToSkiaPath(this GeometryCollection geometryCollection, Viewport viewport, SKRect clipRect, float strokeWidth) Parameters Type Name Description GeometryCollection geometryCollection Viewport viewport SKRect clipRect float strokeWidth Returns Type Description SKPath"
-  },
   "pages/Mapsui.Rendering.Skia.Extensions.MRectExtensions.html": {
     "href": "pages/Mapsui.Rendering.Skia.Extensions.MRectExtensions.html",
     "title": "Class MRectExtensions",
@@ -1557,7 +1552,7 @@
   "pages/Mapsui.Rendering.Skia.Extensions.html": {
     "href": "pages/Mapsui.Rendering.Skia.Extensions.html",
     "title": "Namespace Mapsui.Rendering.Skia.Extensions",
-    "keywords": "Namespace Mapsui.Rendering.Skia.Extensions Classes AlignmentExtensions ByteExtensions CalloutBalloonDefinitionExtensions ColorExtensions CoordinateExtensions GeometryCollectionExtensions MRectExtensions PenStrokeCapExtensions PenStrokeJoinExtensions PenStyleExtension PointExtensions SKColorExtensions SKNativeObjectExtensions SKPictureExtensions SkCanvasExtensions SkPaintExtensions StreamExtensions ViewportExtensions"
+    "keywords": "Namespace Mapsui.Rendering.Skia.Extensions Classes AlignmentExtensions ByteExtensions CalloutBalloonDefinitionExtensions ColorExtensions CoordinateExtensions MRectExtensions PenStrokeCapExtensions PenStrokeJoinExtensions PenStyleExtension PointExtensions SKColorExtensions SKNativeObjectExtensions SKPictureExtensions SkCanvasExtensions SkPaintExtensions StreamExtensions ViewportExtensions"
   },
   "pages/Mapsui.Rendering.Skia.Functions.ClippingFunctions.Intersection.html": {
     "href": "pages/Mapsui.Rendering.Skia.Functions.ClippingFunctions.Intersection.html",
@@ -1597,7 +1592,7 @@
   "pages/Mapsui.Rendering.Skia.LineStringRenderer.html": {
     "href": "pages/Mapsui.Rendering.Skia.LineStringRenderer.html",
     "title": "Class LineStringRenderer",
-    "keywords": "Class LineStringRenderer Inheritance object LineStringRenderer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia Assembly: Mapsui.Rendering.Skia.dll Syntax public static class LineStringRenderer Methods | Edit this page View Source Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService) Declaration public static void Draw(SKCanvas canvas, Viewport viewport, VectorStyle? vectorStyle, IFeature feature, LineString lineString, float opacity, RenderService renderService) Parameters Type Name Description SKCanvas canvas Viewport viewport VectorStyle vectorStyle IFeature feature LineString lineString float opacity RenderService renderService"
+    "keywords": "Class LineStringRenderer Inheritance object LineStringRenderer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia Assembly: Mapsui.Rendering.Skia.dll Syntax public static class LineStringRenderer Methods | Edit this page View Source Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService, int) Declaration public static void Draw(SKCanvas canvas, Viewport viewport, VectorStyle? vectorStyle, IFeature feature, LineString lineString, float opacity, RenderService renderService, int position) Parameters Type Name Description SKCanvas canvas Viewport viewport VectorStyle vectorStyle IFeature feature LineString lineString float opacity RenderService renderService int position"
   },
   "pages/Mapsui.Rendering.Skia.MapRenderer.html": {
     "href": "pages/Mapsui.Rendering.Skia.MapRenderer.html",
@@ -1614,11 +1609,6 @@
     "title": "Class CalloutBalloonBounds",
     "keywords": "Class CalloutBalloonBounds Inheritance object CalloutBalloonBounds Implements IEquatable<CalloutBalloonBounds> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia.SkiaStyles Assembly: Mapsui.Rendering.Skia.dll Syntax public record CalloutBalloonBounds : IEquatable<CalloutBalloonBounds> Constructors | Edit this page View Source CalloutBalloonBounds(double, double, double, double, SKPoint, SKPoint, SKPoint) Declaration public CalloutBalloonBounds(double Bottom, double Left, double Top, double Right, SKPoint TailStart, SKPoint TailEnd, SKPoint TailTip) Parameters Type Name Description double Bottom double Left double Top double Right SKPoint TailStart SKPoint TailEnd SKPoint TailTip Properties | Edit this page View Source Bottom Declaration public double Bottom { get; init; } Property Value Type Description double | Edit this page View Source Left Declaration public double Left { get; init; } Property Value Type Description double | Edit this page View Source Right Declaration public double Right { get; init; } Property Value Type Description double | Edit this page View Source TailEnd Declaration public SKPoint TailEnd { get; init; } Property Value Type Description SKPoint | Edit this page View Source TailStart Declaration public SKPoint TailStart { get; init; } Property Value Type Description SKPoint | Edit this page View Source TailTip Declaration public SKPoint TailTip { get; init; } Property Value Type Description SKPoint | Edit this page View Source Top Declaration public double Top { get; init; } Property Value Type Description double Implements IEquatable<T> Extension Methods DisposableExtension.DisposeIfDisposable(object?)"
   },
-  "pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html": {
-    "href": "pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html",
-    "title": "Class GeometryCollectionRenderer",
-    "keywords": "Class GeometryCollectionRenderer Inheritance object GeometryCollectionRenderer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Rendering.Skia.SkiaStyles Assembly: Mapsui.Rendering.Skia.dll Syntax public static class GeometryCollectionRenderer Methods | Edit this page View Source Draw(SKCanvas, Viewport, VectorStyle?, IFeature, GeometryCollection, float, VectorCache) Declaration public static void Draw(SKCanvas canvas, Viewport viewport, VectorStyle? vectorStyle, IFeature feature, GeometryCollection collection, float opacity, VectorCache vectorCache) Parameters Type Name Description SKCanvas canvas Viewport viewport VectorStyle vectorStyle IFeature feature GeometryCollection collection float opacity VectorCache vectorCache"
-  },
   "pages/Mapsui.Rendering.Skia.SkiaStyles.ISkiaStyleRenderer.html": {
     "href": "pages/Mapsui.Rendering.Skia.SkiaStyles.ISkiaStyleRenderer.html",
     "title": "Interface ISkiaStyleRenderer",
@@ -1627,7 +1617,7 @@
   "pages/Mapsui.Rendering.Skia.SkiaStyles.html": {
     "href": "pages/Mapsui.Rendering.Skia.SkiaStyles.html",
     "title": "Namespace Mapsui.Rendering.Skia.SkiaStyles",
-    "keywords": "Namespace Mapsui.Rendering.Skia.SkiaStyles Classes CalloutBalloonBounds GeometryCollectionRenderer Interfaces ISkiaStyleRenderer"
+    "keywords": "Namespace Mapsui.Rendering.Skia.SkiaStyles Classes CalloutBalloonBounds Interfaces ISkiaStyleRenderer"
   },
   "pages/Mapsui.Rendering.Skia.SkiaWidgets.BoxWidgetRenderer.html": {
     "href": "pages/Mapsui.Rendering.Skia.SkiaWidgets.BoxWidgetRenderer.html",

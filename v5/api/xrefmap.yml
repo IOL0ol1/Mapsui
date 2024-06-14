@@ -21893,28 +21893,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.Extensions.CoordinateExtensions.ToSkiaPoint
   nameWithType: CoordinateExtensions.ToSkiaPoint
-- uid: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions
-  name: GeometryCollectionExtensions
-  href: pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html
-  commentId: T:Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions
-  fullName: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions
-  nameWithType: GeometryCollectionExtensions
-- uid: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath(NetTopologySuite.Geometries.GeometryCollection,Mapsui.Viewport,SkiaSharp.SKRect,System.Single)
-  name: ToSkiaPath(GeometryCollection, Viewport, SKRect, float)
-  href: pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html#Mapsui_Rendering_Skia_Extensions_GeometryCollectionExtensions_ToSkiaPath_NetTopologySuite_Geometries_GeometryCollection_Mapsui_Viewport_SkiaSharp_SKRect_System_Single_
-  commentId: M:Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath(NetTopologySuite.Geometries.GeometryCollection,Mapsui.Viewport,SkiaSharp.SKRect,System.Single)
-  name.vb: ToSkiaPath(GeometryCollection, Viewport, SKRect, Single)
-  fullName: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath(NetTopologySuite.Geometries.GeometryCollection, Mapsui.Viewport, SkiaSharp.SKRect, float)
-  fullName.vb: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath(NetTopologySuite.Geometries.GeometryCollection, Mapsui.Viewport, SkiaSharp.SKRect, Single)
-  nameWithType: GeometryCollectionExtensions.ToSkiaPath(GeometryCollection, Viewport, SKRect, float)
-  nameWithType.vb: GeometryCollectionExtensions.ToSkiaPath(GeometryCollection, Viewport, SKRect, Single)
-- uid: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath*
-  name: ToSkiaPath
-  href: pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html#Mapsui_Rendering_Skia_Extensions_GeometryCollectionExtensions_ToSkiaPath_
-  commentId: Overload:Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.ToSkiaPath
-  nameWithType: GeometryCollectionExtensions.ToSkiaPath
 - uid: Mapsui.Rendering.Skia.Extensions.MRectExtensions
   name: MRectExtensions
   href: pages/Mapsui.Rendering.Skia.Extensions.MRectExtensions.html
@@ -22480,15 +22458,15 @@ references:
   commentId: T:Mapsui.Rendering.Skia.LineStringRenderer
   fullName: Mapsui.Rendering.Skia.LineStringRenderer
   nameWithType: LineStringRenderer
-- uid: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.LineString,System.Single,Mapsui.Rendering.Skia.Cache.RenderService)
-  name: Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService)
-  href: pages/Mapsui.Rendering.Skia.LineStringRenderer.html#Mapsui_Rendering_Skia_LineStringRenderer_Draw_SkiaSharp_SKCanvas_Mapsui_Viewport_Mapsui_Styles_VectorStyle_Mapsui_IFeature_NetTopologySuite_Geometries_LineString_System_Single_Mapsui_Rendering_Skia_Cache_RenderService_
-  commentId: M:Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.LineString,System.Single,Mapsui.Rendering.Skia.Cache.RenderService)
-  name.vb: Draw(SKCanvas, Viewport, VectorStyle, IFeature, LineString, Single, RenderService)
-  fullName: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle?, Mapsui.IFeature, NetTopologySuite.Geometries.LineString, float, Mapsui.Rendering.Skia.Cache.RenderService)
-  fullName.vb: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle, Mapsui.IFeature, NetTopologySuite.Geometries.LineString, Single, Mapsui.Rendering.Skia.Cache.RenderService)
-  nameWithType: LineStringRenderer.Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService)
-  nameWithType.vb: LineStringRenderer.Draw(SKCanvas, Viewport, VectorStyle, IFeature, LineString, Single, RenderService)
+- uid: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.LineString,System.Single,Mapsui.Rendering.Skia.Cache.RenderService,System.Int32)
+  name: Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService, int)
+  href: pages/Mapsui.Rendering.Skia.LineStringRenderer.html#Mapsui_Rendering_Skia_LineStringRenderer_Draw_SkiaSharp_SKCanvas_Mapsui_Viewport_Mapsui_Styles_VectorStyle_Mapsui_IFeature_NetTopologySuite_Geometries_LineString_System_Single_Mapsui_Rendering_Skia_Cache_RenderService_System_Int32_
+  commentId: M:Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.LineString,System.Single,Mapsui.Rendering.Skia.Cache.RenderService,System.Int32)
+  name.vb: Draw(SKCanvas, Viewport, VectorStyle, IFeature, LineString, Single, RenderService, Integer)
+  fullName: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle?, Mapsui.IFeature, NetTopologySuite.Geometries.LineString, float, Mapsui.Rendering.Skia.Cache.RenderService, int)
+  fullName.vb: Mapsui.Rendering.Skia.LineStringRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle, Mapsui.IFeature, NetTopologySuite.Geometries.LineString, Single, Mapsui.Rendering.Skia.Cache.RenderService, Integer)
+  nameWithType: LineStringRenderer.Draw(SKCanvas, Viewport, VectorStyle?, IFeature, LineString, float, RenderService, int)
+  nameWithType.vb: LineStringRenderer.Draw(SKCanvas, Viewport, VectorStyle, IFeature, LineString, Single, RenderService, Integer)
 - uid: Mapsui.Rendering.Skia.LineStringRenderer.Draw*
   name: Draw
   href: pages/Mapsui.Rendering.Skia.LineStringRenderer.html#Mapsui_Rendering_Skia_LineStringRenderer_Draw_
@@ -22800,28 +22778,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.SkiaStyles.CalloutBalloonBounds.Top
   nameWithType: CalloutBalloonBounds.Top
-- uid: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer
-  name: GeometryCollectionRenderer
-  href: pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html
-  commentId: T:Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer
-  fullName: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer
-  nameWithType: GeometryCollectionRenderer
-- uid: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.GeometryCollection,System.Single,Mapsui.Rendering.Skia.Cache.VectorCache)
-  name: Draw(SKCanvas, Viewport, VectorStyle?, IFeature, GeometryCollection, float, VectorCache)
-  href: pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html#Mapsui_Rendering_Skia_SkiaStyles_GeometryCollectionRenderer_Draw_SkiaSharp_SKCanvas_Mapsui_Viewport_Mapsui_Styles_VectorStyle_Mapsui_IFeature_NetTopologySuite_Geometries_GeometryCollection_System_Single_Mapsui_Rendering_Skia_Cache_VectorCache_
-  commentId: M:Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw(SkiaSharp.SKCanvas,Mapsui.Viewport,Mapsui.Styles.VectorStyle,Mapsui.IFeature,NetTopologySuite.Geometries.GeometryCollection,System.Single,Mapsui.Rendering.Skia.Cache.VectorCache)
-  name.vb: Draw(SKCanvas, Viewport, VectorStyle, IFeature, GeometryCollection, Single, VectorCache)
-  fullName: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle?, Mapsui.IFeature, NetTopologySuite.Geometries.GeometryCollection, float, Mapsui.Rendering.Skia.Cache.VectorCache)
-  fullName.vb: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw(SkiaSharp.SKCanvas, Mapsui.Viewport, Mapsui.Styles.VectorStyle, Mapsui.IFeature, NetTopologySuite.Geometries.GeometryCollection, Single, Mapsui.Rendering.Skia.Cache.VectorCache)
-  nameWithType: GeometryCollectionRenderer.Draw(SKCanvas, Viewport, VectorStyle?, IFeature, GeometryCollection, float, VectorCache)
-  nameWithType.vb: GeometryCollectionRenderer.Draw(SKCanvas, Viewport, VectorStyle, IFeature, GeometryCollection, Single, VectorCache)
-- uid: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw*
-  name: Draw
-  href: pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html#Mapsui_Rendering_Skia_SkiaStyles_GeometryCollectionRenderer_Draw_
-  commentId: Overload:Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.Draw
-  nameWithType: GeometryCollectionRenderer.Draw
 - uid: Mapsui.Rendering.Skia.SkiaStyles.ISkiaStyleRenderer
   name: ISkiaStyleRenderer
   href: pages/Mapsui.Rendering.Skia.SkiaStyles.ISkiaStyleRenderer.html

@@ -2992,16 +2992,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/Mapsui.Rendering.Skia.Extensions.GeometryCollectionExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "pages/Mapsui.Rendering.Skia.Extensions.MRectExtensions.yml",
       "output": {
         ".html": {
@@ -3236,16 +3226,6 @@
       "output": {
         ".html": {
           "relative_path": "pages/Mapsui.Rendering.Skia.SkiaStyles.CalloutBalloonBounds.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/Mapsui.Rendering.Skia.SkiaStyles.GeometryCollectionRenderer.html"
         }
       },
       "version": ""
