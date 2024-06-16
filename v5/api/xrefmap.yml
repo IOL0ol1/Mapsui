@@ -26679,15 +26679,15 @@ references:
   commentId: T:Mapsui.Styles.ImageSourceCacheInitializer
   fullName: Mapsui.Styles.ImageSourceCacheInitializer
   nameWithType: ImageSourceCacheInitializer
-- uid: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Action{System.Boolean})
-  name: FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable<ILayer>, Action<bool>)
-  href: pages/Mapsui.Styles.ImageSourceCacheInitializer.html#Mapsui_Styles_ImageSourceCacheInitializer_FetchImagesInViewport_Mapsui_Styles_ImageSourceCache_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Action_System_Boolean__
-  commentId: M:Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Action{System.Boolean})
-  name.vb: FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable(Of ILayer), Action(Of Boolean))
-  fullName: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache, Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Action<bool>)
-  fullName.vb: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Action(Of Boolean))
-  nameWithType: ImageSourceCacheInitializer.FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable<ILayer>, Action<bool>)
-  nameWithType.vb: ImageSourceCacheInitializer.FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable(Of ILayer), Action(Of Boolean))
+- uid: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Action{System.Boolean})
+  name: FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Action<bool>)
+  href: pages/Mapsui.Styles.ImageSourceCacheInitializer.html#Mapsui_Styles_ImageSourceCacheInitializer_FetchImagesInViewport_Mapsui_Styles_ImageSourceCache_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__System_Action_System_Boolean__
+  commentId: M:Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache,Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},System.Action{System.Boolean})
+  name.vb: FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Action(Of Boolean))
+  fullName: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache, Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>, System.Action<bool>)
+  fullName.vb: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport(Mapsui.Styles.ImageSourceCache, Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), System.Action(Of Boolean))
+  nameWithType: ImageSourceCacheInitializer.FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable<ILayer>, IEnumerable<IWidget>, Action<bool>)
+  nameWithType.vb: ImageSourceCacheInitializer.FetchImagesInViewport(ImageSourceCache, Viewport, IEnumerable(Of ILayer), IEnumerable(Of IWidget), Action(Of Boolean))
 - uid: Mapsui.Styles.ImageSourceCacheInitializer.FetchImagesInViewport*
   name: FetchImagesInViewport
   href: pages/Mapsui.Styles.ImageSourceCacheInitializer.html#Mapsui_Styles_ImageSourceCacheInitializer_FetchImagesInViewport_
