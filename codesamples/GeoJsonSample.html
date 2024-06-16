@@ -76,8 +76,11 @@ using Mapsui.Nts.Providers;
 using Mapsui.Providers;
 using Mapsui.Samples.Common.Utilities;
 using Mapsui.Styles;
+using Mapsui.Styles.Thematics;
 using Mapsui.Tiling.Layers;
+using System;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 #pragma warning disable IDISP001 // Dispose created
@@ -87,9 +90,12 @@ namespace Mapsui.Samples.Common.Maps.DataFormats;
 
 public class GeoJsonSample : ISample
 {
+    private static readonly MRect _extent = new(-2066786, 3982655, 3558942, 7705420);
+
     static GeoJsonSample()
     {
         GeoJsonDeployer.CopyEmbeddedResourceToFile(&quot;cities.geojson&quot;);
+        GeoJsonDeployer.CopyEmbeddedResourceToFile(&quot;countries.geojson&quot;);
     }
 
     public string Name =&gt; &quot;13 GeoJson&quot;;
@@ -99,41 +105,90 @@ public class GeoJsonSample : ISample
 
     public static Map CreateMap()
     {
-        var map = new Map
-        {
-            CRS = &quot;EPSG:3857&quot;, // The Map CRS needs to be set   
-        };
-
-        var examplePath = Path.Combine(GeoJsonDeployer.GeoJsonLocation, &quot;cities.geojson&quot;);
-        var geoJson = new GeoJsonProvider(examplePath)
-        {
-            CRS = &quot;EPSG:4326&quot; // The DataSource CRS needs to be set
-        };
-
-        var dataSource = new ProjectingProvider(geoJson)
-        {
-            CRS = &quot;EPSG:3857&quot;,
-        };
-
-        map.Layers.Add(Tiling.OpenStreetMap.CreateTileLayer());
-        map.Layers.Add(new RasterizingTileLayer(CreateCityLabelLayer(dataSource)));
-
+        var map = new Map();
+        map.Home = (n) =&gt; n.ZoomToBox(_extent);
+        map.BackColor = new Color(55, 84, 162);
+        map.Layers.Add(CountriesLayerBuilder.CreateCountriesLayer());
+        map.Layers.Add(CitiesLayerBuilder.CreateCitiesLayer());
         return map;
     }
+}
 
-    private static ILayer CreateCityLabelLayer(IProvider citiesProvider)
-        =&gt; new Layer(&quot;City labels&quot;)
+internal static class CountriesLayerBuilder
+{
+    private static readonly string[] _euroZoneCountries = new string[] {
+        &quot;Austria&quot;,&quot;Belgium&quot;, &quot;Croatia&quot;, &quot;Cyprus&quot;, &quot;Estonia&quot;, &quot;Finland&quot;, &quot;France&quot;, &quot;Germany&quot;, &quot;Greece&quot;, &quot;Ireland&quot;,
+        &quot;Italy&quot;, &quot;Latvia&quot;, &quot;Lithuania&quot;, &quot;Luxembourg&quot;, &quot;Malta&quot;, &quot;the Netherlands&quot;, &quot;Portugal&quot;, &quot;Slovakia&quot;, &quot;Slovenia&quot;, &quot;Spain&quot;
+    };
+    private static readonly VectorStyle _euroStyle = new()
+    {
+        Fill = new Brush(new Color(245, 245, 242)),
+        Outline = new Pen(new Color(55, 84, 162), 2),
+    };
+    private static readonly VectorStyle _nonEuroStyle = new()
+    {
+        Fill = new Brush(new Color(86, 109, 176)),
+        Outline = new Pen(new Color(55, 84, 162), 2),
+    };    
+
+    public static RasterizingTileLayer CreateCountriesLayer() =&gt; new(CreateCountriesGeoJsonLayer());
+
+    private static Layer CreateCountriesGeoJsonLayer()
+        =&gt; new(&quot;Countries&quot;)
         {
-            DataSource = citiesProvider,
-            Enabled = true,
-            Style = CreateCityLabelStyle()
+            DataSource = CreateCountriesProvider(),
+            Style = new StyleCollection
+            {
+                Styles =
+                {
+                    CreateCountriesStyle(),
+                    new CalloutStyle()
+                }
+            }
         };
 
-    private static LabelStyle CreateCityLabelStyle()
-        =&gt; new LabelStyle
+    private static ProjectingProvider CreateCountriesProvider()
+    {
+        var path = Path.Combine(GeoJsonDeployer.GeoJsonLocation, &quot;countries.geojson&quot;);
+        var provider = new GeoJsonProvider(path) { CRS = &quot;EPSG:4326&quot; }; // The ProjectingProvider needs to know the source CRS (EPSG:4326)
+        return new ProjectingProvider(provider) { CRS = &quot;EPSG:3857&quot; }; // The ProjectingProvider needs to know the target CRS (EPSG:3857)
+    }
+
+    private static IStyle CreateCountriesStyle()
+        =&gt; new ThemeStyle((f) =&gt;
+        {
+            // With a ThemeStyle it is possible to create a specific style for each feature
+            var name = f[&quot;name&quot;] as string ?? throw new Exception(&quot;Feature should have name field&quot;);
+            return IsInEuroZone(name) ? _euroStyle : _nonEuroStyle;
+        });
+
+    private static bool IsInEuroZone(string name) =&gt; _euroZoneCountries.Contains(name);
+
+}
+
+internal static class CitiesLayerBuilder
+{
+    public static Layer CreateCitiesLayer() =&gt; CreateCitiesLabelLayer();
+
+    private static Layer CreateCitiesLabelLayer()
+        =&gt; new(&quot;Cities labels&quot;)
+        {
+            DataSource = CreateCitiesProvider(),
+            Style = CreateCitiesLabelStyle()
+        };
+
+    private static ProjectingProvider CreateCitiesProvider()
+    {
+        var path = Path.Combine(GeoJsonDeployer.GeoJsonLocation, &quot;cities.geojson&quot;);
+        var provider = new GeoJsonProvider(path) { CRS = &quot;EPSG:4326&quot; }; // The ProjectingProvider needs to know the source CRS (EPSG:4326)
+        return new ProjectingProvider(provider) { CRS = &quot;EPSG:3857&quot; }; // The ProjectingProvider needs to know the target CRS (EPSG:3857)
+    }
+
+    private static LabelStyle CreateCitiesLabelStyle()
+        =&gt; new()
         {
             ForeColor = Color.Black,
-            BackColor = new Brush(Color.White),
+            BackColor = new Brush(new Color(245, 245, 242)),
             LabelColumn = &quot;city&quot;,
         };
 }
