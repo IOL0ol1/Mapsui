@@ -5099,6 +5099,15 @@ references:
   fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New(System.Exception, Boolean, Object, String)
   nameWithType: DataChangedEventArgs.DataChangedEventArgs(Exception?, bool, object?, string)
   nameWithType.vb: DataChangedEventArgs.New(Exception, Boolean, Object, String)
+- uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.String)
+  name: DataChangedEventArgs(string)
+  href: api/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_System_String_
+  commentId: M:Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Mapsui.Fetcher.DataChangedEventArgs.DataChangedEventArgs(string)
+  fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New(String)
+  nameWithType: DataChangedEventArgs.DataChangedEventArgs(string)
+  nameWithType.vb: DataChangedEventArgs.New(String)
 - uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor*
   name: DataChangedEventArgs
   href: api/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_
