@@ -126,7 +126,7 @@ public class MapControlTests</code></pre>
     <a href="https://github.com/Mapsui/Mapsui/new/develop/4.1/apiSpec/new?filename=Mapsui_Tests_Memory_MapControlTests_MapControlIsNotAliveAfterUsage.md&amp;value=---%0Auid%3A%20Mapsui.Tests.Memory.MapControlTests.MapControlIsNotAliveAfterUsage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Forms.Tests/MapControlTests.cs/#L26">View Source</a>
+    <a href="https://github.com/Mapsui/Mapsui/blob/develop/4.1/Mapsui.UI.Forms.Tests/MapControlTests.cs/#L28">View Source</a>
   </span>
   <a id="Mapsui_Tests_Memory_MapControlTests_MapControlIsNotAliveAfterUsage_" data-uid="Mapsui.Tests.Memory.MapControlTests.MapControlIsNotAliveAfterUsage*"></a>
   <h4 id="Mapsui_Tests_Memory_MapControlTests_MapControlIsNotAliveAfterUsage" data-uid="Mapsui.Tests.Memory.MapControlTests.MapControlIsNotAliveAfterUsage">MapControlIsNotAliveAfterUsage()</h4>
@@ -151,6 +151,7 @@ public void MapControlIsNotAliveAfterUsage()</code></pre>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Test]
+[Ignore(&quot;This Test produced a Memory Leak because Dispose is not called&quot;)]
 public void MapIsAliveAfterUsage()</code></pre>
   </div>
 
