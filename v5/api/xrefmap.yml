@@ -6205,24 +6205,6 @@ references:
   commentId: T:Mapsui.Fetcher.DataChangedEventArgs
   fullName: Mapsui.Fetcher.DataChangedEventArgs
   nameWithType: DataChangedEventArgs
-- uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor
-  name: DataChangedEventArgs()
-  href: pages/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor
-  commentId: M:Mapsui.Fetcher.DataChangedEventArgs.#ctor
-  name.vb: New()
-  fullName: Mapsui.Fetcher.DataChangedEventArgs.DataChangedEventArgs()
-  fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New()
-  nameWithType: DataChangedEventArgs.DataChangedEventArgs()
-  nameWithType.vb: DataChangedEventArgs.New()
-- uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.Exception)
-  name: DataChangedEventArgs(Exception?)
-  href: pages/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_System_Exception_
-  commentId: M:Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.Exception)
-  name.vb: New(Exception)
-  fullName: Mapsui.Fetcher.DataChangedEventArgs.DataChangedEventArgs(System.Exception?)
-  fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New(System.Exception)
-  nameWithType: DataChangedEventArgs.DataChangedEventArgs(Exception?)
-  nameWithType.vb: DataChangedEventArgs.New(Exception)
 - uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.Exception,System.String)
   name: DataChangedEventArgs(Exception?, string)
   href: pages/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_System_Exception_System_String_
@@ -6232,6 +6214,15 @@ references:
   fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New(System.Exception, String)
   nameWithType: DataChangedEventArgs.DataChangedEventArgs(Exception?, string)
   nameWithType.vb: DataChangedEventArgs.New(Exception, String)
+- uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.String)
+  name: DataChangedEventArgs(string)
+  href: pages/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_System_String_
+  commentId: M:Mapsui.Fetcher.DataChangedEventArgs.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Mapsui.Fetcher.DataChangedEventArgs.DataChangedEventArgs(string)
+  fullName.vb: Mapsui.Fetcher.DataChangedEventArgs.New(String)
+  nameWithType: DataChangedEventArgs.DataChangedEventArgs(string)
+  nameWithType.vb: DataChangedEventArgs.New(String)
 - uid: Mapsui.Fetcher.DataChangedEventArgs.#ctor*
   name: DataChangedEventArgs
   href: pages/Mapsui.Fetcher.DataChangedEventArgs.html#Mapsui_Fetcher_DataChangedEventArgs__ctor_
