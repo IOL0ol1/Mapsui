@@ -111,6 +111,7 @@
     <div><span class="xref">IUIFocusItemContainer</span></div>
     <div><span class="xref">IUILargeContentViewerItem</span></div>
     <div><span class="xref">IUIPopoverPresentationControllerSourceItem</span></div>
+    <div><span class="xref">IUITraitChangeObservable</span></div>
     <div><span class="xref">IUITraitEnvironment</span></div>
     <div><span class="xref">ICALayerDelegate</span></div>
     <div><span class="xref">INativeObject</span></div>
@@ -185,6 +186,12 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">UIView.Animate(double, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">UIView.Animate(double, NFloat, NFloat, double, UIViewAnimationOptions, Action, Action&lt;bool&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">UIView.AnimateAsync(double, NFloat, NFloat, double, UIViewAnimationOptions, Action)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">UIView.AnimateKeyframes(double, double, UIViewKeyframeAnimationOptions, Action, UICompletionHandler)</a>
@@ -296,6 +303,9 @@
     </div>
     <div>
       <span class="xref">UIView.GetFocusItems(CGRect)</span>
+    </div>
+    <div>
+      <span class="xref">UIView.GetFrame(UIView)</span>
     </div>
     <div>
       <span class="xref">UIView.GetUserInterfaceLayoutDirection(UISemanticContentAttribute)</span>
@@ -481,6 +491,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">UIView.TransitionNotifyAsync(UIView, double, UIViewAnimationOptions, Action)</a>
     </div>
     <div>
+      <span class="xref">UIView.UnregisterForTraitChanges(IUITraitChangeRegistration)</span>
+    </div>
+    <div>
       <span class="xref">UIView.UpdateConstraints()</span>
     </div>
     <div>
@@ -488,6 +501,9 @@
     </div>
     <div>
       <span class="xref">UIView.UpdateFocusIfNeeded()</span>
+    </div>
+    <div>
+      <span class="xref">UIView.UpdateTraitsIfNeeded()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">UIView.ViewWithTag(nint)</a>
@@ -539,6 +555,9 @@
     </div>
     <div>
       <span class="xref">UIView.AccessibilityAttributedValue</span>
+    </div>
+    <div>
+      <span class="xref">UIView.AccessibilityDirectTouchOptions</span>
     </div>
     <div>
       <span class="xref">UIView.AccessibilityElementsHidden</span>
@@ -694,6 +713,9 @@
       <span class="xref">UIView.Hidden</span>
     </div>
     <div>
+      <span class="xref">UIView.HoverStyle</span>
+    </div>
+    <div>
       <span class="xref">UIView.InheritedAnimationDuration</span>
     </div>
     <div>
@@ -829,6 +851,9 @@
       <span class="xref">UIView.TraitCollection</span>
     </div>
     <div>
+      <span class="xref">UIView.TraitOverrides</span>
+    </div>
+    <div>
       <span class="xref">UIView.Transform</span>
     </div>
     <div>
@@ -952,6 +977,9 @@
       <span class="xref">UIView.SpeakSelectionStatusDidChangeNotification</span>
     </div>
     <div>
+      <span class="xref">UIView.SpeechAttributeAnnouncementPriority</span>
+    </div>
+    <div>
       <span class="xref">UIView.SpeechAttributeIpaNotation</span>
     </div>
     <div>
@@ -980,60 +1008,6 @@
     </div>
     <div>
       <span class="xref">UIView.TextAttributeHeadingLevel</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitAdjustable</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitAllowsDirectInteraction</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitButton</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitCausesPageTurn</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitHeader</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitImage</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitKeyboardKey</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitLink</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitNone</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitNotEnabled</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitPlaysSound</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitSearchField</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitSelected</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitStartsMediaSession</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitStaticText</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitSummaryElement</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitTabBar</span>
-    </div>
-    <div>
-      <span class="xref">UIView.TraitUpdatesFrequently</span>
     </div>
     <div>
       <span class="xref">UIView.UILayoutFittingCompressedSize</span>
@@ -1566,7 +1540,7 @@
   <h5 id="Mapsui_UI_iOS_MapControl_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Register(&quot;MapControl&quot;)]
-public class MapControl : UIView, IEquatable&lt;NSObject&gt;, INSObjectProtocol, IUIActivityItemsConfigurationProviding, IUIPasteConfigurationSupporting, IUIResponderStandardEditActions, IUIUserActivityRestoring, IEnumerable, INSCoding, IUIAccessibilityIdentification, IUIAppearance, IUIAppearanceContainer, IUICoordinateSpace, IUIDynamicItem, IUIFocusItem, IUIFocusEnvironment, IUIFocusItemContainer, IUILargeContentViewerItem, IUIPopoverPresentationControllerSourceItem, IUITraitEnvironment, ICALayerDelegate, INativeObject, IMapControl, INotifyPropertyChanged, IDisposable</code></pre>
+public class MapControl : UIView, IEquatable&lt;NSObject&gt;, INSObjectProtocol, IUIActivityItemsConfigurationProviding, IUIPasteConfigurationSupporting, IUIResponderStandardEditActions, IUIUserActivityRestoring, IEnumerable, INSCoding, IUIAccessibilityIdentification, IUIAppearance, IUIAppearanceContainer, IUICoordinateSpace, IUIDynamicItem, IUIFocusItem, IUIFocusEnvironment, IUIFocusItemContainer, IUILargeContentViewerItem, IUIPopoverPresentationControllerSourceItem, IUITraitChangeObservable, IUITraitEnvironment, ICALayerDelegate, INativeObject, IMapControl, INotifyPropertyChanged, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -2725,6 +2699,9 @@ the layers that have IsMapInfoLayer set to true.</p>
   </div>
   <div>
       <span class="xref">UIKit.IUIPopoverPresentationControllerSourceItem</span>
+  </div>
+  <div>
+      <span class="xref">UIKit.IUITraitChangeObservable</span>
   </div>
   <div>
       <span class="xref">UIKit.IUITraitEnvironment</span>
