@@ -1777,7 +1777,7 @@
   "api/Mapsui.Tests.Memory.MapControlTests.html": {
     "href": "api/Mapsui.Tests.Memory.MapControlTests.html",
     "title": "Class MapControlTests",
-    "keywords": "Class MapControlTests Inheritance object MapControlTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Tests.Memory Assembly: Mapsui.UI.Forms.Tests.dll Syntax [TestFixture] public class MapControlTests Methods | Edit this page View Source MapControlIsNotAliveAfterUsage() Declaration [Test] public void MapControlIsNotAliveAfterUsage() | Edit this page View Source MapIsAliveAfterUsage() Declaration [Test] [Ignore(\"This Test produced a Memory Leak because Dispose is not called\")] public void MapIsAliveAfterUsage()"
+    "keywords": "Class MapControlTests Inheritance object MapControlTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Mapsui.Tests.Memory Assembly: Mapsui.UI.Forms.Tests.dll Syntax [TestFixture] public class MapControlTests Methods | Edit this page View Source MapControlIsNotAliveAfterUsage() Declaration [Test] public void MapControlIsNotAliveAfterUsage() | Edit this page View Source MapIsAliveAfterUsage() Declaration [Test] public void MapIsAliveAfterUsage()"
   },
   "api/Mapsui.Tests.Memory.MapViewTests.html": {
     "href": "api/Mapsui.Tests.Memory.MapViewTests.html",
