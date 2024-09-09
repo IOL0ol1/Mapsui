@@ -22430,12 +22430,12 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap
   nameWithType: LabelStyleRenderer.DrawAsBitmap
-- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,SkiaSharp.SKPaint,Mapsui.Rendering.Skia.Cache.LabelCache)
-  name: FeatureSize(IFeature, LabelStyle, SKPaint, LabelCache)
-  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_Mapsui_IFeature_Mapsui_Styles_LabelStyle_SkiaSharp_SKPaint_Mapsui_Rendering_Skia_Cache_LabelCache_
-  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,SkiaSharp.SKPaint,Mapsui.Rendering.Skia.Cache.LabelCache)
-  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature, Mapsui.Styles.LabelStyle, SkiaSharp.SKPaint, Mapsui.Rendering.Skia.Cache.LabelCache)
-  nameWithType: LabelStyleRenderer.FeatureSize(IFeature, LabelStyle, SKPaint, LabelCache)
+- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.Skia.Cache.LabelCache)
+  name: FeatureSize(IFeature, LabelStyle, LabelCache)
+  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_Mapsui_IFeature_Mapsui_Styles_LabelStyle_Mapsui_Rendering_Skia_Cache_LabelCache_
+  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.Skia.Cache.LabelCache)
+  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature, Mapsui.Styles.LabelStyle, Mapsui.Rendering.Skia.Cache.LabelCache)
+  nameWithType: LabelStyleRenderer.FeatureSize(IFeature, LabelStyle, LabelCache)
 - uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize*
   name: FeatureSize
   href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_
