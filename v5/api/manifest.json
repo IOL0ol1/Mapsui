@@ -2882,16 +2882,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "pages/Mapsui.Rendering.Skia.Cache.LabelCache.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/Mapsui.Rendering.Skia.Cache.LabelCache.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "pages/Mapsui.Rendering.Skia.Cache.RenderService.yml",
       "output": {
         ".html": {

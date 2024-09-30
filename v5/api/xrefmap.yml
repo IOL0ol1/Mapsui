@@ -21407,57 +21407,6 @@ references:
   fullName.vb: Mapsui.Rendering.Skia.Cache.IdentityComparer(Of T).GetHashCode
   nameWithType: IdentityComparer<T>.GetHashCode
   nameWithType.vb: IdentityComparer(Of T).GetHashCode
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache
-  name: LabelCache
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html
-  commentId: T:Mapsui.Rendering.Skia.Cache.LabelCache
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache
-  nameWithType: LabelCache
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.Dispose
-  name: Dispose()
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_Dispose
-  commentId: M:Mapsui.Rendering.Skia.Cache.LabelCache.Dispose
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.Dispose()
-  nameWithType: LabelCache.Dispose()
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.Dispose*
-  name: Dispose
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_Dispose_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.LabelCache.Dispose
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.Dispose
-  nameWithType: LabelCache.Dispose
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel(System.String,Mapsui.Styles.LabelStyle,System.Single,System.Func{Mapsui.Styles.LabelStyle,System.String,System.Single,Mapsui.Rendering.Skia.Cache.LabelCache,Mapsui.Rendering.Skia.Images.IDrawableImage})
-  name: GetOrCreateLabel(string?, LabelStyle, float, Func<LabelStyle, string?, float, LabelCache, IDrawableImage>)
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_GetOrCreateLabel_System_String_Mapsui_Styles_LabelStyle_System_Single_System_Func_Mapsui_Styles_LabelStyle_System_String_System_Single_Mapsui_Rendering_Skia_Cache_LabelCache_Mapsui_Rendering_Skia_Images_IDrawableImage__
-  commentId: M:Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel(System.String,Mapsui.Styles.LabelStyle,System.Single,System.Func{Mapsui.Styles.LabelStyle,System.String,System.Single,Mapsui.Rendering.Skia.Cache.LabelCache,Mapsui.Rendering.Skia.Images.IDrawableImage})
-  name.vb: GetOrCreateLabel(String, LabelStyle, Single, Func(Of LabelStyle, String, Single, LabelCache, IDrawableImage))
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel(string?, Mapsui.Styles.LabelStyle, float, System.Func<Mapsui.Styles.LabelStyle, string?, float, Mapsui.Rendering.Skia.Cache.LabelCache, Mapsui.Rendering.Skia.Images.IDrawableImage>)
-  fullName.vb: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel(String, Mapsui.Styles.LabelStyle, Single, System.Func(Of Mapsui.Styles.LabelStyle, String, Single, Mapsui.Rendering.Skia.Cache.LabelCache, Mapsui.Rendering.Skia.Images.IDrawableImage))
-  nameWithType: LabelCache.GetOrCreateLabel(string?, LabelStyle, float, Func<LabelStyle, string?, float, LabelCache, IDrawableImage>)
-  nameWithType.vb: LabelCache.GetOrCreateLabel(String, LabelStyle, Single, Func(Of LabelStyle, String, Single, LabelCache, IDrawableImage))
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel*
-  name: GetOrCreateLabel
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_GetOrCreateLabel_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateLabel
-  nameWithType: LabelCache.GetOrCreateLabel
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface*
-  name: GetOrCreateTypeface
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_GetOrCreateTypeface_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface
-  nameWithType: LabelCache.GetOrCreateTypeface
-- uid: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface``1(Mapsui.Styles.Font,System.Func{Mapsui.Styles.Font,``0})
-  name: GetOrCreateTypeface<T>(Font, Func<Font, T>)
-  href: pages/Mapsui.Rendering.Skia.Cache.LabelCache.html#Mapsui_Rendering_Skia_Cache_LabelCache_GetOrCreateTypeface__1_Mapsui_Styles_Font_System_Func_Mapsui_Styles_Font___0__
-  commentId: M:Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface``1(Mapsui.Styles.Font,System.Func{Mapsui.Styles.Font,``0})
-  name.vb: GetOrCreateTypeface(Of T)(Font, Func(Of Font, T))
-  fullName: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface<T>(Mapsui.Styles.Font, System.Func<Mapsui.Styles.Font, T>)
-  fullName.vb: Mapsui.Rendering.Skia.Cache.LabelCache.GetOrCreateTypeface(Of T)(Mapsui.Styles.Font, System.Func(Of Mapsui.Styles.Font, T))
-  nameWithType: LabelCache.GetOrCreateTypeface<T>(Font, Func<Font, T>)
-  nameWithType.vb: LabelCache.GetOrCreateTypeface(Of T)(Font, Func(Of Font, T))
 - uid: Mapsui.Rendering.Skia.Cache.RenderService
   name: RenderService
   href: pages/Mapsui.Rendering.Skia.Cache.RenderService.html
@@ -21522,19 +21471,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.Cache.RenderService.ImageSourceCache
   nameWithType: RenderService.ImageSourceCache
-- uid: Mapsui.Rendering.Skia.Cache.RenderService.LabelCache
-  name: LabelCache
-  href: pages/Mapsui.Rendering.Skia.Cache.RenderService.html#Mapsui_Rendering_Skia_Cache_RenderService_LabelCache
-  commentId: P:Mapsui.Rendering.Skia.Cache.RenderService.LabelCache
-  fullName: Mapsui.Rendering.Skia.Cache.RenderService.LabelCache
-  nameWithType: RenderService.LabelCache
-- uid: Mapsui.Rendering.Skia.Cache.RenderService.LabelCache*
-  name: LabelCache
-  href: pages/Mapsui.Rendering.Skia.Cache.RenderService.html#Mapsui_Rendering_Skia_Cache_RenderService_LabelCache_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.RenderService.LabelCache
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.RenderService.LabelCache
-  nameWithType: RenderService.LabelCache
 - uid: Mapsui.Rendering.Skia.Cache.RenderService.TileCache
   name: TileCache
   href: pages/Mapsui.Rendering.Skia.Cache.RenderService.html#Mapsui_Rendering_Skia_Cache_RenderService_TileCache
@@ -21679,47 +21615,31 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.Cache.VectorCache.Enabled
   nameWithType: VectorCache.Enabled
-- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint*
-  name: GetOrCreatePaint
-  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreatePaint_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint
+- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate*
+  name: GetOrCreate
+  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreate_
+  commentId: Overload:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate
   isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint
-  nameWithType: VectorCache.GetOrCreatePaint
-- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint``2(``0,System.Func{``0,Mapsui.Rendering.IRenderService,``1})
-  name: GetOrCreatePaint<TParam, TPaint>(TParam, Func<TParam, IRenderService, TPaint>)
-  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreatePaint__2___0_System_Func___0_Mapsui_Rendering_IRenderService___1__
-  commentId: M:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint``2(``0,System.Func{``0,Mapsui.Rendering.IRenderService,``1})
-  name.vb: GetOrCreatePaint(Of TParam, TPaint)(TParam, Func(Of TParam, IRenderService, TPaint))
-  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint<TParam, TPaint>(TParam, System.Func<TParam, Mapsui.Rendering.IRenderService, TPaint>)
-  fullName.vb: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint(Of TParam, TPaint)(TParam, System.Func(Of TParam, Mapsui.Rendering.IRenderService, TPaint))
-  nameWithType: VectorCache.GetOrCreatePaint<TParam, TPaint>(TParam, Func<TParam, IRenderService, TPaint>)
-  nameWithType.vb: VectorCache.GetOrCreatePaint(Of TParam, TPaint)(TParam, Func(Of TParam, IRenderService, TPaint))
-- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint``2(``0,System.Func{``0,``1})
-  name: GetOrCreatePaint<TParam, TPaint>(TParam, Func<TParam, TPaint>)
-  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreatePaint__2___0_System_Func___0___1__
-  commentId: M:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint``2(``0,System.Func{``0,``1})
-  name.vb: GetOrCreatePaint(Of TParam, TPaint)(TParam, Func(Of TParam, TPaint))
-  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint<TParam, TPaint>(TParam, System.Func<TParam, TPaint>)
-  fullName.vb: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePaint(Of TParam, TPaint)(TParam, System.Func(Of TParam, TPaint))
-  nameWithType: VectorCache.GetOrCreatePaint<TParam, TPaint>(TParam, Func<TParam, TPaint>)
-  nameWithType.vb: VectorCache.GetOrCreatePaint(Of TParam, TPaint)(TParam, Func(Of TParam, TPaint))
-- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath*
-  name: GetOrCreatePath
-  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreatePath_
-  commentId: Overload:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath
-  isSpec: "True"
-  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath
-  nameWithType: VectorCache.GetOrCreatePath
-- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath``2(``0,System.Func{``0,``1})
-  name: GetOrCreatePath<TParam, TPath>(TParam, Func<TParam, TPath>)
-  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreatePath__2___0_System_Func___0___1__
-  commentId: M:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath``2(``0,System.Func{``0,``1})
-  name.vb: GetOrCreatePath(Of TParam, TPath)(TParam, Func(Of TParam, TPath))
-  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath<TParam, TPath>(TParam, System.Func<TParam, TPath>)
-  fullName.vb: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreatePath(Of TParam, TPath)(TParam, System.Func(Of TParam, TPath))
-  nameWithType: VectorCache.GetOrCreatePath<TParam, TPath>(TParam, Func<TParam, TPath>)
-  nameWithType.vb: VectorCache.GetOrCreatePath(Of TParam, TPath)(TParam, Func(Of TParam, TPath))
+  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate
+  nameWithType: VectorCache.GetOrCreate
+- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate``2(``0,System.Func{``0,Mapsui.Rendering.IRenderService,``1})
+  name: GetOrCreate<TParam, TPaint>(TParam, Func<TParam, IRenderService, TPaint>)
+  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreate__2___0_System_Func___0_Mapsui_Rendering_IRenderService___1__
+  commentId: M:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate``2(``0,System.Func{``0,Mapsui.Rendering.IRenderService,``1})
+  name.vb: GetOrCreate(Of TParam, TPaint)(TParam, Func(Of TParam, IRenderService, TPaint))
+  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate<TParam, TPaint>(TParam, System.Func<TParam, Mapsui.Rendering.IRenderService, TPaint>)
+  fullName.vb: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate(Of TParam, TPaint)(TParam, System.Func(Of TParam, Mapsui.Rendering.IRenderService, TPaint))
+  nameWithType: VectorCache.GetOrCreate<TParam, TPaint>(TParam, Func<TParam, IRenderService, TPaint>)
+  nameWithType.vb: VectorCache.GetOrCreate(Of TParam, TPaint)(TParam, Func(Of TParam, IRenderService, TPaint))
+- uid: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate``2(``0,System.Func{``0,``1})
+  name: GetOrCreate<TParam, TPaint>(TParam, Func<TParam, TPaint>)
+  href: pages/Mapsui.Rendering.Skia.Cache.VectorCache.html#Mapsui_Rendering_Skia_Cache_VectorCache_GetOrCreate__2___0_System_Func___0___1__
+  commentId: M:Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate``2(``0,System.Func{``0,``1})
+  name.vb: GetOrCreate(Of TParam, TPaint)(TParam, Func(Of TParam, TPaint))
+  fullName: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate<TParam, TPaint>(TParam, System.Func<TParam, TPaint>)
+  fullName.vb: Mapsui.Rendering.Skia.Cache.VectorCache.GetOrCreate(Of TParam, TPaint)(TParam, System.Func(Of TParam, TPaint))
+  nameWithType: VectorCache.GetOrCreate<TParam, TPaint>(TParam, Func<TParam, TPaint>)
+  nameWithType.vb: VectorCache.GetOrCreate(Of TParam, TPaint)(TParam, Func(Of TParam, TPaint))
 - uid: Mapsui.Rendering.Skia.CalloutStyleRenderer
   name: CalloutStyleRenderer
   href: pages/Mapsui.Rendering.Skia.CalloutStyleRenderer.html
@@ -22414,15 +22334,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.Draw
   nameWithType: LabelStyleRenderer.Draw
-- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas,Mapsui.Styles.LabelStyle,Mapsui.IFeature,System.Single,System.Single,System.Single,Mapsui.Rendering.Skia.Cache.LabelCache)
-  name: DrawAsBitmap(SKCanvas, LabelStyle, IFeature, float, float, float, LabelCache)
-  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_DrawAsBitmap_SkiaSharp_SKCanvas_Mapsui_Styles_LabelStyle_Mapsui_IFeature_System_Single_System_Single_System_Single_Mapsui_Rendering_Skia_Cache_LabelCache_
-  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas,Mapsui.Styles.LabelStyle,Mapsui.IFeature,System.Single,System.Single,System.Single,Mapsui.Rendering.Skia.Cache.LabelCache)
-  name.vb: DrawAsBitmap(SKCanvas, LabelStyle, IFeature, Single, Single, Single, LabelCache)
-  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas, Mapsui.Styles.LabelStyle, Mapsui.IFeature, float, float, float, Mapsui.Rendering.Skia.Cache.LabelCache)
-  fullName.vb: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas, Mapsui.Styles.LabelStyle, Mapsui.IFeature, Single, Single, Single, Mapsui.Rendering.Skia.Cache.LabelCache)
-  nameWithType: LabelStyleRenderer.DrawAsBitmap(SKCanvas, LabelStyle, IFeature, float, float, float, LabelCache)
-  nameWithType.vb: LabelStyleRenderer.DrawAsBitmap(SKCanvas, LabelStyle, IFeature, Single, Single, Single, LabelCache)
+- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas,Mapsui.Styles.LabelStyle,Mapsui.IFeature,System.Single,System.Single,System.Single,Mapsui.Rendering.Skia.Cache.VectorCache)
+  name: DrawAsBitmap(SKCanvas, LabelStyle, IFeature, float, float, float, VectorCache)
+  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_DrawAsBitmap_SkiaSharp_SKCanvas_Mapsui_Styles_LabelStyle_Mapsui_IFeature_System_Single_System_Single_System_Single_Mapsui_Rendering_Skia_Cache_VectorCache_
+  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas,Mapsui.Styles.LabelStyle,Mapsui.IFeature,System.Single,System.Single,System.Single,Mapsui.Rendering.Skia.Cache.VectorCache)
+  name.vb: DrawAsBitmap(SKCanvas, LabelStyle, IFeature, Single, Single, Single, VectorCache)
+  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas, Mapsui.Styles.LabelStyle, Mapsui.IFeature, float, float, float, Mapsui.Rendering.Skia.Cache.VectorCache)
+  fullName.vb: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap(SkiaSharp.SKCanvas, Mapsui.Styles.LabelStyle, Mapsui.IFeature, Single, Single, Single, Mapsui.Rendering.Skia.Cache.VectorCache)
+  nameWithType: LabelStyleRenderer.DrawAsBitmap(SKCanvas, LabelStyle, IFeature, float, float, float, VectorCache)
+  nameWithType.vb: LabelStyleRenderer.DrawAsBitmap(SKCanvas, LabelStyle, IFeature, Single, Single, Single, VectorCache)
 - uid: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap*
   name: DrawAsBitmap
   href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_DrawAsBitmap_
@@ -22430,12 +22350,12 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.DrawAsBitmap
   nameWithType: LabelStyleRenderer.DrawAsBitmap
-- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.Skia.Cache.LabelCache)
-  name: FeatureSize(IFeature, LabelStyle, LabelCache)
-  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_Mapsui_IFeature_Mapsui_Styles_LabelStyle_Mapsui_Rendering_Skia_Cache_LabelCache_
-  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.Skia.Cache.LabelCache)
-  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature, Mapsui.Styles.LabelStyle, Mapsui.Rendering.Skia.Cache.LabelCache)
-  nameWithType: LabelStyleRenderer.FeatureSize(IFeature, LabelStyle, LabelCache)
+- uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.IRenderService)
+  name: FeatureSize(IFeature, LabelStyle, IRenderService)
+  href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_Mapsui_IFeature_Mapsui_Styles_LabelStyle_Mapsui_Rendering_IRenderService_
+  commentId: M:Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature,Mapsui.Styles.LabelStyle,Mapsui.Rendering.IRenderService)
+  fullName: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize(Mapsui.IFeature, Mapsui.Styles.LabelStyle, Mapsui.Rendering.IRenderService)
+  nameWithType: LabelStyleRenderer.FeatureSize(IFeature, LabelStyle, IRenderService)
 - uid: Mapsui.Rendering.Skia.LabelStyleRenderer.FeatureSize*
   name: FeatureSize
   href: pages/Mapsui.Rendering.Skia.LabelStyleRenderer.html#Mapsui_Rendering_Skia_LabelStyleRenderer_FeatureSize_
