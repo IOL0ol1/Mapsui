@@ -26581,6 +26581,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Android.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Android.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Android.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Android.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Android.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Android.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Android.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Android.MapControl.StartUpdates(System.Boolean)
   name: StartUpdates(bool)
   href: api/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_StartUpdates_System_Boolean_
@@ -27113,6 +27126,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Avalonia.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Avalonia.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Avalonia.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Avalonia.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Avalonia.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Avalonia.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Avalonia.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Avalonia.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_ShiftPressed
@@ -27558,6 +27584,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Avalonia.V0.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Avalonia.V0.MapControl.html#Mapsui_UI_Avalonia_V0_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Avalonia.V0.MapControl.html#Mapsui_UI_Avalonia_V0_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Avalonia.V0.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Avalonia.V0.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.Avalonia.V0.MapControl.html#Mapsui_UI_Avalonia_V0_MapControl_ShiftPressed
@@ -29171,6 +29210,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Blazor.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Blazor.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Blazor.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Blazor.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Blazor.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Blazor.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Blazor.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Blazor.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_ShiftPressed
@@ -29872,6 +29924,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Eto.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Eto.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Eto.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Eto.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Eto.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Eto.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Eto.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Eto.MapControl.StartUpdates(System.Boolean)
   name: StartUpdates(bool)
   href: api/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_StartUpdates_System_Boolean_
@@ -31525,6 +31590,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Forms.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Forms.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Forms.MapControl.html#Mapsui_UI_Forms_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Forms.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Forms.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Forms.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Forms.MapControl.html#Mapsui_UI_Forms_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Forms.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Forms.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Forms.MapControl.RunOnUIThread(System.Action)
   name: RunOnUIThread(Action)
   href: api/Mapsui.UI.Forms.MapControl.html#Mapsui_UI_Forms_MapControl_RunOnUIThread_System_Action_
@@ -35203,6 +35281,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Maui.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Maui.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Maui.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Maui.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Maui.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Maui.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Maui.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Maui.MapControl.RunOnUIThread(System.Action)
   name: RunOnUIThread(Action)
   href: api/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_RunOnUIThread_System_Action_
@@ -38088,6 +38179,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Uwp.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Uwp.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Uwp.MapControl.html#Mapsui_UI_Uwp_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Uwp.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Uwp.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Uwp.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Uwp.MapControl.html#Mapsui_UI_Uwp_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Uwp.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Uwp.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Uwp.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.Uwp.MapControl.html#Mapsui_UI_Uwp_MapControl_ShiftPressed
@@ -38524,6 +38628,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.WinUI.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.WinUI.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.WinUI.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.WinUI.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.WinUI.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.WinUI.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.WinUI.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.WinUI.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_ShiftPressed
@@ -38927,6 +39044,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.Wpf.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.Wpf.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.Wpf.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.Wpf.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.Wpf.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.Wpf.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.Wpf.MapControl.ShiftPressed
   name: ShiftPressed
   href: api/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_ShiftPressed
@@ -39436,6 +39566,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.iOS.MapControl.Renderer
   nameWithType: MapControl.Renderer
+- uid: Mapsui.UI.iOS.MapControl.ResetWidgetCache
+  name: ResetWidgetCache()
+  href: api/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_ResetWidgetCache
+  commentId: M:Mapsui.UI.iOS.MapControl.ResetWidgetCache
+  fullName: Mapsui.UI.iOS.MapControl.ResetWidgetCache()
+  nameWithType: MapControl.ResetWidgetCache()
+- uid: Mapsui.UI.iOS.MapControl.ResetWidgetCache*
+  name: ResetWidgetCache
+  href: api/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_ResetWidgetCache_
+  commentId: Overload:Mapsui.UI.iOS.MapControl.ResetWidgetCache
+  isSpec: "True"
+  fullName: Mapsui.UI.iOS.MapControl.ResetWidgetCache
+  nameWithType: MapControl.ResetWidgetCache
 - uid: Mapsui.UI.iOS.MapControl.StartUpdates(System.Boolean)
   name: StartUpdates(bool)
   href: api/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_StartUpdates_System_Boolean_
