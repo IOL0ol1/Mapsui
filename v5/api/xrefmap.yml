@@ -8148,15 +8148,24 @@ references:
   commentId: T:Mapsui.Layers.LayerCollection
   fullName: Mapsui.Layers.LayerCollection
   nameWithType: LayerCollection
-- uid: Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer[])
-  name: Add(params ILayer[])
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Add_Mapsui_Layers_ILayer___
-  commentId: M:Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer[])
-  name.vb: Add(ParamArray ILayer())
-  fullName: Mapsui.Layers.LayerCollection.Add(params Mapsui.Layers.ILayer[])
-  fullName.vb: Mapsui.Layers.LayerCollection.Add(ParamArray Mapsui.Layers.ILayer())
-  nameWithType: LayerCollection.Add(params ILayer[])
-  nameWithType.vb: LayerCollection.Add(ParamArray ILayer())
+- uid: Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer,System.Int32)
+  name: Add(ILayer, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Add_Mapsui_Layers_ILayer_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer,System.Int32)
+  name.vb: Add(ILayer, Integer)
+  fullName: Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Add(Mapsui.Layers.ILayer, Integer)
+  nameWithType: LayerCollection.Add(ILayer, int)
+  nameWithType.vb: LayerCollection.Add(ILayer, Integer)
+- uid: Mapsui.Layers.LayerCollection.Add(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Int32)
+  name: Add(IEnumerable<ILayer>, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Add_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Add(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Int32)
+  name.vb: Add(IEnumerable(Of ILayer), Integer)
+  fullName: Mapsui.Layers.LayerCollection.Add(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Add(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Integer)
+  nameWithType: LayerCollection.Add(IEnumerable<ILayer>, int)
+  nameWithType.vb: LayerCollection.Add(IEnumerable(Of ILayer), Integer)
 - uid: Mapsui.Layers.LayerCollection.Add*
   name: Add
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Add_
@@ -8164,18 +8173,53 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.Add
   nameWithType: LayerCollection.Add
+- uid: Mapsui.Layers.LayerCollection.AddOnBottom(Mapsui.Layers.ILayer,System.Int32)
+  name: AddOnBottom(ILayer, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_AddOnBottom_Mapsui_Layers_ILayer_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.AddOnBottom(Mapsui.Layers.ILayer,System.Int32)
+  name.vb: AddOnBottom(ILayer, Integer)
+  fullName: Mapsui.Layers.LayerCollection.AddOnBottom(Mapsui.Layers.ILayer, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.AddOnBottom(Mapsui.Layers.ILayer, Integer)
+  nameWithType: LayerCollection.AddOnBottom(ILayer, int)
+  nameWithType.vb: LayerCollection.AddOnBottom(ILayer, Integer)
+- uid: Mapsui.Layers.LayerCollection.AddOnBottom*
+  name: AddOnBottom
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_AddOnBottom_
+  commentId: Overload:Mapsui.Layers.LayerCollection.AddOnBottom
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.AddOnBottom
+  nameWithType: LayerCollection.AddOnBottom
+- uid: Mapsui.Layers.LayerCollection.AddOnTop(Mapsui.Layers.ILayer,System.Int32)
+  name: AddOnTop(ILayer, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_AddOnTop_Mapsui_Layers_ILayer_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.AddOnTop(Mapsui.Layers.ILayer,System.Int32)
+  name.vb: AddOnTop(ILayer, Integer)
+  fullName: Mapsui.Layers.LayerCollection.AddOnTop(Mapsui.Layers.ILayer, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.AddOnTop(Mapsui.Layers.ILayer, Integer)
+  nameWithType: LayerCollection.AddOnTop(ILayer, int)
+  nameWithType.vb: LayerCollection.AddOnTop(ILayer, Integer)
+- uid: Mapsui.Layers.LayerCollection.AddOnTop*
+  name: AddOnTop
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_AddOnTop_
+  commentId: Overload:Mapsui.Layers.LayerCollection.AddOnTop
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.AddOnTop
+  nameWithType: LayerCollection.AddOnTop
 - uid: Mapsui.Layers.LayerCollection.Changed
   name: Changed
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Changed
   commentId: E:Mapsui.Layers.LayerCollection.Changed
   fullName: Mapsui.Layers.LayerCollection.Changed
   nameWithType: LayerCollection.Changed
-- uid: Mapsui.Layers.LayerCollection.Clear
-  name: Clear()
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Clear
-  commentId: M:Mapsui.Layers.LayerCollection.Clear
-  fullName: Mapsui.Layers.LayerCollection.Clear()
-  nameWithType: LayerCollection.Clear()
+- uid: Mapsui.Layers.LayerCollection.Clear(System.Int32)
+  name: Clear(int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Clear_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Clear(System.Int32)
+  name.vb: Clear(Integer)
+  fullName: Mapsui.Layers.LayerCollection.Clear(int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Clear(Integer)
+  nameWithType: LayerCollection.Clear(int)
+  nameWithType.vb: LayerCollection.Clear(Integer)
 - uid: Mapsui.Layers.LayerCollection.Clear*
   name: Clear
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Clear_
@@ -8183,35 +8227,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.Clear
   nameWithType: LayerCollection.Clear
-- uid: Mapsui.Layers.LayerCollection.Contains(Mapsui.Layers.ILayer)
-  name: Contains(ILayer)
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Contains_Mapsui_Layers_ILayer_
-  commentId: M:Mapsui.Layers.LayerCollection.Contains(Mapsui.Layers.ILayer)
-  fullName: Mapsui.Layers.LayerCollection.Contains(Mapsui.Layers.ILayer)
-  nameWithType: LayerCollection.Contains(ILayer)
-- uid: Mapsui.Layers.LayerCollection.Contains*
-  name: Contains
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Contains_
-  commentId: Overload:Mapsui.Layers.LayerCollection.Contains
+- uid: Mapsui.Layers.LayerCollection.ClearAllGroups
+  name: ClearAllGroups()
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_ClearAllGroups
+  commentId: M:Mapsui.Layers.LayerCollection.ClearAllGroups
+  fullName: Mapsui.Layers.LayerCollection.ClearAllGroups()
+  nameWithType: LayerCollection.ClearAllGroups()
+- uid: Mapsui.Layers.LayerCollection.ClearAllGroups*
+  name: ClearAllGroups
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_ClearAllGroups_
+  commentId: Overload:Mapsui.Layers.LayerCollection.ClearAllGroups
   isSpec: "True"
-  fullName: Mapsui.Layers.LayerCollection.Contains
-  nameWithType: LayerCollection.Contains
-- uid: Mapsui.Layers.LayerCollection.CopyTo(Mapsui.Layers.ILayer[],System.Int32)
-  name: CopyTo(ILayer[], int)
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_CopyTo_Mapsui_Layers_ILayer___System_Int32_
-  commentId: M:Mapsui.Layers.LayerCollection.CopyTo(Mapsui.Layers.ILayer[],System.Int32)
-  name.vb: CopyTo(ILayer(), Integer)
-  fullName: Mapsui.Layers.LayerCollection.CopyTo(Mapsui.Layers.ILayer[], int)
-  fullName.vb: Mapsui.Layers.LayerCollection.CopyTo(Mapsui.Layers.ILayer(), Integer)
-  nameWithType: LayerCollection.CopyTo(ILayer[], int)
-  nameWithType.vb: LayerCollection.CopyTo(ILayer(), Integer)
-- uid: Mapsui.Layers.LayerCollection.CopyTo*
-  name: CopyTo
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_CopyTo_
-  commentId: Overload:Mapsui.Layers.LayerCollection.CopyTo
-  isSpec: "True"
-  fullName: Mapsui.Layers.LayerCollection.CopyTo
-  nameWithType: LayerCollection.CopyTo
+  fullName: Mapsui.Layers.LayerCollection.ClearAllGroups
+  nameWithType: LayerCollection.ClearAllGroups
 - uid: Mapsui.Layers.LayerCollection.Count
   name: Count
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Count
@@ -8241,6 +8269,22 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.FindLayer
   nameWithType: LayerCollection.FindLayer
+- uid: Mapsui.Layers.LayerCollection.Get(System.Int32,System.Int32)
+  name: Get(int, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Get_System_Int32_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Get(System.Int32,System.Int32)
+  name.vb: Get(Integer, Integer)
+  fullName: Mapsui.Layers.LayerCollection.Get(int, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Get(Integer, Integer)
+  nameWithType: LayerCollection.Get(int, int)
+  nameWithType.vb: LayerCollection.Get(Integer, Integer)
+- uid: Mapsui.Layers.LayerCollection.Get*
+  name: Get
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Get_
+  commentId: Overload:Mapsui.Layers.LayerCollection.Get
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.Get
+  nameWithType: LayerCollection.Get
 - uid: Mapsui.Layers.LayerCollection.GetEnumerator
   name: GetEnumerator()
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_GetEnumerator
@@ -8254,15 +8298,53 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.GetEnumerator
   nameWithType: LayerCollection.GetEnumerator
-- uid: Mapsui.Layers.LayerCollection.Insert(System.Int32,Mapsui.Layers.ILayer[])
-  name: Insert(int, params ILayer[])
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Insert_System_Int32_Mapsui_Layers_ILayer___
-  commentId: M:Mapsui.Layers.LayerCollection.Insert(System.Int32,Mapsui.Layers.ILayer[])
-  name.vb: Insert(Integer, ParamArray ILayer())
-  fullName: Mapsui.Layers.LayerCollection.Insert(int, params Mapsui.Layers.ILayer[])
-  fullName.vb: Mapsui.Layers.LayerCollection.Insert(Integer, ParamArray Mapsui.Layers.ILayer())
-  nameWithType: LayerCollection.Insert(int, params ILayer[])
-  nameWithType.vb: LayerCollection.Insert(Integer, ParamArray ILayer())
+- uid: Mapsui.Layers.LayerCollection.GetLayers(System.Int32)
+  name: GetLayers(int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_GetLayers_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.GetLayers(System.Int32)
+  name.vb: GetLayers(Integer)
+  fullName: Mapsui.Layers.LayerCollection.GetLayers(int)
+  fullName.vb: Mapsui.Layers.LayerCollection.GetLayers(Integer)
+  nameWithType: LayerCollection.GetLayers(int)
+  nameWithType.vb: LayerCollection.GetLayers(Integer)
+- uid: Mapsui.Layers.LayerCollection.GetLayers*
+  name: GetLayers
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_GetLayers_
+  commentId: Overload:Mapsui.Layers.LayerCollection.GetLayers
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.GetLayers
+  nameWithType: LayerCollection.GetLayers
+- uid: Mapsui.Layers.LayerCollection.GetLayersOfAllGroups
+  name: GetLayersOfAllGroups()
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_GetLayersOfAllGroups
+  commentId: M:Mapsui.Layers.LayerCollection.GetLayersOfAllGroups
+  fullName: Mapsui.Layers.LayerCollection.GetLayersOfAllGroups()
+  nameWithType: LayerCollection.GetLayersOfAllGroups()
+- uid: Mapsui.Layers.LayerCollection.GetLayersOfAllGroups*
+  name: GetLayersOfAllGroups
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_GetLayersOfAllGroups_
+  commentId: Overload:Mapsui.Layers.LayerCollection.GetLayersOfAllGroups
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.GetLayersOfAllGroups
+  nameWithType: LayerCollection.GetLayersOfAllGroups
+- uid: Mapsui.Layers.LayerCollection.Insert(System.Int32,Mapsui.Layers.ILayer,System.Int32)
+  name: Insert(int, ILayer, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Insert_System_Int32_Mapsui_Layers_ILayer_System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Insert(System.Int32,Mapsui.Layers.ILayer,System.Int32)
+  name.vb: Insert(Integer, ILayer, Integer)
+  fullName: Mapsui.Layers.LayerCollection.Insert(int, Mapsui.Layers.ILayer, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Insert(Integer, Mapsui.Layers.ILayer, Integer)
+  nameWithType: LayerCollection.Insert(int, ILayer, int)
+  nameWithType.vb: LayerCollection.Insert(Integer, ILayer, Integer)
+- uid: Mapsui.Layers.LayerCollection.Insert(System.Int32,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Int32)
+  name: Insert(int, IEnumerable<ILayer>, int)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Insert_System_Int32_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Int32_
+  commentId: M:Mapsui.Layers.LayerCollection.Insert(System.Int32,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Int32)
+  name.vb: Insert(Integer, IEnumerable(Of ILayer), Integer)
+  fullName: Mapsui.Layers.LayerCollection.Insert(int, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, int)
+  fullName.vb: Mapsui.Layers.LayerCollection.Insert(Integer, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Integer)
+  nameWithType: LayerCollection.Insert(int, IEnumerable<ILayer>, int)
+  nameWithType.vb: LayerCollection.Insert(Integer, IEnumerable(Of ILayer), Integer)
 - uid: Mapsui.Layers.LayerCollection.Insert*
   name: Insert
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Insert_
@@ -8270,67 +8352,12 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.Insert
   nameWithType: LayerCollection.Insert
-- uid: Mapsui.Layers.LayerCollection.Item(System.Int32)
-  name: this[int]
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Item_System_Int32_
-  commentId: P:Mapsui.Layers.LayerCollection.Item(System.Int32)
-  name.vb: this[](Integer)
-  fullName: Mapsui.Layers.LayerCollection.this[int]
-  fullName.vb: Mapsui.Layers.LayerCollection.this[](Integer)
-  nameWithType: LayerCollection.this[int]
-  nameWithType.vb: LayerCollection.this[](Integer)
-- uid: Mapsui.Layers.LayerCollection.Item*
-  name: this
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Item_
-  commentId: Overload:Mapsui.Layers.LayerCollection.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: Mapsui.Layers.LayerCollection.this
-  fullName.vb: Mapsui.Layers.LayerCollection.this[]
-  nameWithType: LayerCollection.this
-  nameWithType.vb: LayerCollection.this[]
-- uid: Mapsui.Layers.LayerCollection.LayerAdded
-  name: LayerAdded
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_LayerAdded
-  commentId: E:Mapsui.Layers.LayerCollection.LayerAdded
-  fullName: Mapsui.Layers.LayerCollection.LayerAdded
-  nameWithType: LayerCollection.LayerAdded
-- uid: Mapsui.Layers.LayerCollection.LayerAddedEventHandler
-  name: LayerCollection.LayerAddedEventHandler
-  href: pages/Mapsui.Layers.LayerCollection.LayerAddedEventHandler.html
-  commentId: T:Mapsui.Layers.LayerCollection.LayerAddedEventHandler
-  fullName: Mapsui.Layers.LayerCollection.LayerAddedEventHandler
-  nameWithType: LayerCollection.LayerAddedEventHandler
 - uid: Mapsui.Layers.LayerCollection.LayerCollectionChangedEventHandler
   name: LayerCollection.LayerCollectionChangedEventHandler
   href: pages/Mapsui.Layers.LayerCollection.LayerCollectionChangedEventHandler.html
   commentId: T:Mapsui.Layers.LayerCollection.LayerCollectionChangedEventHandler
   fullName: Mapsui.Layers.LayerCollection.LayerCollectionChangedEventHandler
   nameWithType: LayerCollection.LayerCollectionChangedEventHandler
-- uid: Mapsui.Layers.LayerCollection.LayerMoved
-  name: LayerMoved
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_LayerMoved
-  commentId: E:Mapsui.Layers.LayerCollection.LayerMoved
-  fullName: Mapsui.Layers.LayerCollection.LayerMoved
-  nameWithType: LayerCollection.LayerMoved
-- uid: Mapsui.Layers.LayerCollection.LayerMovedEventHandler
-  name: LayerCollection.LayerMovedEventHandler
-  href: pages/Mapsui.Layers.LayerCollection.LayerMovedEventHandler.html
-  commentId: T:Mapsui.Layers.LayerCollection.LayerMovedEventHandler
-  fullName: Mapsui.Layers.LayerCollection.LayerMovedEventHandler
-  nameWithType: LayerCollection.LayerMovedEventHandler
-- uid: Mapsui.Layers.LayerCollection.LayerRemoved
-  name: LayerRemoved
-  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_LayerRemoved
-  commentId: E:Mapsui.Layers.LayerCollection.LayerRemoved
-  fullName: Mapsui.Layers.LayerCollection.LayerRemoved
-  nameWithType: LayerCollection.LayerRemoved
-- uid: Mapsui.Layers.LayerCollection.LayerRemovedEventHandler
-  name: LayerCollection.LayerRemovedEventHandler
-  href: pages/Mapsui.Layers.LayerCollection.LayerRemovedEventHandler.html
-  commentId: T:Mapsui.Layers.LayerCollection.LayerRemovedEventHandler
-  fullName: Mapsui.Layers.LayerCollection.LayerRemovedEventHandler
-  nameWithType: LayerCollection.LayerRemovedEventHandler
 - uid: Mapsui.Layers.LayerCollection.Modify(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
   name: Modify(IEnumerable<ILayer>, IEnumerable<ILayer>)
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Modify_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
@@ -8372,15 +8399,73 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.LayerCollection.Move
   nameWithType: LayerCollection.Move
+- uid: Mapsui.Layers.LayerCollection.MoveDown(Mapsui.Layers.ILayer)
+  name: MoveDown(ILayer)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveDown_Mapsui_Layers_ILayer_
+  commentId: M:Mapsui.Layers.LayerCollection.MoveDown(Mapsui.Layers.ILayer)
+  fullName: Mapsui.Layers.LayerCollection.MoveDown(Mapsui.Layers.ILayer)
+  nameWithType: LayerCollection.MoveDown(ILayer)
+- uid: Mapsui.Layers.LayerCollection.MoveDown*
+  name: MoveDown
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveDown_
+  commentId: Overload:Mapsui.Layers.LayerCollection.MoveDown
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.MoveDown
+  nameWithType: LayerCollection.MoveDown
+- uid: Mapsui.Layers.LayerCollection.MoveToBottom(Mapsui.Layers.ILayer)
+  name: MoveToBottom(ILayer)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveToBottom_Mapsui_Layers_ILayer_
+  commentId: M:Mapsui.Layers.LayerCollection.MoveToBottom(Mapsui.Layers.ILayer)
+  fullName: Mapsui.Layers.LayerCollection.MoveToBottom(Mapsui.Layers.ILayer)
+  nameWithType: LayerCollection.MoveToBottom(ILayer)
+- uid: Mapsui.Layers.LayerCollection.MoveToBottom*
+  name: MoveToBottom
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveToBottom_
+  commentId: Overload:Mapsui.Layers.LayerCollection.MoveToBottom
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.MoveToBottom
+  nameWithType: LayerCollection.MoveToBottom
+- uid: Mapsui.Layers.LayerCollection.MoveToTop(Mapsui.Layers.ILayer)
+  name: MoveToTop(ILayer)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveToTop_Mapsui_Layers_ILayer_
+  commentId: M:Mapsui.Layers.LayerCollection.MoveToTop(Mapsui.Layers.ILayer)
+  fullName: Mapsui.Layers.LayerCollection.MoveToTop(Mapsui.Layers.ILayer)
+  nameWithType: LayerCollection.MoveToTop(ILayer)
+- uid: Mapsui.Layers.LayerCollection.MoveToTop*
+  name: MoveToTop
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveToTop_
+  commentId: Overload:Mapsui.Layers.LayerCollection.MoveToTop
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.MoveToTop
+  nameWithType: LayerCollection.MoveToTop
+- uid: Mapsui.Layers.LayerCollection.MoveUp(Mapsui.Layers.ILayer)
+  name: MoveUp(ILayer)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveUp_Mapsui_Layers_ILayer_
+  commentId: M:Mapsui.Layers.LayerCollection.MoveUp(Mapsui.Layers.ILayer)
+  fullName: Mapsui.Layers.LayerCollection.MoveUp(Mapsui.Layers.ILayer)
+  nameWithType: LayerCollection.MoveUp(ILayer)
+- uid: Mapsui.Layers.LayerCollection.MoveUp*
+  name: MoveUp
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_MoveUp_
+  commentId: Overload:Mapsui.Layers.LayerCollection.MoveUp
+  isSpec: "True"
+  fullName: Mapsui.Layers.LayerCollection.MoveUp
+  nameWithType: LayerCollection.MoveUp
+- uid: Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer)
+  name: Remove(ILayer)
+  href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Remove_Mapsui_Layers_ILayer_
+  commentId: M:Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer)
+  fullName: Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer)
+  nameWithType: LayerCollection.Remove(ILayer)
 - uid: Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer[])
-  name: Remove(params ILayer[])
+  name: Remove(ILayer[])
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Remove_Mapsui_Layers_ILayer___
   commentId: M:Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer[])
-  name.vb: Remove(ParamArray ILayer())
-  fullName: Mapsui.Layers.LayerCollection.Remove(params Mapsui.Layers.ILayer[])
-  fullName.vb: Mapsui.Layers.LayerCollection.Remove(ParamArray Mapsui.Layers.ILayer())
-  nameWithType: LayerCollection.Remove(params ILayer[])
-  nameWithType.vb: LayerCollection.Remove(ParamArray ILayer())
+  name.vb: Remove(ILayer())
+  fullName: Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer[])
+  fullName.vb: Mapsui.Layers.LayerCollection.Remove(Mapsui.Layers.ILayer())
+  nameWithType: LayerCollection.Remove(ILayer[])
+  nameWithType.vb: LayerCollection.Remove(ILayer())
 - uid: Mapsui.Layers.LayerCollection.Remove(System.Func{Mapsui.Layers.ILayer,System.Boolean})
   name: Remove(Func<ILayer, bool>)
   href: pages/Mapsui.Layers.LayerCollection.html#Mapsui_Layers_LayerCollection_Remove_System_Func_Mapsui_Layers_ILayer_System_Boolean__
@@ -8404,13 +8489,13 @@ references:
   fullName: Mapsui.Layers.LayerCollectionChangedEventArgs
   nameWithType: LayerCollectionChangedEventArgs
 - uid: Mapsui.Layers.LayerCollectionChangedEventArgs.#ctor(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: LayerCollectionChangedEventArgs(IEnumerable<ILayer>?, IEnumerable<ILayer>?, IEnumerable<ILayer>?)
+  name: LayerCollectionChangedEventArgs(IEnumerable<ILayer>, IEnumerable<ILayer>, IEnumerable<ILayer>)
   href: pages/Mapsui.Layers.LayerCollectionChangedEventArgs.html#Mapsui_Layers_LayerCollectionChangedEventArgs__ctor_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
   commentId: M:Mapsui.Layers.LayerCollectionChangedEventArgs.#ctor(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
   name.vb: New(IEnumerable(Of ILayer), IEnumerable(Of ILayer), IEnumerable(Of ILayer))
-  fullName: Mapsui.Layers.LayerCollectionChangedEventArgs.LayerCollectionChangedEventArgs(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
+  fullName: Mapsui.Layers.LayerCollectionChangedEventArgs.LayerCollectionChangedEventArgs(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>)
   fullName.vb: Mapsui.Layers.LayerCollectionChangedEventArgs.New(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: LayerCollectionChangedEventArgs.LayerCollectionChangedEventArgs(IEnumerable<ILayer>?, IEnumerable<ILayer>?, IEnumerable<ILayer>?)
+  nameWithType: LayerCollectionChangedEventArgs.LayerCollectionChangedEventArgs(IEnumerable<ILayer>, IEnumerable<ILayer>, IEnumerable<ILayer>)
   nameWithType.vb: LayerCollectionChangedEventArgs.New(IEnumerable(Of ILayer), IEnumerable(Of ILayer), IEnumerable(Of ILayer))
 - uid: Mapsui.Layers.LayerCollectionChangedEventArgs.#ctor*
   name: LayerCollectionChangedEventArgs
