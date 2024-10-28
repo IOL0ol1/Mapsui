@@ -35660,19 +35660,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Maui.Pin.HideCallout
   nameWithType: Pin.HideCallout
-- uid: Mapsui.UI.Maui.Pin.Icon
-  name: Icon
-  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_Icon
-  commentId: P:Mapsui.UI.Maui.Pin.Icon
-  fullName: Mapsui.UI.Maui.Pin.Icon
-  nameWithType: Pin.Icon
-- uid: Mapsui.UI.Maui.Pin.Icon*
-  name: Icon
-  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_Icon_
-  commentId: Overload:Mapsui.UI.Maui.Pin.Icon
+- uid: Mapsui.UI.Maui.Pin.ImageSource
+  name: ImageSource
+  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_ImageSource
+  commentId: P:Mapsui.UI.Maui.Pin.ImageSource
+  fullName: Mapsui.UI.Maui.Pin.ImageSource
+  nameWithType: Pin.ImageSource
+- uid: Mapsui.UI.Maui.Pin.ImageSource*
+  name: ImageSource
+  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_ImageSource_
+  commentId: Overload:Mapsui.UI.Maui.Pin.ImageSource
   isSpec: "True"
-  fullName: Mapsui.UI.Maui.Pin.Icon
-  nameWithType: Pin.Icon
+  fullName: Mapsui.UI.Maui.Pin.ImageSource
+  nameWithType: Pin.ImageSource
 - uid: Mapsui.UI.Maui.Pin.IsCalloutVisible
   name: IsCalloutVisible()
   href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_IsCalloutVisible
@@ -35841,19 +35841,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Maui.Pin.ShowCallout
   nameWithType: Pin.ShowCallout
-- uid: Mapsui.UI.Maui.Pin.Svg
-  name: Svg
-  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_Svg
-  commentId: P:Mapsui.UI.Maui.Pin.Svg
-  fullName: Mapsui.UI.Maui.Pin.Svg
-  nameWithType: Pin.Svg
-- uid: Mapsui.UI.Maui.Pin.Svg*
-  name: Svg
-  href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_Svg_
-  commentId: Overload:Mapsui.UI.Maui.Pin.Svg
-  isSpec: "True"
-  fullName: Mapsui.UI.Maui.Pin.Svg
-  nameWithType: Pin.Svg
 - uid: Mapsui.UI.Maui.Pin.Tag
   name: Tag
   href: pages/Mapsui.UI.Maui.Pin.html#Mapsui_UI_Maui_Pin_Tag
@@ -36008,24 +35995,18 @@ references:
   commentId: T:Mapsui.UI.Maui.PinType
   fullName: Mapsui.UI.Maui.PinType
   nameWithType: PinType
-- uid: Mapsui.UI.Maui.PinType.Icon
-  name: Icon
-  href: pages/Mapsui.UI.Maui.PinType.html#Mapsui_UI_Maui_PinType_Icon
-  commentId: F:Mapsui.UI.Maui.PinType.Icon
-  fullName: Mapsui.UI.Maui.PinType.Icon
-  nameWithType: PinType.Icon
+- uid: Mapsui.UI.Maui.PinType.ImageSource
+  name: ImageSource
+  href: pages/Mapsui.UI.Maui.PinType.html#Mapsui_UI_Maui_PinType_ImageSource
+  commentId: F:Mapsui.UI.Maui.PinType.ImageSource
+  fullName: Mapsui.UI.Maui.PinType.ImageSource
+  nameWithType: PinType.ImageSource
 - uid: Mapsui.UI.Maui.PinType.Pin
   name: Pin
   href: pages/Mapsui.UI.Maui.PinType.html#Mapsui_UI_Maui_PinType_Pin
   commentId: F:Mapsui.UI.Maui.PinType.Pin
   fullName: Mapsui.UI.Maui.PinType.Pin
   nameWithType: PinType.Pin
-- uid: Mapsui.UI.Maui.PinType.Svg
-  name: Svg
-  href: pages/Mapsui.UI.Maui.PinType.html#Mapsui_UI_Maui_PinType_Svg
-  commentId: F:Mapsui.UI.Maui.PinType.Svg
-  fullName: Mapsui.UI.Maui.PinType.Svg
-  nameWithType: PinType.Svg
 - uid: Mapsui.UI.Maui.Polygon
   name: Polygon
   href: pages/Mapsui.UI.Maui.Polygon.html
@@ -41057,6 +41038,44 @@ references:
   commentId: T:Mapsui.Widgets.InputOnlyWidget
   fullName: Mapsui.Widgets.InputOnlyWidget
   nameWithType: InputOnlyWidget
+- uid: Mapsui.Widgets.MapTappedWidget
+  name: MapTappedWidget
+  href: pages/Mapsui.Widgets.MapTappedWidget.html
+  commentId: T:Mapsui.Widgets.MapTappedWidget
+  fullName: Mapsui.Widgets.MapTappedWidget
+  nameWithType: MapTappedWidget
+- uid: Mapsui.Widgets.MapTappedWidget.#ctor(System.Func{Mapsui.Widgets.WidgetEventArgs,System.Boolean})
+  name: MapTappedWidget(Func<WidgetEventArgs, bool>)
+  href: pages/Mapsui.Widgets.MapTappedWidget.html#Mapsui_Widgets_MapTappedWidget__ctor_System_Func_Mapsui_Widgets_WidgetEventArgs_System_Boolean__
+  commentId: M:Mapsui.Widgets.MapTappedWidget.#ctor(System.Func{Mapsui.Widgets.WidgetEventArgs,System.Boolean})
+  name.vb: New(Func(Of WidgetEventArgs, Boolean))
+  fullName: Mapsui.Widgets.MapTappedWidget.MapTappedWidget(System.Func<Mapsui.Widgets.WidgetEventArgs, bool>)
+  fullName.vb: Mapsui.Widgets.MapTappedWidget.New(System.Func(Of Mapsui.Widgets.WidgetEventArgs, Boolean))
+  nameWithType: MapTappedWidget.MapTappedWidget(Func<WidgetEventArgs, bool>)
+  nameWithType.vb: MapTappedWidget.New(Func(Of WidgetEventArgs, Boolean))
+- uid: Mapsui.Widgets.MapTappedWidget.#ctor*
+  name: MapTappedWidget
+  href: pages/Mapsui.Widgets.MapTappedWidget.html#Mapsui_Widgets_MapTappedWidget__ctor_
+  commentId: Overload:Mapsui.Widgets.MapTappedWidget.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Mapsui.Widgets.MapTappedWidget.MapTappedWidget
+  fullName.vb: Mapsui.Widgets.MapTappedWidget.New
+  nameWithType: MapTappedWidget.MapTappedWidget
+  nameWithType.vb: MapTappedWidget.New
+- uid: Mapsui.Widgets.MapTappedWidget.OnTapped(Mapsui.Navigator,Mapsui.Widgets.WidgetEventArgs)
+  name: OnTapped(Navigator, WidgetEventArgs)
+  href: pages/Mapsui.Widgets.MapTappedWidget.html#Mapsui_Widgets_MapTappedWidget_OnTapped_Mapsui_Navigator_Mapsui_Widgets_WidgetEventArgs_
+  commentId: M:Mapsui.Widgets.MapTappedWidget.OnTapped(Mapsui.Navigator,Mapsui.Widgets.WidgetEventArgs)
+  fullName: Mapsui.Widgets.MapTappedWidget.OnTapped(Mapsui.Navigator, Mapsui.Widgets.WidgetEventArgs)
+  nameWithType: MapTappedWidget.OnTapped(Navigator, WidgetEventArgs)
+- uid: Mapsui.Widgets.MapTappedWidget.OnTapped*
+  name: OnTapped
+  href: pages/Mapsui.Widgets.MapTappedWidget.html#Mapsui_Widgets_MapTappedWidget_OnTapped_
+  commentId: Overload:Mapsui.Widgets.MapTappedWidget.OnTapped
+  isSpec: "True"
+  fullName: Mapsui.Widgets.MapTappedWidget.OnTapped
+  nameWithType: MapTappedWidget.OnTapped
 - uid: Mapsui.Widgets.Orientation
   name: Orientation
   href: pages/Mapsui.Widgets.Orientation.html

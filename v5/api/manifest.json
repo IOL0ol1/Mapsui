@@ -5182,6 +5182,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.Widgets.MapTappedWidget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.Widgets.MapTappedWidget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "pages/Mapsui.Widgets.Orientation.yml",
       "output": {
         ".html": {
