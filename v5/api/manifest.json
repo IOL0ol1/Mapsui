@@ -1482,6 +1482,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.AddLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.AddLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.AddWidget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.AddWidget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.ConfigureLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.ConfigureLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.ConfigureMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.ConfigureMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.ConfigureWidget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.ConfigureWidget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.MapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.MapBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "pages/Mapsui.MapInfo.yml",
       "output": {
         ".html": {
@@ -3846,6 +3906,26 @@
       "output": {
         ".html": {
           "relative_path": "pages/Mapsui.Tiling.Extensions.MRectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html"
         }
       },
       "version": ""

@@ -11492,6 +11492,148 @@ references:
   isSpec: "True"
   fullName: Mapsui.Map.Widgets
   nameWithType: Map.Widgets
+- uid: Mapsui.MapBuilder
+  name: MapBuilder
+  href: pages/Mapsui.MapBuilder.html
+  commentId: T:Mapsui.MapBuilder
+  fullName: Mapsui.MapBuilder
+  nameWithType: MapBuilder
+- uid: Mapsui.MapBuilder.AddLayer
+  name: MapBuilder.AddLayer
+  href: pages/Mapsui.MapBuilder.AddLayer.html
+  commentId: T:Mapsui.MapBuilder.AddLayer
+  fullName: Mapsui.MapBuilder.AddLayer
+  nameWithType: MapBuilder.AddLayer
+- uid: Mapsui.MapBuilder.AddWidget
+  name: MapBuilder.AddWidget
+  href: pages/Mapsui.MapBuilder.AddWidget.html
+  commentId: T:Mapsui.MapBuilder.AddWidget
+  fullName: Mapsui.MapBuilder.AddWidget
+  nameWithType: MapBuilder.AddWidget
+- uid: Mapsui.MapBuilder.Build
+  name: Build()
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_Build
+  commentId: M:Mapsui.MapBuilder.Build
+  fullName: Mapsui.MapBuilder.Build()
+  nameWithType: MapBuilder.Build()
+- uid: Mapsui.MapBuilder.Build*
+  name: Build
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_Build_
+  commentId: Overload:Mapsui.MapBuilder.Build
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.Build
+  nameWithType: MapBuilder.Build
+- uid: Mapsui.MapBuilder.ConfigureLayer
+  name: MapBuilder.ConfigureLayer
+  href: pages/Mapsui.MapBuilder.ConfigureLayer.html
+  commentId: T:Mapsui.MapBuilder.ConfigureLayer
+  fullName: Mapsui.MapBuilder.ConfigureLayer
+  nameWithType: MapBuilder.ConfigureLayer
+- uid: Mapsui.MapBuilder.ConfigureMap
+  name: MapBuilder.ConfigureMap
+  href: pages/Mapsui.MapBuilder.ConfigureMap.html
+  commentId: T:Mapsui.MapBuilder.ConfigureMap
+  fullName: Mapsui.MapBuilder.ConfigureMap
+  nameWithType: MapBuilder.ConfigureMap
+- uid: Mapsui.MapBuilder.ConfigureWidget
+  name: MapBuilder.ConfigureWidget
+  href: pages/Mapsui.MapBuilder.ConfigureWidget.html
+  commentId: T:Mapsui.MapBuilder.ConfigureWidget
+  fullName: Mapsui.MapBuilder.ConfigureWidget
+  nameWithType: MapBuilder.ConfigureWidget
+- uid: Mapsui.MapBuilder.WithBaseLayer(Mapsui.MapBuilder.AddLayer)
+  name: WithBaseLayer(AddLayer)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithBaseLayer_Mapsui_MapBuilder_AddLayer_
+  commentId: M:Mapsui.MapBuilder.WithBaseLayer(Mapsui.MapBuilder.AddLayer)
+  fullName: Mapsui.MapBuilder.WithBaseLayer(Mapsui.MapBuilder.AddLayer)
+  nameWithType: MapBuilder.WithBaseLayer(MapBuilder.AddLayer)
+- uid: Mapsui.MapBuilder.WithBaseLayer*
+  name: WithBaseLayer
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithBaseLayer_
+  commentId: Overload:Mapsui.MapBuilder.WithBaseLayer
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithBaseLayer
+  nameWithType: MapBuilder.WithBaseLayer
+- uid: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
+  name: WithLayer(AddLayer)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_Mapsui_MapBuilder_AddLayer_
+  commentId: M:Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
+  fullName: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
+  nameWithType: MapBuilder.WithLayer(MapBuilder.AddLayer)
+- uid: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer,Mapsui.MapBuilder.ConfigureLayer)
+  name: WithLayer(AddLayer, ConfigureLayer)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_Mapsui_MapBuilder_AddLayer_Mapsui_MapBuilder_ConfigureLayer_
+  commentId: M:Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer,Mapsui.MapBuilder.ConfigureLayer)
+  fullName: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer, Mapsui.MapBuilder.ConfigureLayer)
+  nameWithType: MapBuilder.WithLayer(MapBuilder.AddLayer, MapBuilder.ConfigureLayer)
+- uid: Mapsui.MapBuilder.WithLayer*
+  name: WithLayer
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_
+  commentId: Overload:Mapsui.MapBuilder.WithLayer
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithLayer
+  nameWithType: MapBuilder.WithLayer
+- uid: Mapsui.MapBuilder.WithMapCRS(System.String)
+  name: WithMapCRS(string)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithMapCRS_System_String_
+  commentId: M:Mapsui.MapBuilder.WithMapCRS(System.String)
+  name.vb: WithMapCRS(String)
+  fullName: Mapsui.MapBuilder.WithMapCRS(string)
+  fullName.vb: Mapsui.MapBuilder.WithMapCRS(String)
+  nameWithType: MapBuilder.WithMapCRS(string)
+  nameWithType.vb: MapBuilder.WithMapCRS(String)
+- uid: Mapsui.MapBuilder.WithMapCRS*
+  name: WithMapCRS
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithMapCRS_
+  commentId: Overload:Mapsui.MapBuilder.WithMapCRS
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithMapCRS
+  nameWithType: MapBuilder.WithMapCRS
+- uid: Mapsui.MapBuilder.WithMapConfiguration(Mapsui.MapBuilder.ConfigureMap)
+  name: WithMapConfiguration(ConfigureMap)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithMapConfiguration_Mapsui_MapBuilder_ConfigureMap_
+  commentId: M:Mapsui.MapBuilder.WithMapConfiguration(Mapsui.MapBuilder.ConfigureMap)
+  fullName: Mapsui.MapBuilder.WithMapConfiguration(Mapsui.MapBuilder.ConfigureMap)
+  nameWithType: MapBuilder.WithMapConfiguration(MapBuilder.ConfigureMap)
+- uid: Mapsui.MapBuilder.WithMapConfiguration*
+  name: WithMapConfiguration
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithMapConfiguration_
+  commentId: Overload:Mapsui.MapBuilder.WithMapConfiguration
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithMapConfiguration
+  nameWithType: MapBuilder.WithMapConfiguration
+- uid: Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget)
+  name: WithWidget(AddWidget)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithWidget_Mapsui_MapBuilder_AddWidget_
+  commentId: M:Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget)
+  fullName: Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget)
+  nameWithType: MapBuilder.WithWidget(MapBuilder.AddWidget)
+- uid: Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget,Mapsui.MapBuilder.ConfigureWidget)
+  name: WithWidget(AddWidget, ConfigureWidget)
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithWidget_Mapsui_MapBuilder_AddWidget_Mapsui_MapBuilder_ConfigureWidget_
+  commentId: M:Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget,Mapsui.MapBuilder.ConfigureWidget)
+  fullName: Mapsui.MapBuilder.WithWidget(Mapsui.MapBuilder.AddWidget, Mapsui.MapBuilder.ConfigureWidget)
+  nameWithType: MapBuilder.WithWidget(MapBuilder.AddWidget, MapBuilder.ConfigureWidget)
+- uid: Mapsui.MapBuilder.WithWidget*
+  name: WithWidget
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithWidget_
+  commentId: Overload:Mapsui.MapBuilder.WithWidget
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithWidget
+  nameWithType: MapBuilder.WithWidget
+- uid: Mapsui.MapBuilder.WithZoomButtons
+  name: WithZoomButtons()
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithZoomButtons
+  commentId: M:Mapsui.MapBuilder.WithZoomButtons
+  fullName: Mapsui.MapBuilder.WithZoomButtons()
+  nameWithType: MapBuilder.WithZoomButtons()
+- uid: Mapsui.MapBuilder.WithZoomButtons*
+  name: WithZoomButtons
+  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithZoomButtons_
+  commentId: Overload:Mapsui.MapBuilder.WithZoomButtons
+  isSpec: "True"
+  fullName: Mapsui.MapBuilder.WithZoomButtons
+  nameWithType: MapBuilder.WithZoomButtons
 - uid: Mapsui.MapInfo
   name: MapInfo
   href: pages/Mapsui.MapInfo.html
@@ -29024,6 +29166,50 @@ references:
   isSpec: "True"
   fullName: Mapsui.Tiling.Extensions.MRectExtensions.ToExtent
   nameWithType: MRectExtensions.ToExtent
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions
+  name: MapBuilderExtensions
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html
+  commentId: T:Mapsui.Tiling.Extensions.MapBuilderExtensions
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions
+  nameWithType: MapBuilderExtensions
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget
+  name: MapBuilderExtensions.ConfigureScaleBarWidget
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget.html
+  commentId: T:Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget
+  nameWithType: MapBuilderExtensions.ConfigureScaleBarWidget
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer(Mapsui.MapBuilder,Mapsui.MapBuilder.ConfigureLayer)
+  name: WithOpenStreetMapLayer(MapBuilder, ConfigureLayer)
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html#Mapsui_Tiling_Extensions_MapBuilderExtensions_WithOpenStreetMapLayer_Mapsui_MapBuilder_Mapsui_MapBuilder_ConfigureLayer_
+  commentId: M:Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer(Mapsui.MapBuilder,Mapsui.MapBuilder.ConfigureLayer)
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer(Mapsui.MapBuilder, Mapsui.MapBuilder.ConfigureLayer)
+  nameWithType: MapBuilderExtensions.WithOpenStreetMapLayer(MapBuilder, MapBuilder.ConfigureLayer)
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer*
+  name: WithOpenStreetMapLayer
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html#Mapsui_Tiling_Extensions_MapBuilderExtensions_WithOpenStreetMapLayer_
+  commentId: Overload:Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer
+  isSpec: "True"
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithOpenStreetMapLayer
+  nameWithType: MapBuilderExtensions.WithOpenStreetMapLayer
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder)
+  name: WithScaleBarWidget(MapBuilder)
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html#Mapsui_Tiling_Extensions_MapBuilderExtensions_WithScaleBarWidget_Mapsui_MapBuilder_
+  commentId: M:Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder)
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder)
+  nameWithType: MapBuilderExtensions.WithScaleBarWidget(MapBuilder)
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder,Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget)
+  name: WithScaleBarWidget(MapBuilder, ConfigureScaleBarWidget)
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html#Mapsui_Tiling_Extensions_MapBuilderExtensions_WithScaleBarWidget_Mapsui_MapBuilder_Mapsui_Tiling_Extensions_MapBuilderExtensions_ConfigureScaleBarWidget_
+  commentId: M:Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder,Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget)
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget(Mapsui.MapBuilder, Mapsui.Tiling.Extensions.MapBuilderExtensions.ConfigureScaleBarWidget)
+  nameWithType: MapBuilderExtensions.WithScaleBarWidget(MapBuilder, MapBuilderExtensions.ConfigureScaleBarWidget)
+- uid: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget*
+  name: WithScaleBarWidget
+  href: pages/Mapsui.Tiling.Extensions.MapBuilderExtensions.html#Mapsui_Tiling_Extensions_MapBuilderExtensions_WithScaleBarWidget_
+  commentId: Overload:Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget
+  isSpec: "True"
+  fullName: Mapsui.Tiling.Extensions.MapBuilderExtensions.WithScaleBarWidget
+  nameWithType: MapBuilderExtensions.WithScaleBarWidget
 - uid: Mapsui.Tiling.Fetcher
   name: Mapsui.Tiling.Fetcher
   href: pages/Mapsui.Tiling.Fetcher.html
