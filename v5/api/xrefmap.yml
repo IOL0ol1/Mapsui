@@ -5158,6 +5158,22 @@ references:
   commentId: T:Mapsui.Extensions.DisposableExtension
   fullName: Mapsui.Extensions.DisposableExtension
   nameWithType: DisposableExtension
+- uid: Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable*
+  name: DisposeAllIfDisposable
+  href: pages/Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeAllIfDisposable_
+  commentId: Overload:Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable
+  isSpec: "True"
+  fullName: Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable
+  nameWithType: DisposableExtension.DisposeAllIfDisposable
+- uid: Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable``1(System.Collections.Generic.IEnumerable{``0})
+  name: DisposeAllIfDisposable<T>(IEnumerable<T>)
+  href: pages/Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeAllIfDisposable__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: DisposeAllIfDisposable(Of T)(IEnumerable(Of T))
+  fullName: Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Mapsui.Extensions.DisposableExtension.DisposeAllIfDisposable(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: DisposableExtension.DisposeAllIfDisposable<T>(IEnumerable<T>)
+  nameWithType.vb: DisposableExtension.DisposeAllIfDisposable(Of T)(IEnumerable(Of T))
 - uid: Mapsui.Extensions.DisposableExtension.DisposeAndNullify(System.Object@)
   name: DisposeAndNullify(ref object?)
   href: pages/Mapsui.Extensions.DisposableExtension.html#Mapsui_Extensions_DisposableExtension_DisposeAndNullify_System_Object__
