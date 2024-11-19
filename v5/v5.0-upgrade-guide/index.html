@@ -842,6 +842,8 @@
 <li>Removed all events from the MAUI MapControl except for MapInfo. Use gesture recognizers instead.</li>
 <li>Introduced PinchState to replace separate <em>center</em>, <em>radius</em> and <em>angle</em> fields and used in o.a. the Map.Navigator.Pinch method.</li>
 <li>Moved UnSnapRotationDegrees and UnSnapRotationDegrees properties from MapControl to MapControl.Map.Navigator.</li>
+<li>Rename Microsoft.Maui.Graphics.Color ToNative(this Styles.Color color) to ToMaui.</li>
+<li>Because BaseFeature is now derived from IFeature and the previously not-implemented methods and fields had to be defined as abstract, these now need the <code>override</code> keyword in the derived classes.</li>
 </ul>
 
 

@@ -11557,6 +11557,12 @@ references:
   commentId: T:Mapsui.MapBuilder.ConfigureWidget
   fullName: Mapsui.MapBuilder.ConfigureWidget
   nameWithType: MapBuilder.ConfigureWidget
+- uid: Mapsui.MapBuilder.TapFeature
+  name: MapBuilder.TapFeature
+  href: pages/Mapsui.MapBuilder.TapFeature.html
+  commentId: T:Mapsui.MapBuilder.TapFeature
+  fullName: Mapsui.MapBuilder.TapFeature
+  nameWithType: MapBuilder.TapFeature
 - uid: Mapsui.MapBuilder.WithBaseLayer(Mapsui.MapBuilder.AddLayer)
   name: WithBaseLayer(AddLayer)
   href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithBaseLayer_Mapsui_MapBuilder_AddLayer_
@@ -11570,18 +11576,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.MapBuilder.WithBaseLayer
   nameWithType: MapBuilder.WithBaseLayer
-- uid: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
-  name: WithLayer(AddLayer)
-  href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_Mapsui_MapBuilder_AddLayer_
-  commentId: M:Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
-  fullName: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer)
-  nameWithType: MapBuilder.WithLayer(MapBuilder.AddLayer)
 - uid: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer,Mapsui.MapBuilder.ConfigureLayer)
-  name: WithLayer(AddLayer, ConfigureLayer)
+  name: WithLayer(AddLayer, ConfigureLayer?)
   href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_Mapsui_MapBuilder_AddLayer_Mapsui_MapBuilder_ConfigureLayer_
   commentId: M:Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer,Mapsui.MapBuilder.ConfigureLayer)
-  fullName: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer, Mapsui.MapBuilder.ConfigureLayer)
-  nameWithType: MapBuilder.WithLayer(MapBuilder.AddLayer, MapBuilder.ConfigureLayer)
+  name.vb: WithLayer(AddLayer, ConfigureLayer)
+  fullName: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer, Mapsui.MapBuilder.ConfigureLayer?)
+  fullName.vb: Mapsui.MapBuilder.WithLayer(Mapsui.MapBuilder.AddLayer, Mapsui.MapBuilder.ConfigureLayer)
+  nameWithType: MapBuilder.WithLayer(MapBuilder.AddLayer, MapBuilder.ConfigureLayer?)
+  nameWithType.vb: MapBuilder.WithLayer(MapBuilder.AddLayer, MapBuilder.ConfigureLayer)
 - uid: Mapsui.MapBuilder.WithLayer*
   name: WithLayer
   href: pages/Mapsui.MapBuilder.html#Mapsui_MapBuilder_WithLayer_
@@ -32545,6 +32548,44 @@ references:
   commentId: F:Mapsui.UI.Blazor.MapControl._viewGpu
   fullName: Mapsui.UI.Blazor.MapControl._viewGpu
   nameWithType: MapControl._viewGpu
+- uid: Mapsui.UI.Blazor.MapControlComponent
+  name: MapControlComponent
+  href: pages/Mapsui.UI.Blazor.MapControlComponent.html
+  commentId: T:Mapsui.UI.Blazor.MapControlComponent
+  fullName: Mapsui.UI.Blazor.MapControlComponent
+  nameWithType: MapControlComponent
+- uid: Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: pages/Mapsui.UI.Blazor.MapControlComponent.html#Mapsui_UI_Blazor_MapControlComponent_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: MapControlComponent.BuildRenderTree(RenderTreeBuilder)
+- uid: Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree*
+  name: BuildRenderTree
+  href: pages/Mapsui.UI.Blazor.MapControlComponent.html#Mapsui_UI_Blazor_MapControlComponent_BuildRenderTree_
+  commentId: Overload:Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree
+  isSpec: "True"
+  fullName: Mapsui.UI.Blazor.MapControlComponent.BuildRenderTree
+  nameWithType: MapControlComponent.BuildRenderTree
+- uid: Mapsui.UI.Blazor._Imports
+  name: _Imports
+  href: pages/Mapsui.UI.Blazor._Imports.html
+  commentId: T:Mapsui.UI.Blazor._Imports
+  fullName: Mapsui.UI.Blazor._Imports
+  nameWithType: _Imports
+- uid: Mapsui.UI.Blazor._Imports.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: pages/Mapsui.UI.Blazor._Imports.html#Mapsui_UI_Blazor__Imports_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Mapsui.UI.Blazor._Imports.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Mapsui.UI.Blazor._Imports.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: _Imports.BuildRenderTree(RenderTreeBuilder)
+- uid: Mapsui.UI.Blazor._Imports.BuildRenderTree*
+  name: BuildRenderTree
+  href: pages/Mapsui.UI.Blazor._Imports.html#Mapsui_UI_Blazor__Imports_BuildRenderTree_
+  commentId: Overload:Mapsui.UI.Blazor._Imports.BuildRenderTree
+  isSpec: "True"
+  fullName: Mapsui.UI.Blazor._Imports.BuildRenderTree
+  nameWithType: _Imports.BuildRenderTree
 - uid: Mapsui.UI.DataChangedWeakEventManager
   name: DataChangedWeakEventManager
   href: pages/Mapsui.UI.DataChangedWeakEventManager.html
