@@ -5032,22 +5032,6 @@ references:
   commentId: T:Mapsui.Extensions.CancellationTokenSourceExtensions
   fullName: Mapsui.Extensions.CancellationTokenSourceExtensions
   nameWithType: CancellationTokenSourceExtensions
-- uid: Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync(System.Threading.CancellationTokenSource)
-  name: CancelAsync(CancellationTokenSource?)
-  href: pages/Mapsui.Extensions.CancellationTokenSourceExtensions.html#Mapsui_Extensions_CancellationTokenSourceExtensions_CancelAsync_System_Threading_CancellationTokenSource_
-  commentId: M:Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync(System.Threading.CancellationTokenSource)
-  name.vb: CancelAsync(CancellationTokenSource)
-  fullName: Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync(System.Threading.CancellationTokenSource?)
-  fullName.vb: Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync(System.Threading.CancellationTokenSource)
-  nameWithType: CancellationTokenSourceExtensions.CancelAsync(CancellationTokenSource?)
-  nameWithType.vb: CancellationTokenSourceExtensions.CancelAsync(CancellationTokenSource)
-- uid: Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync*
-  name: CancelAsync
-  href: pages/Mapsui.Extensions.CancellationTokenSourceExtensions.html#Mapsui_Extensions_CancellationTokenSourceExtensions_CancelAsync_
-  commentId: Overload:Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync
-  isSpec: "True"
-  fullName: Mapsui.Extensions.CancellationTokenSourceExtensions.CancelAsync
-  nameWithType: CancellationTokenSourceExtensions.CancelAsync
 - uid: Mapsui.Extensions.Catch
   name: Catch
   href: pages/Mapsui.Extensions.Catch.html
