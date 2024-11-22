@@ -14648,15 +14648,15 @@ references:
   commentId: T:Mapsui.Nts.Providers.Shapefile.ShapeFile
   fullName: Mapsui.Nts.Providers.Shapefile.ShapeFile
   nameWithType: ShapeFile
-- uid: Mapsui.Nts.Providers.Shapefile.ShapeFile.#ctor(System.String,System.Boolean,System.Boolean,Mapsui.Projections.IProjectionCrs)
-  name: ShapeFile(string, bool, bool, IProjectionCrs?)
-  href: pages/Mapsui.Nts.Providers.Shapefile.ShapeFile.html#Mapsui_Nts_Providers_Shapefile_ShapeFile__ctor_System_String_System_Boolean_System_Boolean_Mapsui_Projections_IProjectionCrs_
-  commentId: M:Mapsui.Nts.Providers.Shapefile.ShapeFile.#ctor(System.String,System.Boolean,System.Boolean,Mapsui.Projections.IProjectionCrs)
-  name.vb: New(String, Boolean, Boolean, IProjectionCrs)
-  fullName: Mapsui.Nts.Providers.Shapefile.ShapeFile.ShapeFile(string, bool, bool, Mapsui.Projections.IProjectionCrs?)
-  fullName.vb: Mapsui.Nts.Providers.Shapefile.ShapeFile.New(String, Boolean, Boolean, Mapsui.Projections.IProjectionCrs)
-  nameWithType: ShapeFile.ShapeFile(string, bool, bool, IProjectionCrs?)
-  nameWithType.vb: ShapeFile.New(String, Boolean, Boolean, IProjectionCrs)
+- uid: Mapsui.Nts.Providers.Shapefile.ShapeFile.#ctor(System.String,System.Boolean,System.Boolean,Mapsui.Projections.IProjectionCrs,System.Boolean)
+  name: ShapeFile(string, bool, bool, IProjectionCrs?, bool)
+  href: pages/Mapsui.Nts.Providers.Shapefile.ShapeFile.html#Mapsui_Nts_Providers_Shapefile_ShapeFile__ctor_System_String_System_Boolean_System_Boolean_Mapsui_Projections_IProjectionCrs_System_Boolean_
+  commentId: M:Mapsui.Nts.Providers.Shapefile.ShapeFile.#ctor(System.String,System.Boolean,System.Boolean,Mapsui.Projections.IProjectionCrs,System.Boolean)
+  name.vb: New(String, Boolean, Boolean, IProjectionCrs, Boolean)
+  fullName: Mapsui.Nts.Providers.Shapefile.ShapeFile.ShapeFile(string, bool, bool, Mapsui.Projections.IProjectionCrs?, bool)
+  fullName.vb: Mapsui.Nts.Providers.Shapefile.ShapeFile.New(String, Boolean, Boolean, Mapsui.Projections.IProjectionCrs, Boolean)
+  nameWithType: ShapeFile.ShapeFile(string, bool, bool, IProjectionCrs?, bool)
+  nameWithType.vb: ShapeFile.New(String, Boolean, Boolean, IProjectionCrs, Boolean)
 - uid: Mapsui.Nts.Providers.Shapefile.ShapeFile.#ctor*
   name: ShapeFile
   href: pages/Mapsui.Nts.Providers.Shapefile.ShapeFile.html#Mapsui_Nts_Providers_Shapefile_ShapeFile__ctor_
