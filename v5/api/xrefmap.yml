@@ -6472,6 +6472,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.IFeature.CoordinateVisitor
   nameWithType: IFeature.CoordinateVisitor
+- uid: Mapsui.IFeature.Data
+  name: Data
+  href: pages/Mapsui.IFeature.html#Mapsui_IFeature_Data
+  commentId: P:Mapsui.IFeature.Data
+  fullName: Mapsui.IFeature.Data
+  nameWithType: IFeature.Data
+- uid: Mapsui.IFeature.Data*
+  name: Data
+  href: pages/Mapsui.IFeature.html#Mapsui_IFeature_Data_
+  commentId: Overload:Mapsui.IFeature.Data
+  isSpec: "True"
+  fullName: Mapsui.IFeature.Data
+  nameWithType: IFeature.Data
 - uid: Mapsui.IFeature.Extent
   name: Extent
   href: pages/Mapsui.IFeature.html#Mapsui_IFeature_Extent
@@ -6556,19 +6569,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.IFeature.Styles
   nameWithType: IFeature.Styles
-- uid: Mapsui.IFeature.ZOrder
-  name: ZOrder
-  href: pages/Mapsui.IFeature.html#Mapsui_IFeature_ZOrder
-  commentId: P:Mapsui.IFeature.ZOrder
-  fullName: Mapsui.IFeature.ZOrder
-  nameWithType: IFeature.ZOrder
-- uid: Mapsui.IFeature.ZOrder*
-  name: ZOrder
-  href: pages/Mapsui.IFeature.html#Mapsui_IFeature_ZOrder_
-  commentId: Overload:Mapsui.IFeature.ZOrder
-  isSpec: "True"
-  fullName: Mapsui.IFeature.ZOrder
-  nameWithType: IFeature.ZOrder
 - uid: Mapsui.Layers
   name: Mapsui.Layers
   href: pages/Mapsui.Layers.html
@@ -6833,6 +6833,61 @@ references:
   fullName.vb: Mapsui.Layers.BaseFeature.New
   nameWithType: BaseFeature.BaseFeature
   nameWithType.vb: BaseFeature.New
+- uid: Mapsui.Layers.BaseFeature.Clone
+  name: Clone()
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Clone
+  commentId: M:Mapsui.Layers.BaseFeature.Clone
+  fullName: Mapsui.Layers.BaseFeature.Clone()
+  nameWithType: BaseFeature.Clone()
+- uid: Mapsui.Layers.BaseFeature.Clone*
+  name: Clone
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Clone_
+  commentId: Overload:Mapsui.Layers.BaseFeature.Clone
+  isSpec: "True"
+  fullName: Mapsui.Layers.BaseFeature.Clone
+  nameWithType: BaseFeature.Clone
+- uid: Mapsui.Layers.BaseFeature.CoordinateVisitor(System.Action{System.Double,System.Double,Mapsui.CoordinateSetter})
+  name: CoordinateVisitor(Action<double, double, CoordinateSetter>)
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_CoordinateVisitor_System_Action_System_Double_System_Double_Mapsui_CoordinateSetter__
+  commentId: M:Mapsui.Layers.BaseFeature.CoordinateVisitor(System.Action{System.Double,System.Double,Mapsui.CoordinateSetter})
+  name.vb: CoordinateVisitor(Action(Of Double, Double, CoordinateSetter))
+  fullName: Mapsui.Layers.BaseFeature.CoordinateVisitor(System.Action<double, double, Mapsui.CoordinateSetter>)
+  fullName.vb: Mapsui.Layers.BaseFeature.CoordinateVisitor(System.Action(Of Double, Double, Mapsui.CoordinateSetter))
+  nameWithType: BaseFeature.CoordinateVisitor(Action<double, double, CoordinateSetter>)
+  nameWithType.vb: BaseFeature.CoordinateVisitor(Action(Of Double, Double, CoordinateSetter))
+- uid: Mapsui.Layers.BaseFeature.CoordinateVisitor*
+  name: CoordinateVisitor
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_CoordinateVisitor_
+  commentId: Overload:Mapsui.Layers.BaseFeature.CoordinateVisitor
+  isSpec: "True"
+  fullName: Mapsui.Layers.BaseFeature.CoordinateVisitor
+  nameWithType: BaseFeature.CoordinateVisitor
+- uid: Mapsui.Layers.BaseFeature.Data
+  name: Data
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Data
+  commentId: P:Mapsui.Layers.BaseFeature.Data
+  fullName: Mapsui.Layers.BaseFeature.Data
+  nameWithType: BaseFeature.Data
+- uid: Mapsui.Layers.BaseFeature.Data*
+  name: Data
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Data_
+  commentId: Overload:Mapsui.Layers.BaseFeature.Data
+  isSpec: "True"
+  fullName: Mapsui.Layers.BaseFeature.Data
+  nameWithType: BaseFeature.Data
+- uid: Mapsui.Layers.BaseFeature.Extent
+  name: Extent
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Extent
+  commentId: P:Mapsui.Layers.BaseFeature.Extent
+  fullName: Mapsui.Layers.BaseFeature.Extent
+  nameWithType: BaseFeature.Extent
+- uid: Mapsui.Layers.BaseFeature.Extent*
+  name: Extent
+  href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Extent_
+  commentId: Overload:Mapsui.Layers.BaseFeature.Extent
+  isSpec: "True"
+  fullName: Mapsui.Layers.BaseFeature.Extent
+  nameWithType: BaseFeature.Extent
 - uid: Mapsui.Layers.BaseFeature.Fields
   name: Fields
   href: pages/Mapsui.Layers.BaseFeature.html#Mapsui_Layers_BaseFeature_Fields
@@ -9041,19 +9096,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.PointFeature.Point
   nameWithType: PointFeature.Point
-- uid: Mapsui.Layers.PointFeature.ZOrder
-  name: ZOrder
-  href: pages/Mapsui.Layers.PointFeature.html#Mapsui_Layers_PointFeature_ZOrder
-  commentId: P:Mapsui.Layers.PointFeature.ZOrder
-  fullName: Mapsui.Layers.PointFeature.ZOrder
-  nameWithType: PointFeature.ZOrder
-- uid: Mapsui.Layers.PointFeature.ZOrder*
-  name: ZOrder
-  href: pages/Mapsui.Layers.PointFeature.html#Mapsui_Layers_PointFeature_ZOrder_
-  commentId: Overload:Mapsui.Layers.PointFeature.ZOrder
-  isSpec: "True"
-  fullName: Mapsui.Layers.PointFeature.ZOrder
-  nameWithType: PointFeature.ZOrder
 - uid: Mapsui.Layers.RasterFeature
   name: RasterFeature
   href: pages/Mapsui.Layers.RasterFeature.html
@@ -9143,19 +9185,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Layers.RasterFeature.Raster
   nameWithType: RasterFeature.Raster
-- uid: Mapsui.Layers.RasterFeature.ZOrder
-  name: ZOrder
-  href: pages/Mapsui.Layers.RasterFeature.html#Mapsui_Layers_RasterFeature_ZOrder
-  commentId: P:Mapsui.Layers.RasterFeature.ZOrder
-  fullName: Mapsui.Layers.RasterFeature.ZOrder
-  nameWithType: RasterFeature.ZOrder
-- uid: Mapsui.Layers.RasterFeature.ZOrder*
-  name: ZOrder
-  href: pages/Mapsui.Layers.RasterFeature.html#Mapsui_Layers_RasterFeature_ZOrder_
-  commentId: Overload:Mapsui.Layers.RasterFeature.ZOrder
-  isSpec: "True"
-  fullName: Mapsui.Layers.RasterFeature.ZOrder
-  nameWithType: RasterFeature.ZOrder
 - uid: Mapsui.Layers.RasterizingLayer
   name: RasterizingLayer
   href: pages/Mapsui.Layers.RasterizingLayer.html
@@ -13617,19 +13646,6 @@ references:
   isSpec: "True"
   fullName: Mapsui.Nts.GeometryFeature.Modified
   nameWithType: GeometryFeature.Modified
-- uid: Mapsui.Nts.GeometryFeature.ZOrder
-  name: ZOrder
-  href: pages/Mapsui.Nts.GeometryFeature.html#Mapsui_Nts_GeometryFeature_ZOrder
-  commentId: P:Mapsui.Nts.GeometryFeature.ZOrder
-  fullName: Mapsui.Nts.GeometryFeature.ZOrder
-  nameWithType: GeometryFeature.ZOrder
-- uid: Mapsui.Nts.GeometryFeature.ZOrder*
-  name: ZOrder
-  href: pages/Mapsui.Nts.GeometryFeature.html#Mapsui_Nts_GeometryFeature_ZOrder_
-  commentId: Overload:Mapsui.Nts.GeometryFeature.ZOrder
-  isSpec: "True"
-  fullName: Mapsui.Nts.GeometryFeature.ZOrder
-  nameWithType: GeometryFeature.ZOrder
 - uid: Mapsui.Nts.Projections
   name: Mapsui.Nts.Projections
   href: pages/Mapsui.Nts.Projections.html
