@@ -34852,6 +34852,19 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Maui.MapControl.OnMapInfo
   nameWithType: MapControl.OnMapInfo
+- uid: Mapsui.UI.Maui.MapControl.OnParentSet
+  name: OnParentSet()
+  href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_OnParentSet
+  commentId: M:Mapsui.UI.Maui.MapControl.OnParentSet
+  fullName: Mapsui.UI.Maui.MapControl.OnParentSet()
+  nameWithType: MapControl.OnParentSet()
+- uid: Mapsui.UI.Maui.MapControl.OnParentSet*
+  name: OnParentSet
+  href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_OnParentSet_
+  commentId: Overload:Mapsui.UI.Maui.MapControl.OnParentSet
+  isSpec: "True"
+  fullName: Mapsui.UI.Maui.MapControl.OnParentSet
+  nameWithType: MapControl.OnParentSet
 - uid: Mapsui.UI.Maui.MapControl.OnPropertyChanged(System.String)
   name: OnPropertyChanged(string)
   href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_OnPropertyChanged_System_String_
