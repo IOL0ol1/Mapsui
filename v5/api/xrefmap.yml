@@ -21225,15 +21225,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.IRenderer.RenderService
   nameWithType: IRenderer.RenderService
-- uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
-  commentId: M:Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
-  fullName: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat)
-  fullName.vb: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
-  nameWithType: IRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  nameWithType.vb: IRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
+- uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat, int)
+  href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat, Integer)
+  fullName: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.Rendering.IRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: IRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat, int)
+  nameWithType.vb: IRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat, Integer)
 - uid: Mapsui.Rendering.IRenderer.RenderToBitmapStream*
   name: RenderToBitmapStream
   href: pages/Mapsui.Rendering.IRenderer.html#Mapsui_Rendering_IRenderer_RenderToBitmapStream_
@@ -21371,6 +21371,12 @@ references:
   commentId: T:Mapsui.Rendering.RenderFormat
   fullName: Mapsui.Rendering.RenderFormat
   nameWithType: RenderFormat
+- uid: Mapsui.Rendering.RenderFormat.Jpeg
+  name: Jpeg
+  href: pages/Mapsui.Rendering.RenderFormat.html#Mapsui_Rendering_RenderFormat_Jpeg
+  commentId: F:Mapsui.Rendering.RenderFormat.Jpeg
+  fullName: Mapsui.Rendering.RenderFormat.Jpeg
+  nameWithType: RenderFormat.Jpeg
 - uid: Mapsui.Rendering.RenderFormat.Png
   name: Png
   href: pages/Mapsui.Rendering.RenderFormat.html#Mapsui_Rendering_RenderFormat_Png
@@ -22749,15 +22755,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.Rendering.Skia.MapRenderer.RenderService
   nameWithType: MapRenderer.RenderService
-- uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_
-  commentId: M:Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat)
-  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
-  fullName: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat)
-  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat)
-  nameWithType: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat)
-  nameWithType.vb: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat)
+- uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat, int)
+  href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_Mapsui_Viewport_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__System_Nullable_Mapsui_Styles_Color__System_Single_System_Collections_Generic_IEnumerable_Mapsui_Widgets_IWidget__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport,System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},System.Nullable{Mapsui.Styles.Color},System.Single,System.Collections.Generic.IEnumerable{Mapsui.Widgets.IWidget},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat, Integer)
+  fullName: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>, Mapsui.Styles.Color?, float, System.Collections.Generic.IEnumerable<Mapsui.Widgets.IWidget>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream(Mapsui.Viewport, System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Styles.Color?, Single, System.Collections.Generic.IEnumerable(Of Mapsui.Widgets.IWidget), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable<ILayer>, Color?, float, IEnumerable<IWidget>?, RenderFormat, int)
+  nameWithType.vb: MapRenderer.RenderToBitmapStream(Viewport, IEnumerable(Of ILayer), Color?, Single, IEnumerable(Of IWidget), RenderFormat, Integer)
 - uid: Mapsui.Rendering.Skia.MapRenderer.RenderToBitmapStream*
   name: RenderToBitmapStream
   href: pages/Mapsui.Rendering.Skia.MapRenderer.html#Mapsui_Rendering_Skia_MapRenderer_RenderToBitmapStream_
@@ -30128,15 +30134,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Android.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Android.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Android.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Android.MapControl.html#Mapsui_UI_Android_MapControl_GetSnapshot_
@@ -30620,15 +30626,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Avalonia.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Avalonia.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Avalonia.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Avalonia.MapControl.html#Mapsui_UI_Avalonia_MapControl_GetSnapshot_
@@ -32016,15 +32022,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Blazor.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Blazor.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Blazor.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Blazor.MapControl.html#Mapsui_UI_Blazor_MapControl_GetSnapshot_
@@ -32709,15 +32715,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Eto.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Eto.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Eto.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Eto.MapControl.html#Mapsui_UI_Eto_MapControl_GetSnapshot_
@@ -33200,15 +33206,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.IMapControl.GetMapInfo
   nameWithType: IMapControl.GetMapInfo
-- uid: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.IMapControl.html#Mapsui_UI_IMapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: IMapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: IMapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.IMapControl.html#Mapsui_UI_IMapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.IMapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: IMapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: IMapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.IMapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.IMapControl.html#Mapsui_UI_IMapControl_GetSnapshot_
@@ -34763,15 +34769,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Maui.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Maui.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Maui.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Maui.MapControl.html#Mapsui_UI_Maui_MapControl_GetSnapshot_
@@ -37328,15 +37334,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.WinUI.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.WinUI.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.WinUI.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.WinUI.MapControl.html#Mapsui_UI_WinUI_MapControl_GetSnapshot_
@@ -37723,15 +37729,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.WindowsForms.MapControl.GetScreenPosition
   nameWithType: MapControl.GetScreenPosition
-- uid: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.WindowsForms.MapControl.html#Mapsui_UI_WindowsForms_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.WindowsForms.MapControl.html#Mapsui_UI_WindowsForms_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.WindowsForms.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.WindowsForms.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.WindowsForms.MapControl.html#Mapsui_UI_WindowsForms_MapControl_GetSnapshot_
@@ -38123,15 +38129,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.Wpf.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.Wpf.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.Wpf.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.Wpf.MapControl.html#Mapsui_UI_Wpf_MapControl_GetSnapshot_
@@ -38514,15 +38520,15 @@ references:
   isSpec: "True"
   fullName: Mapsui.UI.iOS.MapControl.GetMapInfo
   nameWithType: MapControl.GetMapInfo
-- uid: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name: GetSnapshot(IEnumerable<ILayer>?)
-  href: pages/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__
-  commentId: M:Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer})
-  name.vb: GetSnapshot(IEnumerable(Of ILayer))
-  fullName: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?)
-  fullName.vb: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer))
-  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?)
-  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer))
+- uid: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name: GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  href: pages/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_GetSnapshot_System_Collections_Generic_IEnumerable_Mapsui_Layers_ILayer__Mapsui_Rendering_RenderFormat_System_Int32_
+  commentId: M:Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable{Mapsui.Layers.ILayer},Mapsui.Rendering.RenderFormat,System.Int32)
+  name.vb: GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
+  fullName: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable<Mapsui.Layers.ILayer>?, Mapsui.Rendering.RenderFormat, int)
+  fullName.vb: Mapsui.UI.iOS.MapControl.GetSnapshot(System.Collections.Generic.IEnumerable(Of Mapsui.Layers.ILayer), Mapsui.Rendering.RenderFormat, Integer)
+  nameWithType: MapControl.GetSnapshot(IEnumerable<ILayer>?, RenderFormat, int)
+  nameWithType.vb: MapControl.GetSnapshot(IEnumerable(Of ILayer), RenderFormat, Integer)
 - uid: Mapsui.UI.iOS.MapControl.GetSnapshot*
   name: GetSnapshot
   href: pages/Mapsui.UI.iOS.MapControl.html#Mapsui_UI_iOS_MapControl_GetSnapshot_
